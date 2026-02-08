@@ -4,6 +4,7 @@
 use Chamilo\CoreBundle\Entity\Session;
 use Chamilo\CoreBundle\Framework\Container;
 use Chamilo\CoreBundle\Helpers\ChamiloHelper;
+use League\Flysystem\FilesystemOperator;
 
 /**
  * Responses to AJAX calls.
@@ -928,10 +929,10 @@ switch ($action) {
         $rows[] = [
             get_lang('Number of users registered (new vs previous quarter)'),
             '-',
-            '+'.($countUsersPre1Quarter - $countUsersPre2Quarter),
-            '+'.($countUsersPre2Quarter - $countUsersPre3Quarter),
-            '+'.($countUsersPre3Quarter - $countUsersPre4Quarter),
             '+'.($countUsersPre4Quarter - $countUsersPre5Quarter),
+            '+'.($countUsersPre3Quarter - $countUsersPre4Quarter),
+            '+'.($countUsersPre2Quarter - $countUsersPre3Quarter),
+            '+'.($countUsersPre1Quarter - $countUsersPre2Quarter),
             '-',
             '+'.($countUsersTotal - $countUsersPre1Quarter),
         ];
@@ -1064,6 +1065,9 @@ switch ($action) {
     case 'report_quarterly_hours_of_training':
         // Close the session as we don't need it any further
         session_write_close();
+        // The maximum time spent, in number of hours, to be considered.
+        // Anything above that is considered a time registration error.
+        $maxTimeSpent = 6;
         $currentQuarterDates = getQuarterDates();
         $pre1QuarterDates = getQuarterDates(
             date_create($currentQuarterDates['quarter_start'])
@@ -1104,27 +1108,33 @@ switch ($action) {
         // Get data for the row
         $timeSpentCoursesCurrentQuarter = Tracking::getTotalTimeSpentInCourses(
             $currentQuarterDates['quarter_start'],
-            $currentQuarterDates['quarter_end']
+            $currentQuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         $timeSpentCourses1PreQuarter = Tracking::getTotalTimeSpentInCourses(
             $pre1QuarterDates['quarter_start'],
-            $pre1QuarterDates['quarter_end']
+            $pre1QuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         $timeSpentCourses2PreQuarter = Tracking::getTotalTimeSpentInCourses(
             $pre2QuarterDates['quarter_start'],
-            $pre2QuarterDates['quarter_end']
+            $pre2QuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         $timeSpentCourses3PreQuarter = Tracking::getTotalTimeSpentInCourses(
             $pre3QuarterDates['quarter_start'],
-            $pre3QuarterDates['quarter_end']
+            $pre3QuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         $timeSpentCourses4PreQuarter = Tracking::getTotalTimeSpentInCourses(
             $pre4QuarterDates['quarter_start'],
-            $pre4QuarterDates['quarter_end']
+            $pre4QuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         $timeSpentCourses5PreQuarter = Tracking::getTotalTimeSpentInCourses(
             $pre5QuarterDates['quarter_start'],
-            $pre5QuarterDates['quarter_end']
+            $pre5QuarterDates['quarter_end'],
+            $maxTimeSpent
         );
         // Calculate percent for the row
         $percentIncrementTimeSpent = api_calculate_increment_percent(
@@ -1438,15 +1448,29 @@ switch ($action) {
         if (api_is_windows_os()) {
             $message = get_lang('The space used on disk cannot be measured properly on Windows-based systems.');
         } else {
-            $dir = api_get_path(SYS_PATH);
-            $du = exec('du -sh '.$dir, $err);
+            // @TODO Scanning the var folder should be done through oneup_flysystem
+            /** @var FilesystemOperator $assetFS */
+            //$assetFS = Container::$container->get('oneup_flysystem.asset_filesystem');
+            /** @var FilesystemOperator $resourceFS */
+            //$resourceFS = Container::$container->get('oneup_flysystem.resource_filesystem');
+            /** @var FilesystemOperator $themesFS */
+            //$themesFS = Container::$container->get('oneup_flysystem.themes_filesystem');
+            /** @var FilesystemOperator $pluginsFS */
+            //$pluginsFS = Container::$container->get('oneup_flysystem.plugins_filesystem');
+
+            $dir = api_get_path(SYMFONY_SYS_PATH).'var/';
+            $du = exec('du -s '.$dir, $err);
             list($size, $none) = explode("\t", $du);
+            $size = round((int) $size / (1024*1024), 1);
             unset($none);
-            $limit = 0;
-            if (isset($_configuration[$accessUrlId]['hosting_limit_disk_space'])) {
-                $limit = $_configuration[$accessUrlId]['hosting_limit_disk_space'];
+            $limit = '';
+            $url = api_get_access_url($accessUrlId)['url'];
+            if (!empty($_configuration[$accessUrlId]['hosting_limit_disk_space'])) {
+                $limit = round($_configuration[$accessUrlId]['hosting_limit_disk_space'] / (1024), 1);
+                $message = sprintf(get_lang('Total space used by portal %s is %sGB (limit is set to %sGB)'), $url, $size, $limit);
+            } else {
+                $message = sprintf(get_lang('Total space used by %s is %sGB'), $url, $size);
             }
-            $message = sprintf(get_lang('Total space used by portal %s limit is %s MB'), $size, $limit);
         }
         echo Display::tag('H5', $message, ['style' => 'margin-bottom: 25px;']);
         break;
