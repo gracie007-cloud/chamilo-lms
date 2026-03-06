@@ -494,7 +494,7 @@ msgid "Question ID"
 msgstr "ID Ceiste"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "AoisCleachtaidh"
 
 msgid "Excel export"
 msgstr "Easportáil Excel"
@@ -5225,10 +5225,10 @@ msgid "Whether you want to use the blacklist or whitelist filtering. See blackli
 msgstr "Cé acu blacklist nó whitelist scagtha atá uait a úsáid. Féach cur síos blacklist nó whitelist thíos le haghaidh tuilleadh sonraí."
 
 msgid "Blacklist"
-msgstr "Blacklist"
+msgstr "Liosta Dubh"
 
 msgid "Whitelist"
-msgstr "Whitelist"
+msgstr "Liosta Bán"
 
 msgid "Blacklist - setting"
 msgstr "Blacklist - socrú"
@@ -10715,7 +10715,7 @@ msgid "Opinion"
 msgstr "Tuairim"
 
 msgid "Intranet"
-msgstr "Intranet"
+msgstr "Innealt"
 
 msgid "My account"
 msgstr "Mo chuntas"
@@ -14000,7 +14000,7 @@ msgid "Filter on groups/users"
 msgstr "Scagaire ar ghrúpaí/úsáideoirí"
 
 msgid "Ascending"
-msgstr "Ascending"
+msgstr "Ascaineach"
 
 msgid "Current month"
 msgstr "An mhí reatha"
@@ -14483,7 +14483,7 @@ msgid "czech"
 msgstr "Seis"
 
 msgid "dari"
-msgstr "Dari"
+msgstr "dari"
 
 msgid "dutch corporate"
 msgstr "Corparáideach Ollannais"
@@ -14981,7 +14981,7 @@ msgid "ukrainian"
 msgstr "úcráinis"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "ioruba"
 
 msgid "New"
 msgstr "Nua"
@@ -20891,7 +20891,7 @@ msgid "Use right-click to close the delineation"
 msgstr "Úsáid cliceáil dheis chun an delineation a dhúnadh"
 
 msgid "Beta"
-msgstr "Beta"
+msgstr "Beite"
 
 msgid "Crop your picture"
 msgstr "Barr an pictiúr"
@@ -22138,14 +22138,8 @@ msgstr "Tuairisc cleachtaidh de réir catagóire do gach seisiún"
 msgid "Require e-mail confirmation"
 msgstr "Éiligh deimhniú ríomhphoist"
 
-msgid "Registration confirmation"
-msgstr "Deimhniú clárúcháin"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Tá do chuntas neamhghníomhach toisc nár dheimhnigh tú é go fóill. Seiceáil do ríomhphost agus lean na treoracha nó cliceáil an nasc seo a leanas chun an ríomhphost a athsheoladh"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Chun do chlárú ardáin a chríochnú ní miste duit do chuntas a dheimhniú trí chliceáil ar an nasc seo a leanas"
 
 msgid "Confirmation for new account"
 msgstr "Deimhniú do chuntas nua"
@@ -31435,8 +31429,8 @@ msgstr "Níl ach litreacha, digití agus underscore (_) ceadaithe in ainm an bhu
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Cé na téarmaí agus coinníollacha ginearálta a thugtar d'úsáideoirí chun an t-ardán seo a úsáid?"
 
-msgid "ex. {examplePassword}"
-msgstr "m.sh. {examplePassword}"
+msgid "ex. %s"
+msgstr "m.sh. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Fáilte chuig Chamilo!"
@@ -32568,4 +32562,184 @@ msgstr "Pras athraithe"
 
 msgid "Saved in Documents"
 msgstr "Sábhálaithe i Doiciméid"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Spás iomlán in úsáid ag %s is %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Spás iomlán in úsáid ag an tacaíocht %s is %sGB (teorainn socraithe go %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Deimhnigh do r-phost"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Chun do r-phost a fhíorú agus do chuntas a chumasaú ar %s, cliceáil an nasc thíos le do thoil."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Mura ndearna tú an cuntas seo a chlárú, is féidir leat an r-phost seo a ignóir. Ní ghlactar aon ghníomh."
+
+msgid "Current authentication method"
+msgstr "Modh fíordheimhnithe reatha"
+
+msgid "Branches"
+msgstr "Brainsí"
+
+msgid "Rooms"
+msgstr "Seomraí"
+
+msgid "Room availability finder"
+msgstr "Aimsitheoir infhaighteachta seomra"
+
+msgid "New branch"
+msgstr "Brainse nua"
+
+msgid "New room"
+msgstr "Seomra nua"
+
+msgid "Branch"
+msgstr "Brainse"
+
+msgid "Default room"
+msgstr "Seomra réamhshocraithe"
+
+msgid "Room occupation: %s"
+msgstr "Áitiú seomra: %s"
+
+msgid "Find available rooms"
+msgstr "Aimsigh seomraí atá ar fáil"
+
+msgid "Available rooms"
+msgstr "Seomraí ar fáil"
+
+msgid "Occupied rooms"
+msgstr "Seomraí áitiúite"
+
+msgid "No available rooms found for this time range"
+msgstr "Níor aimsíodh aon seomraí ar fáil don raon ama seo"
+
+msgid "No rooms have been created yet"
+msgstr "Níl aon seomraí cruthaithe go fóill"
+
+msgid "Courses linked to %s"
+msgstr "Cúrsaí nasctha le %s"
+
+msgid "No branches have been created yet"
+msgstr "Níl aon brainsí cruthaithe go fóill"
+
+msgid "Occupation"
+msgstr "Áitiú"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Ní féidir brainse a scriosadh le seomraí ceangailte"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Ní féidir seomra a scriosadh le cúrsaí ceangailte"
+
+msgid "Conflicts"
+msgstr "Coinbhleachtaí"
+
+msgid "Geolocation"
+msgstr "Geoáitiú"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Domhanleithad, Fad (m.sh. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 nó IPv6"
+
+msgid "IP mask"
+msgstr "Masc IP"
+
+msgid "e.g. /24"
+msgstr "m.sh. /24"
+
+msgid "Parent branch"
+msgstr "Máthairbhrainse"
+
+msgid "Unique identifier"
+msgstr "Aitheantóir uathúil"
+
+msgid "Latitude"
+msgstr "Domhanleithad"
+
+msgid "e.g. 48.8566"
+msgstr "m.sh. 48.8566"
+
+msgid "Longitude"
+msgstr "Fad"
+
+msgid "e.g. 2.3522"
+msgstr "m.sh. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Luas íoslódála (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Luas uaslódála (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Mótar (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Ainm an riarthóra"
+
+msgid "Administrator phone number"
+msgstr "Uimhir theileafóin an riarthóra"
+
+msgid "ID of last synch transaction"
+msgstr "ID an idirbhearta sioncrónaithe deireanaigh"
+
+msgid "Time of last synchronization"
+msgstr "Am na sioncrónaithe deireanaí"
+
+msgid "Last synchronization type"
+msgstr "Cineál na sioncrónaithe deireanaí"
+
+msgid "SSL public key"
+msgstr "Eochair phoiblí SSL"
+
+msgid "Branch type"
+msgstr "Cineál brainse"
+
+msgid "Room"
+msgstr "Seomra"
+
+msgid "Simple IDS"
+msgstr "IDS Simplí"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "Tá IDS díchumasaithe faoi láthair. Socraigh IDS_ENABLED=true i do .env chun scanadh a chur i ngníomh."
+
+msgid "All event types"
+msgstr "Gach cineál imeachta"
+
+msgid "Events by day (last 7 days)"
+msgstr "Imeachtaí de réir lae (7 lá anuas)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Imeachtaí de réir cineáil (30 lá anuas)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Príomh-IPanna ionsaithe (30 lá anuas)"
+
+msgid "Flagged IDS events"
+msgstr "Imeachtaí IDS faoi bhrat"
+
+msgid "No suspicious events detected."
+msgstr "Gan aon imeachtaí amhrasta aimsithe."
+
+msgid "Detection type"
+msgstr "Cineál braite"
+
+msgid "Parameter"
+msgstr "Paraiméadar"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (reatha)"
 

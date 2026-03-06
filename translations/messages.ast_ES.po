@@ -495,7 +495,7 @@ msgid "Question ID"
 msgstr "ID de pregunta"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "ID d'eserciciu"
 
 msgid "Excel export"
 msgstr "Esportación a Excel"
@@ -579,7 +579,7 @@ msgid "No action available"
 msgstr "Nun hai axón disponible"
 
 msgid "Coaches"
-msgstr "Coaches"
+msgstr "Entronadores"
 
 msgid "Show description"
 msgstr "Amosar descripción"
@@ -16224,7 +16224,7 @@ msgid "NP"
 msgstr "NP"
 
 msgid "P"
-msgstr "P"
+msgstr "Aprob."
 
 msgid "Session calendar"
 msgstr "Calendariu de sesión"
@@ -16557,7 +16557,7 @@ msgid "All logins"
 msgstr "Toes les identifications"
 
 msgid "Draw"
-msgstr "Draw"
+msgstr "Empate"
 
 msgid "No course at this category level"
 msgstr "Nun hai cursos nesta categoría"
@@ -17817,7 +17817,7 @@ msgid "Acceptable"
 msgstr "Aceptable"
 
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "Puntú puntal"
 
 msgid "Change the visibility of the current image"
 msgstr "Camudar la visibilidá de la imaxe actual"
@@ -22139,14 +22139,8 @@ msgstr "Informi d'exercicius por categoría pa toes les sesiones"
 msgid "Require e-mail confirmation"
 msgstr "Requirir confirmación por correu"
 
-msgid "Registration confirmation"
-msgstr "Confirmación de rexistru"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "La to cuenta ta inactiva porque nun la confirmasti. Compreba el to correu y sigue les instruiciones o calca nel siguiente enllace pa renviar el correu"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Pa completar el to rexistru na plataforma has de confirmar la to cuenta calcando nel siguiente enllace"
 
 msgid "Confirmation for new account"
 msgstr "Confirmación pa nueva cuenta"
@@ -30478,7 +30472,7 @@ msgid "Please check the following error:"
 msgstr "Por favor, comprueba'l siguiente error:"
 
 msgid "OK"
-msgstr "OK"
+msgstr "Aceptar"
 
 msgid "Migration failed!"
 msgstr "¡Falló la migración!"
@@ -31437,8 +31431,8 @@ msgstr "Namái güiones baixos (_), díxitos y lletres tán permitíos nel nome 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "¿Qué términos y condicions xenerales se dan a los usuarios pa usar esta plataforma?"
 
-msgid "ex. {examplePassword}"
-msgstr "p. es. {examplePassword}"
+msgid "ex. %s"
+msgstr "p. es. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "¡Bienveníu a Chamilo!"
@@ -32410,7 +32404,7 @@ msgid "AI feedback"
 msgstr "Comentariu IA"
 
 msgid "Prompt"
-msgstr "Prompt"
+msgstr "Solicitú"
 
 msgid "Tip"
 msgstr "Conseyu"
@@ -32570,4 +32564,184 @@ msgstr "Emblozu modificáu"
 
 msgid "Saved in Documents"
 msgstr "Guardáu en Documentos"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Espaciu total usáu por %s ye %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Espaciu total usáu pol portal %s ye %sGB (el llímite ta afayadáu a %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirma'l correu electrónicu"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Pa verificar el to corréu-y activar la to cuenta en %s, calque na enllace d'abaxo."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Si nun rexistraste esta cuenta, pues ignorar este corréu. Nun se tomará denguna axón."
+
+msgid "Current authentication method"
+msgstr "Métodu d'autenticación actual"
+
+msgid "Branches"
+msgstr "Sedes"
+
+msgid "Rooms"
+msgstr "Aulas"
+
+msgid "Room availability finder"
+msgstr "Buscador de disponibilidade d'aula"
+
+msgid "New branch"
+msgstr "Nuev sede"
+
+msgid "New room"
+msgstr "Nuev aula"
+
+msgid "Branch"
+msgstr "Sede"
+
+msgid "Default room"
+msgstr "Aula predeterminada"
+
+msgid "Room occupation: %s"
+msgstr "Ocupación d'aula: %s"
+
+msgid "Find available rooms"
+msgstr "Atopar aulas disponibles"
+
+msgid "Available rooms"
+msgstr "Aulas disponibles"
+
+msgid "Occupied rooms"
+msgstr "Aulas ocupadas"
+
+msgid "No available rooms found for this time range"
+msgstr "Nun se atoparon aulas disponibles pa esti intervalu de tiempu"
+
+msgid "No rooms have been created yet"
+msgstr "Encami nun s'crearon aulas encami"
+
+msgid "Courses linked to %s"
+msgstr "Cursos vinculaos a %s"
+
+msgid "No branches have been created yet"
+msgstr "Encami nun s'crearon sedes"
+
+msgid "Occupation"
+msgstr "Ocupación"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nun ye posible desaniciar sede con aulas vinculaes"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nun ye posible desaniciar aula con cursos vinculaos"
+
+msgid "Conflicts"
+msgstr "Conflictos"
+
+msgid "Geolocation"
+msgstr "Xeolocalización"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitú, Llonxitú (es. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 o IPv6"
+
+msgid "IP mask"
+msgstr "Máscara IP"
+
+msgid "e.g. /24"
+msgstr "es. /24"
+
+msgid "Parent branch"
+msgstr "Sede pai"
+
+msgid "Unique identifier"
+msgstr "Identificador únicu"
+
+msgid "Latitude"
+msgstr "Latitú"
+
+msgid "e.g. 48.8566"
+msgstr "es. 48.8566"
+
+msgid "Longitude"
+msgstr "Llonxitú"
+
+msgid "e.g. 2.3522"
+msgstr "es. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Velocidá de descarga (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Velocidá de càrrega (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Retardu (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nome del administrador"
+
+msgid "Administrator phone number"
+msgstr "Númberu de teléfono del administrador"
+
+msgid "ID of last synch transaction"
+msgstr "ID de la última transacción de sincronización"
+
+msgid "Time of last synchronization"
+msgstr "Hora de la última sincronización"
+
+msgid "Last synchronization type"
+msgstr "Triba de la última sincronización"
+
+msgid "SSL public key"
+msgstr "Clave pública SSL"
+
+msgid "Branch type"
+msgstr "Triba de rama"
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Simple IDS"
+msgstr "IDS simple"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "L'IDS ta desactivao actualmente. Estableza IDS_ENABLED=true nel to .env pa activar l'escritura."
+
+msgid "All event types"
+msgstr "Tolos tipus d'eventos"
+
+msgid "Events by day (last 7 days)"
+msgstr "Eventos por día (últimos 7 díes)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Eventos por tipu (últimos 30 díes)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IPs atacantes más frecuentes (últimos 30 díes)"
+
+msgid "Flagged IDS events"
+msgstr "Eventos IDS marcaos"
+
+msgid "No suspicious events detected."
+msgstr "Nun se detectaron eventos sospechosos."
+
+msgid "Detection type"
+msgstr "Tipu de detección"
+
+msgid "Parameter"
+msgstr "Parámetru"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (actual)"
 

@@ -1608,8 +1608,8 @@ class SettingsCurrentFixtures extends Fixture implements FixtureGroupInterface
                 ],
                 [
                     'name' => 'course_catalog_published',
-                    'title' => 'Published Courses Only',
-                    'comment' => 'Limit the catalog to only courses marked as published.',
+                    'title' => 'Publish course catalogue',
+                    'comment' => 'Make the courses catalogue available to anonymous users (the general public) without the need to login.',
                 ],
                 [
                     'name' => 'course_catalog_display_in_home',
@@ -1819,6 +1819,7 @@ class SettingsCurrentFixtures extends Fixture implements FixtureGroupInterface
                     'name' => 'allow_general_certificate',
                     'title' => 'Enable general certificate',
                     'comment' => 'A general certificate is a certificate grouping all the accomplishments by the user in the courses (s)he followed.',
+                    'selected_value' => 'false',
                 ],
                 [
                     'name' => 'hide_certificate_export_link',

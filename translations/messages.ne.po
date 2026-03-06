@@ -22138,14 +22138,8 @@ msgstr "सबै सत्रहरूका लागि वर्ग अन�
 msgid "Require e-mail confirmation"
 msgstr "इमेल पुष्टिकरण आवश्यक"
 
-msgid "Registration confirmation"
-msgstr "दर्ता पुष्टिकरण"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "तपाईंको खाता निष्क्रिय छ किनकि तपाईंले अझै पुष्टि गर्नुभएको छैन। आफ्नो इमेल जाँच गर्नुहोस् र निर्देशनहरू पालन गर्नुहोस् वा इमेल फेरि पठाउन निम्न लिङ्क क्लिक गर्नुहोस्"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "आफ्नो प्लेटफर्म दर्ता पूरा गर्न तपाईंले निम्न लिङ्क क्लिक गरेर आफ्नो खाता पुष्टि गर्न आवश्यक छ"
 
 msgid "Confirmation for new account"
 msgstr "नयाँ खाताका लागि पुष्टिकरण"
@@ -31435,8 +31429,8 @@ msgstr "डेटाबेस नाममा मात्र अक्षरह
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "यो प्लेटफर्म प्रयोग गर्न प्रयोगकर्ताहरूलाई दिइने सामान्य शर्तहरू के हुन्?"
 
-msgid "ex. {examplePassword}"
-msgstr "उदा. {examplePassword}"
+msgid "ex. %s"
+msgstr "उदा. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Chamilo मा स्वागत छ!"
@@ -32568,4 +32562,184 @@ msgstr "संशोधित प्रॉम्प्ट"
 
 msgid "Saved in Documents"
 msgstr "कागजातहरूमा बचत गरियो"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s ले प्रयोग गरेको कुल स्थान %sGB छ"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "पोर्टल %s ले प्रयोग गरेको कुल स्थान %sGB छ (सीमा %sGB तोकिएको छ)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] आफ्नो इमेल पुष्टि गर्नुहोस्"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "तपाईंको ईमेल प्रमाणीकरण गर्न र %s मा तपाईंको खाता सक्रिय गर्न, कृपया तलको लिङ्कमा क्लिक गर्नुहोस्।"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "यदि तपाईंले यो खाता दर्ता गर्नुभएको छैन भने, यो इमेल बेवास्ता गर्न सक्नुहुन्छ। कुनै कार्य गरिने छैन।"
+
+msgid "Current authentication method"
+msgstr "हालको प्रमाणीकरण विधि"
+
+msgid "Branches"
+msgstr "शाखाहरू"
+
+msgid "Rooms"
+msgstr "कोठाहरू"
+
+msgid "Room availability finder"
+msgstr "कोठा उपलब्धता खोज्ने"
+
+msgid "New branch"
+msgstr "नयाँ शाखा"
+
+msgid "New room"
+msgstr "नयाँ कोठा"
+
+msgid "Branch"
+msgstr "शाखा"
+
+msgid "Default room"
+msgstr "पूर्वनिर्धारित कोठा"
+
+msgid "Room occupation: %s"
+msgstr "कोठा अधिभोग: %s"
+
+msgid "Find available rooms"
+msgstr "उपलब्ध कोठाहरू खोज्नुहोस्"
+
+msgid "Available rooms"
+msgstr "उपलब्ध कोठाहरू"
+
+msgid "Occupied rooms"
+msgstr "अधिभुक्त कोठाहरू"
+
+msgid "No available rooms found for this time range"
+msgstr "यो समय दायरा लागि कुनै उपलब्ध कोठा फेला परेन"
+
+msgid "No rooms have been created yet"
+msgstr "अझै कुनै कोठा बनाइएको छैन"
+
+msgid "Courses linked to %s"
+msgstr "%s सँग जोडिएका कोर्सहरू"
+
+msgid "No branches have been created yet"
+msgstr "अझै कुनै शाखा बनाइएको छैन"
+
+msgid "Occupation"
+msgstr "अधिभोग"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "कोठा जोडिएको शाखा हटाउन सकिँदैन"
+
+msgid "Cannot delete room with courses attached"
+msgstr "कोर्स जोडिएको कोठा हटाउन सकिँदैन"
+
+msgid "Conflicts"
+msgstr " द्वन्द्वहरू"
+
+msgid "Geolocation"
+msgstr "भू-स्थान"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "अक्षांश, देशान्तर (उदाहरण: 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 वा IPv6"
+
+msgid "IP mask"
+msgstr "IP मास्क"
+
+msgid "e.g. /24"
+msgstr "उदा. /24"
+
+msgid "Parent branch"
+msgstr "आमा शाखा"
+
+msgid "Unique identifier"
+msgstr "अनौठो पहिचानकर्ता"
+
+msgid "Latitude"
+msgstr "अक्षांश"
+
+msgid "e.g. 48.8566"
+msgstr "उदा. 48.8566"
+
+msgid "Longitude"
+msgstr "देशान्तर"
+
+msgid "e.g. 2.3522"
+msgstr "उदाहरण २.३५२२"
+
+msgid "Download speed (KB/s)"
+msgstr "डाउनलोड गति (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "अपलोड गति (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "विलम्ब (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "प्रशासक नाम"
+
+msgid "Administrator phone number"
+msgstr "प्रशासक फोन नम्बर"
+
+msgid "ID of last synch transaction"
+msgstr "अन्तिम समन्वय लेनदेनको ID"
+
+msgid "Time of last synchronization"
+msgstr "अन्तिम समन्वयको समय"
+
+msgid "Last synchronization type"
+msgstr "अन्तिम समन्वय प्रकार"
+
+msgid "SSL public key"
+msgstr "SSL सार्वजनिक कुञ्जी"
+
+msgid "Branch type"
+msgstr "शाखा प्रकार"
+
+msgid "Room"
+msgstr "कोठा"
+
+msgid "Simple IDS"
+msgstr "साधारण IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS हाल अक्षम छ। स्क्यानिङ सक्रिय गर्न आफ्नो .env मा IDS_ENABLED=true सेट गर्नुहोस्।"
+
+msgid "All event types"
+msgstr "सबै घटना प्रकारहरू"
+
+msgid "Events by day (last 7 days)"
+msgstr "दिन अनुसार घटनाहरू (अन्तिम ७ दिन)"
+
+msgid "Events by type (last 30 days)"
+msgstr "प्रकार अनुसार घटनाहरू (अन्तिम ३० दिन)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "शीर्ष आक्रमणकारी IP हरू (अन्तिम ३० दिन)"
+
+msgid "Flagged IDS events"
+msgstr "चिन्हित IDS घटनाहरू"
+
+msgid "No suspicious events detected."
+msgstr "कुनै सन्दिग्ध घटना पत्ता लागेन।"
+
+msgid "Detection type"
+msgstr "पत्ता लगाउने प्रकार"
+
+msgid "Parameter"
+msgstr "पैरामीटर"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (हालको)"
 

@@ -8599,16 +8599,16 @@ msgid "Numbered"
 msgstr "شمېرل شوی"
 
 msgid "en"
-msgstr "en"
+msgstr "ps"
 
 msgid "eng"
-msgstr "eng"
+msgstr "psg"
 
 msgid "iso-8859-1"
 msgstr "iso-8859-1"
 
 msgid "ltr"
-msgstr "ltr"
+msgstr "rtl"
 
 msgid "verdana, helvetica, arial, geneva, sans-serif"
 msgstr "verdana, helvetica, arial, geneva, sans-serif"
@@ -8617,16 +8617,16 @@ msgid "helvetica, arial, geneva, sans-serif"
 msgstr "helvetica, arial, geneva, sans-serif"
 
 msgid ","
-msgstr ","
+msgstr "،"
 
 msgid "."
 msgstr "."
 
 msgid "%b %d, %Y"
-msgstr "%b %d, %Y"
+msgstr "%b %d، %Y"
 
 msgid "%A %B %d, %Y"
-msgstr "%A %B %d, %Y"
+msgstr "%A %B %d، %Y"
 
 msgid "%B %d, %Y at %I:%M %p"
 msgstr "%B %d, %Y په %I:%M %p"
@@ -9829,7 +9829,7 @@ msgid "Category added"
 msgstr "کټګوري اضافه شوه"
 
 msgid "IP"
-msgstr "IP"
+msgstr "آی پی"
 
 msgid "Grade activity"
 msgstr "د نمرې فعالیت"
@@ -11881,7 +11881,7 @@ msgid "Providers"
 msgstr "وړاندې کوونکي"
 
 msgid "OS"
-msgstr "OS"
+msgstr "د عملیاتي سیسټم"
 
 msgid "Browsers"
 msgstr "براوزرونه"
@@ -16219,7 +16219,7 @@ msgid "NP"
 msgstr "NP"
 
 msgid "P"
-msgstr "P"
+msgstr "پ"
 
 msgid "Session calendar"
 msgstr "د غونډې تقویم"
@@ -20527,7 +20527,7 @@ msgid "Input size of box to fill"
 msgstr "د ډکې د ډکولو اندازه داخل کړئ"
 
 msgid "MM dd, yy"
-msgstr "MM dd, yy"
+msgstr "MM dd، yy"
 
 msgid "HH:mm"
 msgstr "HH:mm"
@@ -22042,7 +22042,7 @@ msgid "Certificate notification"
 msgstr "د سرٹیفیکیټ اعلان"
 
 msgid "((user_first_name)),"
-msgstr "((user_first_name)),"
+msgstr "((user_first_name))،"
 
 msgid "Send certificate notification to all users"
 msgstr "ټولو کاروونکو ته د سرٹیفیکیټ اعلان واستوئ"
@@ -22134,14 +22134,8 @@ msgstr "د ټولو غونډو لپاره د کټګورۍ له مخې د تمر�
 msgid "Require e-mail confirmation"
 msgstr "د برېښلي پیغام تایید غواړي"
 
-msgid "Registration confirmation"
-msgstr "د ثبتګ تائید"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "ستاسو حساب غیر فعال دی ځکه چې تاسو یې لا تایید کړی نه دی. خپل برېښنالیک وګورئ او لارښوونې تعقیب کړئ یا لاندې لینک کلیک کړئ ترڅو برېښنالیک بیا واستول شي"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "د پلیټفارم د ثبتګ بشپړولو لپاره تاسو باید خپل حساب د لاندې لینک په کلیک کولو تایید کړئ"
 
 msgid "Confirmation for new account"
 msgstr "د نوي حساب لپاره تائید"
@@ -24691,7 +24685,7 @@ msgid "*: Current quarter, incomplete data"
 msgstr "*: اوسنی ربع وار، ناتمام معلومات"
 
 msgid "Q%s %s"
-msgstr "Q%s %s"
+msgstr "پ%s %s"
 
 msgid "YoY"
 msgstr "YoY"
@@ -31006,7 +31000,7 @@ msgid "Create your first note to get started."
 msgstr "خپل لومړنی یادښت جوړ کړئ ترڅو پیل کړئ."
 
 msgid "F d, Y"
-msgstr "F d, Y"
+msgstr "F d، Y"
 
 msgid "Could not load support info at this time."
 msgstr "د دې وخت په جریان کې د ملاتړ معلومات نشي بار کیدی."
@@ -31431,8 +31425,8 @@ msgstr "پایگاه ډاټا کې یوازې لیکي، شمېرې او لان�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "څه عمومي شرایط او مقررات کاروونکو ته ورکول کېږي چې دا پلیټفارم وکاروي؟"
 
-msgid "ex. {examplePassword}"
-msgstr "مثال. {examplePassword}"
+msgid "ex. %s"
+msgstr "مثال. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "د Chamilo ښه راغلاست!"
@@ -31456,7 +31450,7 @@ msgid "SCIM external ID"
 msgstr "SCIM بهرنۍ ID"
 
 msgid "OAuth2 ID"
-msgstr "OAuth2 ID"
+msgstr "OAuth2 آیدی"
 
 msgid "Please accept the latest version of the terms and conditions."
 msgstr "مهموه، د شرایطو او ضوابطو وروستی نسخه ومنئ."
@@ -32564,4 +32558,184 @@ msgstr "بدل شوی prompt"
 
 msgid "Saved in Documents"
 msgstr "د اسنادو کې خوندي شو"
+
+msgid "Total space used by %s is %sGB"
+msgstr "د %s لخوا کارول شوی ټول ځای %sGB دی"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "د پورتل %s لخوا کارول شوی ټول ځای %sGB دی (حد %sGB ته ټاکل شوی دی)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] خپل برېښنالیک تایید کړئ"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "ستاسو بریښنالیک تصدیق کول او ستاسو حساب فعالول په %s کې، مهرباني وکړئ لاندې لینک باندې کلیک وکړئ."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "که تاسو دا حساب نه وي ثبت کړی، تاسو کولی شئ دا برېښنالیک نادیده ونیسئ. هیڅ عمل به ونه شي نیول شوی."
+
+msgid "Current authentication method"
+msgstr "اوسې مهال تصدیقي طريقې"
+
+msgid "Branches"
+msgstr "شاخې"
+
+msgid "Rooms"
+msgstr "خونې"
+
+msgid "Room availability finder"
+msgstr "د خونې شتون موندونکي"
+
+msgid "New branch"
+msgstr "نوه شاخه"
+
+msgid "New room"
+msgstr "نوه خونه"
+
+msgid "Branch"
+msgstr "شاخه"
+
+msgid "Default room"
+msgstr "مخکېښته خونه"
+
+msgid "Room occupation: %s"
+msgstr "د خونې اشغال: %s"
+
+msgid "Find available rooms"
+msgstr "د شته خونو موندل"
+
+msgid "Available rooms"
+msgstr "شته خونې"
+
+msgid "Occupied rooms"
+msgstr "اشغاله خونې"
+
+msgid "No available rooms found for this time range"
+msgstr "د دې وخت محدوده لپاره هیڅ شته خونې ونه موندل شوې"
+
+msgid "No rooms have been created yet"
+msgstr "په اوس کې هیڅ خونې جوړې شوې نه دي"
+
+msgid "Courses linked to %s"
+msgstr "د %s سره تړل شوي کورسونه"
+
+msgid "No branches have been created yet"
+msgstr "په اوس کې هیڅ شاخې جوړې شوې نه دي"
+
+msgid "Occupation"
+msgstr "اشغال"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "د تړل شوو خونو سره شاخه نشی ړنګیدلی"
+
+msgid "Cannot delete room with courses attached"
+msgstr "د تړل شوو کورسونو سره خونه نشی ړنګیدلی"
+
+msgid "Conflicts"
+msgstr "تعارضات"
+
+msgid "Geolocation"
+msgstr "جغرافیايي ځای"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "اوږدوالی، اوږدوالی (د بیلګې په توګه 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 یا IPv6"
+
+msgid "IP mask"
+msgstr "IP ماسک"
+
+msgid "e.g. /24"
+msgstr "د بیلګې په توګه /24"
+
+msgid "Parent branch"
+msgstr "مور شاخه"
+
+msgid "Unique identifier"
+msgstr "یوالي پیژندن"
+
+msgid "Latitude"
+msgstr "اوږدوالی"
+
+msgid "e.g. 48.8566"
+msgstr "د بیلګې په توګه 48.8566"
+
+msgid "Longitude"
+msgstr "اوږدوالی"
+
+msgid "e.g. 2.3522"
+msgstr "د بیلګې په توګه 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "ډاونلوډ سرعت (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "اپلوډ سرعت (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "ځنډ (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "د مدیر نوم"
+
+msgid "Administrator phone number"
+msgstr "د مدیر د ټلیفون شمېره"
+
+msgid "ID of last synch transaction"
+msgstr "د وروستي همغږۍ د معاملې ID"
+
+msgid "Time of last synchronization"
+msgstr "د وروستۍ همغږۍ وخت"
+
+msgid "Last synchronization type"
+msgstr "وروستۍ همغږۍ ډول"
+
+msgid "SSL public key"
+msgstr "SSL عمومي کلید"
+
+msgid "Branch type"
+msgstr "شاخه ډول"
+
+msgid "Room"
+msgstr "خونه"
+
+msgid "Simple IDS"
+msgstr "ساده IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS اوس غیر فعال دی. په خپل .env کې IDS_ENABLED=true ټاکئ ترڅو سکېن فعال شي."
+
+msgid "All event types"
+msgstr "ټول پېښو ډولونه"
+
+msgid "Events by day (last 7 days)"
+msgstr "پېښې د ورځې له مخې (وروستۍ ۷ ورځې)"
+
+msgid "Events by type (last 30 days)"
+msgstr "پېښې د ډول له مخې (وروستۍ ۳۰ ورځې)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "غوره برید کوونکي IP (وروستۍ ۳۰ ورځې)"
+
+msgid "Flagged IDS events"
+msgstr "نښه شوې IDS پېښې"
+
+msgid "No suspicious events detected."
+msgstr "هیڅ مشکوک پېښې موندل شوې نه دي."
+
+msgid "Detection type"
+msgstr "پېژندنه ډول"
+
+msgid "Parameter"
+msgstr "پارامتر"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (اوسنۍ)"
 

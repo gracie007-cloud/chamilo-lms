@@ -43,7 +43,7 @@ msgid "Create badge"
 msgstr "Crea badge"
 
 msgid "Badges"
-msgstr "Badges"
+msgstr "Distins"
 
 msgid "Students who acquired skill %s"
 msgstr "Students che a àn akirû l'abilitât %s"
@@ -157,7 +157,7 @@ msgid "Number of hidden courses"
 msgstr "Nûmar di cors ascondûts"
 
 msgid "Post"
-msgstr "Post"
+msgstr "Publicâ"
 
 msgid "Write"
 msgstr "Scrivî"
@@ -2050,7 +2050,7 @@ msgid "Import finished"
 msgstr "Import finî"
 
 msgid "Tests"
-msgstr "Tests"
+msgstr "Test"
 
 msgid "Courses"
 msgstr "Curs"
@@ -3316,7 +3316,7 @@ msgid "New note"
 msgstr "Gnove note"
 
 msgid "Note"
-msgstr "Note"
+msgstr "Notis"
 
 msgid "Note created"
 msgstr "Note creade"
@@ -8443,7 +8443,7 @@ msgid "Name"
 msgstr "Non"
 
 msgid "Comment"
-msgstr "Comment"
+msgstr "Coment"
 
 msgid "Visible"
 msgstr "Visìl"
@@ -8986,7 +8986,7 @@ msgid "Sunday"
 msgstr "Duminie"
 
 msgid "J"
-msgstr "J"
+msgstr "G"
 
 msgid "A"
 msgstr "A"
@@ -17692,7 +17692,7 @@ msgid "Tests in learning paths"
 msgstr "Testês tai percors didatics"
 
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 msgid "There was an error."
 msgstr "J è stât un erôr."
@@ -18373,7 +18373,7 @@ msgid "Total different IP addresses that have contributed to Wiki"
 msgstr "Total indiris IP diferents che à contribuî a la Wiki"
 
 msgid "Pages"
-msgstr "Pages"
+msgstr "Pâgis"
 
 msgid "Versions"
 msgstr "Version"
@@ -19426,7 +19426,7 @@ msgid "Available event keys. Use them between (( ))."
 msgstr "Çjavels dai events disponibis. Doprile tra (( ))"
 
 msgid "Events"
-msgstr "Events"
+msgstr "Event"
 
 msgid "Event type name"
 msgstr "Non dal tip di event"
@@ -22134,14 +22134,8 @@ msgstr "Raport dai esercizi par categorîe par tute lis sesions"
 msgid "Require e-mail confirmation"
 msgstr "Cîr conferme par e-post"
 
-msgid "Registration confirmation"
-msgstr "Conferme di iscrission"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Il to cont e inativ parcê che no tu âs ancor confermât. Controle la tô e-post e seguî lis istruzions o clic sul sècol colêg par rimandâ la e-post"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Par completâ la tô iscrission a la platforme tu devi confermâ il to cont clicant sul sècol colêg"
 
 msgid "Confirmation for new account"
 msgstr "Conferme par gnûf cont"
@@ -22588,7 +22582,7 @@ msgid "Personal data officer's role"
 msgstr "Rool dal responsabil dai dâts personâls"
 
 msgid "Assets"
-msgstr "Assets"
+msgstr "Risorses"
 
 msgid "Total learnpath time"
 msgstr "Temp tôtaç dal percors di aprit"
@@ -28129,28 +28123,28 @@ msgid "Menucampushomepage"
 msgstr "Menucampushomepage"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "Menu cors i miei"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "Menu rapuarts"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Menu aministrazion platfome"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Menu agenda mia"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "Menu social"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Menu videoconference"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Menu diagnostichis"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Menu catalog"
 
 msgid "Topbarcertificate"
 msgstr "Topbarcertificate"
@@ -28225,7 +28219,7 @@ msgid "You're subscribed to push notifications in this browser."
 msgstr "Tu si abonât ai notifiche push in chescj browser."
 
 msgid "Endpoint"
-msgstr "Endpoint"
+msgstr "Punt final"
 
 msgid "Push notifications are not enabled in this browser."
 msgstr "Le notifiche push no son ativadis in chescj browser."
@@ -31431,8 +31425,8 @@ msgstr "Dentot i letaris, cifris e il trat sotsbar ( _) a son permitûts int nû
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Che condizions generâls e condizions d'ûs a son dâdis ai utents par doprâ chesti plateform?"
 
-msgid "ex. {examplePassword}"
-msgstr "p. {examplePassword}"
+msgid "ex. %s"
+msgstr "p. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Benvenûts a Chamilo!"
@@ -31444,7 +31438,7 @@ msgid "For more details visit %s"
 msgstr "Par plui detals visitâ %s"
 
 msgid "Manager"
-msgstr "Manager"
+msgstr "Menager"
 
 msgid "Mark as"
 msgstr "Marcî come"
@@ -31453,7 +31447,7 @@ msgid "Reply to all"
 msgstr "Rispondi a tuti"
 
 msgid "SCIM external ID"
-msgstr "SCIM external ID"
+msgstr "SCIM ID esterne"
 
 msgid "OAuth2 ID"
 msgstr "OAuth2 ID"
@@ -31798,7 +31792,7 @@ msgid "Cleanup temporary uploads and cache"
 msgstr "Pulizia uploads temporaneis e cache"
 
 msgid "Directory"
-msgstr "Directory"
+msgstr "Cartela"
 
 msgid "Only delete files older than (minutes)"
 msgstr "Scancele scjampe pli vecjis che (minuts)"
@@ -31873,7 +31867,7 @@ msgid "Click to insert"
 msgstr "Clic par inserir"
 
 msgid "Preferred: SVG. PNG max size: %spx."
-msgstr "Preferred: SVG. PNG max size: %spx."
+msgstr "Preferìt: SVG. Dimensiun massime PNG: %spx."
 
 msgid "View badge"
 msgstr "Visualize il badge"
@@ -32305,7 +32299,7 @@ msgid "There are no terms that match the search: %s"
 msgstr "Nons i è gnun termin che corisponde a la recerca: %s"
 
 msgid "Setting is globally locked (access_url_locked=1)"
-msgstr "Setting is globally locked (access_url_locked=1)"
+msgstr "Impòst blochet globâlment (access_url_locked=1)"
 
 msgid "If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy."
 msgstr "Se ativât, i messadis di chat privât 1:1 saran spiegjâts neis documents de storiis dal chat dal curs. Al consigliâ di lassâ disativât par la privatessi."
@@ -32332,7 +32326,7 @@ msgid "Quiz"
 msgstr "Quiz"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Certificât personalizât"
 
 msgid "Update profile"
 msgstr "Agiorne profîl"
@@ -32564,4 +32558,184 @@ msgstr "Prompt modificât"
 
 msgid "Saved in Documents"
 msgstr "Salvât tai Documents"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Spazi total dopradiât da %s e %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Spazi total dopradiât dal portal %s e %sGB (limit e %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Conferme il to e-mail"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Par verificar il to e-mail e ativar il cont su %s, plê clic sul leam che jê di sôt."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Se no tu âs registrât chest cont, puôt ignorâ chest e-mail. No si farà gnul atu."
+
+msgid "Current authentication method"
+msgstr "Metôd di autenticazion atuâl"
+
+msgid "Branches"
+msgstr "Brans"
+
+msgid "Rooms"
+msgstr "Salis"
+
+msgid "Room availability finder"
+msgstr "Buscadôr di disponibilitât des salis"
+
+msgid "New branch"
+msgstr "Gnove bran"
+
+msgid "New room"
+msgstr "Gnove sale"
+
+msgid "Branch"
+msgstr "Bran"
+
+msgid "Default room"
+msgstr "Sale predefinide"
+
+msgid "Room occupation: %s"
+msgstr "Ocupazion de sale: %s"
+
+msgid "Find available rooms"
+msgstr "Treie salis disponibis"
+
+msgid "Available rooms"
+msgstr "Salis disponibis"
+
+msgid "Occupied rooms"
+msgstr "Salis ocupadis"
+
+msgid "No available rooms found for this time range"
+msgstr "No je stât trovât gnul sale disponibil par cheste fasie orarie"
+
+msgid "No rooms have been created yet"
+msgstr "No je je fat gnule sale finore"
+
+msgid "Courses linked to %s"
+msgstr "Corsi coligâs a %s"
+
+msgid "No branches have been created yet"
+msgstr "No je je fat gnule brans finore"
+
+msgid "Occupation"
+msgstr "Ocupazion"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "No si pues jessâ la bran che al à salis coligâdis"
+
+msgid "Cannot delete room with courses attached"
+msgstr "No si pues jessâ la sale che e à curs coligât"
+
+msgid "Conflicts"
+msgstr "Conflits"
+
+msgid "Geolocation"
+msgstr "Geolocalizazion"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitûde, Longitûde (p. es. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 o IPv6"
+
+msgid "IP mask"
+msgstr "Màschere IP"
+
+msgid "e.g. /24"
+msgstr "p. es. /24"
+
+msgid "Parent branch"
+msgstr "Branc ram"
+
+msgid "Unique identifier"
+msgstr "Identificâtôr unich"
+
+msgid "Latitude"
+msgstr "Latitûde"
+
+msgid "e.g. 48.8566"
+msgstr "p. es. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitûde"
+
+msgid "e.g. 2.3522"
+msgstr "p. es. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Vitesse di descargje (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Vitesse di cargje (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Ritard (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nume aministradôr"
+
+msgid "Administrator phone number"
+msgstr "Numar di telefon dal aministradôr"
+
+msgid "ID of last synch transaction"
+msgstr "ID de l'ultime transazion di sincronisazion"
+
+msgid "Time of last synchronization"
+msgstr "Ore de l'ultime sincronisazion"
+
+msgid "Last synchronization type"
+msgstr "Tipe de l'ultime sincronisazion"
+
+msgid "SSL public key"
+msgstr "Çjavû publich SSL"
+
+msgid "Branch type"
+msgstr "Tipe di branc"
+
+msgid "Room"
+msgstr "Stîe"
+
+msgid "Simple IDS"
+msgstr "IDS sempliç"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS al è displimit al moment. Impostâ IDS_ENABLED=true tal to .env par ativâ la scansioan."
+
+msgid "All event types"
+msgstr "Tuits i tipis di events"
+
+msgid "Events by day (last 7 days)"
+msgstr "Events par di (ultims 7 dîs)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Events par tipe (ultims 30 dîs)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IPs atacantis prinçipâls (ultims 30 dîs)"
+
+msgid "Flagged IDS events"
+msgstr "Events IDS señalâts"
+
+msgid "No suspicious events detected."
+msgstr "Nissun event sospitius rivât."
+
+msgid "Detection type"
+msgstr "Tipe di detecion"
+
+msgid "Parameter"
+msgstr "Parametar"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (corent)"
 

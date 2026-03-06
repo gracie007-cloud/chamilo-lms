@@ -129,6 +129,7 @@ class ExtraField extends Model
             'lp_item' => EntityExtraField::LP_ITEM_FIELD_TYPE,
             'skill' => EntityExtraField::SKILL_FIELD_TYPE,
             'work' => EntityExtraField::WORK_FIELD_TYPE,
+            'work_corrections_comment' => EntityExtraField::WORK_CORRECTIONS_COMMENT,
             'career' => EntityExtraField::CAREER_FIELD_TYPE,
             'user_certificate' => EntityExtraField::USER_CERTIFICATE,
             'survey' => EntityExtraField::SURVEY_FIELD_TYPE,
@@ -143,6 +144,7 @@ class ExtraField extends Model
             'message' =>  EntityExtraField::MESSAGE_TYPE,
             'document' => EntityExtraField::DOCUMENT_TYPE,
             'attendance_calendar' => EntityExtraField::ATTENDANCE_CALENDAR_TYPE,
+            'glossary' => EntityExtraField::GLOSSARY_TYPE,
         ];
     }
 
@@ -186,6 +188,8 @@ class ExtraField extends Model
             'message',
             'document',
             'attendance_calendar',
+            'glossary',
+            'work_corrections_comment',
         ];
 
         if ('true' === api_get_setting('announcement.allow_scheduled_announcements')) {
@@ -2489,22 +2493,22 @@ class ExtraField extends Model
         $group = [];
         $group[] = $form->createElement('radio', 'visible_to_self', null, get_lang('Yes'), 1, ['id' => 'visible_to_self_yes']);
         $group[] = $form->createElement('radio', 'visible_to_self', null, get_lang('No'), 0, ['id' => 'visible_to_self_no']);
-        $form->addGroup($group, '', get_lang('Visible to self'), null, false);
+        $form->addGroup($group, null, get_lang('Visible to self'), null, false);
 
         $group = [];
         $group[] = $form->createElement('radio', 'visible_to_others', null, get_lang('Yes'), 1, ['id' => 'visible_to_others_yes']);
         $group[] = $form->createElement('radio', 'visible_to_others', null, get_lang('No'), 0, ['id' => 'visible_to_others_no']);
-        $form->addGroup($group, '', get_lang('Visible to others'), null, false);
+        $form->addGroup($group, null, get_lang('Visible to others'), null, false);
 
         $group = [];
         $group[] = $form->createElement('radio', 'changeable', null, get_lang('Yes'), 1, ['id' => 'changeable_yes']);
         $group[] = $form->createElement('radio', 'changeable', null, get_lang('No'), 0, ['id' => 'changeable_no']);
-        $form->addGroup($group, '', get_lang('Can change'), null, false);
+        $form->addGroup($group, null, get_lang('Can change'), null, false);
 
         $group = [];
         $group[] = $form->createElement('radio', 'filter', null, get_lang('Yes'), 1, ['id' => 'filter_yes']);
         $group[] = $form->createElement('radio', 'filter', null, get_lang('No'), 0, ['id' => 'filter_no']);
-        $form->addGroup($group, '', get_lang('Filter'), null, false);
+        $form->addGroup($group, null, get_lang('Filter'), null, false);
 
         /* Enable this when field_loggeable is introduced as a table field (2.0)
         $group   = array();

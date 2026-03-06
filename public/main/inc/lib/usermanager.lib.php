@@ -4,6 +4,7 @@
 use Chamilo\CoreBundle\Entity\ExtraField as EntityExtraField;
 use Chamilo\CoreBundle\Entity\ExtraFieldValues as EntityExtraFieldValues;
 use Chamilo\CoreBundle\Entity\GradebookCategory;
+use Chamilo\CoreBundle\Entity\GradebookCertificate;
 use Chamilo\CoreBundle\Entity\Session as SessionEntity;
 use Chamilo\CoreBundle\Entity\SessionRelCourse;
 use Chamilo\CoreBundle\Entity\User;
@@ -29,7 +30,7 @@ use Symfony\Contracts\Translation\TranslatorInterface;
  */
 class UserManager
 {
-    // This constants are deprecated use the constants located in ExtraField
+    // These constants are deprecated use the constants located in ExtraField
     public const USER_FIELD_TYPE_TEXT = 1;
     public const USER_FIELD_TYPE_TEXTAREA = 2;
     public const USER_FIELD_TYPE_RADIO = 3;
@@ -76,39 +77,43 @@ class UserManager
     /**
      * Creates a new user for the platform.
      *
-     * @param string        $firstName
-     * @param string        $lastName
-     * @param int           $status                  (1 for course tutor, 5 for student, 6 for anonymous)
-     * @param string        $email
-     * @param string        $loginName
-     * @param string        $password
-     * @param string        $officialCode           Any official code (optional)
-     * @param string        $language                User language    (optional)
-     * @param string        $phone                   Phone number    (optional)
-     * @param string        $pictureUri             Picture URI        (optional)
-     * @param string        $authSources              Authentication source (defaults to 'platform', dependind on constant)
-     * @param string $expirationDate          Account expiration date (optional, defaults to null)
-     * @param int           $active                  Whether the account is enabled or disabled by default
-     * @param int           $hrDeptId              The department of HR in which the user is registered (defaults to 0)
-     * @param array         $extra                   Extra fields (labels must be prefixed by "extra_")
-     * @param string        $encryptMethod          Used if password is given encrypted. Set to an empty string by default
-     * @param bool          $sendMail
-     * @param bool          $isAdmin
-     * @param string        $address
-     * @param bool          $sendEmailToAllAdmins
-     * @param FormValidator $form
-     * @param int           $creatorId
-     * @param array         $emailTemplate
-     * @param string        $redirectToURLAfterLogin
+     * @param string $firstName
+     * @param string $lastName
+     * @param int    $status (1 for course tutor, 5 for student, 6 for anonymous)
+     * @param string $email
+     * @param string $loginName
+     * @param string $password
+     * @param string $officialCode Any official code (optional)
+     * @param string $language User language    (optional)
+     * @param string $phone Phone number    (optional)
+     * @param string $pictureUri Picture URI        (optional)
+     * @param ?array $authSources Authentication source (defaults to 'platform', dependind on constant)
+     * @param string $expirationDate Account expiration date (optional, defaults to null)
+     * @param int    $active Whether the account is enabled or disabled by default
+     * @param int    $hrDeptId The department of HR in which the user is registered (defaults to 0)
+     * @param array  $extra Extra fields (labels must be prefixed by "extra_")
+     * @param string $encryptMethod Used if password is given encrypted. Set to an empty string by default
+     * @param bool   $sendMail
+     * @param bool   $isAdmin
+     * @param string $address
+     * @param bool   $sendEmailToAllAdmins
+     * @param null   $form
+     * @param int    $creatorId
+     * @param array  $emailTemplate
+     * @param string $redirectToURLAfterLogin
      *
      * @return mixed new user id - if the new user creation succeeds, false otherwise
+     * @throws \Doctrine\DBAL\Exception
+     * @throws \Doctrine\ORM\Exception\ORMException
+     * @throws \Twig\Error\LoaderError
+     * @throws \Twig\Error\RuntimeError
+     * @throws \Twig\Error\SyntaxError
      * @desc The function tries to retrieve user id from the session.
      * If it exists, the current user id is the creator id. If a problem arises,
      * @assert ('Sam','Gamegie',5,'sam@example.com','jo','jo') > 1
      * @assert ('Pippin','Took',null,null,'jo','jo') === false
-     *@author Hugues Peeters <peeters@ipm.ucl.ac.be>,
+     * @author Hugues Peeters <peeters@ipm.ucl.ac.be>,
      * @author Roan Embrechts <roan_embrechts@yahoo.com>
-     *
      */
     public static function create_user(
         $firstName,
@@ -5664,16 +5669,32 @@ SQL;
         if (!empty($sessionToRedirect)) {
             $url .= '&s='.$sessionToRedirect;
         }
-        $mailSubject = get_lang('Registration confirmation');
-        $mailBody = get_lang('To complete your platform registration you need to confirm your account by clicking the following link')
-            .PHP_EOL
-            .Display::url($url, $url);
+        $siteName = api_get_setting('platform.site_name');
+        $mailSubject = sprintf(get_lang('[%s] Confirm your e-mail'), $siteName);
+        $firstName = $user->getFirstname();
+        $greeting = sprintf(get_lang('Dear %s,'), $firstName);
+        $intro = sprintf(
+            get_lang('To verify your e-mail and enable your account on %s, please click the link below.'),
+            $siteName
+        );
+        $outro = get_lang('If you did not register this account, you can ignore this e-mail. No action will be taken.');
+
+        $tpl = Container::getTwig();
+        $mailBodyHtml = $tpl->render(
+            '@ChamiloCore/Mailer/Legacy/user_email_confirmation.html.twig',
+            [
+                'greeting' => $greeting,
+                'intro' => $intro,
+                'outro' => $outro,
+                'url' => $url,
+            ]
+        );
 
         api_mail_html(
             self::formatUserFullName($user),
             $user->getEmail(),
             $mailSubject,
-            $mailBody
+            $mailBodyHtml
         );
         Display::addFlash(Display::return_message(get_lang('Check your e-mail and follow the instructions.')));
     }
@@ -6362,7 +6383,7 @@ SQL;
                 if (!empty($gradebook)) {
                     $finished = 0;
                     Database::getManager()->persist($gradebook);
-                    $certificateRepo = $entityManager->getRepository(\Chamilo\CoreBundle\Entity\GradebookCertificate::class);
+                    $certificateRepo = $entityManager->getRepository(GradebookCertificate::class);
                     $finished = $certificateRepo->getCertificateByUserId($gradebook->getId(), $row['user_id']);
                     if (!empty($finished)) {
                         $courses[$row['code']]['finished']++;
@@ -6384,46 +6405,84 @@ SQL;
     public static function countUsersWhoFinishedCoursesInSessions()
     {
         $coursesInSessions = [];
-        $currentAccessUrlId = api_get_current_access_url_id();
-        $sql = "SELECT course.code, srcru.session_id, srcru.user_id, session.title
-                FROM session_rel_course_rel_user srcru
-                    JOIN course ON srcru.c_id = course.id
-                    JOIN access_url_rel_session aurs on srcru.session_id = aurs.session_id
-                    JOIN session ON srcru.session_id = session.id
-                WHERE aurs.access_url_id = $currentAccessUrlId
-                ORDER BY course.code, session.title
-        ";
+        $currentAccessUrlId = (int) api_get_current_access_url_id();
+
+        $sql = "SELECT
+                course.id AS cid,
+                course.code,
+                srcru.session_id,
+                srcru.user_id,
+                session.title
+            FROM session_rel_course_rel_user srcru
+                INNER JOIN course ON srcru.c_id = course.id
+                INNER JOIN access_url_rel_session aurs ON srcru.session_id = aurs.session_id
+                INNER JOIN session ON srcru.session_id = session.id
+            WHERE aurs.access_url_id = $currentAccessUrlId
+            ORDER BY course.code, session.title";
+
         $res = Database::query($sql);
-        if (Database::num_rows($res) > 0) {
-            while ($row = Database::fetch_array($res)) {
-                $index = $row['code'].' ('.$row['title'].')';
-                if (!isset($coursesInSessions[$index])) {
-                    $coursesInSessions[$index] = [
-                        'subscribed' => 0,
-                        'finished' => 0,
-                    ];
+        if (false === $res || 0 === Database::num_rows($res)) {
+            return $coursesInSessions;
+        }
+
+        $entityManager = Database::getManager();
+        $gradebookRepo = $entityManager->getRepository(GradebookCategory::class);
+        $gbMeta = $entityManager->getClassMetadata(GradebookCategory::class);
+        $certificateRepo = $entityManager->getRepository(GradebookCertificate::class);
+        $gradebookCache = [];
+
+        while ($row = Database::fetch_array($res)) {
+            $courseId = (int) ($row['cid'] ?? 0);
+            $sessionId = (int) ($row['session_id'] ?? 0);
+            $userId = (int) ($row['user_id'] ?? 0);
+
+            if ($courseId <= 0 || $sessionId <= 0 || $userId <= 0) {
+                continue;
+            }
+
+            $index = $row['code'].' ('.$row['title'].')';
+
+            if (!isset($coursesInSessions[$index])) {
+                $coursesInSessions[$index] = [
+                    'subscribed' => 0,
+                    'finished' => 0,
+                ];
+            }
+
+            $coursesInSessions[$index]['subscribed']++;
+            $cacheKey = $courseId.':'.$sessionId;
+            if (!array_key_exists($cacheKey, $gradebookCache)) {
+                $criteria = [
+                    'course' => $courseId,
+                ];
+
+                if ($gbMeta->hasAssociation('session')) {
+                    $criteria['session'] = $entityManager->getReference(
+                        SessionEntity::class,
+                        $sessionId
+                    );
+                } elseif ($gbMeta->hasField('session')) {
+                    $criteria['session'] = $sessionId;
+                } elseif ($gbMeta->hasField('session_id')) {
+                    $criteria['session_id'] = $sessionId;
+                } elseif ($gbMeta->hasField('sid')) {
+                    $criteria['sid'] = $sessionId;
                 }
-                $coursesInSessions[$index]['subscribed']++;
-                $entityManager = Database::getManager();
-                $repository = $entityManager->getRepository(GradebookCategory::class);
-                /** @var GradebookCategory $gradebook */
-                $gradebook = $repository->findOneBy(
-                    [
-                        'course' => $row['cid'],
-                        'sessionId' => $row['session_id'],
-                    ]
-                );
-                if (!empty($gradebook)) {
-                    $finished = 0;
-                    Database::getManager()->persist($gradebook);
-                    $certificateRepo = $entityManager->getRepository(\Chamilo\CoreBundle\Entity\GradebookCertificate::class);
-                    $finished = $certificateRepo->getCertificateByUserId($gradebook->getId(), $row['user_id']);
-                    if (!empty($finished)) {
-                        $coursesInSessions[$index]['finished']++;
-                    }
-                }
+
+                $gradebookCache[$cacheKey] = $gradebookRepo->findOneBy($criteria) ?: null;
+            }
+
+            $gradebook = $gradebookCache[$cacheKey];
+            if (null === $gradebook) {
+                continue;
+            }
+
+            $certificate = $certificateRepo->getCertificateByUserId($gradebook->getId(), $userId);
+            if (!empty($certificate)) {
+                $coursesInSessions[$index]['finished']++;
             }
         }
+
         return $coursesInSessions;
     }
 

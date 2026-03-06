@@ -68,37 +68,37 @@ msgid "Student's superior"
 msgstr "הממונה על הסטודנט"
 
 msgid "Cosecant:\t\t\t\tcsc(x)"
-msgstr "Cosecant:\t\t\t\tcsc(x)"
+msgstr "קוסקנט:\t\t\t\tcsc(x)"
 
 msgid "Hyperbolic cosecant:\t\tcsch(x)"
 msgstr "קוסקנט היפרבולי:\t\tcsch(x)"
 
 msgid "Arccosecant:\t\t\tarccsc(x)"
-msgstr "Arccosecant:\t\t\tarccsc(x)"
+msgstr "ארקקוסקנט:\t\t\tarccsc(x)"
 
 msgid "Hyperbolic arccosecant:\t\tarccsch(x)"
 msgstr "ארקקוסקנט היפרבולי:\t\tarccsch(x)"
 
 msgid "Secant:\t\t\t\tsec(x)"
-msgstr "Secant:\t\t\t\tsec(x)"
+msgstr "סקנט:\t\t\t\tsec(x)"
 
 msgid "Hyperbolic secant:\t\tsech(x)"
 msgstr "סקנט היפרבולי:\t\tsech(x)"
 
 msgid "Arcsecant:\t\t\tarcsec(x)"
-msgstr "Arcsecant:\t\t\tarcsec(x)"
+msgstr "ארקסקנט:\t\t\tarcsec(x)"
 
 msgid "Hyperbolic arcsecant:\t\tarcsech(x)"
 msgstr "ארקסקנט היפרבולי:\t\tarcsech(x)"
 
 msgid "Cotangent:\t\t\tcot(x)"
-msgstr "Cotangent:\t\t\tcot(x)"
+msgstr "קוטנגנס:\t\t\tcot(x)"
 
 msgid "Hyperbolic cotangent:\t\tcoth(x)"
 msgstr "קוטנגנס היפרבולי:\t\tcoth(x)"
 
 msgid "Arccotangent:\t\t\tarccot(x)"
-msgstr "Arccotangent:\t\t\tarccot(x)"
+msgstr "ארקקוטנגנס:\t\t\tarccot(x)"
 
 msgid "Hyperbolic arccotangent:\t\tarccoth(x)"
 msgstr "ארקקוטנגנס היפרבולי:\t\tarccoth(x)"
@@ -236,13 +236,13 @@ msgid "Session duration"
 msgstr "משך הפגישה"
 
 msgid "Arctangent:\t\t\tarctan(x)"
-msgstr "Arctangent:\t\t\tarctan(x)"
+msgstr "ארקטנגנס:\t\t\tarctan(x)"
 
 msgid "Hyperbolic tangent:\t\ttanh(x)"
 msgstr "טנגנס היפרבולי:\t\ttanh(x)"
 
 msgid "Tangent:\t\t\ttan(x)"
-msgstr "Tangent:\t\t\ttan(x)"
+msgstr "טנגנס:\t\t\ttan(x)"
 
 msgid "Coach and student"
 msgstr "מדריך ותלמיד"
@@ -254,13 +254,13 @@ msgid "Hyperbolic arccosine:\t\tarccosh(x)"
 msgstr "ארקקוסינוס היפרבולי:\t\tarccosh(x)"
 
 msgid "Arccosine:\t\t\tarccos(x)"
-msgstr "Arccosine:\t\t\tarccos(x)"
+msgstr "ארקקוסינוס:\t\t\tarccos(x)"
 
 msgid "Hyperbolic cosine:\t\tcosh(x)"
 msgstr "קוסינוס היפרבולי:\t\tcosh(x)"
 
 msgid "Cosine:\t\t\t\tcos(x)"
-msgstr "Cosine:\t\t\t\tcos(x)"
+msgstr "קוסינוס:\t\t\t\tcos(x)"
 
 msgid "Teachers time report"
 msgstr "דוח זמן של המורים"
@@ -272,13 +272,13 @@ msgid "Cannot find your language in the list? Contact us at info@chamilo.org to 
 msgstr "לא מוצא את השפה שלך ברשימה? צור איתנו קשר בכתובת info@chamilo.org כדי לתרום כמתרגם."
 
 msgid "Arcsine:\t\t\tarcsin(x)"
-msgstr "Arcsine:\t\t\tarcsin(x)"
+msgstr "ארקסינוס:\t\t\tarcsin(x)"
 
 msgid "Hyperbolic sine:\t\tsinh(x)"
 msgstr "סינוס היפרבולי:\t\tsinh(x)"
 
 msgid "Sine:\t\t\t\tsin(x)"
-msgstr "Sine:\t\t\t\tsin(x)"
+msgstr "סינוס:\t\t\t\tsin(x)"
 
 msgid "Pi number:\t\t\tpi"
 msgstr "מספר פאי:\t\t\tpi"
@@ -287,7 +287,7 @@ msgid "E number:\t\t\te"
 msgstr "מספר אֵי:\t\t\te"
 
 msgid "Logarithm:\t\t\tlog(x)"
-msgstr "Logarithm:\t\t\tlog(x)"
+msgstr "לוגריתם:\t\t\tlog(x)"
 
 msgid "Natural logarithm:\t\tln(x)"
 msgstr "לוגריתם טבעי:\t\tln(x)"
@@ -299,19 +299,19 @@ msgid "Square root:\t\t\tsqrt(x)"
 msgstr "שורש ריבועי:\t\t\tsqrt(x)"
 
 msgid "Exponentiation:\t\t\t^"
-msgstr "Exponentiation:\t\t\t^"
+msgstr "חזקה:\t\t\t^"
 
 msgid "Division:\t\t\t/"
-msgstr "Division:\t\t\t/"
+msgstr "חילוק:\t\t\t/"
 
 msgid "Multiplication:\t\t\t*"
-msgstr "Multiplication:\t\t\t*"
+msgstr "כפל:\t\t\t*"
 
 msgid "Substraction:\t\t\t-"
-msgstr "Substraction:\t\t\t-"
+msgstr "חיסור:\t\t\t-"
 
 msgid "Summation:\t\t\t+"
-msgstr "Summation:\t\t\t+"
+msgstr "חיבור:\t\t\t+"
 
 msgid "Formula notation"
 msgstr "סימון נוסחאות"
@@ -2341,10 +2341,10 @@ msgid "Become moderator"
 msgstr "הפוך למנחה"
 
 msgid "Italic"
-msgstr "Italic"
+msgstr "נטוי"
 
 msgid "Bold"
-msgstr "Bold"
+msgstr "מודגש"
 
 msgid "Waiting"
 msgstr "ממתין"
@@ -2824,7 +2824,7 @@ msgid "This is a sticky message (appears always on top and has a special sticky 
 msgstr "זוהי הודעה דביקה (מופיעה תמיד למעלה ויש לה אייקון דביק מיוחד)"
 
 msgid "Re:"
-msgstr "Re:"
+msgstr "תגובה:"
 
 msgid "Are you sure you want to delete this post? Deleting this post will also delete the replies on this post. Please check the threaded view to see which posts will also be deleted"
 msgstr "האם אתה בטוח שברצונך למחוק את הפוסט הזה? מחיקת פוסט זה תמחק גם את התשובות על פוסט זה. אנא בדוק את תצוגת השרשור כדי לראות אילו פוסטים יימחקו גם הם"
@@ -3040,7 +3040,7 @@ msgid "Thread statistics"
 msgstr "סטטיסטיקת שרשור"
 
 msgid "Thread"
-msgstr "Thread"
+msgstr "שרשור"
 
 msgid "Notify me"
 msgstr "הודע לי"
@@ -3223,7 +3223,7 @@ msgid "Allow self-registration as a trainer"
 msgstr "אפשר רישום עצמי כמאמן"
 
 msgid "ex."
-msgstr "ex."
+msgstr "למשל"
 
 msgid "Database Host"
 msgstr "מארח מסד נתונים"
@@ -3673,7 +3673,7 @@ msgid "Mark as read"
 msgstr "סמן כנקרא"
 
 msgid "RE:"
-msgstr "RE:"
+msgstr "תגובה:"
 
 msgid "Advanced edit"
 msgstr "עריכה מתקדמת"
@@ -7183,7 +7183,7 @@ msgid "Error during the conversion of PowerPoint. Please check if there are spec
 msgstr "שגיאה במהלך ההמרה של PowerPoint. אנא בדוק אם יש תווים מיוחדים בשם ה-PowerPoint שלך."
 
 msgid "Build"
-msgstr "Build"
+msgstr "בנייה"
 
 msgid "Current view mode: embedded"
 msgstr "מצב תצוגה נוכחי: מוטבע"
@@ -7666,16 +7666,16 @@ msgid "use square brackets [...] to define one or more blanks"
 msgstr "השתמש בסוגריים מרובעים [...] כדי להגדיר ריק אחד או יותר"
 
 msgid "+answ"
-msgstr "+answ"
+msgstr "+תשובה"
 
 msgid "-answ"
-msgstr "-answ"
+msgstr "-תשובה"
 
 msgid "+elem"
-msgstr "+elem"
+msgstr "+פריט"
 
 msgid "-elem"
-msgstr "-elem"
+msgstr "-פריט"
 
 msgid "Please type your text below"
 msgstr "אנא הקלד את הטקסט שלך למטה"
@@ -8053,7 +8053,7 @@ msgid "Add individual feedback"
 msgstr "הוסף משוב אישי"
 
 msgid "N°"
-msgstr "N°"
+msgstr "מס'"
 
 msgid "To create a new question, choose the type above"
 msgstr "כדי ליצור שאלה חדשה, בחר את הסוג שלמעלה"
@@ -8941,19 +8941,19 @@ msgid "User"
 msgstr "משתמש"
 
 msgid "M"
-msgstr "M"
+msgstr "מ"
 
 msgid "T"
-msgstr "T"
+msgstr "ב"
 
 msgid "W"
-msgstr "W"
+msgstr "ג"
 
 msgid "F"
-msgstr "F"
+msgstr "ה"
 
 msgid "S"
-msgstr "S"
+msgstr "ו"
 
 msgid "Mon"
 msgstr "שני"
@@ -8998,19 +8998,19 @@ msgid "Sunday"
 msgstr "ראשון"
 
 msgid "J"
-msgstr "J"
+msgstr "ח"
 
 msgid "A"
-msgstr "A"
+msgstr "א"
 
 msgid "O"
-msgstr "O"
+msgstr "א"
 
 msgid "N"
-msgstr "N"
+msgstr "נ"
 
 msgid "D"
-msgstr "D"
+msgstr "ד"
 
 msgid "Jan"
 msgstr "ינואר"
@@ -9094,7 +9094,7 @@ msgid "What I can teach"
 msgstr "מה אני יכול ללמד"
 
 msgid "h"
-msgstr "h"
+msgstr "ש"
 
 msgid "Please Try Again!"
 msgstr "אנא נסו שוב!"
@@ -9133,7 +9133,7 @@ msgid "Average"
 msgstr "ממוצע"
 
 msgid "Dropbox"
-msgstr "Dropbox"
+msgstr "תיבת נפילה"
 
 msgid "Chat"
 msgstr "צ'אט"
@@ -9769,7 +9769,7 @@ msgid "Width"
 msgstr "רוחב"
 
 msgid "V Space"
-msgstr "V Space"
+msgstr "מרחב וידאו"
 
 msgid "H Space"
 msgstr "רווח H"
@@ -11761,7 +11761,7 @@ msgid "Hits"
 msgstr "להיטים"
 
 msgid "h."
-msgstr "h."
+msgstr "ש"
 
 msgid "In the last 31 days"
 msgstr "ב-31 הימים האחרונים"
@@ -11782,7 +11782,7 @@ msgid "Score for the tests done"
 msgstr "ציון עבור הבדיקות שנעשו"
 
 msgid "at"
-msgstr "at"
+msgstr "ב"
 
 msgid "Visits"
 msgstr "ביקורים"
@@ -11893,7 +11893,7 @@ msgid "Providers"
 msgstr "ספקים"
 
 msgid "OS"
-msgstr "OS"
+msgstr "מערכת הפעלה"
 
 msgid "Browsers"
 msgstr "דפדפנים"
@@ -12793,7 +12793,7 @@ msgid "Latest sent on"
 msgstr "האחרונה נשלחה ב"
 
 msgid "kB"
-msgstr "kB"
+msgstr "ק\"ב"
 
 msgid "Your account %s has been completely removed from this portal. Thank you for staying with us for a while. We hope to see you again later."
 msgstr "החשבון שלך %s הוסר לחלוטין מהפורטל הזה. תודה שנשארת איתנו לזמן מה. אנו מקווים לראותך שוב מאוחר יותר."
@@ -14830,7 +14830,7 @@ msgid "Waiting for admin response"
 msgstr "מחכה לתגובת מנהל"
 
 msgid "Re"
-msgstr "Re"
+msgstr "נושא חוזר"
 
 msgid "Files attachments"
 msgstr "קבצים מצורפים"
@@ -15007,7 +15007,7 @@ msgid "Updated on"
 msgstr "עודכן ב-"
 
 msgid "Metadata"
-msgstr "Metadata"
+msgstr "מטא נתונים"
 
 msgid "View/Edit Metadata"
 msgstr "הצג/ערוך מטא נתונים"
@@ -16228,10 +16228,10 @@ msgid "Session tutors reports visibility"
 msgstr "מורים למפגש מדווחים על נראות"
 
 msgid "NP"
-msgstr "NP"
+msgstr "נקודות"
 
 msgid "P"
-msgstr "P"
+msgstr "נקודה"
 
 msgid "Session calendar"
 msgstr "יומן הפעלה"
@@ -16909,7 +16909,7 @@ msgid "Chat conversations history"
 msgstr "היסטוריית שיחות צ'אט"
 
 msgid "Flash"
-msgstr "Flash"
+msgstr "פלאש"
 
 msgid "Video"
 msgstr "וידאו"
@@ -17254,7 +17254,7 @@ msgid "Watermark header in PDF exports"
 msgstr "כותרת סימן מים בייצוא PDF"
 
 msgid "False"
-msgstr "False"
+msgstr "שגוי"
 
 msgid "Enrolment by classes"
 msgstr "הרשמה לפי שיעורים"
@@ -17704,7 +17704,7 @@ msgid "Tests in learning paths"
 msgstr "תרגילים במסלולי למידה"
 
 msgid "Id"
-msgstr "Id"
+msgstr "מזהה"
 
 msgid "There was an error."
 msgstr "היתה שגיאה."
@@ -18019,7 +18019,7 @@ msgid "You are registered to session: %s."
 msgstr "אתה רשום להפעלה: %s."
 
 msgid "Prev"
-msgstr "Prev"
+msgstr "הקודם"
 
 msgid "Configuration"
 msgstr "תצורה"
@@ -18920,7 +18920,7 @@ msgid "You cannot upload this assignment. Please delete the previous one first."
 msgstr "אינך יכול להעלות מטלה זו. נא למחוק את הקודמת תחילה."
 
 msgid "MB"
-msgstr "MB"
+msgstr "מ\"ב"
 
 msgid "Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users"
 msgstr "מציג סרגל כלים גלובלי בראש הדף לתפקידי המשתמש המיועדים. סרגל הכלים הזה, דומה מאוד לסרגלי הכלים השחורים של Wordpress וגוגל, יכול באמת להאיץ פעולות מסובכות ולשפר את השטח שיש לך לתוכן הלמידה, אבל זה עלול להיות מבלבל עבור משתמשים מסוימים"
@@ -20702,7 +20702,7 @@ msgid "View students"
 msgstr "הצג תלמידים"
 
 msgid "Into"
-msgstr "Into"
+msgstr "אל"
 
 msgid "Sequence"
 msgstr "רצף"
@@ -20858,7 +20858,7 @@ msgid "Base courses"
 msgstr "קורסי בסיס"
 
 msgid "Square"
-msgstr "Square"
+msgstr "ריבוע"
 
 msgid "Polygon"
 msgstr "מצולע"
@@ -21656,7 +21656,7 @@ msgid "Group forums"
 msgstr "פורומים קבוצתיים"
 
 msgid "Generate"
-msgstr "Generate"
+msgstr "צור"
 
 msgid "Ticket"
 msgstr "כרטיס"
@@ -22064,7 +22064,7 @@ msgid "Send certificate notification to all users"
 msgstr "שלח הודעת אישור לכל המשתמשים"
 
 msgid "Fwd"
-msgstr "Fwd"
+msgstr "הבא"
 
 msgid "Forwarded message"
 msgstr "הודעה שהועברה"
@@ -22150,14 +22150,8 @@ msgstr "דוח תרגילים לפי קטגוריה עבור כל המפגשים
 msgid "Require e-mail confirmation"
 msgstr "דרוש אישור דואר אלקטרוני"
 
-msgid "Registration confirmation"
-msgstr "אישור רישום"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "חשבון שלך לא פעיל מכיוון שעדיין לא אישרת אותו. בדוק את הדוא\"ל שלך ופעל לפי ההוראות או לחץ על הקישור הבא כדי לשלוח שוב את הדוא\"ל"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "כדי להשלים את רישום הפלטפורמה שלך עליך לאשר את חשבונך על ידי לחיצה על הקישור הבא"
 
 msgid "Confirmation for new account"
 msgstr "אישור לחשבון חדש"
@@ -23645,7 +23639,7 @@ msgid "Justification type"
 msgstr "סוג הצדקה"
 
 msgid "Persistent"
-msgstr "Persistent"
+msgstr "קבוע"
 
 msgid "Logout from your %s account"
 msgstr "צא מחשבון %s שלך"
@@ -27383,7 +27377,7 @@ msgid "Obtained the following skills"
 msgstr "רכש את הכישורים הבאים"
 
 msgid "Chamilo LMS"
-msgstr "Chamilo LMS"
+msgstr "צ'מילו LMS"
 
 msgid "No course sessions for this user"
 msgstr "אין הפעלות קורס למשתמש זה"
@@ -31448,8 +31442,8 @@ msgstr "רק אותיות, ספרות וקו תחתון (_) מותרות בשם 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "אילו תנאים כלליים וכללי משתמש ניתנים למשתמשים לשימוש בפלטפורמה זו?"
 
-msgid "ex. {examplePassword}"
-msgstr "למשל. {examplePassword}"
+msgid "ex. %s"
+msgstr "למשל. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "ברוכים הבאים ל-Chamilo!"
@@ -32581,4 +32575,184 @@ msgstr "פרומפט משונה"
 
 msgid "Saved in Documents"
 msgstr "נשמר במסמכים"
+
+msgid "Total space used by %s is %sGB"
+msgstr "שטח כולל בשימוש על ידי %s הוא %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "שטח כולל בשימוש על ידי הפורטל %s הוא %sGB (מגבלה מוגדרת ל-%sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] אשר את הדוא\"ל שלך"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "כדי לאמת את הדוא\"ל שלך ולהפעיל את החשבון שלך ב-%s, אנא לחץ על הקישור למטה."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "אם לא נרשמת לחשבון זה, תוכל להתעלם מדוא\"ל זה. לא תבוצע פעולה כלשהי."
+
+msgid "Current authentication method"
+msgstr "שיטת אימות נוכחית"
+
+msgid "Branches"
+msgstr "סניפים"
+
+msgid "Rooms"
+msgstr "חדרים"
+
+msgid "Room availability finder"
+msgstr "מחפש זמינות חדרים"
+
+msgid "New branch"
+msgstr "סניף חדש"
+
+msgid "New room"
+msgstr "חדר חדש"
+
+msgid "Branch"
+msgstr "סניף"
+
+msgid "Default room"
+msgstr "חדר ברירת מחדל"
+
+msgid "Room occupation: %s"
+msgstr "כיבוש חדר: %s"
+
+msgid "Find available rooms"
+msgstr "מצא חדרים פנויים"
+
+msgid "Available rooms"
+msgstr "חדרים פנויים"
+
+msgid "Occupied rooms"
+msgstr "חדרים תפוסים"
+
+msgid "No available rooms found for this time range"
+msgstr "לא נמצאו חדרים פנויים לטווח הזמן הזה"
+
+msgid "No rooms have been created yet"
+msgstr "לא נוצרו חדרים עדיין"
+
+msgid "Courses linked to %s"
+msgstr "קורסים המקושרים ל־%s"
+
+msgid "No branches have been created yet"
+msgstr "לא נוצרו סניפים עדיין"
+
+msgid "Occupation"
+msgstr "כיבוש"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "לא ניתן למחוק סניף עם חדרים מחוברים"
+
+msgid "Cannot delete room with courses attached"
+msgstr "לא ניתן למחוק חדר עם קורסים מחוברים"
+
+msgid "Conflicts"
+msgstr "סתירות"
+
+msgid "Geolocation"
+msgstr "מיקום גיאוגרפי"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "קו רוחב, קו אורך (למשל 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 או IPv6"
+
+msgid "IP mask"
+msgstr "מסכת IP"
+
+msgid "e.g. /24"
+msgstr "למשל /24"
+
+msgid "Parent branch"
+msgstr "סניף אב"
+
+msgid "Unique identifier"
+msgstr "זיהוי ייחודי"
+
+msgid "Latitude"
+msgstr "קו רוחב"
+
+msgid "e.g. 48.8566"
+msgstr "למשל 48.8566"
+
+msgid "Longitude"
+msgstr "קו אורך"
+
+msgid "e.g. 2.3522"
+msgstr "למשל 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "מהירות הורדה (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "מהירות העלאה (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "עיכוב (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "שם מנהל המערכת"
+
+msgid "Administrator phone number"
+msgstr "מספר טלפון של מנהל המערכת"
+
+msgid "ID of last synch transaction"
+msgstr "מזהה עסקת הסנכרון האחרונה"
+
+msgid "Time of last synchronization"
+msgstr "זמן הסנכרון האחרון"
+
+msgid "Last synchronization type"
+msgstr "סוג הסנכרון האחרון"
+
+msgid "SSL public key"
+msgstr "מפתח SSL ציבורי"
+
+msgid "Branch type"
+msgstr "סוג סניף"
+
+msgid "Room"
+msgstr "חדר"
+
+msgid "Simple IDS"
+msgstr "IDS פשוט"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS מושבת כרגע. הגדר IDS_ENABLED=true בקובץ .env כדי להפעיל סריקה."
+
+msgid "All event types"
+msgstr "כל סוגי האירועים"
+
+msgid "Events by day (last 7 days)"
+msgstr "אירועים לפי יום (7 ימים אחרונים)"
+
+msgid "Events by type (last 30 days)"
+msgstr "אירועים לפי סוג (30 ימים אחרונים)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "כתובות IP תוקפות מובילות (30 ימים אחרונים)"
+
+msgid "Flagged IDS events"
+msgstr "אירועי IDS מסומנים"
+
+msgid "No suspicious events detected."
+msgstr "לא זוהו אירועים חשודים."
+
+msgid "Detection type"
+msgstr "סוג זיהוי"
+
+msgid "Parameter"
+msgstr "פרמטר"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (נוכחי)"
 

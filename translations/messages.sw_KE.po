@@ -64,37 +64,37 @@ msgid "Student's superior"
 msgstr "Msimamizi wa juu wa mwanafunzi"
 
 msgid "Cosecant:\t\t\t\tcsc(x)"
-msgstr "Cosecant:\t\t\t\tcsc(x)"
+msgstr "Kosikanti:\t\t\t\tcsc(x)"
 
 msgid "Hyperbolic cosecant:\t\tcsch(x)"
 msgstr "Cosecant hyperbolic:\t\tcsch(x)"
 
 msgid "Arccosecant:\t\t\tarccsc(x)"
-msgstr "Arccosecant:\t\t\tarccsc(x)"
+msgstr "Arkokosikanti:\t\t\tarccsc(x)"
 
 msgid "Hyperbolic arccosecant:\t\tarccsch(x)"
 msgstr "Arc cosecant hyperbolic:\t\tarccsch(x)"
 
 msgid "Secant:\t\t\t\tsec(x)"
-msgstr "Secant:\t\t\t\tsec(x)"
+msgstr "Sekanti:\t\t\t\tsec(x)"
 
 msgid "Hyperbolic secant:\t\tsech(x)"
 msgstr "Secant hyperbolic:\t\tsech(x)"
 
 msgid "Arcsecant:\t\t\tarcsec(x)"
-msgstr "Arcsecant:\t\t\tarcsec(x)"
+msgstr "Arkosekanti:\t\t\tarcsec(x)"
 
 msgid "Hyperbolic arcsecant:\t\tarcsech(x)"
 msgstr "Arc secant hyperbolic:\t\tarcsech(x)"
 
 msgid "Cotangent:\t\t\tcot(x)"
-msgstr "Cotangent:\t\t\tcot(x)"
+msgstr "Kotanjenti:\t\t\tcot(x)"
 
 msgid "Hyperbolic cotangent:\t\tcoth(x)"
 msgstr "Cotangent hyperbolic:\t\tcoth(x)"
 
 msgid "Arccotangent:\t\t\tarccot(x)"
-msgstr "Arccotangent:\t\t\tarccot(x)"
+msgstr "Arkokotanjenti:\t\t\tarccot(x)"
 
 msgid "Hyperbolic arccotangent:\t\tarccoth(x)"
 msgstr "Arc cotangent hyperbolic:\t\tarccoth(x)"
@@ -232,13 +232,13 @@ msgid "Session duration"
 msgstr "Muda wa sesheni"
 
 msgid "Arctangent:\t\t\tarctan(x)"
-msgstr "Arctangent:\t\t\tarctan(x)"
+msgstr "Arkotanjenti:\t\t\tarctan(x)"
 
 msgid "Hyperbolic tangent:\t\ttanh(x)"
 msgstr "Tangent hyperbolic:\t\ttanh(x)"
 
 msgid "Tangent:\t\t\ttan(x)"
-msgstr "Tangent:\t\t\ttan(x)"
+msgstr "Tanjenti:\t\t\ttan(x)"
 
 msgid "Coach and student"
 msgstr "Mkufunzi na mwanafunzi"
@@ -250,13 +250,13 @@ msgid "Hyperbolic arccosine:\t\tarccosh(x)"
 msgstr "Arc cosine hyperbolic:\t\tarccosh(x)"
 
 msgid "Arccosine:\t\t\tarccos(x)"
-msgstr "Arccosine:\t\t\tarccos(x)"
+msgstr "Arkoko:\t\t\tarccos(x)"
 
 msgid "Hyperbolic cosine:\t\tcosh(x)"
 msgstr "Cosine hyperbolic:\t\tcosh(x)"
 
 msgid "Cosine:\t\t\t\tcos(x)"
-msgstr "Cosine:\t\t\t\tcos(x)"
+msgstr "Ko:\t\t\t\tcos(x)"
 
 msgid "Teachers time report"
 msgstr "Ripoti ya muda wa walimu"
@@ -268,13 +268,13 @@ msgid "Cannot find your language in the list? Contact us at info@chamilo.org to 
 msgstr "Haukuona lugha yako katika orodha? Wasiliana nasi kwa info@chamilo.org ili kuchangia kama mtafsiri."
 
 msgid "Arcsine:\t\t\tarcsin(x)"
-msgstr "Arcsine:\t\t\tarcsin(x)"
+msgstr "Arkosini:\t\t\tarcsin(x)"
 
 msgid "Hyperbolic sine:\t\tsinh(x)"
 msgstr "Sine hyperbolic:\t\tsinh(x)"
 
 msgid "Sine:\t\t\t\tsin(x)"
-msgstr "Sine:\t\t\t\tsin(x)"
+msgstr "Sini:\t\t\t\tsin(x)"
 
 msgid "Pi number:\t\t\tpi"
 msgstr "Nambari ya Pi:\t\t\tpi"
@@ -8989,13 +8989,13 @@ msgid "J"
 msgstr "J"
 
 msgid "A"
-msgstr "A"
+msgstr "F"
 
 msgid "O"
-msgstr "O"
+msgstr "M"
 
 msgid "N"
-msgstr "N"
+msgstr "A"
 
 msgid "D"
 msgstr "D"
@@ -10711,7 +10711,7 @@ msgid "Opinion"
 msgstr "Maoni"
 
 msgid "Intranet"
-msgstr "Intranet"
+msgstr "Intraneti"
 
 msgid "My account"
 msgstr "Akaunti yangu"
@@ -11887,7 +11887,7 @@ msgid "Browsers"
 msgstr "Vivinjari"
 
 msgid "Referers"
-msgstr "Referers"
+msgstr "Rejea"
 
 msgid "(When an user open the index of the portal)"
 msgstr "(Wakati mtumiaji anafungua fahirisi ya lango)"
@@ -14434,7 +14434,7 @@ msgid "Cool blue"
 msgstr "Cool blue"
 
 msgid "Corporate"
-msgstr "Corporate"
+msgstr "Shirika"
 
 msgid "Cosmic campus"
 msgstr "Cosmic campus"
@@ -14449,7 +14449,7 @@ msgid "Fruity orange"
 msgstr "Fruity orange"
 
 msgid "Medical"
-msgstr "Medical"
+msgstr "Tiba"
 
 msgid "Royal purple"
 msgstr "Royal purple"
@@ -14473,10 +14473,10 @@ msgid "Questions' overall report"
 msgstr "Ripoti ya jumla ya maswali"
 
 msgid "bosnian"
-msgstr "bosnian"
+msgstr "bosnia"
 
 msgid "czech"
-msgstr "czech"
+msgstr "kicheki"
 
 msgid "dari"
 msgstr "dari"
@@ -14491,22 +14491,22 @@ msgid "friulian"
 msgstr "friulian"
 
 msgid "georgian"
-msgstr "georgian"
+msgstr "jorgia"
 
 msgid "hebrew"
 msgstr "hebrew"
 
 msgid "korean"
-msgstr "korean"
+msgstr "korea"
 
 msgid "latvian"
-msgstr "latvian"
+msgstr "latvia"
 
 msgid "lithuanian"
-msgstr "lithuanian"
+msgstr "lithuania"
 
 msgid "macedonian"
-msgstr "macedonian"
+msgstr "makedonia"
 
 msgid "norwegian"
 msgstr "norwegian"
@@ -14515,25 +14515,25 @@ msgid "pashto"
 msgstr "pashto"
 
 msgid "persian"
-msgstr "persian"
+msgstr "kipersia"
 
 msgid "quechua from Cusco"
 msgstr "kiquechua kutoka Cusco"
 
 msgid "romanian"
-msgstr "romanian"
+msgstr "kiromania"
 
 msgid "serbian"
-msgstr "serbian"
+msgstr "kisербia"
 
 msgid "slovak"
-msgstr "slovak"
+msgstr "slovakia"
 
 msgid "swahili"
-msgstr "swahili"
+msgstr "kiswahili"
 
 msgid "traditional chinese"
-msgstr "traditional chinese"
+msgstr "kichina cha kitamaduni"
 
 msgid "Chamilo installation"
 msgstr "Uwekaji wa Chamilo"
@@ -22134,14 +22134,8 @@ msgstr "Ripoti ya mazoezi kwa jamii kwa vipindi vyote"
 msgid "Require e-mail confirmation"
 msgstr "Hitaji uthibitisho wa barua pepe"
 
-msgid "Registration confirmation"
-msgstr "Uthibitisho wa usajili"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Akaunti yako haifanyi kazi kwa sababu bado hauijathibitisha. Angalia barua pepe yako na ufuate maagizo au bonyeza kiungo hapa chini ili kutuma tena barua pepe"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Ili kukamilisha usajili wako wa jukwaa unahitaji kuthibitisha akaunti yako kwa kubofya kiungo hiki kinachofuata"
 
 msgid "Confirmation for new account"
 msgstr "Thibitisho la akaunti mpya"
@@ -31431,8 +31425,8 @@ msgstr "Herufi, nambari na underscore (_) pekee zinazoruhusiwa katika jina la hi
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Sheria na masharti ya jumla ni yapi yanayotolewa kwa watumiaji kutumia jukwaa hili?"
 
-msgid "ex. {examplePassword}"
-msgstr "mf. {examplePassword}"
+msgid "ex. %s"
+msgstr "mf. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Karibu Chamilo!"
@@ -32338,230 +32332,410 @@ msgid "Update profile"
 msgstr "Sasisha wasifu"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "Wezesha jenereta ya njia ya kujifunza"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "Wezesha jenereta ya mazoezi"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "Wezesha grader ya majibu wazi"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "Wezesha chatbot ya mwalimu"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "Wezesha grader ya kazi"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "Wezesha mchambuzi wa maudhui"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "Wezesha jenereta ya picha"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "Wezesha jenereta ya maneno ya kamusi"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "Wezesha jenereta ya video"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "Wezesha mchambuzi wa kozi"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "Uendeshaji '%s' haujaungwa mkono."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "Maoni ya AI kwenye %s katika kozi %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "Kufuta kushindwa: ukosefu wa muktadha wa kozi au kitambulisho kisichofaa cha swali."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "Mwalimu wa AI"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Upanuzi wa APCu unahitaji kusanikishwa na kuwezeshwa ili jukwaa litumie."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "Kuruhusu matumizi ya kumbukumbu ya OPCache kufikia angalau %sMB ya RAM inapendekezwa."
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Moduli ya OPcache inahitaji kusanikishwa na kuwezeshwa ili jukwaa litumie."
 
 msgid "You are here"
-msgstr ""
+msgstr "Uko hapa"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "Bonyeza aina ya tukio ili kuchuja matokeo."
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "Hitaji uwepo wa kipekee"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "Ikiwa imewezeshwa, kitabu cha alama kitampa mwanafunzi asilimia 100 wakati wa uwepo angalau mara moja."
 
 msgid "AI feedback"
-msgstr ""
+msgstr "Maoni ya AI"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Ombi"
 
 msgid "Tip"
-msgstr ""
+msgstr "Kidokezo"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Unaweza kuhariri ombi kabla ya kuomba maoni."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Matokeo (unaweza kuyatumia kwenye maoni)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Tumia kwenye maoni"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Tumia alama"
 
 msgid "AI grade"
-msgstr ""
+msgstr "Daraja la AI"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "Mwalimu wa AI amezimwa wakati wa vipimo"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Tengeneza maneno ya kamusi"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Tengeneza media"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "Huna ruhusa ya kutengeneza media ya AI katika kozi hii."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "Wasaidizi wa AI wamezimwa katika kiwango cha jukwaa."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Utengenezaji wa media ya AI umezimwa katika mipangilio ya kozi."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Hakuna watoa huduma wa media ya AI yanayopatikana."
 
 msgid "Provider"
-msgstr ""
+msgstr "Mtoa huduma"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Chagua mtoa huduma"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Mfano: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "Jina haliongezwi kwenye ombi; linatumika tu kuhifadhi faili."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Elezea unachotaka kutengeneza..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "Kidokezo: bonyeza iliyowekwa awali ili kuweka ukubwa haraka."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Inatengenezwa..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Hifadhi kwenye Hati"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "IRI ya Hati"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Nenda kwenye folda"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Mtoa huduma uliotumika"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Matokeo haya ya video hayawezi kuhifadhiwa bado"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Upigaji kura wa video umesimamishwa kwa sababu mtoa huduma ulibadilika."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Utengenezaji wa video unachukua muda mrefu sana. Tafadhali jaribu tena baadaye."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Imeshindwa kuangalia hali ya video."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Video imetengenezwa kwa mafanikio. Sasa unaweza kuihifadhi."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Utengenezaji wa video umekamilika, lakini hakuna maudhui yanayoweza kuchezwa yaliyorejeshwa."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Utengenezaji wa video umeshindwa."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Nnasubiri video iwe tayari..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Tafadhali jaza seheku zote."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Utengenezaji wa picha haujawezeshwa kwa kozi hii."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Uundaji wa video haujawezeshwa kwa kozi hii."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Uundaji ulishindwa."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "Imeundwa kwa mafanikio. Angalia onyesho la awali na hifadhi wakati uko tayari."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "Imeundwa kwa mafanikio. Kuhifadhi kumezimwa kwa sababu mtoa huduma alirudisha URL."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Uundaji wa video umeanza. Tunasubiri matokeo..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI imerudisha jibu tupu."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Hakuna kilichohifadhiwa bado."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Mtoa huduma huu haukurudisha maudhui ya base64. Tafadhali jaribu mtoa huduma mwingine."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Kuhifadhi kulishindwa."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Pata maoni ya AI"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Nakili jibu kwenye ubao wa kukata"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Hifadhi jibu kwenye sanduku langu la kuingiza"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Hati tayari iko katika folda hii"
 
 msgid "Copied"
-msgstr ""
+msgstr "Imeunganishwa"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "Huna ruhusa ya kuzalisha maneno ya kamusi."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Uundaji wa video unaendelea"
 
 msgid "Job"
-msgstr ""
+msgstr "Kazi"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Ombi lililobadilishwa"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "Imehifadhiwa katika Hati"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Nauli ya jumla inayotumika na %s ni %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Nauli ya jumla inayotumika na lango %s ni %sGB (kiwango kimewekwa %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Thibitisha barua pepe yako"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Iliethibitisha barua pepe yako na kuwezesha akaunti yako kwenye %s, tafadhali bonyeza kiungo hapa chini."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ikiwa haukuandikisha akaunti hii, unaweza kupuuza barua pepe hii. Hakuna hatua itakayochukuliwa."
+
+msgid "Current authentication method"
+msgstr "Njia ya sasa ya uthibitisho"
+
+msgid "Branches"
+msgstr "Tawi"
+
+msgid "Rooms"
+msgstr "Vyumba"
+
+msgid "Room availability finder"
+msgstr "Tafuta upatikanaji wa chumba"
+
+msgid "New branch"
+msgstr "Tawi jipya"
+
+msgid "New room"
+msgstr "Chumba kipya"
+
+msgid "Branch"
+msgstr "Tawi"
+
+msgid "Default room"
+msgstr "Chumba cha chaguo-msingi"
+
+msgid "Room occupation: %s"
+msgstr "Kushikwa kwa chumba: %s"
+
+msgid "Find available rooms"
+msgstr "Tafuta vyumba vinavyopatikana"
+
+msgid "Available rooms"
+msgstr "Vyumba vinavyopatikana"
+
+msgid "Occupied rooms"
+msgstr "Vyumba vilivyochukuliwa"
+
+msgid "No available rooms found for this time range"
+msgstr "Hakuna vyumba vinavyopatikana vilivyopatikana kwa kipindi hiki cha wakati"
+
+msgid "No rooms have been created yet"
+msgstr "Hakuna vyumba vilivyoundwa bado"
+
+msgid "Courses linked to %s"
+msgstr "Kozi zilizounganishwa na %s"
+
+msgid "No branches have been created yet"
+msgstr "Hakuna matawi yaliyoundwa bado"
+
+msgid "Occupation"
+msgstr "Ushirikishwaji"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Haiwezi kufuta tawi lenye vyumba lililounganishwa"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Haiwezi kufuta chumba chenye kozi zilizounganishwa"
+
+msgid "Conflicts"
+msgstr "Migongano"
+
+msgid "Geolocation"
+msgstr "Mahali pa kijiografia"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitudo, Utali wa kusini (mf. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 au IPv6"
+
+msgid "IP mask"
+msgstr "Kifuniko cha IP"
+
+msgid "e.g. /24"
+msgstr "mf. /24"
+
+msgid "Parent branch"
+msgstr "Tawi la mzazi"
+
+msgid "Unique identifier"
+msgstr "Kitambulisho cha kipekee"
+
+msgid "Latitude"
+msgstr "Latitudo"
+
+msgid "e.g. 48.8566"
+msgstr "mf. 48.8566"
+
+msgid "Longitude"
+msgstr "Utali wa kusini"
+
+msgid "e.g. 2.3522"
+msgstr "mf. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Kasi ya kupakua (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Kasi ya kupakia (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Ucheleweshaji (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Jina la msimamizi"
+
+msgid "Administrator phone number"
+msgstr "Nambari ya simu ya msimamizi"
+
+msgid "ID of last synch transaction"
+msgstr "Kitambulisho cha shughuli ya kusawazisha ya mwisho"
+
+msgid "Time of last synchronization"
+msgstr "Wakati wa kusawazisha kwa mwisho"
+
+msgid "Last synchronization type"
+msgstr "Aina ya kusawazisha kwa mwisho"
+
+msgid "SSL public key"
+msgstr "Ufunguo wa umma wa SSL"
+
+msgid "Branch type"
+msgstr "Aina ya tawi"
+
+msgid "Room"
+msgstr "Chumba"
+
+msgid "Simple IDS"
+msgstr "IDS rahisi"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS imelemazwa kwa sasa. Weka IDS_ENABLED=true katika .env yako ili kuwezesha skana."
+
+msgid "All event types"
+msgstr "Aina zote za matukio"
+
+msgid "Events by day (last 7 days)"
+msgstr "Matukio kwa siku (siku 7 zilizopita)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Matukio kwa aina (siku 30 zilizopita)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IP zinazoshambulia za juu (siku 30 zilizopita)"
+
+msgid "Flagged IDS events"
+msgstr "Matukio ya IDS yaliyoangaliwa"
+
+msgid "No suspicious events detected."
+msgstr "Hakuna matukio ya kushukiwa yaliyogunduliwa."
+
+msgid "Detection type"
+msgstr "Aina ya ugunduzi"
+
+msgid "Parameter"
+msgstr "Kigeuza"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (sasa)"
 

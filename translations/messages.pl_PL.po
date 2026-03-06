@@ -494,7 +494,7 @@ msgid "Question ID"
 msgstr "ID pytania"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "IdĆwiczenia"
 
 msgid "Excel export"
 msgstr "Eksport do Excela"
@@ -4226,7 +4226,7 @@ msgid "Login as"
 msgstr "Loguj jako"
 
 msgid "Login"
-msgstr "Login"
+msgstr "Zaloguj"
 
 msgid "Select picture..."
 msgstr "Wybierz obrazek..."
@@ -4409,7 +4409,7 @@ msgid "Can one register as a teacher (with the ability to create courses)?"
 msgstr "Czy można zarejestrować się jako nauczyciel (tak, aby móc tworzyć kursy)?"
 
 msgid "Tuning"
-msgstr "Tuning"
+msgstr "Dostrajanie"
 
 msgid "Split users' upload directory"
 msgstr "Podziel katalog wgranych danych użytkowników"
@@ -8045,7 +8045,7 @@ msgid "Add individual feedback"
 msgstr "Dodaj komentarz"
 
 msgid "N°"
-msgstr "N°"
+msgstr "Nr"
 
 msgid "To create a new question, choose the type above"
 msgstr "Aby utworzyć nowe pytanie, wybierz typ powyżej"
@@ -14981,7 +14981,7 @@ msgid "ukrainian"
 msgstr "ukraiński"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "joruba"
 
 msgid "New"
 msgstr "Nowy"
@@ -22057,7 +22057,7 @@ msgid "Send certificate notification to all users"
 msgstr "Wyślij powiadomienie o certyfikacie do wszystkich użytkowników"
 
 msgid "Fwd"
-msgstr "Fwd"
+msgstr "Przek."
 
 msgid "Forwarded message"
 msgstr "Przekazana wiadomość"
@@ -22143,14 +22143,8 @@ msgstr "Raport z ćwiczeń według kategorii dla wszystkich sesji"
 msgid "Require e-mail confirmation"
 msgstr "Wymagaj potwierdzenia e-mail"
 
-msgid "Registration confirmation"
-msgstr "Potwierdzenie rejestracji"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Twoje konto jest nieaktywne, ponieważ nie zostało jeszcze potwierdzone. Sprawdź swój e-mail i postępuj zgodnie z instrukcjami lub kliknij poniższy link, aby wysłać e-mail ponownie"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Aby dokończyć rejestrację na platformie, potwierdź swoje konto, klikając poniższy link"
 
 msgid "Confirmation for new account"
 msgstr "Potwierdzenie nowego konta"
@@ -24343,7 +24337,7 @@ msgid "Upload any IMS CC (.imscc or .zip) file in the right version and it will 
 msgstr "Wgraj dowolny plik IMS CC (.imscc lub .zip) w odpowiedniej wersji, a zostanie on bezpośrednio rozpakowany do Twojego kursu."
 
 msgid "IMS Common Cartridge v1.3"
-msgstr "IMS Common Cartridge v1.3"
+msgstr "IMS Common Cartridge w1.3"
 
 msgid "Hide question number"
 msgstr "Ukryj numer pytania"
@@ -28154,22 +28148,22 @@ msgid "Menusocial"
 msgstr "Menusocial"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Menu wideokonferencji"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Menu diagnostyki"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Menu katalogu"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Pasek certyfikatu"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Pasek umiejętności"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "Asystenci AI"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "ID użytkownika, który oficjalnie wysyła przypomnienia o agendzie"
@@ -28520,7 +28514,7 @@ msgid "No available options"
 msgstr "Brak dostępnych opcji"
 
 msgid "Cc"
-msgstr "Cc"
+msgstr "DW"
 
 msgid "Send"
 msgstr "Wyślij"
@@ -30521,13 +30515,13 @@ msgid "ex. root"
 msgstr "np. root"
 
 msgid "CREATE TABLE works"
-msgstr "CREATE TABLE works"
+msgstr "TWORZĘ TABELĘ works"
 
 msgid "ALTER TABLE works"
-msgstr "ALTER TABLE works"
+msgstr "ALTER TABLE działa"
 
 msgid "DROP COLUMN works"
-msgstr "DROP COLUMN works"
+msgstr "USUŃ KOLUMNĘ works"
 
 msgid "Theme selected as current"
 msgstr "Motyw wybrany jako aktualny"
@@ -30731,7 +30725,7 @@ msgid "Azure UID (internal ID)"
 msgstr "Azure UID (ID wewnętrzne)"
 
 msgid "Azure ID (mailNickname)"
-msgstr "Azure ID (mailNickname)"
+msgstr "ID Azure (mailNickname)"
 
 msgid "Organisation e-mail"
 msgstr "E-mail organizacji"
@@ -31441,8 +31435,8 @@ msgstr "W nazwie bazy danych dozwolone są tylko litery, cyfry i znak podkreśle
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Jakie ogólne warunki i regulaminy są podawane użytkownikom do korzystania z tej platformy?"
 
-msgid "ex. {examplePassword}"
-msgstr "np. {examplePassword}"
+msgid "ex. %s"
+msgstr "np. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Witamy w Chamilo!"
@@ -31463,10 +31457,10 @@ msgid "Reply to all"
 msgstr "Odpowiedz wszystkim"
 
 msgid "SCIM external ID"
-msgstr "SCIM external ID"
+msgstr "Zewnętrzne ID SCIM"
 
 msgid "OAuth2 ID"
-msgstr "OAuth2 ID"
+msgstr "ID OAuth2"
 
 msgid "Please accept the latest version of the terms and conditions."
 msgstr "Proszę zaakceptować najnowszą wersję regulaminu."
@@ -32342,7 +32336,7 @@ msgid "Quiz"
 msgstr "Test"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Własnycertyfikat"
 
 msgid "Update profile"
 msgstr "Aktualizuj profil"
@@ -32387,7 +32381,7 @@ msgid "Delete failed: missing course context or invalid question id."
 msgstr "Usuwanie nie powiodło się: brak kontekstu kursu lub nieprawidłowy identyfikator pytania."
 
 msgid "AI Tutor"
-msgstr "AI Tutor"
+msgstr "Tutor AI"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
 msgstr "Rozszerzenie APCu musi być zainstalowane i włączone, aby platforma mogła go używać."
@@ -32574,4 +32568,184 @@ msgstr "Zmodyfikowane polecenie"
 
 msgid "Saved in Documents"
 msgstr "Zapisano w Dokumentach"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Całkowita przestrzeń wykorzystana przez %s to %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Całkowita przestrzeń wykorzystana przez portal %s to %sGB (limit ustawiony na %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Potwierdź swój e-mail"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Aby zweryfikować swój e-mail i aktywować konto w %s, kliknij poniższy link."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Jeśli nie rejestrowałeś tego konta, możesz zignorować tego e-maila. Żadne działanie nie zostanie podjęte."
+
+msgid "Current authentication method"
+msgstr "Aktualna metoda uwierzytelniania"
+
+msgid "Branches"
+msgstr "Oddziały"
+
+msgid "Rooms"
+msgstr "Sale"
+
+msgid "Room availability finder"
+msgstr "Wyszukiwarka dostępnych sal"
+
+msgid "New branch"
+msgstr "Nowy oddział"
+
+msgid "New room"
+msgstr "Nowa sala"
+
+msgid "Branch"
+msgstr "Oddział"
+
+msgid "Default room"
+msgstr "Domyślna sala"
+
+msgid "Room occupation: %s"
+msgstr "Zajęcie sali: %s"
+
+msgid "Find available rooms"
+msgstr "Znajdź dostępne sale"
+
+msgid "Available rooms"
+msgstr "Dostępne sale"
+
+msgid "Occupied rooms"
+msgstr "Zajęte sale"
+
+msgid "No available rooms found for this time range"
+msgstr "Nie znaleziono dostępnych sal w tym przedziale czasowym"
+
+msgid "No rooms have been created yet"
+msgstr "Nie utworzono jeszcze żadnych sal"
+
+msgid "Courses linked to %s"
+msgstr "Kursy powiązane z %s"
+
+msgid "No branches have been created yet"
+msgstr "Nie utworzono jeszcze żadnych oddziałów"
+
+msgid "Occupation"
+msgstr "Zajęcie"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nie można usunąć oddziału z przypisanymi salami"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nie można usunąć sali z przypisanymi kursami"
+
+msgid "Conflicts"
+msgstr "Konflikty"
+
+msgid "Geolocation"
+msgstr "Geolokalizacja"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Szerokość geograficzna, Długość geograficzna (np. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 lub IPv6"
+
+msgid "IP mask"
+msgstr "Maska IP"
+
+msgid "e.g. /24"
+msgstr "np. /24"
+
+msgid "Parent branch"
+msgstr "Oddział nadrzędny"
+
+msgid "Unique identifier"
+msgstr "Unikalny identyfikator"
+
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+msgid "e.g. 48.8566"
+msgstr "np. 48.8566"
+
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+msgid "e.g. 2.3522"
+msgstr "np. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Prędkość pobierania (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Prędkość wysyłania (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Opóźnienie (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nazwa administratora"
+
+msgid "Administrator phone number"
+msgstr "Numer telefonu administratora"
+
+msgid "ID of last synch transaction"
+msgstr "ID ostatniej transakcji synchronizacji"
+
+msgid "Time of last synchronization"
+msgstr "Czas ostatniej synchronizacji"
+
+msgid "Last synchronization type"
+msgstr "Typ ostatniej synchronizacji"
+
+msgid "SSL public key"
+msgstr "Klucz publiczny SSL"
+
+msgid "Branch type"
+msgstr "Typ oddziału"
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Simple IDS"
+msgstr "Prosty IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS jest obecnie wyłączony. Ustaw IDS_ENABLED=true w pliku .env, aby aktywować skanowanie."
+
+msgid "All event types"
+msgstr "Wszystkie typy zdarzeń"
+
+msgid "Events by day (last 7 days)"
+msgstr "Zdarzenia według dnia (ostatnie 7 dni)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Zdarzenia według typu (ostatnie 30 dni)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Najbardziej atakujące adresy IP (ostatnie 30 dni)"
+
+msgid "Flagged IDS events"
+msgstr "Zaznaczone zdarzenia IDS"
+
+msgid "No suspicious events detected."
+msgstr "Nie wykryto podejrzanych zdarzeń."
+
+msgid "Detection type"
+msgstr "Typ wykrycia"
+
+msgid "Parameter"
+msgstr "Parametr"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (bieżący)"
 

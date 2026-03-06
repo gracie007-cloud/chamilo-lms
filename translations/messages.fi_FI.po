@@ -343,7 +343,7 @@ msgid "Sincerely"
 msgstr "Ystävällisin terveisin,"
 
 msgid "Formula sample: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
-msgstr "Kaavan esimerkki: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
+msgstr "Kaavamalli: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
 
 msgid "Variable ranges"
 msgstr "Muuttujien alueet"
@@ -2541,7 +2541,7 @@ msgid "Shuffle selection in available languages"
 msgstr "Sekoita valinta mahdollisissa kielissä"
 
 msgid "english"
-msgstr "english"
+msgstr "englanti"
 
 msgid "New course"
 msgstr "Uusi kurssialue"
@@ -4155,7 +4155,7 @@ msgid "errors found"
 msgstr "virheitä löydetty"
 
 msgid "Backup"
-msgstr "Backup"
+msgstr "Varmuuskopio"
 
 msgid "Upgrade Chamilo"
 msgstr "Päivitä Chamilo"
@@ -6471,7 +6471,7 @@ msgid "Send this announcement by email to selected groups/users"
 msgstr "Lähetä tämä ilmoitus sähköpostilla rekisteröityneille käyttäjille"
 
 msgid "On"
-msgstr "On"
+msgstr "Päällä"
 
 msgid "registered users of the site"
 msgstr "kurssin rekisteröityneet käyttäjät"
@@ -8835,7 +8835,7 @@ msgid "The target folder does not exist"
 msgstr "Kohde hakemistoa ei ole olemassa"
 
 msgid "in"
-msgstr "in"
+msgstr "sisällä"
 
 msgid "Show all"
 msgstr "Näytä kaikki"
@@ -9759,7 +9759,7 @@ msgid "Align"
 msgstr "Tasaus"
 
 msgid "Width"
-msgstr "Width"
+msgstr "Leveys"
 
 msgid "V Space"
 msgstr "V-väli"
@@ -9771,10 +9771,10 @@ msgid "Border"
 msgstr "Raja"
 
 msgid "Alt"
-msgstr "Alt"
+msgstr "Vaihtoehto"
 
 msgid "Height"
-msgstr "Height"
+msgstr "Korkeus"
 
 msgid "Image manager"
 msgstr "Kuvien hallinta"
@@ -13641,7 +13641,7 @@ msgid "Resize the image to the following dimensions (in pixels)"
 msgstr "Muuta kuvan koko seuraaviin mittoihin (pikseleissä)"
 
 msgid "RESIZE"
-msgstr "RESIZE"
+msgstr "MUUTA KOKOA"
 
 msgid "Show all images in their original size. No resizing is done. Scrollbars will automatically appear if the image is larger than your monitor size."
 msgstr "Näytä kaikki kuvat alkuperäisessä koossa. Ei muuteta kokoa. Vierityspalkit ilmestyvät automaattisesti, jos kuva on suurempi kuin näytön koko."
@@ -15000,7 +15000,7 @@ msgid "Updated on"
 msgstr "Päivitetty"
 
 msgid "Metadata"
-msgstr "Metadata"
+msgstr "Metatiedot"
 
 msgid "View/Edit Metadata"
 msgstr "Näytä/Muokkaa Metadataa"
@@ -22047,13 +22047,13 @@ msgid "Certificate notification"
 msgstr "Varmennekilpailutus"
 
 msgid "((user_first_name)),"
-msgstr "((user_first_name)),"
+msgstr "((etunimi)),"
 
 msgid "Send certificate notification to all users"
 msgstr "Lähetä varmenneilmoitus kaikille käyttäjille"
 
 msgid "Fwd"
-msgstr "Fwd"
+msgstr "Välit"
 
 msgid "Forwarded message"
 msgstr "Viestin välitetty versio"
@@ -22139,14 +22139,8 @@ msgstr "Harjoitusten raportti kategoriakohtaisesti kaikille istunnoille"
 msgid "Require e-mail confirmation"
 msgstr "Vaatii sähköpostivahvistuksen"
 
-msgid "Registration confirmation"
-msgstr "Rekisteröitymisvahvistus"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Tili on toimimaton, koska et ole vielä vahvistanut sitä. Tarkista sähköpostisi ja noudata ohjeita tai napsauta seuraavaa linkkiä lähettääksesi sähköpostin uudelleen"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Vahvista tilisi napsauttamalla seuraavaa linkkiä alustan rekisteröinnin täydentämiseksi"
 
 msgid "Confirmation for new account"
 msgstr "Vahvistus uudelle tilille"
@@ -24096,7 +24090,7 @@ msgid "Latest login in a course"
 msgstr "Viimeisin kurssikirjautuminen"
 
 msgid "The"
-msgstr "The"
+msgstr "Artikkeli"
 
 msgid "Multiply questions by class"
 msgstr "Kerro kysymykset luokittain"
@@ -27240,7 +27234,7 @@ msgid "Carbon copy receiver profile picture"
 msgstr "Kopio vastaanottajan profiilikuva"
 
 msgid "Ppt_to_lp"
-msgstr "Ppt_to_lp"
+msgstr "Ppt_oppimispolkuun"
 
 msgid "Left"
 msgstr "Vasemmalle"
@@ -31437,8 +31431,8 @@ msgstr "Tietokannan nimessä sallitaan vain kirjaimet, numerot ja alaviiva (_). 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Mitkä yleiset käyttöehdot annetaan käyttäjille tämän alustan käyttöön?"
 
-msgid "ex. {examplePassword}"
-msgstr "esim. {examplePassword}"
+msgid "ex. %s"
+msgstr "esim. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Tervetuloa Chamilo-hon!"
@@ -32570,4 +32564,184 @@ msgstr "Muokattu kehotus"
 
 msgid "Saved in Documents"
 msgstr "Tallennettu asiakirjoihin"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s käyttämä kokonaistila on %s Gt"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Portaalin %s käyttämä kokonaistila on %s Gt (raja on %s Gt)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Vahvista sähköpostisi"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Vahvistaaksesi sähköpostiosoitteesi ja aktivoidaksesi tilisi %s:ssä napsauta alla olevaa linkkiä."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Jos et rekisteröinyt tätä tiliä, voit jättää tämän sähköpostin huomiotta. Mitään toimenpiteitä ei tehdä."
+
+msgid "Current authentication method"
+msgstr "Nykyinen tunnistautumismenetelmä"
+
+msgid "Branches"
+msgstr "Toiminnot"
+
+msgid "Rooms"
+msgstr "Huoneet"
+
+msgid "Room availability finder"
+msgstr "Huoneiden saatavuuden etsijä"
+
+msgid "New branch"
+msgstr "Uusi toiminto"
+
+msgid "New room"
+msgstr "Uusi huone"
+
+msgid "Branch"
+msgstr "Toiminto"
+
+msgid "Default room"
+msgstr "Oletushuone"
+
+msgid "Room occupation: %s"
+msgstr "Huoneen käyttö: %s"
+
+msgid "Find available rooms"
+msgstr "Etsi vapaita huoneita"
+
+msgid "Available rooms"
+msgstr "Vapaat huoneet"
+
+msgid "Occupied rooms"
+msgstr "Varatut huoneet"
+
+msgid "No available rooms found for this time range"
+msgstr "Ei vapaita huoneita löydetty tältä aikaväliltä"
+
+msgid "No rooms have been created yet"
+msgstr "Yhtään huonetta ei ole vielä luotu"
+
+msgid "Courses linked to %s"
+msgstr "Kurssit, jotka on liitetty kohteeseen %s"
+
+msgid "No branches have been created yet"
+msgstr "Yhtään toimintoa ei ole vielä luotu"
+
+msgid "Occupation"
+msgstr "Käyttö"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Toimintoa, johon on liitetty huoneita, ei voi poistaa"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Huonetta, johon on liitetty kursseja, ei voi poistaa"
+
+msgid "Conflicts"
+msgstr "Ristiriidat"
+
+msgid "Geolocation"
+msgstr "Paikannus"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Leveysaste, pituusaste (esim. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 tai IPv6"
+
+msgid "IP mask"
+msgstr "IP-naamio"
+
+msgid "e.g. /24"
+msgstr "esim. /24"
+
+msgid "Parent branch"
+msgstr "Ylemmän tason toiminto"
+
+msgid "Unique identifier"
+msgstr "Yksilöllinen tunniste"
+
+msgid "Latitude"
+msgstr "Leveysaste"
+
+msgid "e.g. 48.8566"
+msgstr "esim. 48.8566"
+
+msgid "Longitude"
+msgstr "Pituusaste"
+
+msgid "e.g. 2.3522"
+msgstr "esim. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Latausnopeus (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Lähetysnopeus (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Viive (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Ylläpitäjän nimi"
+
+msgid "Administrator phone number"
+msgstr "Ylläpitäjän puhelinnumero"
+
+msgid "ID of last synch transaction"
+msgstr "Viimeisen synkronointitransaktion tunnus"
+
+msgid "Time of last synchronization"
+msgstr "Viimeisen synkronoinnin aika"
+
+msgid "Last synchronization type"
+msgstr "Viimeisen synkronoinnin tyyppi"
+
+msgid "SSL public key"
+msgstr "SSL-julkainen avain"
+
+msgid "Branch type"
+msgstr "Haaran tyyppi"
+
+msgid "Room"
+msgstr "Huone"
+
+msgid "Simple IDS"
+msgstr "Yksinkertainen IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS on tällä hetkellä pois käytöstä. Aseta IDS_ENABLED=true .env-tiedostoon skannauksen aktivoimiseksi."
+
+msgid "All event types"
+msgstr "Kaikki tapahtumatyypit"
+
+msgid "Events by day (last 7 days)"
+msgstr "Tapahtumat päivittäin (viimeiset 7 päivää)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Tapahtumat tyypin mukaan (viimeiset 30 päivää)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Huippukäyttäjä-IP:t (viimeiset 30 päivää)"
+
+msgid "Flagged IDS events"
+msgstr "Merkittyjä IDS-tapahtumia"
+
+msgid "No suspicious events detected."
+msgstr "Ei havaittuja epäilyttäviä tapahtumia."
+
+msgid "Detection type"
+msgstr "Tunnistus tyyppi"
+
+msgid "Parameter"
+msgstr "Parametri"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (nykyinen)"
 

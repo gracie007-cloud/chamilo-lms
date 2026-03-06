@@ -1611,8 +1611,8 @@ class Exercise
         }
 
         $exercise
-            ->setStartTime($start_time)
-            ->setEndTime($end_time)
+            ->setStartTime(!empty($start_time) ? new \DateTime((string) $start_time) : null)
+            ->setEndTime(!empty($end_time) ? new \DateTime((string) $end_time) : null)
             ->setTitle($title)
             ->setDescription($description)
             ->setSound($sound)
@@ -2347,7 +2347,7 @@ class Exercise
                         ['value' => $itemId]
                     );
                 }
-                $form->addGroup($group, '', [get_lang('E-mail notifications')]);
+                $form->addGroup($group, null, [get_lang('E-mail notifications')]);
             }
 
             $form->addCheckBox('update_title_in_lps', null, get_lang('Update this title in learning paths'));
@@ -8825,12 +8825,14 @@ class Exercise
 
     /**
      * Get the title without HTML tags.
-     *
-     * @return string
      */
-    public function getUnformattedTitle()
+    public function getUnformattedTitle(): string
     {
-        return strip_tags(api_html_entity_decode($this->title));
+        if ($this->title) {
+            return strip_tags(html_entity_decode($this->title));
+        }
+
+        return '';
     }
 
     /**

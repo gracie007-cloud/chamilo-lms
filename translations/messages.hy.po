@@ -2021,7 +2021,7 @@ msgid ":yes:copyright,, no:no copyright"
 msgstr ":yes:հեղինակային իրավունք,, no:առանց հեղինակային իրավունքի"
 
 msgid ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Folder,, application/msword:MsWord,, application/octet-stream:Octet stream,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
-msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Թղթապանակ,, application/msword:MsWord,, application/octet-stream:Octet stream,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
+msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Թերթիկ,, application/msword:MsWord,, application/octet-stream:Octet stream,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
 
 msgid ":exercise:exercise,,      simulation:simulation,,      questionnaire:questionnaire,,      diagram:diagram,,      figure:figure,,      graph:graf,,      index:index,,      slide:slide,,      table:table,,      narrative text:narrative text,,      exam:exam,,      experiment:experiment,,      problem statement:problem statement,,      self assessment:self assessment,,      lecture:lecture"
 msgstr ":exercise:վարժություն,,      simulation:մոդելավորում,,      questionnaire:հարցաթերթիկ,,      diagram:սխեմա,,      figure:նկար,,      graph:գրաֆիկ,,      index:հիմնական ցուցիչ,,      slide:սլայդ,,      table:तालिका,,      narrative text:նարատիվ տեքստ,,      exam:քննություն,,      experiment:փորձ,,      problem statement:պրոբլեմի ձևակերպում,,      self assessment:ինքնագնահատում,,      lecture:դասախոսություն"
@@ -8603,10 +8603,10 @@ msgid "Numbered"
 msgstr "Թվարկված"
 
 msgid "en"
-msgstr "en"
+msgstr "hy"
 
 msgid "eng"
-msgstr "eng"
+msgstr "hy"
 
 msgid "iso-8859-1"
 msgstr "iso-8859-1"
@@ -8627,7 +8627,7 @@ msgid "."
 msgstr "."
 
 msgid "%b %d, %Y"
-msgstr "%b %d, %Y"
+msgstr "%B %d, %Y"
 
 msgid "%A %B %d, %Y"
 msgstr "%A %B %d, %Y"
@@ -22138,14 +22138,8 @@ msgstr "Վարժության հաշվետվություն կատեգորիանե
 msgid "Require e-mail confirmation"
 msgstr "Պահանջել էլ. փոստի հաստատում"
 
-msgid "Registration confirmation"
-msgstr "Գրանցման հաստատում"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Ձեր հաշիվը անգործունակ է, քանի որ դեռ չեք հաստատել այն: Ստուգեք Ձեր էլ. փոստը և հետևեք հրահանգներին կամ սեղմեք հետևյալ հղումը էլ. նամակը վերուղարկելու համար"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Հարթակի գրանցումն ավարտելու համար պետք է հաստատեք Ձեր հաշիվը սեղմելով հետևյալ հղումը"
 
 msgid "Confirmation for new account"
 msgstr "Հաստատում նոր հաշվի համար"
@@ -31010,7 +31004,7 @@ msgid "Create your first note to get started."
 msgstr "Ստեղծեք ձեր առաջին նշումը՝ սկսելու համար:"
 
 msgid "F d, Y"
-msgstr "F d, Y"
+msgstr "d F, Y"
 
 msgid "Could not load support info at this time."
 msgstr "Այս պահին չկարողացա բեռնել աջակցության տեղեկատվությունը:"
@@ -31435,8 +31429,8 @@ msgstr "Տվյալների բազայի անվանումում թույլատր�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Ի՞նչ ընդհանուր պայմաններ և կանոններ են տրվում օգտատերերին այս հարթակն օգտագործելու համար:"
 
-msgid "ex. {examplePassword}"
-msgstr "օր. {examplePassword}"
+msgid "ex. %s"
+msgstr "օր. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Բարի գալուստ Chamilo-ում:"
@@ -32568,4 +32562,184 @@ msgstr "Փոփոխված հրահանգ"
 
 msgid "Saved in Documents"
 msgstr "Պահպանված է Փաստաթղթերում"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s-ի կողմից օգտագործված ընդհանուր տարածքը %sԳԲ է"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Պորտալ %s-ի կողմից օգտագործված ընդհանուր տարածքը %sԳԲ է (սահմանափակումը %sԳԲ է)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Հաստատեք Ձեր էլ. փոստը"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Ձեր էլ. փոստը հաստատելու և %s-ում Ձեր հաշիվը ակտիվացնելու համար, խնդրում ենք սեղմել ստորև տրված հղումը:"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Եթե Դուք չեք գրանցել այս հաշիվը, կարող եք անտեսել այս նամակը: Ոչ մի գործողություն չի իրականացվի:"
+
+msgid "Current authentication method"
+msgstr "Ներկայիս մուտքգրման մեթոդ"
+
+msgid "Branches"
+msgstr "Ֆիլիալներ"
+
+msgid "Rooms"
+msgstr "Դասասենյակներ"
+
+msgid "Room availability finder"
+msgstr "Դասասենյակների հասանելիության որոնիչ"
+
+msgid "New branch"
+msgstr "Նոր ֆիլիալ"
+
+msgid "New room"
+msgstr "Նոր դասասենյակ"
+
+msgid "Branch"
+msgstr "Ֆիլիալ"
+
+msgid "Default room"
+msgstr "Ընտրովի դասասենյակ"
+
+msgid "Room occupation: %s"
+msgstr "Դասասենյակի զբաղվածություն՝ %s"
+
+msgid "Find available rooms"
+msgstr "Ստուգել հասանելի դասասենյակները"
+
+msgid "Available rooms"
+msgstr "Հասանելի դասասենյակներ"
+
+msgid "Occupied rooms"
+msgstr "Զբաղված դասասենյակներ"
+
+msgid "No available rooms found for this time range"
+msgstr "Այս ժամանակահատվածի համար հասանելի դասասենյակներ չեն գտնվել"
+
+msgid "No rooms have been created yet"
+msgstr "Դասասենյակներ դեռևս չեն ստեղծվել"
+
+msgid "Courses linked to %s"
+msgstr "%s-ին կապված դասընթացներ"
+
+msgid "No branches have been created yet"
+msgstr "Ֆիլիալներ դեռևս չեն ստեղծվել"
+
+msgid "Occupation"
+msgstr "Զբաղվածություն"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Հնարավոր չէ ջնջել ֆիլիալը, որին կցված են դասասենյակներ"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Հնարավոր չէ ջնջել դասասենյակը, որին կցված են դասընթացներ"
+
+msgid "Conflicts"
+msgstr "Հակասություններ"
+
+msgid "Geolocation"
+msgstr "Էլեկտրոնային գեոլոկացիա"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Երկրաչափական լայնություն, երկայնություն (օրինակ՝ 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 կամ IPv6"
+
+msgid "IP mask"
+msgstr "IP դիմակ"
+
+msgid "e.g. /24"
+msgstr "օրինակ՝ /24"
+
+msgid "Parent branch"
+msgstr "Հայրական ճյուղ"
+
+msgid "Unique identifier"
+msgstr "Միակակի նույնացուցիչ"
+
+msgid "Latitude"
+msgstr "Երկրաչափական լայնություն"
+
+msgid "e.g. 48.8566"
+msgstr "օր. 48.8566"
+
+msgid "Longitude"
+msgstr "Երկրաչափական լայնություն"
+
+msgid "e.g. 2.3522"
+msgstr "օր. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Ներբեռնման արագություն (ԿԲ/վ)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Վերբեռնման արագություն (ԿԲ/վ)"
+
+msgid "Delay (ms)"
+msgstr "Փոխանցման ուշացում (մս)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Ադմինիստրատորի անուն"
+
+msgid "Administrator phone number"
+msgstr "Ադմինիստրատորի հեռախոսահամար"
+
+msgid "ID of last synch transaction"
+msgstr "Վերջին սինխրոնիզացման գործարքի ID"
+
+msgid "Time of last synchronization"
+msgstr "Վերջին սինխրոնիզացման ժամանակը"
+
+msgid "Last synchronization type"
+msgstr "Վերջին սինխրոնիզացման տեսակը"
+
+msgid "SSL public key"
+msgstr "SSL հանրային բանալի"
+
+msgid "Branch type"
+msgstr "Ճյուղի տեսակ"
+
+msgid "Room"
+msgstr "Սենյակ"
+
+msgid "Simple IDS"
+msgstr "Պարզ IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS-ը ներկայումս անջատված է: Նշեք IDS_ENABLED=true ձեր .env ֆայլում՝ սկանավորումը ակտիվացնելու համար:"
+
+msgid "All event types"
+msgstr "Բոլոր իրադարձությունների տեսակները"
+
+msgid "Events by day (last 7 days)"
+msgstr "Իրադարձություններ օրով (վերջին 7 օր)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Իրադարձություններ տեսակով (վերջին 30 օր)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Վերին հարձակվող IP-ներ (վերջին 30 օր)"
+
+msgid "Flagged IDS events"
+msgstr "Նշված IDS իրադարձություններ"
+
+msgid "No suspicious events detected."
+msgstr "Դիմակայական իրադարձություններ չեն հայտնաբերվել:"
+
+msgid "Detection type"
+msgstr "Գործնական տեսակ"
+
+msgid "Parameter"
+msgstr "Պարամետր"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (այժմ)"
 

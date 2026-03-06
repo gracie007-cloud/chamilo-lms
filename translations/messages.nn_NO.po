@@ -3319,7 +3319,7 @@ msgid "New note"
 msgstr "Ny note"
 
 msgid "Note"
-msgstr "Note"
+msgstr "Notat"
 
 msgid "Note created"
 msgstr "Note oppretta"
@@ -8860,7 +8860,7 @@ msgid "With selected"
 msgstr "Med valgte"
 
 msgid "Online"
-msgstr "Online"
+msgstr "På nettet"
 
 msgid "hungarian"
 msgstr "ungarsk"
@@ -9010,31 +9010,31 @@ msgid "Feb"
 msgstr "Feb"
 
 msgid "Mar"
-msgstr "Mar"
+msgstr "mar"
 
 msgid "Apr"
-msgstr "Apr"
+msgstr "apr"
 
 msgid "May"
 msgstr "Mai"
 
 msgid "Jun"
-msgstr "Jun"
+msgstr "jun"
 
 msgid "Jul"
-msgstr "Jul"
+msgstr "jul"
 
 msgid "Aug"
-msgstr "Aug"
+msgstr "aug"
 
 msgid "Sep"
-msgstr "Sep"
+msgstr "sep"
 
 msgid "Oct"
 msgstr "Okt"
 
 msgid "Nov"
-msgstr "Nov"
+msgstr "nov"
 
 msgid "Dec"
 msgstr "Des"
@@ -9049,7 +9049,7 @@ msgid "March"
 msgstr "Mars"
 
 msgid "April"
-msgstr "April"
+msgstr "april"
 
 msgid "June"
 msgstr "Juni"
@@ -9058,16 +9058,16 @@ msgid "July"
 msgstr "Juli"
 
 msgid "August"
-msgstr "August"
+msgstr "august"
 
 msgid "September"
-msgstr "September"
+msgstr "september"
 
 msgid "October"
 msgstr "Oktober"
 
 msgid "November"
-msgstr "November"
+msgstr "november"
 
 msgid "December"
 msgstr "Desember"
@@ -9127,7 +9127,7 @@ msgid "Dropbox"
 msgstr "Dropboks"
 
 msgid "Chat"
-msgstr "Chat"
+msgstr "Prat"
 
 msgid "Add link to this page"
 msgstr "Tilføy lenke til denne siden"
@@ -13657,7 +13657,7 @@ msgid "NO RESIZING"
 msgstr "INGEN ENDING AV STORLEIK"
 
 msgid "Brochure"
-msgstr "Brochure"
+msgstr "Broskyrje"
 
 msgid "Slideshow"
 msgstr "Lysbildevising"
@@ -14686,7 +14686,7 @@ msgid "Chamilo homepage"
 msgstr "Chamilo hovudsida"
 
 msgid "Chamilo forum"
-msgstr "Chamilo forum"
+msgstr "Chamilo-forum"
 
 msgid "Chamilo extensions"
 msgstr "Chamilo utvidingar"
@@ -18274,7 +18274,7 @@ msgid "The local time in the portal timezone (%s) is %s"
 msgstr "Lokal tid i portaltidsona (%s) er %s"
 
 msgid "Start test"
-msgstr "Start test"
+msgstr "Start testar"
 
 msgid "Export as .doc"
 msgstr "Eksporter som .doc"
@@ -20530,7 +20530,7 @@ msgid "Input size of box to fill"
 msgstr "Inndata-størrelse på rute å fylle"
 
 msgid "MM dd, yy"
-msgstr "MM dd, yy"
+msgstr "dd. MM yy"
 
 msgid "HH:mm"
 msgstr "HH:mm"
@@ -22137,14 +22137,8 @@ msgstr "Øvingsrapport etter kategori for alle samlingar"
 msgid "Require e-mail confirmation"
 msgstr "Krev e-post-stadfesting"
 
-msgid "Registration confirmation"
-msgstr "Registreringsstadfesting"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Kontoen din er inaktiv fordi du ikkje har stadfesta den enno. Sjekk e-posten din og følg instruksjonane eller klikk på lenka under for å sende e-posten på ny"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "For å fullføre registreringa di på plattforma må du stadfeste kontoen din ved å klikke på lenka under"
 
 msgid "Confirmation for new account"
 msgstr "Stadfesting for ny konto"
@@ -31010,7 +31004,7 @@ msgid "Create your first note to get started."
 msgstr "Opprett det første notatet ditt for å kome i gang."
 
 msgid "F d, Y"
-msgstr "F d, Y"
+msgstr "d. F Y"
 
 msgid "Could not load support info at this time."
 msgstr "Kunne ikkje lade støtteinfo no."
@@ -31435,8 +31429,8 @@ msgstr "Berre bokstavar, siffer og understrek (_) er tillente i databasenamnet. 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Kvar er dei generelle vilkåra som gis til brukarar for å bruke denne plattforma?"
 
-msgid "ex. {examplePassword}"
-msgstr "eks. {examplePassword}"
+msgid "ex. %s"
+msgstr "eks. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Velkommen til Chamilo!"
@@ -32568,4 +32562,184 @@ msgstr "Endra spørsmål"
 
 msgid "Saved in Documents"
 msgstr "Lagra i Dokument"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Total plass brukt av %s er %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Total plass brukt av portal %s er %sGB (grense er sett til %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Bekreft e-posten din"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "For å verifisere e-posten din og aktivere kontoen din på %s, vennleg klikk på lenka nedanfor."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Hvis du ikkje registrerte denne kontoen, kan du ignorere denne e-posten. Ingen handling vil bli tatt."
+
+msgid "Current authentication method"
+msgstr "Noverande autentiseringsmetode"
+
+msgid "Branches"
+msgstr "Avdelingar"
+
+msgid "Rooms"
+msgstr "Rom"
+
+msgid "Room availability finder"
+msgstr "Finn tilgjengelege rom"
+
+msgid "New branch"
+msgstr "Ny avdeling"
+
+msgid "New room"
+msgstr "Nytt rom"
+
+msgid "Branch"
+msgstr "Avdeling"
+
+msgid "Default room"
+msgstr "Standardrom"
+
+msgid "Room occupation: %s"
+msgstr "Romopptaking: %s"
+
+msgid "Find available rooms"
+msgstr "Finn tilgjengelege rom"
+
+msgid "Available rooms"
+msgstr "Tilgjengelege rom"
+
+msgid "Occupied rooms"
+msgstr "Opptekne rom"
+
+msgid "No available rooms found for this time range"
+msgstr "Ingen tilgjengelege rom funne for dette tidsrommet"
+
+msgid "No rooms have been created yet"
+msgstr "Ingen rom er oppretta enno"
+
+msgid "Courses linked to %s"
+msgstr "Kurs knytt til %s"
+
+msgid "No branches have been created yet"
+msgstr "Ingen avdelingar er oppretta enno"
+
+msgid "Occupation"
+msgstr "Opptaking"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Kan ikkje slette avdeling med rom tilknytte"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Kan ikkje slette rom med kurs tilknytte"
+
+msgid "Conflicts"
+msgstr "Konfliktar"
+
+msgid "Geolocation"
+msgstr "Geolokasjon"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Breddegrad, lengdegrad (t.d. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 eller IPv6"
+
+msgid "IP mask"
+msgstr "IP-maske"
+
+msgid "e.g. /24"
+msgstr "t.d. /24"
+
+msgid "Parent branch"
+msgstr "Overordnet gren"
+
+msgid "Unique identifier"
+msgstr "Unik identifikator"
+
+msgid "Latitude"
+msgstr "Breddegrad"
+
+msgid "e.g. 48.8566"
+msgstr "t.d. 48.8566"
+
+msgid "Longitude"
+msgstr "Lengdegrad"
+
+msgid "e.g. 2.3522"
+msgstr "t.d. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Nedlasting hastighet (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Opplasting hastighet (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Forsinkelse (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Administratornamn"
+
+msgid "Administrator phone number"
+msgstr "Administrator telefonnummer"
+
+msgid "ID of last synch transaction"
+msgstr "ID for siste synkroniseringstransaksjon"
+
+msgid "Time of last synchronization"
+msgstr "Tid for siste synkronisering"
+
+msgid "Last synchronization type"
+msgstr "Type for siste synkronisering"
+
+msgid "SSL public key"
+msgstr "SSL offentlig nøkkel"
+
+msgid "Branch type"
+msgstr "Gren type"
+
+msgid "Room"
+msgstr "Rom"
+
+msgid "Simple IDS"
+msgstr "Einaste IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS er for tida deaktivert. Sett IDS_ENABLED=true i .env-fila di for å aktivere skanning."
+
+msgid "All event types"
+msgstr "Alle hendingstypar"
+
+msgid "Events by day (last 7 days)"
+msgstr "Hendelser per dag (siste 7 dagar)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Hendelser per type (siste 30 dagar)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Topp angripande IP-adressar (siste 30 dagar)"
+
+msgid "Flagged IDS events"
+msgstr "Merka IDS-hendingar"
+
+msgid "No suspicious events detected."
+msgstr "Ingen mistenkelege hendingar oppdaga."
+
+msgid "Detection type"
+msgstr "Oppdagings type"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (noe)"
 

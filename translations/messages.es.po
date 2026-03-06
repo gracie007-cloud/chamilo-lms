@@ -1088,7 +1088,7 @@ msgid "Roles"
 msgstr "Roles"
 
 msgid "Curriculum"
-msgstr "Curriculum"
+msgstr "Currículo"
 
 msgid "%s to review (%s)"
 msgstr "%s por revisar (%s)"
@@ -1268,7 +1268,7 @@ msgid "Exercise list."
 msgstr "Lista de ejercicios"
 
 msgid "Course home"
-msgstr "Página principal del curso"
+msgstr "Página principal"
 
 msgid "Exercise end button"
 msgstr "Botón al terminar el ejercicio"
@@ -5237,10 +5237,10 @@ msgid "Whether you want to use the blacklist or whitelist filtering. See blackli
 msgstr "Utilizar un filtrado blacklist o whitelist. Para más detalles, vea más abajo la descripción ambos filtros."
 
 msgid "Blacklist"
-msgstr "Blacklist"
+msgstr "Lista negra"
 
 msgid "Whitelist"
-msgstr "Whitelist"
+msgstr "Lista blanca"
 
 msgid "Blacklist - setting"
 msgstr "Blacklist - parámetros"
@@ -8414,7 +8414,7 @@ msgid "Excessive area"
 msgstr "Zona excesiva"
 
 msgid "Minimum"
-msgstr "Minimum"
+msgstr "Mínimo"
 
 msgid "Requirements"
 msgstr "Requerido"
@@ -8426,7 +8426,7 @@ msgid "Too many iterations while calculating your answer. Please try drawing you
 msgstr "Demasiadas iteraciones al intentar calcular la respuesta. Por favor intente dibujar su delineación otra vez"
 
 msgid "Thresholds"
-msgstr "Thresholds"
+msgstr "Umbrales"
 
 msgid "Delineation"
 msgstr "Delineación"
@@ -8663,7 +8663,7 @@ msgid "Proposals for an improvement of"
 msgstr "Propuestas de mejora de"
 
 msgid "invisible"
-msgstr "Invisible"
+msgstr "invisible"
 
 msgid "Save"
 msgstr "Guardar"
@@ -8957,7 +8957,7 @@ msgid "F"
 msgstr "V"
 
 msgid "S"
-msgstr "S"
+msgstr "E"
 
 msgid "Mon"
 msgstr "Lun"
@@ -11777,7 +11777,7 @@ msgid "This day"
 msgstr "Este día"
 
 msgid "Logins"
-msgstr "Logins"
+msgstr "Inicios de sesión"
 
 msgid "Here is the list of your latest logins with the tools you visited during these sessions."
 msgstr "Este es el listado de sus accesos junto con las herramientas que ha visitado en esas sesiones."
@@ -13670,7 +13670,7 @@ msgid "NO RESIZING"
 msgstr "Presentación en su tamaño original"
 
 msgid "Brochure"
-msgstr "Brochure"
+msgstr "Folleto"
 
 msgid "Slideshow"
 msgstr "Presentación"
@@ -14495,7 +14495,7 @@ msgid "czech"
 msgstr "checo"
 
 msgid "dari"
-msgstr "dari"
+msgstr "Dari"
 
 msgid "dutch corporate"
 msgstr "holandés corporativo"
@@ -14546,7 +14546,7 @@ msgid "slovak"
 msgstr "eslovaco"
 
 msgid "swahili"
-msgstr "swahili"
+msgstr "Suajili"
 
 msgid "traditional chinese"
 msgstr "chino tradicional"
@@ -14993,7 +14993,7 @@ msgid "ukrainian"
 msgstr "ucraniano"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "Yoruba"
 
 msgid "New"
 msgstr "Nuevo"
@@ -15548,7 +15548,7 @@ msgid "Graph of evaluations"
 msgstr "Gráficos de las evaluaciones"
 
 msgid "URL"
-msgstr "Url"
+msgstr "URL"
 
 msgid "Learning path"
 msgstr "Lecciones"
@@ -16916,7 +16916,7 @@ msgid "Flash"
 msgstr "Flash"
 
 msgid "Video"
-msgstr "Video"
+msgstr "Vídeo"
 
 msgid "Images"
 msgstr "Imágenes"
@@ -19479,7 +19479,7 @@ msgid "Global multiple answer"
 msgstr "Respuesta múltiple global"
 
 msgid "Zombies"
-msgstr "Zombies"
+msgstr "Zombis"
 
 msgid "Active only"
 msgstr "Solo activo"
@@ -22169,14 +22169,8 @@ msgstr "Informe de ejercicio por categoría en todas las sesiones"
 msgid "Require e-mail confirmation"
 msgstr "Requerir confirmación por correo electrónico"
 
-msgid "Registration confirmation"
-msgstr "Confirmación de registro"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Su cuenta está inactiva porque aún no la ha confirmado. Revise su correo electrónico y siga las instrucciones o haga click en el siguiente enlace para volver a enviar el correo electrónico de confirmación."
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Para completar su registro en la plataforma, necesita confirmar su cuenta haciendo click en el siguiente enlace"
 
 msgid "Confirmation for new account"
 msgstr "Confirmación de nueva cuenta"
@@ -23781,7 +23775,7 @@ msgid "Compilatio anti-plagiarism module"
 msgstr "Módulo anti-plagio de Compilatio"
 
 msgid "Quotas"
-msgstr "Quotas"
+msgstr "Cuotas"
 
 msgid "Credits: %s on %s"
 msgstr "Créditos: %s sobre %s"
@@ -24118,7 +24112,7 @@ msgid "Mark as promoted message"
 msgstr "Marcar como mensaje importante"
 
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Preguntas frecuentes"
 
 msgid "Created with Chamilo copyright year"
 msgstr "Creado con Chamilo © %s"
@@ -29316,7 +29310,7 @@ msgid "You're subscribed to push notifications in this browser."
 msgstr "Estás suscrito a notificaciones push en este navegador."
 
 msgid "Endpoint"
-msgstr "Endpoint"
+msgstr "Punto de conexión"
 
 msgid "Push notifications are not enabled in this browser."
 msgstr "Las notificaciones push no están habilitadas en este navegador."
@@ -30344,7 +30338,7 @@ msgid "Search URL"
 msgstr "Buscar URL"
 
 msgid "Videos"
-msgstr "Videos"
+msgstr "Vídeos"
 
 msgid "Course unregistered from the URL"
 msgstr "Curso dado de baja de la URL"
@@ -32575,8 +32569,8 @@ msgstr "Solo se permiten letras, dígitos y guión bajo (_) en el nombre de la b
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "¿Qué términos y condiciones generales se dan a los usuarios para usar esta plataforma?"
 
-msgid "ex. {examplePassword}"
-msgstr "ej. {examplePassword}"
+msgid "ex. %s"
+msgstr "ej. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Bienvenid@ en Chamilo!"
@@ -33708,4 +33702,184 @@ msgstr "Prompt modificado"
 
 msgid "Saved in Documents"
 msgstr "Guardado en Documentos"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Espacio total usado por %s es %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Espacio total usado por el portal %s es %sGB (límite establecido en %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirme su correo electrónico"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Para verificar su correo electrónico y activar su cuenta en %s, haga clic en el enlace de abajo."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Si no te registraste en esta cuenta, puedes ignorar este correo. No se tomará ninguna acción."
+
+msgid "Current authentication method"
+msgstr "Método de autenticación actual"
+
+msgid "Branches"
+msgstr "Sucursales"
+
+msgid "Rooms"
+msgstr "Aulas"
+
+msgid "Room availability finder"
+msgstr "Buscador de disponibilidad de aulas"
+
+msgid "New branch"
+msgstr "Nueva sucursal"
+
+msgid "New room"
+msgstr "Nueva aula"
+
+msgid "Branch"
+msgstr "Sucursal"
+
+msgid "Default room"
+msgstr "Aula predeterminada"
+
+msgid "Room occupation: %s"
+msgstr "Ocupación del aula: %s"
+
+msgid "Find available rooms"
+msgstr "Buscar aulas disponibles"
+
+msgid "Available rooms"
+msgstr "Aulas disponibles"
+
+msgid "Occupied rooms"
+msgstr "Aulas ocupadas"
+
+msgid "No available rooms found for this time range"
+msgstr "No se encontraron aulas disponibles para este rango de tiempo"
+
+msgid "No rooms have been created yet"
+msgstr "No se han creado aulas todavía"
+
+msgid "Courses linked to %s"
+msgstr "Cursos vinculados a %s"
+
+msgid "No branches have been created yet"
+msgstr "No se han creado sucursales todavía"
+
+msgid "Occupation"
+msgstr "Ocupación"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "No se puede eliminar la sucursal con aulas asociadas"
+
+msgid "Cannot delete room with courses attached"
+msgstr "No se puede eliminar el aula con cursos asociados"
+
+msgid "Conflicts"
+msgstr "Conflictos"
+
+msgid "Geolocation"
+msgstr "Geolocalización"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitud, Longitud (p. ej. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 o IPv6"
+
+msgid "IP mask"
+msgstr "Máscara IP"
+
+msgid "e.g. /24"
+msgstr "p. ej. /24"
+
+msgid "Parent branch"
+msgstr "Sucursal padre"
+
+msgid "Unique identifier"
+msgstr "Identificador único"
+
+msgid "Latitude"
+msgstr "Latitud"
+
+msgid "e.g. 48.8566"
+msgstr "p. ej. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitud"
+
+msgid "e.g. 2.3522"
+msgstr "p. ej. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Velocidad de descarga (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Velocidad de subida (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Retraso (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nombre del administrador"
+
+msgid "Administrator phone number"
+msgstr "Número de teléfono del administrador"
+
+msgid "ID of last synch transaction"
+msgstr "ID de la última transacción de sincronización"
+
+msgid "Time of last synchronization"
+msgstr "Hora de la última sincronización"
+
+msgid "Last synchronization type"
+msgstr "Tipo de última sincronización"
+
+msgid "SSL public key"
+msgstr "Clave pública SSL"
+
+msgid "Branch type"
+msgstr "Tipo de sucursal"
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Simple IDS"
+msgstr "IDS simple"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS está actualmente deshabilitado. Establezca IDS_ENABLED=true en su .env para activar el escaneo."
+
+msgid "All event types"
+msgstr "Todos los tipos de eventos"
+
+msgid "Events by day (last 7 days)"
+msgstr "Eventos por día (últimos 7 días)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Eventos por tipo (últimos 30 días)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Principales IPs atacante (últimos 30 días)"
+
+msgid "Flagged IDS events"
+msgstr "Eventos IDS marcados"
+
+msgid "No suspicious events detected."
+msgstr "No se han detectado eventos sospechosos."
+
+msgid "Detection type"
+msgstr "Tipo de detección"
+
+msgid "Parameter"
+msgstr "Parámetro"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (actual)"
 

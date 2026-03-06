@@ -494,7 +494,7 @@ msgid "Question ID"
 msgstr "ID e pyetjes"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "IdUshtrimi"
 
 msgid "Excel export"
 msgstr "Eksport Excel"
@@ -1199,7 +1199,7 @@ msgid "Medium"
 msgstr "Mesatar"
 
 msgid "Normal"
-msgstr "Normal"
+msgstr "Normale"
 
 msgid "Weak"
 msgstr "I dobët"
@@ -1496,7 +1496,7 @@ msgid "Learning object name"
 msgstr "Emri i objektit të mësimit"
 
 msgid "Status"
-msgstr "Status"
+msgstr "Statusi"
 
 msgid "To enter"
 msgstr "Për të hyrë"
@@ -8603,7 +8603,7 @@ msgid "Numbered"
 msgstr "Me numra"
 
 msgid "en"
-msgstr "en"
+msgstr "sq"
 
 msgid "eng"
 msgstr "eng"
@@ -8945,7 +8945,7 @@ msgid "F"
 msgstr "E"
 
 msgid "S"
-msgstr "S"
+msgstr "E"
 
 msgid "Mon"
 msgstr "Hën"
@@ -8990,7 +8990,7 @@ msgid "Sunday"
 msgstr "E diel"
 
 msgid "J"
-msgstr "J"
+msgstr "H"
 
 msgid "A"
 msgstr "S"
@@ -8999,10 +8999,10 @@ msgid "O"
 msgstr "K"
 
 msgid "N"
-msgstr "N"
+msgstr "J"
 
 msgid "D"
-msgstr "D"
+msgstr "E"
 
 msgid "Jan"
 msgstr "Jan"
@@ -9128,7 +9128,7 @@ msgid "Dropbox"
 msgstr "Dropbox"
 
 msgid "Chat"
-msgstr "Chat"
+msgstr "Bisedë"
 
 msgid "Add link to this page"
 msgstr "Shto lidhje në këtë faqe"
@@ -22138,14 +22138,8 @@ msgstr "Raport ushtrimesh sipas kategorisë për të gjitha sesionet"
 msgid "Require e-mail confirmation"
 msgstr "Kërko konfirmim me email"
 
-msgid "Registration confirmation"
-msgstr "Konfirmim regjistrimi"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Llogaria juaj është e paaktivizuar sepse nuk e keni konfirmuar ende. Kontrolloni email-in tuaj dhe ndiqni udhëzimet ose klikoni në lidhjen vijuese për të dërguar përsëri email-in"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Për të plotësuar regjistrimin tuaj në platformë duhet të konfirmoni llogarinë duke klikuar në lidhjen vijuese"
 
 msgid "Confirmation for new account"
 msgstr "Konfirmim për llogari të re"
@@ -23987,10 +23981,10 @@ msgid "Send diagnostic finalization message"
 msgstr "Dërgo mesazhin e përfundimit të diagnostikimit"
 
 msgid "DiagnosticfinalizationmessageTitle"
-msgstr "DiagnosticfinalizationmessageTitle"
+msgstr "Titulli i mesazhit të përfundimit të diagnostikimit"
 
 msgid "DiagnosticfinalizationmessageContent"
-msgstr "DiagnosticfinalizationmessageContent"
+msgstr "Përmbajtja e mesazhit të përfundimit të diagnostikimit"
 
 msgid "Add a forumCategory"
 msgstr "Shto një forumKategori"
@@ -28130,40 +28124,40 @@ msgid "Generates images based on prompts or content using AI."
 msgstr "Gjeneron imazhe bazuar në urdhra ose përmbajtje duke përdorur AI."
 
 msgid "Menucampushomepage"
-msgstr "Menucampushomepage"
+msgstr "Faqja kryesore e kampusit"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "Kursimet e mia"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "Raportimi"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Administrimi i platformës"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Agjenda ime"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "Social"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Videokonferencë"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Diagnostikime"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Katalogu"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Certifikata"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Aftësitë"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "Ndihmësit e AI-së"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "ID e përdoruesit që dërgon zyrtarisht kujtesat e axhendës"
@@ -29849,7 +29843,7 @@ msgid "Is used for data exchange?"
 msgstr "Përdoret për këmbim të dhënash?"
 
 msgid "Event"
-msgstr "Event"
+msgstr "Ngjarje"
 
 msgid "Go to session"
 msgstr "Shko te sesioni"
@@ -31435,8 +31429,8 @@ msgstr "Vetëm shkronja, shifra dhe nënvija (_) lejohen në emrin e bazës së 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Çfarë kushtesh të përgjithshme dhe kushtesh përdorimi u jepen përdoruesve për të përdorur këtë platformë?"
 
-msgid "ex. {examplePassword}"
-msgstr "p.sh. {examplePassword}"
+msgid "ex. %s"
+msgstr "p.sh. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Mirësevini në Chamilo!"
@@ -32336,7 +32330,7 @@ msgid "Quiz"
 msgstr "Test"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Certifikatë e personalizuar"
 
 msgid "Update profile"
 msgstr "Përditëso profilin"
@@ -32408,164 +32402,344 @@ msgid "AI feedback"
 msgstr "Përfshirje AI"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Prompt"
 
 msgid "Tip"
-msgstr ""
+msgstr "Ndihmëz"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Mund të editoni prompt-in para se të kërkoni feedback."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Rezultat (mund ta aplikoni në koment)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Apliko në koment"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Apliko notë"
 
 msgid "AI grade"
-msgstr ""
+msgstr "Notë AI"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "Tutor AI është i çaktivizuar gjatë testeve"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Gjenero terma fjalori"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Gjenero media"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "Nuk keni leje për të gjeneruar media AI në këtë kurs."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "Ndihmësit AI janë të çaktivizuar në nivel platforme."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Gjenerimi i medias AI është i çaktivizuar në cilësimet e kursit."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Asnjë ofrues medias AI i disponueshëm."
 
 msgid "Provider"
-msgstr ""
+msgstr "Ofrues"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Zgjidhni një ofrues"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Shembull: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "Emri nuk shtohet në prompt; përdoret vetëm për të ruajtur skedarin."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Përshkruani çfarë dëshironi të gjeneroni..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "Ndihmëz: klikoni një preset për të vendosur shpejt madhësinë."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Duke gjeneruar..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Ruaj në Dokumente"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "IRI e Dokumentit"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Shko te dosja"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Ofruesi i përdorur"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Kjo rezultat video nuk mund të ruhet ende"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Anketimi i videove u ndal sepse ofruesi ndryshoi."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Gjenerimi i videove po zgjat shumë. Ju lutemi riprovoni më vonë."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Deshtoi kontrolli i statusit të videos."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Videoja u gjenerua me sukses. Tani mund ta ruani."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Gjenerimi i videos përfundoi, por nuk u kthye përmbajtje e luajtshme."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Gjenerimi i videos deshtoi."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Duke pritur videoja të jetë gati..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Ju lutemi plotësoni të gjitha fushat."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Gjenerimi i imazheve nuk është i aktivizuar për këtë kurs."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Gjenerimi i videove nuk është i aktivizuar për këtë kurs."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Gjenerimi deshtoi."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "U gjenerua me sukses. Rishikoni parashikimin dhe ruajeni kur të jeni gati."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "U gjenerua me sukses. Ruajtja është e çaktivizuar sepse ofruesi ktheu një URL."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Gjenerimi i videos filloi. Duke pritur rezultatin..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI ktheu një përgjigje bosh."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Nuk ka ende çfarë të ruhet."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Ky ofrues nuk ktheu përmbajtje base64. Ju lutemi provoni një ofrues tjetër."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Ruajtja deshtoi."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Merrni reagime nga AI"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Kopjo përgjigjen në clipboard"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Ruaj përgjigjen në inbox-in tim"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Dokumenti është tashmë në këtë dosje"
 
 msgid "Copied"
-msgstr ""
+msgstr "U kopjua"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "Ju nuk keni leje për të gjeneruar terma fjalori."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Gjenerimi i videos është në vazhdim"
 
 msgid "Job"
-msgstr ""
+msgstr "Punë"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Prompt i modifikuar"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "Ruajtur në Dokumente"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Hapësira totale e përdorur nga %s është %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Hapësira totale e përdorur nga portali %s është %sGB (limiti është vendosur në %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Konfirmoni email-in tuaj"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Për të verifikuar email-in tuaj dhe për të aktivizuar llogarinë tuaj në %s, ju lutemi klikoni në lidhjen më poshtë."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Nëse nuk keni regjistruar këtë llogari, mund ta injoroni këtë email. Nuk do të merren masa."
+
+msgid "Current authentication method"
+msgstr "Metoda aktuale e autentikimit"
+
+msgid "Branches"
+msgstr "Degët"
+
+msgid "Rooms"
+msgstr "Dhomat"
+
+msgid "Room availability finder"
+msgstr "Gjetës disponibiliteti i dhomave"
+
+msgid "New branch"
+msgstr "Degë e re"
+
+msgid "New room"
+msgstr "Dhomë e re"
+
+msgid "Branch"
+msgstr "Degë"
+
+msgid "Default room"
+msgstr "Dhomë e paracaktuar"
+
+msgid "Room occupation: %s"
+msgstr "Okukimi i dhomës: %s"
+
+msgid "Find available rooms"
+msgstr "Gjej dhoma të disponueshme"
+
+msgid "Available rooms"
+msgstr "Dhoma të disponueshme"
+
+msgid "Occupied rooms"
+msgstr "Dhoma të zëna"
+
+msgid "No available rooms found for this time range"
+msgstr "Nuk u gjetën dhoma të disponueshme për këtë interval kohor"
+
+msgid "No rooms have been created yet"
+msgstr "Nuk është krijuar ende asnjë dhomë"
+
+msgid "Courses linked to %s"
+msgstr "Kursat e lidhura me %s"
+
+msgid "No branches have been created yet"
+msgstr "Nuk është krijuar ende asnjë degë"
+
+msgid "Occupation"
+msgstr "Okuupim"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nuk mund të fshihet degë me dhoma të bashkëlidhura"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nuk mund të fshihet dhomë me kurse të bashkëlidhura"
+
+msgid "Conflicts"
+msgstr "Konflikte"
+
+msgid "Geolocation"
+msgstr "Gjeolokacioni"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Gjerësi gjeografike, Gjatësi gjeografike (p.sh. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ose IPv6"
+
+msgid "IP mask"
+msgstr "Maskë IP"
+
+msgid "e.g. /24"
+msgstr "p.sh. /24"
+
+msgid "Parent branch"
+msgstr "Degë prind"
+
+msgid "Unique identifier"
+msgstr "Identifikues unik"
+
+msgid "Latitude"
+msgstr "Gjerësi gjeografike"
+
+msgid "e.g. 48.8566"
+msgstr "p.sh. 48.8566"
+
+msgid "Longitude"
+msgstr "Gjatësi gjeografike"
+
+msgid "e.g. 2.3522"
+msgstr "p.sh. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Shpejtësi shkarkimi (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Shpejtësi ngarkimi (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Vonesë (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Emri i administratorit"
+
+msgid "Administrator phone number"
+msgstr "Numri i telefonit të administratorit"
+
+msgid "ID of last synch transaction"
+msgstr "ID e transaksionit të fundit të sinkronizimit"
+
+msgid "Time of last synchronization"
+msgstr "Koha e sinkronizimit të fundit"
+
+msgid "Last synchronization type"
+msgstr "Lloji i sinkronizimit të fundit"
+
+msgid "SSL public key"
+msgstr "Çelës publik SSL"
+
+msgid "Branch type"
+msgstr "Lloji i degës"
+
+msgid "Room"
+msgstr "Dhomë"
+
+msgid "Simple IDS"
+msgstr "IDS e thjeshtë"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS është aktualisht i çaktivizuar. Vendosni IDS_ENABLED=true në .env tuaj për të aktivizuar skanimin."
+
+msgid "All event types"
+msgstr "Të gjitha llojet e ngjarjeve"
+
+msgid "Events by day (last 7 days)"
+msgstr "Ngjarje sipas ditës (7 ditët e fundit)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Ngjarje sipas llojit (30 ditët e fundit)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IP-të kryesore sulmuese (30 ditët e fundit)"
+
+msgid "Flagged IDS events"
+msgstr "Ngjarje të shënuara IDS"
+
+msgid "No suspicious events detected."
+msgstr "Asnjë ngjarje e dyshimtë e zbuluar."
+
+msgid "Detection type"
+msgstr "Lloji i zbulimit"
+
+msgid "Parameter"
+msgstr "Parametër"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (aktual)"
 

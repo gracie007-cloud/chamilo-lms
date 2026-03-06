@@ -238,7 +238,7 @@ msgid "Hyperbolic tangent:\t\ttanh(x)"
 msgstr "Hiperbolični tangent:\t\ttanh(x)"
 
 msgid "Tangent:\t\t\ttan(x)"
-msgstr "Tangent:\t\t\ttan(x)"
+msgstr "Tangens:\t\t\ttan(x)"
 
 msgid "Coach and student"
 msgstr "Trener i student"
@@ -4138,7 +4138,7 @@ msgid "MySql Client"
 msgstr "MySql Klijent"
 
 msgid "MySql Server"
-msgstr "MySql Server"
+msgstr "MySQL Server"
 
 msgid "Owner"
 msgstr "Vlasnik"
@@ -8998,7 +8998,7 @@ msgid "N"
 msgstr "A"
 
 msgid "D"
-msgstr "D"
+msgstr "N"
 
 msgid "Jan"
 msgstr "Jan"
@@ -9046,7 +9046,7 @@ msgid "March"
 msgstr "Mart"
 
 msgid "April"
-msgstr "April"
+msgstr "april"
 
 msgid "June"
 msgstr "Juni"
@@ -22134,14 +22134,8 @@ msgstr "Izvještaj o vježbama po kategorijama za sve sesije"
 msgid "Require e-mail confirmation"
 msgstr "Zahtijevaj potvrdu e-pošte"
 
-msgid "Registration confirmation"
-msgstr "Potvrda registracije"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Vaš nalog je neaktivan jer ga još niste potvrdili. Provjerite svoju e-poštu i slijedite upute ili kliknite na sljedeći link da ponovo pošaljete e-poštu"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Da biste završili registraciju na platformi, morate potvrditi svoj nalog klikom na sljedeći link"
 
 msgid "Confirmation for new account"
 msgstr "Potvrda za novi nalog"
@@ -31431,8 +31425,8 @@ msgstr "Samo slova, cifre i podvučena crta (_) su dopušteni u nazivu baze poda
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Koji opći uvjeti korištenja se daju korisnicima za korištenje ove platforme?"
 
-msgid "ex. {examplePassword}"
-msgstr "npr. {examplePassword}"
+msgid "ex. %s"
+msgstr "npr. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Dobrodošli u Chamilo!"
@@ -31453,7 +31447,7 @@ msgid "Reply to all"
 msgstr "Odgovori svima"
 
 msgid "SCIM external ID"
-msgstr "SCIM external ID"
+msgstr "SCIM vanjski ID"
 
 msgid "OAuth2 ID"
 msgstr "OAuth2 ID"
@@ -32564,4 +32558,184 @@ msgstr "Modifikovani upit"
 
 msgid "Saved in Documents"
 msgstr "Sačuvano u Dokumentima"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Ukupno korištenog prostora od %s je %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Ukupno korištenog prostora portala %s je %sGB (limit je postavljen na %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Potvrdite svoju e-poštu"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Da biste potvrdili svoju e-poštu i aktivirali račun na %s, kliknite na link ispod."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ako niste registrovali ovaj račun, možete zanemariti ovu e-poštu. Neće se preduzeti nikakva akcija."
+
+msgid "Current authentication method"
+msgstr "Trenutni način autentifikacije"
+
+msgid "Branches"
+msgstr "Filijale"
+
+msgid "Rooms"
+msgstr "Sobe"
+
+msgid "Room availability finder"
+msgstr "Pronađi dostupne sobe"
+
+msgid "New branch"
+msgstr "Nova filijala"
+
+msgid "New room"
+msgstr "Nova soba"
+
+msgid "Branch"
+msgstr "Filijala"
+
+msgid "Default room"
+msgstr "Zadana soba"
+
+msgid "Room occupation: %s"
+msgstr "Zauzetost sobe: %s"
+
+msgid "Find available rooms"
+msgstr "Pronađi dostupne sobe"
+
+msgid "Available rooms"
+msgstr "Dostupne sobe"
+
+msgid "Occupied rooms"
+msgstr "Zauzete sobe"
+
+msgid "No available rooms found for this time range"
+msgstr "Nema dostupnih soba za ovaj vremenski raspon"
+
+msgid "No rooms have been created yet"
+msgstr "Još uvijek nisu kreirane sobe"
+
+msgid "Courses linked to %s"
+msgstr "Kursevi povezani sa %s"
+
+msgid "No branches have been created yet"
+msgstr "Još uvijek nisu kreirane filijale"
+
+msgid "Occupation"
+msgstr "Zauzetost"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Ne mogu obrisati filijalu sa pripojenim sobama"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Ne mogu obrisati sobu sa pripojenim kursevima"
+
+msgid "Conflicts"
+msgstr "Konflikti"
+
+msgid "Geolocation"
+msgstr "Geolokacija"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Geografska širina, geografska dužina (npr. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ili IPv6"
+
+msgid "IP mask"
+msgstr "IP maska"
+
+msgid "e.g. /24"
+msgstr "npr. /24"
+
+msgid "Parent branch"
+msgstr "Roditeljska filijala"
+
+msgid "Unique identifier"
+msgstr "Jedinstveni identifikator"
+
+msgid "Latitude"
+msgstr "Geografska širina"
+
+msgid "e.g. 48.8566"
+msgstr "npr. 48.8566"
+
+msgid "Longitude"
+msgstr "Geografska dužina"
+
+msgid "e.g. 2.3522"
+msgstr "npr. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Brzina preuzimanja (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Brzina slanja (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Kašnjenje (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Ime administratora"
+
+msgid "Administrator phone number"
+msgstr "Broj telefona administratora"
+
+msgid "ID of last synch transaction"
+msgstr "ID posljednje transakcije sinhronizacije"
+
+msgid "Time of last synchronization"
+msgstr "Vrijeme posljednje sinhronizacije"
+
+msgid "Last synchronization type"
+msgstr "Tip posljednje sinhronizacije"
+
+msgid "SSL public key"
+msgstr "SSL javni ključ"
+
+msgid "Branch type"
+msgstr "Tip filijale"
+
+msgid "Room"
+msgstr "Soba"
+
+msgid "Simple IDS"
+msgstr "Jednostavan IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS je trenutno onemogućen. Postavite IDS_ENABLED=true u vašoj .env datoteci da aktivirate skeniranje."
+
+msgid "All event types"
+msgstr "Svi tipovi događaja"
+
+msgid "Events by day (last 7 days)"
+msgstr "Događaji po danu (posljednjih 7 dana)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Događaji po tipu (posljednjih 30 dana)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Najviše napadajuće IP adrese (posljednjih 30 dana)"
+
+msgid "Flagged IDS events"
+msgstr "Označeni IDS događaji"
+
+msgid "No suspicious events detected."
+msgstr "Nema detektovanih sumnjivih događaja."
+
+msgid "Detection type"
+msgstr "Tip detekcije"
+
+msgid "Parameter"
+msgstr "Parametar"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (trenutni)"
 

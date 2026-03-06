@@ -1,5 +1,7 @@
+@use "../abstracts/mixins" as m;
+
 .btn {
-  @apply cursor-pointer font-semibold gap-2 inline-flex justify-center items-center px-6 py-2 rounded-md transition flex-none text-base;
+  @include m.base-button();
 
   .mdi {
     @apply text-base;
@@ -131,109 +133,16 @@
     }
   }
 
-  &--primary,
-  &--secondary,
-  &--plain,
-  &--success,
-  &--info,
-  &--warning,
-  &--danger {
-    &:disabled {
-      @apply bg-gray-25 cursor-default select-none text-gray-50;
-    }
-  }
-
-  &--primary-outline,
-  &--secondary-outline,
-  &--plain-outline,
-  &--success-outline,
-  &--info-outline,
-  &--warning-outline,
-  &--danger-outline {
-    &:disabled,
-    &.disabled {
-      @apply bg-gray-10 border-gray-25 cursor-default select-none text-gray-50;
-    }
-  }
-
   &-sm,
   &--sm{
-    @apply px-3 py-1;
+    padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
     font-size: 13px;
   }
 }
 
-$color_7: #ffffff;
-$color_15: #A855F7;
-$background-color_4: transparent;
-$border-color_4: transparent;
-$border-color_12: #9333EA;
-
-@mixin filled-style($color, $hoverColor) {
-  $textColor: 'white';
-
-  @if('warning' == $color) {
-    $textColor: 'gray-90';
-  }
-
-  @apply bg-#{$color} text-#{$textColor};
-
-  &:enabled {
-    &:hover,
-    &:focus,
-    &:active {
-      @apply bg-#{$hoverColor};
-    }
-  }
-
-  &:disabled,
-  &.p-disabled {
-    @apply bg-gray-25 text-gray-50;
-  }
-}
-
-@mixin outlined-style($color) {
-  @apply bg-white border border-solid border-#{$color} text-#{$color};
-
-  &:enabled {
-    &:hover,
-    &:focus,
-    &:active {
-      @if ('warning' == $color) {
-        @apply bg-#{$color} border-#{$color} text-gray-90;
-      } @else if('black' == $color) {
-        @apply bg-gray-90 border-gray-90 text-white;
-      } @else {
-        @apply bg-#{$color} border-#{$color} text-white;
-      }
-    }
-  }
-
-  &:disabled,
-  &.p-disabled {
-    @apply bg-gray-10 border-gray-25 text-gray-50;
-  }
-}
-
-@mixin text-style($color) {
-  @apply bg-white text-#{$color};
-
-  &:enabled {
-    &:hover,
-    &:focus,
-    &:active {
-      @if('black' == $color) {
-        @apply bg-support-1 text-primary;
-      } @else {
-        @apply bg-gray-10;
-      }
-    }
-  }
-}
-
 .p-button {
-  @include filled-style('primary', 'support-4');
-  @apply cursor-pointer font-semibold gap-2 inline-flex justify-center items-center px-4 py-2 rounded-md transition;
+  @include m.base-button();
+  @include m.button-filled-style('primary', 'primary-gradient');
 
   &:focus {
     @apply outline-none;
@@ -244,11 +153,11 @@ $border-color_12: #9333EA;
   }
 
   &.p-button-outlined {
-    @include outlined-style('primary');
+    @include m.button-outlined-style('primary');
   }
 
   &.p-button-text {
-    @include text-style('primary');
+    @include m.button-text-style('primary');
   }
 
   &.p-button-raised {
@@ -260,7 +169,7 @@ $border-color_12: #9333EA;
   }
 
   &.p-button-sm {
-    @apply px-2 py-1;
+    padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
 
     .p-button-icon,
     .p-button-label {
@@ -269,7 +178,7 @@ $border-color_12: #9333EA;
   }
 
   &.p-button-lg {
-    @apply px-8 py-4;
+    padding: calc(1rem - 1px) calc(2rem - 1px);
 
     .p-button-icon,
     .p-button-label {
@@ -294,7 +203,7 @@ $border-color_12: #9333EA;
   }
 
   &.p-button-link {
-    @apply cursor-pointer bg-transparent text-primary;
+    @apply bg-transparent text-primary;
 
     &:enabled {
       &:hover,
@@ -312,276 +221,189 @@ $border-color_12: #9333EA;
 
 // secondary button
 .p-button.p-button-secondary {
-  @include filled-style('secondary', 'secondary-hover');
+  @include m.button-filled-style('secondary', 'secondary-gradient');
 
   &.p-button-outlined {
-    @include outlined-style('secondary');
+    @include m.button-outlined-style('secondary');
   }
 
   &.p-button-text {
-    @include text-style('secondary');
+    @include m.button-text-style('secondary');
   }
 }
 
 .p-buttonset.p-button-secondary {
   > .p-button {
-    @include filled-style('secondary', 'secondary-hover');
+    @include m.button-filled-style('secondary', 'secondary-gradient');
 
     &.p-button-outlined {
-      @include outlined-style('secondary');
+      @include m.button-outlined-style('secondary');
     }
 
     &.p-button-text {
-      @include text-style('secondary');
+      @include m.button-text-style('secondary');
     }
   }
 }
 
-// plain button
-.p-button.p-button-plain {
-  @include filled-style('gray-90', 'black');
+// contrast button
+.p-button.p-button-contrast {
+  @include m.button-filled-style('gray-90', 'black');
 
   &.p-button-outlined {
-    @include outlined-style('black');
+    @include m.button-outlined-style('black');
   }
 
   &.p-button-text {
-    @include text-style('black');
+    @include m.button-text-style('black');
   }
 }
 
-.p-buttonset.p-button-plain {
+.p-buttonset.p-button-contrast {
   > .p-button {
-    @include filled-style('gray-90', 'black');
+    @include m.button-filled-style('gray-90', 'black');
 
     &.p-button-outlined {
-      @include outlined-style('black');
+      @include m.button-outlined-style('black');
     }
 
     &.p-button-text {
-      @include text-style('black');
+      @include m.button-text-style('black');
     }
   }
 }
 
 // info button
 .p-button.p-button-info {
-  @include filled-style('info', 'info');
+  @include m.button-filled-style('info', 'info-gradient');
 
   &.p-button-outlined {
-    @include outlined-style('info');
+    @include m.button-outlined-style('info');
   }
 
   &.p-button-text {
-    @include text-style('info');
+    @include m.button-text-style('info');
   }
 }
 
 .p-buttonset.p-button-info {
   > .p-button {
-    @include filled-style('info', 'info');
+    @include m.button-filled-style('info', 'info-gradient');
 
     &.p-button-outlined {
-      @include outlined-style('info');
+      @include m.button-outlined-style('info');
     }
 
     &.p-button-text {
-      @include text-style('info');
+      @include m.button-text-style('info');
     }
   }
 }
 
 // success button
 .p-button.p-button-success {
-  @include filled-style('success', 'success');
+  @include m.button-filled-style('success', 'success-gradient');
 
   &.p-button-outlined {
-    @include outlined-style('success');
+    @include m.button-outlined-style('success');
   }
 
   &.p-button-text {
-    @include text-style('success');
+    @include m.button-text-style('success');
   }
 }
 
 .p-buttonset.p-button-success {
   > .p-button {
-    @include filled-style('success', 'success');
+    @include m.button-filled-style('success', 'success-gradient');
 
     &.p-button-outlined {
-      @include outlined-style('success');
+      @include m.button-outlined-style('success');
     }
 
     &.p-button-text {
-      @include text-style('success');
+      @include m.button-text-style('success');
     }
   }
 }
 
 // warning button
-.p-button.p-button-warning {
-  @include filled-style('warning', 'warning');
+.p-button.p-button-warn {
+  @include m.button-filled-style('warning', 'warning-gradient');
 
   &.p-button-outlined {
-    @include outlined-style('warning');
+    @include m.button-outlined-style('warning');
   }
 
   &.p-button-text {
-    @include text-style('warning');
+    @include m.button-text-style('warning');
   }
 }
 
-.p-buttonset.p-button-warning {
+.p-buttonset.p-button-warn {
   > .p-button {
-    @include filled-style('warning', 'warning');
+    @include m.button-filled-style('warning', 'warning-gradient');
 
     &.p-button-outlined {
-      @include outlined-style('warning');
+      @include m.button-outlined-style('warning');
     }
 
     &.p-button-text {
-      @include text-style('warning');
+      @include m.button-text-style('warning');
     }
   }
 }
 
 // help button
 .p-button.p-button-help {
-  color: $color_7;
-  background: #A855F7;
-  border: 1px solid #A855F7;
+  @include m.button-filled-style('tertiary', 'tertiary-gradient');
 
-  &:enabled {
-    &:hover {
-      background: #9333EA;
-      color: $color_7;
-      border-color: $border-color_12;
-    }
+  &.p-button-outlined {
+    @include m.button-outlined-style('tertiary');
+  }
 
-    &:active {
-      background: #9333EA;
-      color: $color_7;
-      border-color: $border-color_12;
-    }
+  &.p-button-text {
+    @include m.button-text-style('tertiary');
   }
 }
 
 .p-buttonset.p-button-help {
   > .p-button {
-    color: $color_7;
-    background: #A855F7;
-    border: 1px solid #A855F7;
-
-    &:enabled {
-      &:hover {
-        background: #9333EA;
-        color: $color_7;
-        border-color: $border-color_12;
-      }
-
-      &:active {
-        background: #9333EA;
-        color: $color_7;
-        border-color: $border-color_12;
-      }
-    }
+    @include m.button-filled-style('tertiary', 'tertiary-gradient');
   }
 
   > .p-button.p-button-outlined {
-    background-color: $background-color_4;
-    color: $color_15;
-    border: 1px solid;
-
-    &:enabled {
-      &:hover {
-        background: rgba(168, 85, 247, 0.04);
-        color: $color_15;
-        border: 1px solid;
-      }
-
-      &:active {
-        background: rgba(168, 85, 247, 0.16);
-        color: $color_15;
-        border: 1px solid;
-      }
-    }
+    @include m.button-outlined-style('tertiary');
   }
 
   > .p-button.p-button-text {
-    background-color: $background-color_4;
-    color: $color_15;
-    border-color: $border-color_4;
-
-    &:enabled {
-      &:hover {
-        background: rgba(168, 85, 247, 0.04);
-        border-color: $border-color_4;
-        color: $color_15;
-      }
-
-      &:active {
-        background: rgba(168, 85, 247, 0.16);
-        border-color: $border-color_4;
-        color: $color_15;
-      }
-    }
-  }
-}
-
-.p-button.p-button-help.p-button-outlined {
-  background-color: $background-color_4;
-  color: $color_15;
-  border: 1px solid;
-
-  &:enabled {
-    &:hover {
-      background: rgba(168, 85, 247, 0.04);
-      color: $color_15;
-      border: 1px solid;
-    }
-
-    &:active {
-      background: rgba(168, 85, 247, 0.16);
-      color: $color_15;
-      border: 1px solid;
-    }
-  }
-}
-
-.p-button.p-button-help.p-button-text {
-  @apply bg-white text-gray-90;
-
-  &:enabled {
-    &:hover,
-    &:active {
-      @apply bg-gray-10;
-    }
+    @include m.button-text-style('tertiary');
   }
 }
 
 // danger button
 .p-button.p-button-danger {
-  @include filled-style('error', 'error');
+  @include m.button-filled-style('danger', 'danger-gradient');
 
   &.p-button-outlined {
-    @include outlined-style('error');
+    @include m.button-outlined-style('danger');
   }
 
   &.p-button-text {
-    @include text-style('error');
+    @include m.button-text-style('danger');
   }
 }
 
 .p-buttonset.p-button-danger {
   > .p-button {
-    @include filled-style('error', 'error');
+    @include m.button-filled-style('danger', 'danger-gradient');
 
     &.p-button-outlined {
-      @include outlined-style('error');
+      @include m.button-outlined-style('danger');
     }
 
     &.p-button-text {
-      @include text-style('error');
+      @include m.button-text-style('danger');
     }
   }
 }
@@ -591,7 +413,7 @@ $border-color_12: #9333EA;
   &.p-button {
     &.p-highlight {
 
-      &.p-button-plain {
+      &.p-button-contrast {
         @apply bg-support-1 text-primary;
       }
     }

@@ -1365,7 +1365,7 @@ msgid "minute"
 msgstr "minutė"
 
 msgid "lasting"
-msgstr "lasting"
+msgstr "trunkantis"
 
 msgid "old to new"
 msgstr "senas į naują"
@@ -1524,7 +1524,7 @@ msgid "Passed"
 msgstr "Praeitas"
 
 msgid "Failed"
-msgstr "Failed"
+msgstr "Nepavyko"
 
 msgid "Previous"
 msgstr "Ankstesnis"
@@ -1551,7 +1551,7 @@ msgid "Close windows"
 msgstr "Uždaryti langus"
 
 msgid "Browsed"
-msgstr "Browsed"
+msgstr "Naršytas"
 
 msgid "Back to normal screen"
 msgstr "Atgal į normalų vaizdą"
@@ -1569,7 +1569,7 @@ msgid "Remote"
 msgstr "Nutolęs"
 
 msgid "Auto-detect"
-msgstr "Auto-detect"
+msgstr "Auto aptikti"
 
 msgid "Total of completed learning objects"
 msgstr "Total of accomplished steps"
@@ -2022,7 +2022,7 @@ msgid ":yes:copyright,, no:no copyright"
 msgstr ":yes:autoriaus teisės,, no:be autoriaus teisių"
 
 msgid ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Folder,, application/msword:MsWord,, application/octet-stream:Octet stream,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
-msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory: aplanko,, application/msword:MsWord,, application/octet-stream:Oktobaitis,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
+msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory: aplankas ,, application/msword:MsWord,, application/octet-stream:Oktobinis srautas,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
 
 msgid ":exercise:exercise,,      simulation:simulation,,      questionnaire:questionnaire,,      diagram:diagram,,      figure:figure,,      graph:graf,,      index:index,,      slide:slide,,      table:table,,      narrative text:narrative text,,      exam:exam,,      experiment:experiment,,      problem statement:problem statement,,      self assessment:self assessment,,      lecture:lecture"
 msgstr ":testas:testas,,      simuliacija:simuliacija,,      klausimynas:klausimynas,,      diagrama:diagrama,,      paveikslėlis:paveikslėlis,,      grafikas:grafikas,,      indeksas:indeksas,,      skaidrė:skaidrė,,      lentelė:lentelė,,      naratyvinis tekstas:naratyvinis tekstas,,      egzaminas:egzaminas,,      eksperimentas:eksperimentas,,      problemos teiginys:problemos teiginys,,      savęs vertinimas:savęs vertinimas,,      paskaita:paskaita"
@@ -2442,7 +2442,7 @@ msgid "Sample test"
 msgstr "Pavyzdinis testas"
 
 msgid "Irony"
-msgstr "Irony"
+msgstr "Ironicija"
 
 msgid "Socratic irony is..."
 msgstr "Socrates irony is..."
@@ -2829,13 +2829,13 @@ msgid "Unlocked: learners can post new messages in this forum category, forum or
 msgstr "Atrakinti: Studentai gali rašyti naujas žinutes kategorijoje, forume ar temoje"
 
 msgid "Flat"
-msgstr "Flat"
+msgstr "Plokščias"
 
 msgid "Threaded"
-msgstr "Threaded"
+msgstr "Srautinis"
 
 msgid "Nested"
-msgstr "Nested"
+msgstr "Įterptinis"
 
 msgid "List View"
 msgstr "Flat View"
@@ -3216,7 +3216,7 @@ msgid "Allow self-registration as a trainer"
 msgstr "Allow self-registration as course creator"
 
 msgid "ex."
-msgstr "ex."
+msgstr "pvz."
 
 msgid "Database Host"
 msgstr "Duomenų bazės serveris"
@@ -3282,7 +3282,7 @@ msgid "Main language"
 msgstr "Pagrindinė kalba"
 
 msgid "License"
-msgstr "License"
+msgstr "Licencija"
 
 msgid "Last check before install"
 msgstr "Paskutinė patikra prieš įdiegimą"
@@ -3306,7 +3306,7 @@ msgid "Allow self-registration"
 msgstr "Leisti savarankišką registraciją"
 
 msgid "(recommended)"
-msgstr "(recommended)"
+msgstr "(rekomenduojama)"
 
 msgid "SCORM DB"
 msgstr "SCORM DB"
@@ -4410,7 +4410,7 @@ msgid "Can one register as a teacher (with the ability to create courses)?"
 msgstr "Ar leidžiama registruotis kaip dėstytojui (su kursų kūrimo teise)?"
 
 msgid "Tuning"
-msgstr "Tuning"
+msgstr "Derinimas"
 
 msgid "Split users' upload directory"
 msgstr "Dalinti vartotojų įkėlimo katalogą"
@@ -5217,7 +5217,7 @@ msgid "Videoconference RTMPT protocol tunnel port"
 msgstr "Videoconference RTMTP protocol tunnel port"
 
 msgid "Security"
-msgstr "Security"
+msgstr "Saugumas"
 
 msgid "Type of filtering on document uploads"
 msgstr "Dokumentų įkėlimo filtravimo tipas"
@@ -5226,10 +5226,10 @@ msgid "Whether you want to use the blacklist or whitelist filtering. See blackli
 msgstr "Ar norite naudoti juodąjį sąrašą ar baltąjį sąrašą filtravimui. Žiūrėkite juodojo ar baltojo sąrašo aprašymą žemiau dėl daugiau detalių."
 
 msgid "Blacklist"
-msgstr "Blacklist"
+msgstr "Juodasis sąrašas"
 
 msgid "Whitelist"
-msgstr "Whitelist"
+msgstr "Baltasis sąrašas"
 
 msgid "Blacklist - setting"
 msgstr "Juodojo sąrašo nustatymas"
@@ -8124,7 +8124,7 @@ msgid "Click the link below to access  your account and view your commented Exam
 msgstr "Spustelėkite nuorodą žemiau, kad prisijungtumėte prie savo paskyros ir peržiūrėtumėte savo pakomentuotą Egzamino lapą."
 
 msgid "Regards"
-msgstr "Regards"
+msgstr "Pagarbiai"
 
 msgid "You attempt for the test %s has been viewed/commented/corrected by the trainer. Click the link below to access  your account and view your Examsheet."
 msgstr "Jūsų bandymas testui %s buvo peržiūrėtas/pakomentuotas/ištaisytas dėstytojo. Spustelėkite nuorodą žemiau, kad prisijungtumėte prie savo paskyros ir peržiūrėtumėte savo Egzamino lapą."
@@ -8424,13 +8424,13 @@ msgid "Question type does not belong to feedback type in exercise"
 msgstr "Klausimo tipas nepriklauso atsiliepimo tipui pratime"
 
 msgid "By"
-msgstr "By"
+msgstr "Autorius"
 
 msgid "Users online"
 msgstr "Prisijungę vartotojai"
 
 msgid "Remove"
-msgstr "Remove"
+msgstr "Pašalinti"
 
 msgid "Links"
 msgstr "Nuorodos"
@@ -8550,7 +8550,7 @@ msgid "Company"
 msgstr "Organizacija"
 
 msgid "Reporting"
-msgstr "Reporting"
+msgstr "Ataskaitos"
 
 msgid "Update"
 msgstr "Atnaujinimas"
@@ -8562,7 +8562,7 @@ msgid "Current course"
 msgstr "Esamas Mokymosi kursas"
 
 msgid "Back"
-msgstr "Back"
+msgstr "Grįžti"
 
 msgid "Information"
 msgstr "informacija"
@@ -8604,10 +8604,10 @@ msgid "Numbered"
 msgstr "Numeruojamas"
 
 msgid "en"
-msgstr "en"
+msgstr "lt"
 
 msgid "eng"
-msgstr "eng"
+msgstr "lt"
 
 msgid "iso-8859-1"
 msgstr "iso-8859-1"
@@ -8916,7 +8916,7 @@ msgid "Portal Admin"
 msgstr "Sistemos administratorius"
 
 msgid "none"
-msgstr "None"
+msgstr "jokio"
 
 msgid "First select a course"
 msgstr "Select a course first"
@@ -9087,7 +9087,7 @@ msgid "What I can teach"
 msgstr "Ką aš galiu mokyti"
 
 msgid "h"
-msgstr "h"
+msgstr "val."
 
 msgid "Please Try Again!"
 msgstr "Bandykite dar kartą!"
@@ -9255,7 +9255,7 @@ msgid "Time report for session %s"
 msgstr "Laiko ataskaita sesijai %s"
 
 msgid "Error"
-msgstr "Error"
+msgstr "Klaida"
 
 msgid "Anonymous"
 msgstr "Anoniminis"
@@ -9342,7 +9342,7 @@ msgid "No results found"
 msgstr "Rezultatų nėra"
 
 msgid "Tel"
-msgstr "Tel"
+msgstr "Tel."
 
 msgid "No tel"
 msgstr "Tel. nėra"
@@ -9435,13 +9435,13 @@ msgid "E-mail content"
 msgstr "Laiško turinys"
 
 msgid "Comments"
-msgstr "Comments"
+msgstr "Komentarai"
 
 msgid "Edit recipient list"
 msgstr "Redaguoti gavėjų sąrašą"
 
 msgid "Line"
-msgstr "Line"
+msgstr "Eilutė"
 
 msgid "No link visited"
 msgstr "Jokia nuoroda neaplankyta"
@@ -9456,10 +9456,10 @@ msgid "Search results"
 msgstr "Paieškos rezultatai"
 
 msgid "Past"
-msgstr "Past"
+msgstr "Praėjęs"
 
 msgid "Active"
-msgstr "Active"
+msgstr "Aktyvus"
 
 msgid "Not yet begun"
 msgstr "Dar nepradėta"
@@ -11754,7 +11754,7 @@ msgid "Hits"
 msgstr "Paspaudimai"
 
 msgid "h."
-msgstr "h."
+msgstr "val."
 
 msgid "In the last 31 days"
 msgstr "Per paskutines 31 dienas"
@@ -11775,7 +11775,7 @@ msgid "Score for the tests done"
 msgstr "Testų įvertinimų skaičiavimas baigtas"
 
 msgid "at"
-msgstr "at"
+msgstr "prie"
 
 msgid "Visits"
 msgstr "Apsilankymai"
@@ -11892,7 +11892,7 @@ msgid "Browsers"
 msgstr "Naršyklės"
 
 msgid "Referers"
-msgstr "Referers"
+msgstr "Perduodantieji"
 
 msgid "(When an user open the index of the portal)"
 msgstr "(Kai vartotojas atidaro portalo indeksą)"
@@ -11958,13 +11958,13 @@ msgid "Taken sessions"
 msgstr "Išlaikytos sesijos"
 
 msgid "Follow-up"
-msgstr "Follow-up"
+msgstr "Sekimas"
 
 msgid "Administrators"
 msgstr "Administratoriai"
 
 msgid "Tracks"
-msgstr "Tracks"
+msgstr "Sekėjai"
 
 msgid "Success"
 msgstr "Sėkmingas"
@@ -14256,7 +14256,7 @@ msgid "Content of the groups"
 msgstr "Grupių turinys"
 
 msgid "Manual"
-msgstr "Manual"
+msgstr "Vadovas"
 
 msgid "You should write a message"
 msgstr "Turėtumėte parašyti pranešimą"
@@ -14289,10 +14289,10 @@ msgid "Show Overview"
 msgstr "Rodyti apžvalgą"
 
 msgid "Install"
-msgstr "Install"
+msgstr "Įdiegti"
 
 msgid "of"
-msgstr "of"
+msgstr "iš"
 
 msgid "For more details"
 msgstr "Daugiau detalių"
@@ -14307,7 +14307,7 @@ msgid "PHP version"
 msgstr "PHP versija"
 
 msgid "Support"
-msgstr "support"
+msgstr "Palaikymas"
 
 msgid "Your PHP version matches the minimum requirement:"
 msgstr "Jūsų PHP versija atitinka minimalų reikalavimą:"
@@ -14319,7 +14319,7 @@ msgid "Recommended settings for your server configuration. These settings are se
 msgstr "Rekomenduojami jūsų serverio konfigūracijos nustatymai. Šie nustatymai nustatomi php.ini konfigūracijos faile jūsų serveryje."
 
 msgid "Currently"
-msgstr "Currently"
+msgstr "Šiuo metu"
 
 msgid "Directory and files permissions"
 msgstr "Katalogų ir failų leidimai"
@@ -14331,7 +14331,7 @@ msgid "Not writable"
 msgstr "Nerrašomas"
 
 msgid "Writable"
-msgstr "Writable"
+msgstr "Įrašomas"
 
 msgid "LDAP Extension not available"
 msgstr "LDAP plėtinys neprieinamas"
@@ -17697,7 +17697,7 @@ msgid "Tests in learning paths"
 msgstr "Testai mokymosi keliuose"
 
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 msgid "There was an error."
 msgstr "Įvyko klaida."
@@ -19380,7 +19380,7 @@ msgid "Auto"
 msgstr "Automatiškai"
 
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stabdyti"
 
 msgid "Enable Webcam Clip"
 msgstr "Įjungti žiniatinklio kamerą klipui"
@@ -22139,14 +22139,8 @@ msgstr "Užduočių ataskaita pagal kategoriją visoms sesijoms"
 msgid "Require e-mail confirmation"
 msgstr "Reikalauti el. pašto patvirtinimo"
 
-msgid "Registration confirmation"
-msgstr "Registracijos patvirtinimas"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Jūsų paskyra neaktyvi, nes dar nepatvirtinote jos. Patikrinkite el. paštą ir vykdykite nurodymus arba spustelėkite šią nuorodą el. paštui persiųsti"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Norėdami užbaigti platformos registraciją, turite patvirtinti paskyrą spustelėdami šią nuorodą"
 
 msgid "Confirmation for new account"
 msgstr "Patvirtinimas naujai paskyrai"
@@ -28140,31 +28134,31 @@ msgid "Menureporting"
 msgstr "Menureporting"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Platformos administravimas"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Mano darbotvarkė"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "Socialinis"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Vaizdo konferencija"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Diagnostika"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Katalogas"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Pažymėjimas"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Įgūdžiai"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "DI pagalbininkai"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "Vartotojo, kuris oficialiai siunčia darbotvarkės priminimus, ID"
@@ -31436,8 +31430,8 @@ msgstr "Duomenų bazės pavadinime leidžiamos tik raidės, skaitmenys ir pabrau
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Kokios bendrosios naudojimo sąlygos pateikiamos vartotojams šiai platformai naudoti?"
 
-msgid "ex. {examplePassword}"
-msgstr "pvz. {examplePassword}"
+msgid "ex. %s"
+msgstr "pvz. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Sveiki atvykę į Chamilo!"
@@ -32569,4 +32563,184 @@ msgstr "Pakeista užklausa"
 
 msgid "Saved in Documents"
 msgstr "Įrašyta į Dokumentus"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Iš viso vietos, naudojamos %s, yra %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Iš viso vietos, naudojamos portale %s, yra %sGB (limitą nustatyta %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Patvirtinkite savo el. paštą"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Norėdami patvirtinti savo el. paštą ir suaktyvinti paskyrą %s, spustelėkite nuorodą žemiau."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Jei jūs neregistravote šios paskyros, galite nepaisyti šio el. laiško. Jokia veiksma bus neatliekta."
+
+msgid "Current authentication method"
+msgstr "Dabartinis autentifikacijos metodas"
+
+msgid "Branches"
+msgstr "Filialai"
+
+msgid "Rooms"
+msgstr "Kambariai"
+
+msgid "Room availability finder"
+msgstr "Laisvų kambarių paieška"
+
+msgid "New branch"
+msgstr "Naujas filialas"
+
+msgid "New room"
+msgstr "Naujas kambarys"
+
+msgid "Branch"
+msgstr "Filialas"
+
+msgid "Default room"
+msgstr "Numatytasis kambarys"
+
+msgid "Room occupation: %s"
+msgstr "Kambario užimtumas: %s"
+
+msgid "Find available rooms"
+msgstr "Rasti laisvus kambarius"
+
+msgid "Available rooms"
+msgstr "Laisvi kambariai"
+
+msgid "Occupied rooms"
+msgstr "Užimti kambariai"
+
+msgid "No available rooms found for this time range"
+msgstr "Šiam laiko intervalui laisvų kambarių nerasta"
+
+msgid "No rooms have been created yet"
+msgstr "Dar nesukurta jokių kambarių"
+
+msgid "Courses linked to %s"
+msgstr "Su %s susieti kursai"
+
+msgid "No branches have been created yet"
+msgstr "Dar nesukurta jokių filialų"
+
+msgid "Occupation"
+msgstr "Užimtumas"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Negalima ištrinti filialo, prie kurio priskirti kambariai"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Negalima ištrinti kambario, prie kurio priskirti kursai"
+
+msgid "Conflicts"
+msgstr "Konfliktai"
+
+msgid "Geolocation"
+msgstr "Geolokacija"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Platuma, ilguma (pvz. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 arba IPv6"
+
+msgid "IP mask"
+msgstr "IP kaukė"
+
+msgid "e.g. /24"
+msgstr "pvz. /24"
+
+msgid "Parent branch"
+msgstr "Tėvinis filialas"
+
+msgid "Unique identifier"
+msgstr "Unikalus identifikatorius"
+
+msgid "Latitude"
+msgstr "Platuma"
+
+msgid "e.g. 48.8566"
+msgstr "pvz. 48.8566"
+
+msgid "Longitude"
+msgstr "Ilguma"
+
+msgid "e.g. 2.3522"
+msgstr "pvz. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Atsisiuntimo greitis (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Įkėlimo greitis (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Uždelsimas (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Administratoriaus vardas"
+
+msgid "Administrator phone number"
+msgstr "Administratoriaus telefono numeris"
+
+msgid "ID of last synch transaction"
+msgstr "Paskutinės sinchronizacijos operacijos ID"
+
+msgid "Time of last synchronization"
+msgstr "Paskutinės sinchronizacijos laikas"
+
+msgid "Last synchronization type"
+msgstr "Paskutinės sinchronizacijos tipas"
+
+msgid "SSL public key"
+msgstr "SSL viešasis raktas"
+
+msgid "Branch type"
+msgstr "Filialo tipas"
+
+msgid "Room"
+msgstr "Kambarys"
+
+msgid "Simple IDS"
+msgstr "Paprastas IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS šiuo metu išjungtas. Nustatykite IDS_ENABLED=true faile .env, kad įjungtumėte nuskaitymą."
+
+msgid "All event types"
+msgstr "Visi įvykių tipai"
+
+msgid "Events by day (last 7 days)"
+msgstr "Įvykiai pagal dieną (paskutinės 7 dienos)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Įvykiai pagal tipą (paskutinės 30 dienų)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Geriausi puolantys IP (paskutinės 30 dienų)"
+
+msgid "Flagged IDS events"
+msgstr "Pažymėti IDS įvykiai"
+
+msgid "No suspicious events detected."
+msgstr "Įtartinų įvykių nenustatyta."
+
+msgid "Detection type"
+msgstr "Aptikimo tipas"
+
+msgid "Parameter"
+msgstr "Parametras"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (dabartinis)"
 

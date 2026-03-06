@@ -490,7 +490,7 @@ msgid "Question ID"
 msgstr "ID запитання"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "Ідентифікатор вправи"
 
 msgid "Excel export"
 msgstr "Експорт в Excel"
@@ -3661,7 +3661,7 @@ msgid "Mark as read"
 msgstr "Позначити як прочитане"
 
 msgid "RE:"
-msgstr "RE:"
+msgstr "Re:"
 
 msgid "Advanced edit"
 msgstr "Розширене редагування"
@@ -9121,7 +9121,7 @@ msgid "Average"
 msgstr "Середнє"
 
 msgid "Dropbox"
-msgstr "Dropbox"
+msgstr "Сховище файлів"
 
 msgid "Chat"
 msgstr "Чат"
@@ -22134,14 +22134,8 @@ msgstr "Звіт вправ за категоріями для всіх сесі
 msgid "Require e-mail confirmation"
 msgstr "Вимагати підтвердження email"
 
-msgid "Registration confirmation"
-msgstr "Підтвердження реєстрації"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Ваш обліковий запис неактивний, оскільки ви ще не підтвердили його. Перевірте email та дотримуйтесь інструкцій або натисніть на посилання нижче, щоб надіслати email ще раз"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Щоб завершити реєстрацію на платформі, вам потрібно підтвердити обліковий запис, клацнувши на таке посилання"
 
 msgid "Confirmation for new account"
 msgstr "Підтвердження нового облікового запису"
@@ -23983,10 +23977,10 @@ msgid "Send diagnostic finalization message"
 msgstr "Надіслати повідомлення про завершення діагностики"
 
 msgid "DiagnosticfinalizationmessageTitle"
-msgstr "DiagnosticfinalizationmessageTitle"
+msgstr "Заголовок повідомлення про завершення діагностики"
 
 msgid "DiagnosticfinalizationmessageContent"
-msgstr "DiagnosticfinalizationmessageContent"
+msgstr "Вміст повідомлення про завершення діагностики"
 
 msgid "Add a forumCategory"
 msgstr "Додати категорію форуму"
@@ -28126,19 +28120,19 @@ msgid "Generates images based on prompts or content using AI."
 msgstr "Генерує зображення на основі підказок або вмісту за допомогою ШІ."
 
 msgid "Menucampushomepage"
-msgstr "Menucampushomepage"
+msgstr "Меню головної сторінки кампусу"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "Меню мої курси"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "Меню звітність"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Меню адміністрування платформи"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Меню мій календар"
 
 msgid "Menusocial"
 msgstr "Меню соціальне"
@@ -29719,7 +29713,7 @@ msgid "Back to layouts"
 msgstr "Повернутися до макетів"
 
 msgid "ID"
-msgstr "ID"
+msgstr "ІД"
 
 msgid "Columns"
 msgstr "Стовпці"
@@ -31431,8 +31425,8 @@ msgstr "У назві бази даних дозволені лише літер
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Які загальні умови та правила надаються користувачам для використання цієї платформи?"
 
-msgid "ex. {examplePassword}"
-msgstr "наприклад. {examplePassword}"
+msgid "ex. %s"
+msgstr "наприклад. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Ласкаво просимо до Chamilo!"
@@ -32332,236 +32326,416 @@ msgid "Quiz"
 msgstr "Тест"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Користувацький сертифікат"
 
 msgid "Update profile"
 msgstr "Оновити профіль"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "Увімкнути генератор навчальних шляхів"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "Увімкнути генератор вправ"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "Увімкнути оцінювач відкритих відповідей"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "Увімкнути чат-бот викладача"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "Увімкнути оцінювач завдань"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "Увімкнути аналізатор контенту"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "Увімкнути генератор зображень"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "Увімкнути генератор термінів глосарію"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "Увімкнути генератор відео"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "Увімкнути аналізатор курсу"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "Операція '%s' не підтримується."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "Зворотний зв’язок ШІ щодо %s у курсі %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "Видалення не вдалося: відсутній контекст курсу або некоректний ідентифікатор запитання."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "ШІ-викладач"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Розширення APCu має бути встановленим і увімкненим, щоб платформа могла його використовувати."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "Рекомендується дозволити OPCache memory_consumption щонайменше %sMB оперативної пам’яті."
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Модуль OPcache має бути встановленим і увімкненим, щоб платформа могла його використовувати."
 
 msgid "You are here"
-msgstr ""
+msgstr "Ви тут"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "Клацніть тип події, щоб відфільтрувати результати."
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "Вимагати унікальну присутність"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "Якщо увімкнено, журнал оцінок надасть учневі 100%, якщо той був присутній принаймні один раз."
 
 msgid "AI feedback"
-msgstr ""
+msgstr "Зворотний зв’язок ШІ"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Запит"
 
 msgid "Tip"
-msgstr ""
+msgstr "Порада"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Ви можете відредагувати запит перед запитом зворотного зв’язку."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Результат (ви можете застосувати його до коментаря)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Застосувати до коментаря"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Застосувати оцінку"
 
 msgid "AI grade"
-msgstr ""
+msgstr "Оцінка ШІ"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "ШІ-викладач вимкнено під час тестів"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Генерувати терміни глосарію"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Генерувати медіа"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "У вас немає дозволу генерувати AI-медіа в цьому курсі."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "Допоміжні засоби ШІ відключено на рівні платформи."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Генерація AI-медіа відключена в налаштуваннях курсу."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Немає доступних постачальників AI-медіа."
 
 msgid "Provider"
-msgstr ""
+msgstr "Постачальник"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Виберіть постачальника"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Наприклад: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "Назва не додається до запиту; вона використовується лише для збереження файлу."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Опишіть, що ви хочете згенерувати..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "Порада: клацніть на пресет, щоб швидко встановити розмір."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Генерування..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Зберегти в Документи"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "IRI документа"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Перейти до папки"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Використаний постачальник"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Цей результат відео ще не можна зберегти"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Опитування відео було зупинено, оскільки постачальник змінився."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Генерація відео займає забагато часу. Спробуйте пізніше."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Не вдалося перевірити статус відео."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Відео згенеровано успішно. Тепер ви можете його зберегти."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Генерація відео завершена, але не повернуто відтворюваний вміст."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Генерація відео не вдалася."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Очікування готовності відео..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Заповніть всі поля."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Генерація зображень не увімкнена для цього курсу."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Генерація відео не увімкнена для цього курсу."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Генерація не вдалася."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "Згенеровано успішно. Перегляньте попередній перегляд і збережіть, коли готові."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "Згенеровано успішно. Збереження відключено, оскільки постачальник повернув URL."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Генерація відео розпочата. Очікування результату..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "ШІ повернув порожню відповідь."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Немає що зберігати."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Цей постачальник не повернув вміст base64. Спробуйте іншого постачальника."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Збереження не вдалося."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Отримати зворотний зв’язок від ШІ"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Копіювати відповідь у буфер обміну"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Зберегти відповідь у мою поштову скриньку"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Документ уже в цій папці"
 
 msgid "Copied"
-msgstr ""
+msgstr "Скопійовано"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "У вас немає дозволу генерувати терміни глосарію."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Генерація відео триває"
 
 msgid "Job"
-msgstr ""
+msgstr "Завдання"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Змінений запит"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "Збережено в Документах"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Загалом використано місця %s: %sГБ"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Загалом використано місця порталом %s: %sГБ (обмеження встановлено на %sГБ)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Підтвердіть вашу електронну пошту"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Щоб підтвердити вашу електронну пошту та активувати обліковий запис на %s, будь ласка, натисніть посилання нижче."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Якщо ви не реєстрували цей обліковий запис, можете ігнорувати цей лист. Жодних дій не буде вжито."
+
+msgid "Current authentication method"
+msgstr "Поточний метод автентифікації"
+
+msgid "Branches"
+msgstr "Філії"
+
+msgid "Rooms"
+msgstr "Аудиторії"
+
+msgid "Room availability finder"
+msgstr "Пошук доступних аудиторій"
+
+msgid "New branch"
+msgstr "Нова філія"
+
+msgid "New room"
+msgstr "Нова аудиторія"
+
+msgid "Branch"
+msgstr "Філія"
+
+msgid "Default room"
+msgstr "Аудиторія за замовчуванням"
+
+msgid "Room occupation: %s"
+msgstr "Зайнятість аудиторії: %s"
+
+msgid "Find available rooms"
+msgstr "Знайти доступні аудиторії"
+
+msgid "Available rooms"
+msgstr "Доступні аудиторії"
+
+msgid "Occupied rooms"
+msgstr "Зайняті аудиторії"
+
+msgid "No available rooms found for this time range"
+msgstr "Доступних аудиторій для цього часового діапазону не знайдено"
+
+msgid "No rooms have been created yet"
+msgstr "Аудиторії ще не створено"
+
+msgid "Courses linked to %s"
+msgstr "Курси, пов’язані з %s"
+
+msgid "No branches have been created yet"
+msgstr "Філії ще не створено"
+
+msgid "Occupation"
+msgstr "Зайнятість"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Не можна видалити філію з прикріпленими аудиторіями"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Не можна видалити аудиторію з прикріпленими курсами"
+
+msgid "Conflicts"
+msgstr "Конфлікти"
+
+msgid "Geolocation"
+msgstr "Геолокація"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Широта, Довгота (наприклад, 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 або IPv6"
+
+msgid "IP mask"
+msgstr "Маска IP"
+
+msgid "e.g. /24"
+msgstr "наприклад, /24"
+
+msgid "Parent branch"
+msgstr "Батьківська філія"
+
+msgid "Unique identifier"
+msgstr "Унікальний ідентифікатор"
+
+msgid "Latitude"
+msgstr "Широта"
+
+msgid "e.g. 48.8566"
+msgstr "наприклад, 48.8566"
+
+msgid "Longitude"
+msgstr "Довгота"
+
+msgid "e.g. 2.3522"
+msgstr "наприклад, 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Швидкість завантаження (КБ/с)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Швидкість завантаження (КБ/с)"
+
+msgid "Delay (ms)"
+msgstr "Затримка (мс)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Ім'я адміністратора"
+
+msgid "Administrator phone number"
+msgstr "Номер телефону адміністратора"
+
+msgid "ID of last synch transaction"
+msgstr "ID останньої транзакції синхронізації"
+
+msgid "Time of last synchronization"
+msgstr "Час останньої синхронізації"
+
+msgid "Last synchronization type"
+msgstr "Тип останньої синхронізації"
+
+msgid "SSL public key"
+msgstr "Публічний ключ SSL"
+
+msgid "Branch type"
+msgstr "Тип філії"
+
+msgid "Room"
+msgstr "Кімната"
+
+msgid "Simple IDS"
+msgstr "Простий IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS зараз вимкнено. Встановіть IDS_ENABLED=true у вашому .env для активації сканування."
+
+msgid "All event types"
+msgstr "Усі типи подій"
+
+msgid "Events by day (last 7 days)"
+msgstr "Події за днем (останні 7 днів)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Події за типом (останні 30 днів)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Найактивніші IP-адреси атак (останні 30 днів)"
+
+msgid "Flagged IDS events"
+msgstr "Позначені події IDS"
+
+msgid "No suspicious events detected."
+msgstr "Підозрілих подій не виявлено."
+
+msgid "Detection type"
+msgstr "Тип виявлення"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (поточний)"
 

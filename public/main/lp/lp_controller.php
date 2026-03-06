@@ -26,7 +26,7 @@ api_protect_course_script(true);
 $oLP = null;
 $debug = false;
 $current_course_tool = TOOL_LEARNPATH;
-$lpItemId = isset($_REQUEST['id']) ? (int) $_REQUEST['id'] : 0;
+$lpItemId = (int) ($_REQUEST['id'] ?? $_REQUEST['lp_item_id'] ?? $_REQUEST['item_id'] ?? 0);
 $lpId = isset($_REQUEST['lp_id']) ? (int) $_REQUEST['lp_id'] : 0;
 $courseId = isset($_REQUEST['cid']) ? (int) $_REQUEST['cid'] : api_get_course_int_id();
 $sessionId = isset($_REQUEST['sid']) ? (int) $_REQUEST['sid'] : api_get_session_id();
@@ -174,6 +174,17 @@ if (isset($oLP)) {
 }
 
 $action = !empty($_REQUEST['action']) ? $_REQUEST['action'] : '';
+$isBuildView = isset($_REQUEST['view']) && 'build' === $_REQUEST['view'];
+if ('POST' === $_SERVER['REQUEST_METHOD']
+    && 'edit' === $action
+    && $lpItemId > 0
+    && isset($_REQUEST['type'])
+    && 'dir' === $_REQUEST['type']
+    && isset($_POST['submit_button'], $_POST['title'])
+) {
+    $action = 'edit_item';
+    $isBuildView = true;
+}
 
 if ($debug) {
     error_log('Entered lp_controller.php -+- (action: '.$action.')');
@@ -181,6 +192,26 @@ if ($debug) {
 
 $__returnTo = $_GET['returnTo'] ?? '';
 $__listUrlForSpa = $listUrl;
+$redirectToReturnToOr = static function (string $fallback) use ($__returnTo): void {
+    $returnTo = (string) ($_REQUEST['returnTo'] ?? $__returnTo ?? '');
+    if ($returnTo !== '') {
+        $parts = parse_url($returnTo);
+
+        $isRelative = is_array($parts)
+            && !isset($parts['scheme'], $parts['host'])
+            && str_starts_with($returnTo, '/');
+
+        // Security: allow only same-site relative paths.
+        if ($isRelative) {
+            header('Location: '.$returnTo);
+            exit;
+        }
+    }
+
+    header('Location: '.$fallback);
+    exit;
+};
+
 $goList = static function () use ($__listUrlForSpa, $__returnTo) {
     header('Location: '.$__listUrlForSpa);
     exit;
@@ -346,22 +377,26 @@ switch ($action) {
                 $parent = null;
             }
 
-            $previous = $_POST['previous'] ?? '';
-            $type = $_POST['type'] ?? '';
-            $path = $_POST['path'] ?? '';
-            $description = $_POST['description'] ?? '';
-            $prerequisites = $_POST['prerequisites'] ?? '';
+            $previous       = $_POST['previous'] ?? '';
+            $type           = $_POST['type'] ?? '';
+            $path           = $_POST['path'] ?? '';
+            $description    = $_POST['description'] ?? '';
+            $prerequisites  = $_POST['prerequisites'] ?? '';
             $maxTimeAllowed = $_POST['maxTimeAllowed'] ?? '';
-            $exportAllowed = (isset($_POST['export_allowed']) && $_POST['export_allowed'] === '1');
+            $exportAllowed  = (isset($_POST['export_allowed']) && $_POST['export_allowed'] === '1');
 
             $saveExportFlag = static function (int $itemId) use ($exportAllowed) {
-                if (empty($itemId)) return;
+                if (empty($itemId)) {
+                    return;
+                }
 
                 $em   = Database::getManager();
                 $repo = Container::getLpItemRepository();
                 /** @var CLpItem|null $it */
                 $it = $repo->find($itemId);
-                if (!$it) return;
+                if (!$it) {
+                    return;
+                }
 
                 $allowed = false;
                 if ($it->getItemType() === TOOL_DOCUMENT) {
@@ -384,6 +419,14 @@ switch ($action) {
                 $em->flush();
             };
 
+            $saveLpItemExtraFields = static function (int $itemId): void {
+                if (empty($itemId)) {
+                    return;
+                }
+                $extraFieldValue = new ExtraFieldValue('lp_item');
+                $extraFieldValue->saveFieldValues($_POST, $itemId);
+            };
+
             if (in_array($_POST['type'], [TOOL_DOCUMENT, 'video'])) {
                 if (isset($_POST['path']) && !empty($_GET['id'])) {
                     $document_id = $_POST['path'];
@@ -400,7 +443,7 @@ switch ($action) {
                 }
 
                 $documentRepo = Database::getManager()->getRepository(CDocument::class);
-                $document = $documentRepo->find((int)$document_id);
+                $document = $documentRepo->find((int) $document_id);
                 if ($document && $document->getFiletype() === 'video') {
                     $type = 'video';
                 }
@@ -415,6 +458,8 @@ switch ($action) {
                     $prerequisites
                 );
                 $saveExportFlag($createdItemId);
+                $saveLpItemExtraFields($createdItemId);
+
             } elseif (TOOL_READOUT_TEXT == $_POST['type']) {
                 if (isset($_POST['path']) && 'true' != $_GET['edit']) {
                     $document_id = $_POST['path'];
@@ -439,9 +484,9 @@ switch ($action) {
                     $prerequisites
                 );
                 $saveExportFlag($createdItemId);
+                $saveLpItemExtraFields($createdItemId);
+
             } else {
-                // For all other item types than documents,
-                // load the item using the item type and path rather than its ID.
                 $createdItemId = $oLP->add_item(
                     $parent,
                     $previous,
@@ -453,6 +498,7 @@ switch ($action) {
                     $maxTimeAllowed
                 );
                 $saveExportFlag($createdItemId);
+                $saveLpItemExtraFields($createdItemId);
             }
             $url = api_get_self().'?action=add_item&type=step&lp_id='.intval($oLP->lp_id).'&'.api_get_cidreq();
             header('Location: '.$url);
@@ -653,9 +699,15 @@ switch ($action) {
             $extraFieldValues->saveFieldValues($_POST);
 
             Display::addFlash(Display::return_message(get_lang('Updated')));
-            $url = api_get_self().'?action=add_item&type=step&lp_id='.intval($oLP->lp_id).'&'.api_get_cidreq();
-            header('Location: '.$url);
-            exit;
+            $fallback = $isBuildView
+                ? api_get_self()
+                .'?action=add_item&type=step&lp_id='.intval($oLP->lp_id)
+                .'&'.api_get_cidreq()
+                .'&isStudentView=false'
+                : api_get_self()
+                .'?action=add_item&type=step&lp_id='.intval($oLP->lp_id)
+                .'&'.api_get_cidreq();
+            $redirectToReturnToOr($fallback);
         }
         if (isset($_GET['view']) && 'build' === $_GET['view']) {
             require 'lp_edit_item.php';

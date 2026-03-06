@@ -3666,7 +3666,7 @@ msgid "Mark as read"
 msgstr "标记为已读"
 
 msgid "RE:"
-msgstr "Re:"
+msgstr "回覆："
 
 msgid "Advanced edit"
 msgstr "高级编辑"
@@ -8424,7 +8424,7 @@ msgid "Question type does not belong to feedback type in exercise"
 msgstr "问题类型不属于练习中的反馈类型"
 
 msgid "By"
-msgstr "By"
+msgstr "由"
 
 msgid "Users online"
 msgstr "在线用户"
@@ -8622,10 +8622,10 @@ msgid "helvetica, arial, geneva, sans-serif"
 msgstr "helvetica, arial, geneva, sans-serif"
 
 msgid ","
-msgstr ","
+msgstr "，"
 
 msgid "."
-msgstr "."
+msgstr "。"
 
 msgid "%b %d, %Y"
 msgstr "%b %d, %Y"
@@ -8634,7 +8634,7 @@ msgid "%A %B %d, %Y"
 msgstr "%A %B %d, %Y"
 
 msgid "%B %d, %Y at %I:%M %p"
-msgstr "%B %d, %Y at %I:%M %p"
+msgstr "%B %d, %Y %I:%M %p"
 
 msgid "%I:%M %p"
 msgstr "%I:%M %p"
@@ -8844,7 +8844,7 @@ msgid "Page"
 msgstr "页"
 
 msgid "English"
-msgstr "English"
+msgstr "英语"
 
 msgid "Home"
 msgstr "主页"
@@ -14292,7 +14292,7 @@ msgid "Install"
 msgstr "安装"
 
 msgid "of"
-msgstr "of"
+msgstr "的"
 
 msgid "For more details"
 msgstr "要求更多详情"
@@ -18594,7 +18594,7 @@ msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
 msgid "%B %d, %Y at %H:%M"
-msgstr "%B %d, %Y at %H:%M"
+msgstr "%B %d, %Y %H:%M"
 
 msgid "Enable legal terms"
 msgstr "启用法律条款"
@@ -22139,14 +22139,8 @@ msgstr "所有会话的按类别练习报告"
 msgid "Require e-mail confirmation"
 msgstr "要求电子邮件确认"
 
-msgid "Registration confirmation"
-msgstr "注册确认"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "您的帐户处于非活动状态，因为您尚未确认。请检查您的电子邮件并按照指示操作，或点击以下链接重新发送电子邮件"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "要完成平台注册，您需要点击以下链接确认您的帐户"
 
 msgid "Confirmation for new account"
 msgstr "新帐户确认"
@@ -31437,8 +31431,8 @@ msgstr "数据库名称仅允许使用字母、数字和下划线 (_)。无效�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "使用此平台时，用户需遵守哪些一般条款和条件？"
 
-msgid "ex. {examplePassword}"
-msgstr "例如 {examplePassword}"
+msgid "ex. %s"
+msgstr "例如 %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "欢迎来到 Chamilo！"
@@ -32338,236 +32332,416 @@ msgid "Quiz"
 msgstr "测验"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "自定义证书"
 
 msgid "Update profile"
 msgstr "更新个人资料"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "启用学习路径生成器"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "启用练习生成器"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "启用开放答案评分器"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "启用导师聊天机器人"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "启用任务评分器"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "启用内容分析器"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "启用图像生成器"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "启用术语表术语生成器"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "启用视频生成器"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "启用课程分析器"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "操作“%s”不受支持。"
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "课程 %s 中 %s 的 AI 反馈"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "删除失败：缺少课程上下文或无效的问题 ID。"
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "AI 导师"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "平台使用 APCu 扩展需要安装并启用该扩展。"
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "建议 OPCache memory_consumption 至少达到 %sMB RAM。"
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "平台使用 OPcache 模块需要安装并启用该模块。"
 
 msgid "You are here"
-msgstr ""
+msgstr "您当前的位置"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "点击事件类型过滤结果。"
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "要求唯一出勤"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "启用后，成绩簿将为至少出勤一次的学习者给予 100% 分数。"
 
 msgid "AI feedback"
-msgstr ""
+msgstr "AI 反馈"
 
 msgid "Prompt"
-msgstr ""
+msgstr "提示"
 
 msgid "Tip"
-msgstr ""
+msgstr "提示"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "您可以在请求反馈前编辑提示。"
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "结果（可应用于评论）"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "应用于评论"
 
 msgid "Apply score"
-msgstr ""
+msgstr "应用分数"
 
 msgid "AI grade"
-msgstr ""
+msgstr "AI评分"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "测试期间AI导师已禁用"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "生成术语表条目"
 
 msgid "Generate media"
-msgstr ""
+msgstr "生成媒体"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "您没有权限在此课程中生成AI媒体。"
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "平台级别已禁用AI助手。"
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "课程设置中已禁用AI媒体生成。"
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "没有可用的AI媒体提供商。"
 
 msgid "Provider"
-msgstr ""
+msgstr "提供商"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "选择提供商"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "示例：generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "名称不会添加到提示中；它仅用于保存文件。"
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "描述您想要生成的内容..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "提示：点击预设快速设置尺寸。"
 
 msgid "Generating..."
-msgstr ""
+msgstr "生成中..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "保存到文档"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "文档IRI"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "转到文件夹"
 
 msgid "Provider used"
-msgstr ""
+msgstr "使用的提供商"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "此视频结果尚无法保存"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "由于提供商更改，视频轮询已停止。"
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "视频生成时间过长。请稍后重试。"
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "检查视频状态失败。"
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "视频生成成功。您现在可以保存它。"
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "视频生成完成，但未返回可播放内容。"
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "视频生成失败。"
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "等待视频就绪..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "请填写所有字段。"
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "此课程未启用图像生成。"
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "此课程未启用视频生成。"
 
 msgid "Generation failed."
-msgstr ""
+msgstr "生成失败。"
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "生成成功。查看预览并在准备好时保存。"
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "生成成功。由于提供商返回了URL，保存已禁用。"
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "视频生成已开始。等待结果..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI返回了空响应。"
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "尚无可保存的内容。"
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "此提供商未返回base64内容。请尝试其他提供商。"
 
 msgid "Saving failed."
-msgstr ""
+msgstr "保存失败。"
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "获取AI反馈"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "复制答案到剪贴板"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "保存答案到我的收件箱"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "文档已在该文件夹中"
 
 msgid "Copied"
-msgstr ""
+msgstr "已复制"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "您没有权限生成术语表条目。"
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "视频生成正在进行中"
 
 msgid "Job"
-msgstr ""
+msgstr "任务"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "修改后的提示"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "已保存到文档"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s 总共使用了 %sGB 空间"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "门户 %s 使用的总空间为 %sGB（限制为 %sGB）"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] 确认您的电子邮件"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "要验证您的电子邮件并在 %s 上启用您的账户，请点击下面的链接。"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "如果您没有注册此账户，您可以忽略此电子邮件。不会采取任何行动。"
+
+msgid "Current authentication method"
+msgstr "当前认证方法"
+
+msgid "Branches"
+msgstr "分支机构"
+
+msgid "Rooms"
+msgstr "教室"
+
+msgid "Room availability finder"
+msgstr "教室可用性查找"
+
+msgid "New branch"
+msgstr "新建分支机构"
+
+msgid "New room"
+msgstr "新建教室"
+
+msgid "Branch"
+msgstr "分支机构"
+
+msgid "Default room"
+msgstr "默认教室"
+
+msgid "Room occupation: %s"
+msgstr "教室占用：%s"
+
+msgid "Find available rooms"
+msgstr "查找可用教室"
+
+msgid "Available rooms"
+msgstr "可用教室"
+
+msgid "Occupied rooms"
+msgstr "已占用教室"
+
+msgid "No available rooms found for this time range"
+msgstr "此时间范围内未找到可用教室"
+
+msgid "No rooms have been created yet"
+msgstr "尚未创建任何教室"
+
+msgid "Courses linked to %s"
+msgstr "链接到 %s 的课程"
+
+msgid "No branches have been created yet"
+msgstr "尚未创建任何分支机构"
+
+msgid "Occupation"
+msgstr "占用"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "无法删除附有教室的分支机构"
+
+msgid "Cannot delete room with courses attached"
+msgstr "无法删除附有课程的教室"
+
+msgid "Conflicts"
+msgstr "冲突"
+
+msgid "Geolocation"
+msgstr "地理位置"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "纬度，经度（例如 48.8566, 2.3522）"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 或 IPv6"
+
+msgid "IP mask"
+msgstr "IP 掩码"
+
+msgid "e.g. /24"
+msgstr "例如 /24"
+
+msgid "Parent branch"
+msgstr "父分支机构"
+
+msgid "Unique identifier"
+msgstr "唯一标识符"
+
+msgid "Latitude"
+msgstr "纬度"
+
+msgid "e.g. 48.8566"
+msgstr "例如 48.8566"
+
+msgid "Longitude"
+msgstr "经度"
+
+msgid "e.g. 2.3522"
+msgstr "例如 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "下载速度 (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "上传速度 (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "延迟 (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "管理员姓名"
+
+msgid "Administrator phone number"
+msgstr "管理员电话号码"
+
+msgid "ID of last synch transaction"
+msgstr "最后同步事务 ID"
+
+msgid "Time of last synchronization"
+msgstr "最后同步时间"
+
+msgid "Last synchronization type"
+msgstr "最后同步类型"
+
+msgid "SSL public key"
+msgstr "SSL 公钥"
+
+msgid "Branch type"
+msgstr "分支类型"
+
+msgid "Room"
+msgstr "房间"
+
+msgid "Simple IDS"
+msgstr "简单 IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS 当前已禁用。请在您的 .env 文件中设置 IDS_ENABLED=true 以激活扫描。"
+
+msgid "All event types"
+msgstr "所有事件类型"
+
+msgid "Events by day (last 7 days)"
+msgstr "按天的事件 (最近 7 天)"
+
+msgid "Events by type (last 30 days)"
+msgstr "按类型的事件 (最近 30 天)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "顶级攻击 IP (最近 30 天)"
+
+msgid "Flagged IDS events"
+msgstr "标记的 IDS 事件"
+
+msgid "No suspicious events detected."
+msgstr "未检测到可疑事件。"
+
+msgid "Detection type"
+msgstr "检测类型"
+
+msgid "Parameter"
+msgstr "参数"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (当前)"
 

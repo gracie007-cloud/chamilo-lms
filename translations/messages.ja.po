@@ -299,7 +299,7 @@ msgstr "リストにご使用の言語が見つからない場合は、翻訳者
 "。info@chamilo.orgまでご連絡ください。"
 
 msgid "Arcsine:\t\t\tarcsin(x)"
-msgstr "Arcsine:\t\t\tarcsin(x)"
+msgstr "アークサイン:\t\t\tarcsin(x)"
 
 msgid "Hyperbolic sine:\t\tsinh(x)"
 msgstr "双曲線正弦:\t\tsinh(x)"
@@ -1393,10 +1393,10 @@ msgid "Month"
 msgstr "月"
 
 msgid "Hour"
-msgstr "Hour"
+msgstr "時間"
 
 msgid "Minutes"
-msgstr "Minutes"
+msgstr "分"
 
 msgid "Event added"
 msgstr "Agenda item added"
@@ -6535,7 +6535,7 @@ msgid "Send this announcement by email to selected groups/users"
 msgstr "このお知らせを選択したグループ/ユーザーに電子メールで送信する"
 
 msgid "On"
-msgstr "On"
+msgstr "オン"
 
 msgid "registered users of the site"
 msgstr "サイトの登録ユーザー"
@@ -7723,16 +7723,16 @@ msgid "use square brackets [...] to define one or more blanks"
 msgstr "角括弧 [...] を使用して1つ以上の空欄を定義"
 
 msgid "+answ"
-msgstr "+answ"
+msgstr "+回答"
 
 msgid "-answ"
-msgstr "-answ"
+msgstr "-回答"
 
 msgid "+elem"
-msgstr "+elem"
+msgstr "+要素"
 
 msgid "-elem"
-msgstr "-elem"
+msgstr "-要素"
 
 msgid "Please type your text below"
 msgstr "下にテキストを入力してください"
@@ -8686,10 +8686,10 @@ msgid "helvetica, arial, geneva, sans-serif"
 msgstr "sans-serif"
 
 msgid ","
-msgstr ","
+msgstr "、"
 
 msgid "."
-msgstr "."
+msgstr "。"
 
 msgid "%b %d, %Y"
 msgstr "%Y/%m/%d"
@@ -9823,7 +9823,7 @@ msgid "Align"
 msgstr "配置"
 
 msgid "Width"
-msgstr "Width"
+msgstr "幅"
 
 msgid "V Space"
 msgstr "垂直余白"
@@ -9838,7 +9838,7 @@ msgid "Alt"
 msgstr "代替テキスト"
 
 msgid "Height"
-msgstr "Height"
+msgstr "高さ"
 
 msgid "Image manager"
 msgstr "画像マネージャー"
@@ -13705,7 +13705,7 @@ msgid "Resize the image to the following dimensions (in pixels)"
 msgstr "画像を次の寸法（ピクセル）にリサイズ"
 
 msgid "RESIZE"
-msgstr "RESIZE"
+msgstr "リサイズ"
 
 msgid "Show all images in their original size. No resizing is done. Scrollbars will automatically appear if the image is larger than your monitor size."
 msgstr "すべての画像を元のサイズで表示。リサイズは行われません。画像がモニターサイズより大きい場合、スクロールバーが自動的に表示されます。"
@@ -13726,7 +13726,7 @@ msgid "Brochure"
 msgstr "パンフレット"
 
 msgid "Slideshow"
-msgstr "Slideshow"
+msgstr "スライドショー"
 
 msgid "Published end date"
 msgstr "公開終了日"
@@ -16261,7 +16261,7 @@ msgid "Return to the course list"
 msgstr "コース一覧に戻る"
 
 msgid "%d/%m"
-msgstr "%d/%m"
+msgstr "%m/%d"
 
 msgid "Course tutor"
 msgstr "コースチューター"
@@ -19027,7 +19027,7 @@ msgid "%b %d, %Y at %I:%M %p"
 msgstr "%Y年%b%d日 %I:%M %p"
 
 msgid "%I:%M %p, %b %d %Y"
-msgstr "%I:%M %p, %b %d %Y"
+msgstr "%Y年%b月%d日 %I:%M %p"
 
 msgid "Login to vote"
 msgstr "投票するにはログイン"
@@ -22203,14 +22203,8 @@ msgstr "全セッションの分類別演習レポート"
 msgid "Require e-mail confirmation"
 msgstr "メール確認を必須とする"
 
-msgid "Registration confirmation"
-msgstr "登録確認"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "アカウントが未確認のため非活性です。メールを確認して指示に従ってください。あるいは以下のリンクをクリックしてメールを再送信してください"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "プラットフォーム登録を完了するには、以下のリンクをクリックしてアカウントを確認する必要があります"
 
 msgid "Confirmation for new account"
 msgstr "新規アカウント確認"
@@ -31501,8 +31495,8 @@ msgstr "データベース名には文字、数字、アンダースコア (_) �
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "このプラットフォームを使用するユーザーに提供される一般的な利用規約は何ですか？"
 
-msgid "ex. {examplePassword}"
-msgstr "例: {examplePassword}"
+msgid "ex. %s"
+msgstr "例: %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Chamilo へようこそ！"
@@ -32634,4 +32628,184 @@ msgstr "修正されたプロンプト"
 
 msgid "Saved in Documents"
 msgstr "ドキュメントに保存済み"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s が使用している総容量は %sGB です"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "ポータル %s が使用している総容量は %sGB です (上限は %sGB に設定されています)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] メールアドレスの確認"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "%s でメールアドレスを確認し、アカウントを有効にするには、以下のリンクをクリックしてください。"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "このアカウントを登録していない場合は、このメールを無視してください。操作は行われません。"
+
+msgid "Current authentication method"
+msgstr "現在の認証方法"
+
+msgid "Branches"
+msgstr "支部"
+
+msgid "Rooms"
+msgstr "部屋"
+
+msgid "Room availability finder"
+msgstr "部屋の空き状況検索"
+
+msgid "New branch"
+msgstr "新規支部"
+
+msgid "New room"
+msgstr "新規部屋"
+
+msgid "Branch"
+msgstr "支部"
+
+msgid "Default room"
+msgstr "デフォルト部屋"
+
+msgid "Room occupation: %s"
+msgstr "部屋の使用状況: %s"
+
+msgid "Find available rooms"
+msgstr "空いている部屋を検索"
+
+msgid "Available rooms"
+msgstr "空いている部屋"
+
+msgid "Occupied rooms"
+msgstr "使用中の部屋"
+
+msgid "No available rooms found for this time range"
+msgstr "この時間帯に空いている部屋が見つかりません"
+
+msgid "No rooms have been created yet"
+msgstr "まだ部屋が作成されていません"
+
+msgid "Courses linked to %s"
+msgstr "%s にリンクされたコース"
+
+msgid "No branches have been created yet"
+msgstr "まだ支部が作成されていません"
+
+msgid "Occupation"
+msgstr "使用状況"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "部屋が関連付けられた支部は削除できません"
+
+msgid "Cannot delete room with courses attached"
+msgstr "コースが関連付けられた部屋は削除できません"
+
+msgid "Conflicts"
+msgstr "競合"
+
+msgid "Geolocation"
+msgstr "位置情報"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "緯度、経度 (例: 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 または IPv6"
+
+msgid "IP mask"
+msgstr "IP マスク"
+
+msgid "e.g. /24"
+msgstr "例: /24"
+
+msgid "Parent branch"
+msgstr "親支部"
+
+msgid "Unique identifier"
+msgstr "一意の識別子"
+
+msgid "Latitude"
+msgstr "緯度"
+
+msgid "e.g. 48.8566"
+msgstr "例: 48.8566"
+
+msgid "Longitude"
+msgstr "経度"
+
+msgid "e.g. 2.3522"
+msgstr "例: 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "ダウンロード速度 (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "アップロード速度 (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "遅延 (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "管理者名"
+
+msgid "Administrator phone number"
+msgstr "管理者の電話番号"
+
+msgid "ID of last synch transaction"
+msgstr "最終同期トランザクションのID"
+
+msgid "Time of last synchronization"
+msgstr "最終同期時刻"
+
+msgid "Last synchronization type"
+msgstr "最終同期タイプ"
+
+msgid "SSL public key"
+msgstr "SSL公開鍵"
+
+msgid "Branch type"
+msgstr "ブランチタイプ"
+
+msgid "Room"
+msgstr "部屋"
+
+msgid "Simple IDS"
+msgstr "シンプルIDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDSは現在無効です。.envでIDS_ENABLED=trueに設定してスキャンを有効にしてください。"
+
+msgid "All event types"
+msgstr "すべてのイベントタイプ"
+
+msgid "Events by day (last 7 days)"
+msgstr "日別イベント (過去7日間)"
+
+msgid "Events by type (last 30 days)"
+msgstr "タイプ別イベント (過去30日間)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "上位攻撃IP (過去30日間)"
+
+msgid "Flagged IDS events"
+msgstr "フラグ付きIDSイベント"
+
+msgid "No suspicious events detected."
+msgstr "不審なイベントは検出されませんでした。"
+
+msgid "Detection type"
+msgstr "検出タイプ"
+
+msgid "Parameter"
+msgstr "パラメータ"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (現在)"
 

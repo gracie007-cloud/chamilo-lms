@@ -1160,10 +1160,10 @@ msgid "Special courses"
 msgstr "Cours spéciaux"
 
 msgid "Roles"
-msgstr "Roles"
+msgstr "Rôles"
 
 msgid "Curriculum"
-msgstr "Curriculum"
+msgstr "Programme"
 
 msgid "%s to review (%s)"
 msgstr "%s à vérifier (%s)"
@@ -1349,7 +1349,7 @@ msgid "Exercise list."
 msgstr "Liste d'exercices"
 
 msgid "Course home"
-msgstr "Page d'accueil du cours"
+msgstr "Page d'accueil"
 
 msgid "Exercise end button"
 msgstr "Bouton de fin d'exercice"
@@ -1823,7 +1823,7 @@ msgid "Chamilo LIVE"
 msgstr "Vidéo"
 
 msgid "Contributions"
-msgstr "contributions"
+msgstr "Contributions"
 
 msgid "Course program"
 msgstr "Cahier des charges"
@@ -2675,7 +2675,7 @@ msgid "File on your local computer"
 msgstr "Fichier sur votre ordinateur local"
 
 msgid "minimum"
-msgstr "Minimum"
+msgstr "minimum"
 
 msgid "maximum"
 msgstr "maximum"
@@ -8878,7 +8878,7 @@ msgid "Proposals for an improvement of"
 msgstr "Propositions d'amélioration de"
 
 msgid "invisible"
-msgstr "Invisible"
+msgstr "invisible"
 
 msgid "Save"
 msgstr "Enregistrer"
@@ -9172,7 +9172,7 @@ msgid "F"
 msgstr "V"
 
 msgid "S"
-msgstr "S"
+msgstr "L"
 
 msgid "Mon"
 msgstr "Lun"
@@ -9217,19 +9217,19 @@ msgid "Sunday"
 msgstr "Dimanche"
 
 msgid "J"
-msgstr "J"
+msgstr "M"
 
 msgid "A"
-msgstr "A"
+msgstr "M"
 
 msgid "O"
-msgstr "O"
+msgstr "J"
 
 msgid "N"
-msgstr "N"
+msgstr "V"
 
 msgid "D"
-msgstr "D"
+msgstr "S"
 
 msgid "Jan"
 msgstr "Jan"
@@ -10949,7 +10949,7 @@ msgid "menu"
 msgstr "menu"
 
 msgid "Opinion"
-msgstr "Opinion"
+msgstr "Avis"
 
 msgid "Intranet"
 msgstr "Intranet"
@@ -11999,7 +11999,7 @@ msgid "There is no result yet"
 msgstr "Il n'y a pas encore de résultats"
 
 msgid "Hits"
-msgstr "Hits"
+msgstr "Vues"
 
 msgid "h."
 msgstr "h."
@@ -12014,7 +12014,7 @@ msgid "This day"
 msgstr "Aujourd'hui"
 
 msgid "Logins"
-msgstr "Logins"
+msgstr "Connexions"
 
 msgid "Here is the list of your latest logins with the tools you visited during these sessions."
 msgstr "Voici la liste de vos derniers logins ainsi que les outils utilisés pendant ces sessions."
@@ -12539,7 +12539,7 @@ msgid "A PowerPoint to SCORM Courses converter"
 msgstr "Un convertisseur de PowerPoint en parcours pédagogiques SCORM"
 
 msgid "Go"
-msgstr "Go"
+msgstr "Aller"
 
 msgid "The quota for this course is"
 msgstr "Le quota pour ce cours est de"
@@ -13036,7 +13036,7 @@ msgid "Latest sent on"
 msgstr "Renvoyé pour la dernière fois le"
 
 msgid "kB"
-msgstr "Kb"
+msgstr "ko"
 
 msgid "Your account %s has been completely removed from this portal. Thank you for staying with us for a while. We hope to see you again later."
 msgstr "Votre compte %s a été complètement effacer de ce portail. Merci d'avoir utiliser notre portail. Nous espérons vous revoir bientôt."
@@ -14909,7 +14909,7 @@ msgid "Cool blue"
 msgstr "Bleu Frais"
 
 msgid "Corporate"
-msgstr "Corporate"
+msgstr "Entreprise"
 
 msgid "Cosmic campus"
 msgstr "Campus Cosmique"
@@ -14987,7 +14987,7 @@ msgid "norwegian"
 msgstr "norvégien"
 
 msgid "pashto"
-msgstr "pashto"
+msgstr "pachto"
 
 msgid "persian"
 msgstr "perse"
@@ -16945,7 +16945,7 @@ msgid "A student has obtained the number of sub-skills needed to validate the mo
 msgstr "Un apprenant a obtenu le nombre de sous compétences nécessaire pour valider la compétence mère."
 
 msgid "Off"
-msgstr "Off"
+msgstr "Désactivé"
 
 msgid "Web server"
 msgstr "serveur Web"
@@ -18664,7 +18664,7 @@ msgid "Your message has been sent."
 msgstr "Votre message a été envoyé."
 
 msgid "Tags"
-msgstr "Tags"
+msgstr "Étiquettes"
 
 msgid "Survey type unknown"
 msgstr "Type d'enquête inconnu"
@@ -19827,7 +19827,7 @@ msgid "Last Name and First Name"
 msgstr "Prénom et nom de famille"
 
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Extensions"
 
 msgid "Detailed"
 msgstr "Détaillé"
@@ -19995,7 +19995,7 @@ msgid "Auto"
 msgstr "Automatique"
 
 msgid "Stop"
-msgstr "Stop"
+msgstr "Arrêter"
 
 msgid "Enable Webcam Clip"
 msgstr "Activer la webcam"
@@ -21523,7 +21523,7 @@ msgid "Use right-click to close the delineation"
 msgstr "Utilisez le clic-droit pour fermer la délinéation"
 
 msgid "Beta"
-msgstr "Beta"
+msgstr "Bêta"
 
 msgid "Crop your picture"
 msgstr "Découpez votre photo"
@@ -22800,14 +22800,8 @@ msgstr "Rapport d'exercice par catégorie dans toutes les sessions"
 msgid "Require e-mail confirmation"
 msgstr "Exiger confirmation par e-mail"
 
-msgid "Registration confirmation"
-msgstr "Confirmation d'inscription"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Votre compte n'est pas encore actif parce que vous ne l'avez pas encore confirmé par e-mail. Vérifiez votre boîte mail et suivez les instructions, ou cliquez sur le lien suivant pour renvoyer un e-mail de confirmation."
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Pour compléter votre inscription sur la plateforme, vous devez confirmer votre compte en cliquant sur le lien suivant"
 
 msgid "Confirmation for new account"
 msgstr "Confirmation d'un nouveau compte"
@@ -25414,7 +25408,7 @@ msgstr ""
 "commentaire dans le port-folio"
 
 msgid "Tag"
-msgstr "Tag"
+msgstr "Étiquette"
 
 msgid "Tag saved"
 msgstr "Tag enregistré"
@@ -31899,7 +31893,7 @@ msgid "Action failed"
 msgstr "Action échouée"
 
 msgid "Available courses in this URL"
-msgstr "Cours disponible sur cette URL"
+msgstr "Cours disponibles sur cette URL"
 
 msgid "Loading courses..."
 msgstr "Chargement des cours..."
@@ -33317,8 +33311,8 @@ msgstr "Seules les lettres, les chiffres et le tiret bas (_) sont autorisés dan
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Quelles conditions générales d'utilisation sont données aux utilisateurs pour utiliser cette plateforme ?"
 
-msgid "ex. {examplePassword}"
-msgstr "ex. {examplePassword}"
+msgid "ex. %s"
+msgstr "ex. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Bienvenue dans Chamilo!"
@@ -34218,7 +34212,7 @@ msgid "Quiz"
 msgstr "Questionnaire"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Certificats personnalisés"
 
 msgid "Update profile"
 msgstr "Mettre à jour le profil"
@@ -34450,4 +34444,184 @@ msgstr "Invite modifiée"
 
 msgid "Saved in Documents"
 msgstr "Sauvegardé dans Documents"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Espace total utilisé par %s est %sGo"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Espace total utilisé par le portail %s est %sGo (limite fixée à %sGo)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirmez votre e-mail"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Pour vérifier votre e-mail et activer votre compte sur %s, veuillez cliquer sur le lien ci-dessous."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Si vous n'avez pas enregistré ce compte, vous pouvez ignorer cet e-mail. Aucune action ne sera prise."
+
+msgid "Current authentication method"
+msgstr "Méthode d'authentification actuelle"
+
+msgid "Branches"
+msgstr "Antennes"
+
+msgid "Rooms"
+msgstr "Salles"
+
+msgid "Room availability finder"
+msgstr "Recherche de disponibilité des salles"
+
+msgid "New branch"
+msgstr "Nouvelle antenne"
+
+msgid "New room"
+msgstr "Nouvelle salle"
+
+msgid "Branch"
+msgstr "Antenne"
+
+msgid "Default room"
+msgstr "Salle par défaut"
+
+msgid "Room occupation: %s"
+msgstr "Occupation de la salle : %s"
+
+msgid "Find available rooms"
+msgstr "Trouver des salles disponibles"
+
+msgid "Available rooms"
+msgstr "Salles disponibles"
+
+msgid "Occupied rooms"
+msgstr "Salles occupées"
+
+msgid "No available rooms found for this time range"
+msgstr "Aucune salle disponible trouvée pour cette tranche horaire"
+
+msgid "No rooms have been created yet"
+msgstr "Aucune salle n'a encore été créée"
+
+msgid "Courses linked to %s"
+msgstr "Cours liés à %s"
+
+msgid "No branches have been created yet"
+msgstr "Aucune antenne n'a encore été créée"
+
+msgid "Occupation"
+msgstr "Occupation"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Impossible de supprimer une antenne avec des salles associées"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Impossible de supprimer une salle avec des cours associés"
+
+msgid "Conflicts"
+msgstr "Conflits"
+
+msgid "Geolocation"
+msgstr "Géolocalisation"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitude, Longitude (ex. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ou IPv6"
+
+msgid "IP mask"
+msgstr "Masque IP"
+
+msgid "e.g. /24"
+msgstr "ex. /24"
+
+msgid "Parent branch"
+msgstr "Antenne parente"
+
+msgid "Unique identifier"
+msgstr "Identifiant unique"
+
+msgid "Latitude"
+msgstr "Latitude"
+
+msgid "e.g. 48.8566"
+msgstr "p. ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitude"
+
+msgid "e.g. 2.3522"
+msgstr "p. ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Vitesse de téléchargement (Ko/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Vitesse de téléversement (Ko/s)"
+
+msgid "Delay (ms)"
+msgstr "Délai (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nom de l'administrateur"
+
+msgid "Administrator phone number"
+msgstr "Numéro de téléphone de l'administrateur"
+
+msgid "ID of last synch transaction"
+msgstr "ID de la dernière transaction de synchronisation"
+
+msgid "Time of last synchronization"
+msgstr "Heure de la dernière synchronisation"
+
+msgid "Last synchronization type"
+msgstr "Type de la dernière synchronisation"
+
+msgid "SSL public key"
+msgstr "Clé publique SSL"
+
+msgid "Branch type"
+msgstr "Type de succursale"
+
+msgid "Room"
+msgstr "Salle"
+
+msgid "Simple IDS"
+msgstr "IDS simple"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS est actuellement désactivé. Définissez IDS_ENABLED=true dans votre .env pour activer le scan."
+
+msgid "All event types"
+msgstr "Tous les types d'événements"
+
+msgid "Events by day (last 7 days)"
+msgstr "Événements par jour (7 derniers jours)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Événements par type (30 derniers jours)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IPs attaquantes principales (30 derniers jours)"
+
+msgid "Flagged IDS events"
+msgstr "Événements IDS signalés"
+
+msgid "No suspicious events detected."
+msgstr "Aucun événement suspect détecté."
+
+msgid "Detection type"
+msgstr "Type de détection"
+
+msgid "Parameter"
+msgstr "Paramètre"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (actuel)"
 

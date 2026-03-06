@@ -1755,10 +1755,10 @@ msgid "Deleting this area will permanently delete all the content (documents, li
 msgstr "Xóa website khóa học này sẽ xóa vĩnh viễn tất cả dữ liệu(không xóa chúng từ khóa học khác).<p>Bạn có thực sự muốn xóa khóa học này"
 
 msgid "YES"
-msgstr "YES"
+msgstr "CÓ"
 
 msgid "NO"
-msgstr "NO"
+msgstr "KHÔNG"
 
 msgid "Department URL"
 msgstr "Đương dẫn trang chủ của khoa"
@@ -1785,7 +1785,7 @@ msgid "Restore a course"
 msgstr "Restore khóa học"
 
 msgid "Restore"
-msgstr "Restore"
+msgstr "Khôi phục"
 
 msgid "created in"
 msgstr "Tạo mới"
@@ -2160,7 +2160,7 @@ msgid "Users registered in any group"
 msgstr "Người dùng đăng ký trong bất kỳ nhóm nào"
 
 msgid "Camera"
-msgstr "Camera"
+msgstr "Máy ảnh"
 
 msgid "Microphone"
 msgstr "Micro"
@@ -3282,7 +3282,7 @@ msgid "Main language"
 msgstr "Ngôn ngữ chính"
 
 msgid "License"
-msgstr "License"
+msgstr "Giấy phép"
 
 msgid "Last check before install"
 msgstr "Kiểm tra cuối cùng trước khi cài đặt"
@@ -3720,7 +3720,7 @@ msgid "Show a link to go back in the courses hierarchy. A link is available at t
 msgstr "Hiển thị liên kết quay lại trong hệ thống phân cấp khóa học. Liên kết luôn có sẵn ở cuối danh sách."
 
 msgid "used"
-msgstr "used"
+msgstr "đã sử dụng"
 
 msgid "existing"
 msgstr "Thoát ra"
@@ -4134,7 +4134,7 @@ msgid "Status of MySQL server :"
 msgstr "Trạng thái MySQL server :"
 
 msgid "Database"
-msgstr "Database"
+msgstr "Cơ sở dữ liệu"
 
 msgid "works"
 msgstr "work"
@@ -4146,7 +4146,7 @@ msgid "MySql Server"
 msgstr "MySql Server"
 
 msgid "Owner"
-msgstr "Owner"
+msgstr "Chủ sở hữu"
 
 msgid "Upgrade database"
 msgstr "nâng cấp cơ sở dữ liệu"
@@ -4161,7 +4161,7 @@ msgid "Upgrade Chamilo"
 msgstr "Nâng cấp"
 
 msgid "Website"
-msgstr "Website"
+msgstr "Trang web"
 
 msgid "Documentation"
 msgstr "Tài liệu"
@@ -4740,7 +4740,7 @@ msgid "Should the navigation menu show the different tool icons?"
 msgstr "Thanh điều hướng có hiển thị các biểu tượng công cụ khác nhau không?"
 
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Tiện ích mở rộng"
 
 msgid "Main menu"
 msgstr "Menu chính"
@@ -6471,7 +6471,7 @@ msgid "Send this announcement by email to selected groups/users"
 msgstr "Gá»­i thĂ´ng bĂ¡o nĂ y cho cĂ¡c há»"
 
 msgid "On"
-msgstr "On"
+msgstr "Bật"
 
 msgid "registered users of the site"
 msgstr "người dùng đã đăng ký"
@@ -6822,7 +6822,7 @@ msgid "Group tutor"
 msgstr "Tutor"
 
 msgid "(none)"
-msgstr "(none)"
+msgstr "(không có)"
 
 msgid "Admin users list"
 msgstr "Danh sách quản trị viên"
@@ -6834,7 +6834,7 @@ msgid "my supervision"
 msgstr "giám sát của tôi"
 
 msgid "register"
-msgstr "register"
+msgstr "đăng ký"
 
 msgid "Add me to this group"
 msgstr "Thêm tôi vào nhóm này"
@@ -7572,7 +7572,7 @@ msgid "Answers"
 msgstr "Trả lời"
 
 msgid "True"
-msgstr "True"
+msgstr "Đúng"
 
 msgid "Answer"
 msgstr "Trả lời"
@@ -7659,16 +7659,16 @@ msgid "use square brackets [...] to define one or more blanks"
 msgstr "dùng ngoặc vuông [...] để định nghĩa các chỗ cần điền"
 
 msgid "+answ"
-msgstr "+answ"
+msgstr "+trả lời"
 
 msgid "-answ"
-msgstr "-answ"
+msgstr "-trả lời"
 
 msgid "+elem"
-msgstr "+elem"
+msgstr "+phần tử"
 
 msgid "-elem"
-msgstr "-elem"
+msgstr "-phần tử"
 
 msgid "Please type your text below"
 msgstr "Nhập vào phần sau đây"
@@ -8460,7 +8460,7 @@ msgid "Download"
 msgstr "Tải xuống"
 
 msgid "Group"
-msgstr "Group"
+msgstr "Nhóm"
 
 msgid "Group Forum"
 msgstr "Forum"
@@ -8469,7 +8469,7 @@ msgid "Do you want audio file to START automatically?"
 msgstr "Bạn có muốn tệp âm thanh TỰ ĐỘNG BẮT ĐẦU không?"
 
 msgid "Forum"
-msgstr "Forum"
+msgstr "Diễn đàn"
 
 msgid "Remove picture"
 msgstr "Xóa hình ảnh"
@@ -8511,7 +8511,7 @@ msgid "Hide"
 msgstr "Ẩn"
 
 msgid "Dear"
-msgstr "Dear"
+msgstr "Kính gửi"
 
 msgid "archive"
 msgstr "lưu trữ"
@@ -8754,64 +8754,64 @@ msgid "Total time"
 msgstr "Tổng thời gian"
 
 msgid "arabic"
-msgstr "arabic"
+msgstr "tiếng Ả Rập"
 
 msgid "brazilian"
-msgstr "brazilian"
+msgstr "tiếng Bồ Đào Nha (Brazil)"
 
 msgid "bulgarian"
-msgstr "bulgarian"
+msgstr "tiếng Bulgaria"
 
 msgid "catalan"
-msgstr "catalan"
+msgstr "tiếng Catalan"
 
 msgid "croatian"
-msgstr "croatian"
+msgstr "tiếng Croatia"
 
 msgid "danish"
-msgstr "danish"
+msgstr "tiếng Đan Mạch"
 
 msgid "dutch"
-msgstr "dutch"
+msgstr "tiếng Hà Lan"
 
 msgid "finnish"
-msgstr "finnish"
+msgstr "tiếng Phần Lan"
 
 msgid "french"
-msgstr "french"
+msgstr "tiếng Pháp"
 
 msgid "french_corporate"
-msgstr "french_corporate"
+msgstr "tiếng Pháp doanh nghiệp"
 
 msgid "french_KM"
-msgstr "french_KM"
+msgstr "tiếng Pháp KM"
 
 msgid "galician"
-msgstr "galician"
+msgstr "tiếng Galicia"
 
 msgid "german"
-msgstr "german"
+msgstr "tiếng Đức"
 
 msgid "greek"
-msgstr "greek"
+msgstr "tiếng Hy Lạp"
 
 msgid "italian"
-msgstr "italian"
+msgstr "tiếng Ý"
 
 msgid "japanese"
-msgstr "japanese"
+msgstr "tiếng Nhật"
 
 msgid "polish"
-msgstr "polish"
+msgstr "tiếng Ba Lan"
 
 msgid "portuguese"
-msgstr "portuguese"
+msgstr "tiếng Bồ Đào Nha"
 
 msgid "russian"
-msgstr "russian"
+msgstr "tiếng Nga"
 
 msgid "simpl_chinese"
-msgstr "simpl_chinese"
+msgstr "tiếng Trung giản thể"
 
 msgid "spanish"
 msgstr "tiếng Tây Ban Nha"
@@ -9927,7 +9927,7 @@ msgid "View changes history"
 msgstr "Xem lịch sử thay đổi"
 
 msgid "asturian"
-msgstr "asturian"
+msgstr "tiếng Asturia"
 
 msgid "Go to course"
 msgstr "Chuyển đến khóa học"
@@ -10689,7 +10689,7 @@ msgid "Pass"
 msgstr "Password"
 
 msgid "Advises"
-msgstr "Advises"
+msgstr "Tư vấn"
 
 msgid "<b>Warning :</b> This course does not exist"
 msgstr "<b>Cảnh báo:</b> Khóa học này không tồn tại"
@@ -10920,7 +10920,7 @@ msgid "In case of trouble, contact us."
 msgstr "Trong trường hợp có lỗi xảy ra, hãy liên hệ với chúng tôi"
 
 msgid "is"
-msgstr "is"
+msgstr "là"
 
 msgid "The address of"
 msgstr "địa chỉ của"
@@ -10953,7 +10953,7 @@ msgid "Login request"
 msgstr "Cần phải đăng nhập"
 
 msgid "Admin"
-msgstr "admin"
+msgstr "Quản trị"
 
 msgid "User of course"
 msgstr "normal"
@@ -11751,10 +11751,10 @@ msgid "There is no result yet"
 msgstr "Chưa có kết quả"
 
 msgid "Hits"
-msgstr "Hits"
+msgstr "Lượt truy cập"
 
 msgid "h."
-msgstr "h."
+msgstr "g."
 
 msgid "In the last 31 days"
 msgstr "Trong 31 ngày gần đây"
@@ -11886,13 +11886,13 @@ msgid "Providers"
 msgstr "Người cung cấp"
 
 msgid "OS"
-msgstr "OS"
+msgstr "HĐH"
 
 msgid "Browsers"
-msgstr "Browsers"
+msgstr "Trình duyệt"
 
 msgid "Referers"
-msgstr "Referers"
+msgstr "Nguồn tham chiếu"
 
 msgid "(When an user open the index of the portal)"
 msgstr "(When an user open the index of the campus)"
@@ -13662,7 +13662,7 @@ msgid "Brochure"
 msgstr "Tài liệu giới thiệu"
 
 msgid "Slideshow"
-msgstr "Slideshow"
+msgstr "Trình chiếu"
 
 msgid "Published end date"
 msgstr "Ngày kết thúc công bố"
@@ -14484,7 +14484,7 @@ msgid "czech"
 msgstr "séc"
 
 msgid "dari"
-msgstr "dari"
+msgstr "tiếng Dari"
 
 msgid "dutch corporate"
 msgstr "tiếng Hà Lan doanh nghiệp"
@@ -14499,7 +14499,7 @@ msgid "georgian"
 msgstr "gruzia"
 
 msgid "hebrew"
-msgstr "hebrew"
+msgstr "tiếng Do Thái"
 
 msgid "korean"
 msgstr "hàn quốc"
@@ -14517,7 +14517,7 @@ msgid "norwegian"
 msgstr "nauy"
 
 msgid "pashto"
-msgstr "pashto"
+msgstr "tiếng Pashto"
 
 msgid "persian"
 msgstr "ba tư"
@@ -14535,7 +14535,7 @@ msgid "slovak"
 msgstr "slovakia"
 
 msgid "swahili"
-msgstr "swahili"
+msgstr "tiếng Swahili"
 
 msgid "traditional chinese"
 msgstr "tiếng Trung truyền thống"
@@ -14979,10 +14979,10 @@ msgid "The exercise time limit has expired"
 msgstr "Thời gian giới hạn bài tập đã hết"
 
 msgid "ukrainian"
-msgstr "ukrainian"
+msgstr "tiếng Ukraina"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "tiếng Yoruba"
 
 msgid "New"
 msgstr "Mới"
@@ -22053,7 +22053,7 @@ msgid "Send certificate notification to all users"
 msgstr "Gửi thông báo chứng chỉ đến tất cả người dùng"
 
 msgid "Fwd"
-msgstr "Fwd"
+msgstr "Chuyển tiếp"
 
 msgid "Forwarded message"
 msgstr "Tin nhắn được chuyển tiếp"
@@ -22139,14 +22139,8 @@ msgstr "Báo cáo bài tập theo danh mục cho tất cả phiên"
 msgid "Require e-mail confirmation"
 msgstr "Yêu cầu xác nhận email"
 
-msgid "Registration confirmation"
-msgstr "Xác nhận đăng ký"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Tài khoản của bạn không hoạt động vì bạn chưa xác nhận. Kiểm tra email và làm theo hướng dẫn hoặc nhấp liên kết sau để gửi lại email"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Để hoàn tất đăng ký nền tảng, bạn cần xác nhận tài khoản bằng cách nhấp liên kết sau"
 
 msgid "Confirmation for new account"
 msgstr "Xác nhận tài khoản mới"
@@ -28132,40 +28126,40 @@ msgid "Generates images based on prompts or content using AI."
 msgstr "Tạo hình ảnh dựa trên gợi ý hoặc nội dung bằng AI."
 
 msgid "Menucampushomepage"
-msgstr "Menucampushomepage"
+msgstr "Trang chủ Campus"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "Khóa học của tôi"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "Báo cáo"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Quản trị nền tảng"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Lịch của tôi"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "Mạng xã hội"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Hội nghị video"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Chẩn đoán"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Danh mục"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Chứng chỉ"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Thanh kỹ năng"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "Trợ giúp AI"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "ID của người dùng chính thức gửi nhắc nhở lịch"
@@ -28516,7 +28510,7 @@ msgid "No available options"
 msgstr "Không có tùy chọn nào có sẵn"
 
 msgid "Cc"
-msgstr "Cc"
+msgstr "Giấy phép"
 
 msgid "Send"
 msgstr "Gửi"
@@ -31437,8 +31431,8 @@ msgstr "Tên cơ sở dữ liệu chỉ cho phép chữ cái, chữ số và d�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Điều khoản và điều kiện chung nào được cung cấp cho người dùng để sử dụng nền tảng này?"
 
-msgid "ex. {examplePassword}"
-msgstr "vd. {examplePassword}"
+msgid "ex. %s"
+msgstr "vd. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Chào mừng đến với Chamilo!"
@@ -31462,7 +31456,7 @@ msgid "SCIM external ID"
 msgstr "SCIM ID bên ngoài"
 
 msgid "OAuth2 ID"
-msgstr "OAuth2 ID"
+msgstr "ID OAuth2"
 
 msgid "Please accept the latest version of the terms and conditions."
 msgstr "Vui lòng chấp nhận phiên bản mới nhất của điều khoản và điều kiện."
@@ -31753,7 +31747,7 @@ msgid "Test/development"
 msgstr "Kiểm tra/phát triển"
 
 msgid "Crons"
-msgstr "Crons"
+msgstr "Nhiệm vụ định kỳ"
 
 msgid "Editor"
 msgstr "Trình soạn thảo"
@@ -32344,230 +32338,410 @@ msgid "Update profile"
 msgstr "Cập nhật hồ sơ"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "Bật trình tạo lộ trình học tập"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "Bật trình tạo bài tập"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "Bật trình chấm câu trả lời mở"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "Bật chatbot gia sư"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "Bật trình chấm nhiệm vụ"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "Bật trình phân tích nội dung"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "Bật trình tạo hình ảnh"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "Bật trình tạo thuật ngữ từ điển"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "Bật trình tạo video"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "Bật trình phân tích khóa học"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "Thao tác '%s' không được hỗ trợ."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "Phản hồi AI về %s trong khóa học %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "Xóa thất bại: thiếu ngữ cảnh khóa học hoặc id câu hỏi không hợp lệ."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "Gia sư AI"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Phần mở rộng APCu cần được cài đặt và kích hoạt để nền tảng sử dụng nó."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "Nên cho phép OPCache memory_consumption đạt ít nhất %sMB RAM."
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Mô-đun OPcache cần được cài đặt và kích hoạt để nền tảng sử dụng nó."
 
 msgid "You are here"
-msgstr ""
+msgstr "Bạn đang ở đây"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "Nhấp vào loại sự kiện để lọc kết quả."
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "Yêu cầu sự hiện diện duy nhất"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "Nếu bật, sổ điểm sẽ cho học viên 100% khi hiện diện ít nhất một lần."
 
 msgid "AI feedback"
-msgstr ""
+msgstr "Phản hồi AI"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Lời nhắc"
 
 msgid "Tip"
-msgstr ""
+msgstr "Gợi ý"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Bạn có thể chỉnh sửa lời nhắc trước khi yêu cầu phản hồi."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Kết quả (bạn có thể áp dụng vào bình luận)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Áp dụng vào bình luận"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Áp dụng điểm số"
 
 msgid "AI grade"
-msgstr ""
+msgstr "Điểm AI"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "Trợ giảng AI bị vô hiệu hóa trong các bài kiểm tra"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Tạo thuật ngữ từ điển"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Tạo phương tiện"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "Bạn không có quyền tạo phương tiện AI trong khóa học này."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "Trợ giúp AI bị vô hiệu hóa ở cấp độ nền tảng."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Tạo phương tiện AI bị vô hiệu hóa trong cài đặt khóa học."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Không có nhà cung cấp phương tiện AI nào khả dụng."
 
 msgid "Provider"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Chọn nhà cung cấp"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Ví dụ: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "Tên không được thêm vào lời nhắc; nó chỉ được sử dụng để lưu tệp."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Mô tả những gì bạn muốn tạo..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "Mẹo: nhấp vào mẫu để nhanh chóng đặt kích thước."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Đang tạo..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Lưu vào Tài liệu"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "IRI Tài liệu"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Đi đến thư mục"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Nhà cung cấp đã sử dụng"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Kết quả video này chưa thể lưu"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Bỏ thăm dò video vì nhà cung cấp đã thay đổi."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Tạo video đang mất quá nhiều thời gian. Vui lòng thử lại sau."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Không thể kiểm tra trạng thái video."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Video đã được tạo thành công. Bạn có thể lưu nó ngay bây giờ."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Tạo video hoàn tất, nhưng không có nội dung có thể phát được."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Tạo video thất bại."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Đang chờ video sẵn sàng..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Vui lòng hoàn tất tất cả các trường."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Tạo hình ảnh chưa được kích hoạt cho khóa học này."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Tạo video chưa được kích hoạt cho khóa học này."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Tạo thất bại."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "Đã tạo thành công. Xem trước và lưu khi sẵn sàng."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "Đã tạo thành công. Lưu bị vô hiệu hóa vì nhà cung cấp trả về URL."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Bắt đầu tạo video. Đang chờ kết quả..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI trả về phản hồi trống."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Chưa có gì để lưu."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Nhà cung cấp này không trả về nội dung base64. Vui lòng thử nhà cung cấp khác."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Lưu thất bại."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Nhận phản hồi AI"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Sao chép câu trả lời vào bảng tạm"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Lưu câu trả lời vào hộp thư của tôi"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Tài liệu đã có trong thư mục này"
 
 msgid "Copied"
-msgstr ""
+msgstr "Đã sao chép"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "Bạn không có quyền tạo thuật ngữ từ điển."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Đang tạo video"
 
 msgid "Job"
-msgstr ""
+msgstr "Công việc"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Lời nhắc đã sửa đổi"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "Đã lưu trong Tài liệu"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Tổng không gian sử dụng bởi %s là %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Tổng không gian sử dụng bởi cổng %s là %sGB (giới hạn được đặt là %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Xác nhận email của bạn"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Để xác thực email và kích hoạt tài khoản của bạn trên %s, vui lòng nhấp vào liên kết bên dưới."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Nếu bạn không đăng ký tài khoản này, bạn có thể bỏ qua email này. Không có hành động nào sẽ được thực hiện."
+
+msgid "Current authentication method"
+msgstr "Phương thức xác thực hiện tại"
+
+msgid "Branches"
+msgstr "Chi nhánh"
+
+msgid "Rooms"
+msgstr "Phòng học"
+
+msgid "Room availability finder"
+msgstr "Tìm kiếm phòng trống"
+
+msgid "New branch"
+msgstr "Chi nhánh mới"
+
+msgid "New room"
+msgstr "Phòng mới"
+
+msgid "Branch"
+msgstr "Chi nhánh"
+
+msgid "Default room"
+msgstr "Phòng mặc định"
+
+msgid "Room occupation: %s"
+msgstr "Phòng đang sử dụng: %s"
+
+msgid "Find available rooms"
+msgstr "Tìm phòng trống"
+
+msgid "Available rooms"
+msgstr "Phòng trống"
+
+msgid "Occupied rooms"
+msgstr "Phòng đang sử dụng"
+
+msgid "No available rooms found for this time range"
+msgstr "Không tìm thấy phòng trống cho khoảng thời gian này"
+
+msgid "No rooms have been created yet"
+msgstr "Chưa tạo phòng nào"
+
+msgid "Courses linked to %s"
+msgstr "Khóa học liên kết với %s"
+
+msgid "No branches have been created yet"
+msgstr "Chưa tạo chi nhánh nào"
+
+msgid "Occupation"
+msgstr "Tình trạng sử dụng"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Không thể xóa chi nhánh có phòng liên kết"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Không thể xóa phòng có khóa học liên kết"
+
+msgid "Conflicts"
+msgstr "Xung đột"
+
+msgid "Geolocation"
+msgstr "Vị trí địa lý"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Vĩ độ, Kinh độ (vd. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 hoặc IPv6"
+
+msgid "IP mask"
+msgstr "Mặt nạ IP"
+
+msgid "e.g. /24"
+msgstr "vd. /24"
+
+msgid "Parent branch"
+msgstr "Chi nhánh cha"
+
+msgid "Unique identifier"
+msgstr "Mã định danh duy nhất"
+
+msgid "Latitude"
+msgstr "Vĩ độ"
+
+msgid "e.g. 48.8566"
+msgstr "vd. 48.8566"
+
+msgid "Longitude"
+msgstr "Kinh độ"
+
+msgid "e.g. 2.3522"
+msgstr "vd. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Tốc độ tải xuống (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Tốc độ tải lên (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Độ trễ (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Tên quản trị viên"
+
+msgid "Administrator phone number"
+msgstr "Số điện thoại quản trị viên"
+
+msgid "ID of last synch transaction"
+msgstr "ID giao dịch đồng bộ cuối cùng"
+
+msgid "Time of last synchronization"
+msgstr "Thời gian đồng bộ cuối cùng"
+
+msgid "Last synchronization type"
+msgstr "Loại đồng bộ cuối cùng"
+
+msgid "SSL public key"
+msgstr "Khóa công khai SSL"
+
+msgid "Branch type"
+msgstr "Loại chi nhánh"
+
+msgid "Room"
+msgstr "Phòng"
+
+msgid "Simple IDS"
+msgstr "IDS đơn giản"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS hiện đang bị tắt. Đặt IDS_ENABLED=true trong tệp .env để kích hoạt quét."
+
+msgid "All event types"
+msgstr "Tất cả loại sự kiện"
+
+msgid "Events by day (last 7 days)"
+msgstr "Sự kiện theo ngày (7 ngày qua)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Sự kiện theo loại (30 ngày qua)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Top IP tấn công (30 ngày qua)"
+
+msgid "Flagged IDS events"
+msgstr "Sự kiện IDS bị gắn cờ"
+
+msgid "No suspicious events detected."
+msgstr "Không phát hiện sự kiện đáng ngờ."
+
+msgid "Detection type"
+msgstr "Loại phát hiện"
+
+msgid "Parameter"
+msgstr "Tham số"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (hiện tại)"
 

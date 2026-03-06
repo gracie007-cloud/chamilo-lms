@@ -7654,16 +7654,16 @@ msgid "use square brackets [...] to define one or more blanks"
 msgstr "এক বা একাধিক শূন্যস্থান নির্ধারণের জন্য বর্গ ক্যাব্রাকেট [...] ব্যবহার করুন"
 
 msgid "+answ"
-msgstr "+answ"
+msgstr "+উত্তর"
 
 msgid "-answ"
-msgstr "-answ"
+msgstr "-উত্তর"
 
 msgid "+elem"
-msgstr "+elem"
+msgstr "+উপাদান"
 
 msgid "-elem"
-msgstr "-elem"
+msgstr "-উপাদান"
 
 msgid "Please type your text below"
 msgstr "দয়া করে নিচে আপনার টেক্সট লিখুন"
@@ -22134,14 +22134,8 @@ msgstr "সকল সেশনের জন্য ক্যাটাগরি �
 msgid "Require e-mail confirmation"
 msgstr "ইমেইল নিশ্চিতকরণ প্রয়োজন"
 
-msgid "Registration confirmation"
-msgstr "নিবন্ধন নিশ্চিতকরণ"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "আপনার অ্যাকাউন্ট নিষ্ক্রিয় কারণ আপনি এখনও এটি নিশ্চিত করেননি। আপনার ইমেইল চেক করুন এবং নির্দেশনা অনুসরণ করুন অথবা ইমেইল পুনরায় পাঠানোর জন্য নিম্নলিখিত লিঙ্কে ক্লিক করুন"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "আপনার প্ল্যাটফর্ম নিবন্ধন সম্পূর্ণ করতে নিম্নলিখিত লিঙ্কে ক্লিক করে আপনার অ্যাকাউন্ট নিশ্চিত করতে হবে"
 
 msgid "Confirmation for new account"
 msgstr "নতুন অ্যাকাউন্টের জন্য নিশ্চিতকরণ"
@@ -31431,8 +31425,8 @@ msgstr "ডাটাবেসের নামে শুধুমাত্র অ
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "ব্যবহারকারীদের এই প্ল্যাটফর্ম ব্যবহারের জন্য কী সাধারণ শর্তাবলী দেওয়া হয়েছে?"
 
-msgid "ex. {examplePassword}"
-msgstr "যেমন। {examplePassword}"
+msgid "ex. %s"
+msgstr "যেমন। %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Chamilo-তে স্বাগতম!"
@@ -32564,4 +32558,184 @@ msgstr "পরিবর্তিত প্রম্পট"
 
 msgid "Saved in Documents"
 msgstr "ডকুমেন্টসে সংরক্ষিত"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s দ্বারা ব্যবহৃত মোট স্থান %sজিবি"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "পোর্টাল %s দ্বারা ব্যবহৃত মোট স্থান %sজিবি (সীমা নির্ধারিত %sজিবি)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] আপনার ইমেইল নিশ্চিত করুন"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "আপনার ইমেইল যাচাই করতে এবং %s-এ আপনার অ্যাকাউন্ট সক্রিয় করতে, নিচের লিঙ্কে ক্লিক করুন।"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "যদি আপনি এই অ্যাকাউন্টটি নিবন্ধন না করেন, তাহলে আপনি এই ইমেইলটি উপেক্ষা করতে পারেন। কোনো কার্যকর করা হবে না।"
+
+msgid "Current authentication method"
+msgstr "বর্তমান প্রমাণীকরণ পদ্ধতি"
+
+msgid "Branches"
+msgstr "শাখা"
+
+msgid "Rooms"
+msgstr "কক্ষ"
+
+msgid "Room availability finder"
+msgstr "কক্ষের উপলব্ধতা খুঁজুন"
+
+msgid "New branch"
+msgstr "নতুন শাখা"
+
+msgid "New room"
+msgstr "নতুন কক্ষ"
+
+msgid "Branch"
+msgstr "শাখা"
+
+msgid "Default room"
+msgstr "ডিফল্ট কক্ষ"
+
+msgid "Room occupation: %s"
+msgstr "কক্ষের ব্যবহার: %s"
+
+msgid "Find available rooms"
+msgstr "উপলব্ধ কক্ষ খুঁজুন"
+
+msgid "Available rooms"
+msgstr "উপলব্ধ কক্ষ"
+
+msgid "Occupied rooms"
+msgstr "ব্যবহৃত কক্ষ"
+
+msgid "No available rooms found for this time range"
+msgstr "এই সময় পরিসরের জন্য কোন উপলব্ধ কক্ষ পাওয়া যায়নি"
+
+msgid "No rooms have been created yet"
+msgstr "এখনও কোন কক্ষ তৈরি করা হয়নি"
+
+msgid "Courses linked to %s"
+msgstr "%s এর সাথে যুক্ত কোর্স"
+
+msgid "No branches have been created yet"
+msgstr "এখনও কোন শাখা তৈরি করা হয়নি"
+
+msgid "Occupation"
+msgstr "ব্যবহার"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "কক্ষ সংযুক্ত শাখা মুছে ফেলা যাবে না"
+
+msgid "Cannot delete room with courses attached"
+msgstr "কোর্স সংযুক্ত কক্ষ মুছে ফেলা যাবে না"
+
+msgid "Conflicts"
+msgstr "সংঘাত"
+
+msgid "Geolocation"
+msgstr "ভৌগলিক অবস্থান"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "অক্ষাংশ, দ্রাঘিমাংশ (যেমন ৪৮.৮৫৬৬, ২.৩৫২২)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 বা IPv6"
+
+msgid "IP mask"
+msgstr "IP মাস্ক"
+
+msgid "e.g. /24"
+msgstr "যেমন /24"
+
+msgid "Parent branch"
+msgstr "মূল শাখা"
+
+msgid "Unique identifier"
+msgstr "অনন্য পরিচয়ক"
+
+msgid "Latitude"
+msgstr "অক্ষাংশ"
+
+msgid "e.g. 48.8566"
+msgstr "যেমন ৪৮.৮৫৬৬"
+
+msgid "Longitude"
+msgstr "দ্রাঘিমাংশ"
+
+msgid "e.g. 2.3522"
+msgstr "যেমন ২.৩৫২২"
+
+msgid "Download speed (KB/s)"
+msgstr "ডাউনলোড গতি (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "আপলোড গতি (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "বিলম্ব (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "প্রশাসকের নাম"
+
+msgid "Administrator phone number"
+msgstr "প্রশাসকের ফোন নম্বর"
+
+msgid "ID of last synch transaction"
+msgstr "সর্বশেষ সিঙ্ক ট্রানজেকশনের আইডি"
+
+msgid "Time of last synchronization"
+msgstr "সর্বশেষ সিঙ্করণের সময়"
+
+msgid "Last synchronization type"
+msgstr "সর্বশেষ সিঙ্করণের ধরন"
+
+msgid "SSL public key"
+msgstr "SSL পাবলিক কী"
+
+msgid "Branch type"
+msgstr "শাখার ধরন"
+
+msgid "Room"
+msgstr "কক্ষ"
+
+msgid "Simple IDS"
+msgstr "সরল IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS বর্তমানে নিষ্ক্রিয়। আপনার .env-এ IDS_ENABLED=true সেট করে স্ক্যানিং সক্রিয় করুন।"
+
+msgid "All event types"
+msgstr "সকল ইভেন্টের ধরন"
+
+msgid "Events by day (last 7 days)"
+msgstr "দিন অনুযায়ী ইভেন্ট (সর্বশেষ ৭ দিন)"
+
+msgid "Events by type (last 30 days)"
+msgstr "ধরন অনুযায়ী ইভেন্ট (সর্বশেষ ৩০ দিন)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "শীর্ষ আক্রমণকারী আইপি (সর্বশেষ ৩০ দিন)"
+
+msgid "Flagged IDS events"
+msgstr "অনুসূচিত IDS ইভেন্ট"
+
+msgid "No suspicious events detected."
+msgstr "কোন সন্দেহজনক ইভেন্ট শনাক্ত হয়নি।"
+
+msgid "Detection type"
+msgstr "শনাক্তকরণের ধরন"
+
+msgid "Parameter"
+msgstr "প্যারামিটার"
+
+msgid "URI"
+msgstr "ইউআরআই"
+
+msgid "%s (current)"
+msgstr "%s (বর্তমান)"
 

@@ -35,7 +35,7 @@ use Chamilo\CoreBundle\Entity\ResourceShowCourseResourcesInSessionInterface;
 use Chamilo\CourseBundle\Repository\CLinkRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Stringable;
-use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Serializer\Attribute\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
 
 #[ApiResource(
@@ -175,7 +175,7 @@ use Symfony\Component\Validator\Constraints as Assert;
             openapi: new Operation(
                 summary: 'Check if a link URL is valid',
             ),
-            security: "is_granted('VIEW', object.resourceNode)"
+            security: "is_granted('EDIT', object.resourceNode)"
         ),
         new Delete(security: "is_granted('DELETE', object.resourceNode)"),
         new GetCollection(

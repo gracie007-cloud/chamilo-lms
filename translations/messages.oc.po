@@ -490,7 +490,7 @@ msgid "Question ID"
 msgstr "ID de la question"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "ID de l’exercici"
 
 msgid "Excel export"
 msgstr "Exportar en Excel"
@@ -4621,7 +4621,7 @@ msgid "If this setting is on, a user can fill in the following (optional) fields
 msgstr "Se aquesta opcion es activada, l'utilizaire pòt emplir los camps opcionals seguents : 'Ma zòna pèrsonala d'evolviment', 'Mas competéncias', 'Mes diplòmas', 'Çò que sabi enseirar'"
 
 msgid "Classes"
-msgstr "Classes"
+msgstr "Classas"
 
 msgid "User is now unsubscribed"
 msgstr "L'utilizaire es ara desinscrit"
@@ -5803,7 +5803,7 @@ msgid "Find a training session"
 msgstr "Trobatz una session de formacion"
 
 msgid "Session session"
-msgstr "Session session"
+msgstr "Session de session"
 
 msgid "Add URL"
 msgstr "Apondre una URL"
@@ -6610,7 +6610,7 @@ msgid "Friends"
 msgstr "Amics"
 
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "Contactes"
 
 msgid "This screen allows you to organise your contacts"
 msgstr "Aqueste ecran vos permet d'organizar vòstres contacts"
@@ -17734,7 +17734,7 @@ msgid "The attendance sheet is locked."
 msgstr "La feuille de preséncia es blocada."
 
 msgid "Assistance"
-msgstr "Assistance"
+msgstr "Assistent"
 
 msgid "A course category with the same name already exists."
 msgstr "Una categoria de cors amb lo meteis nom existís ja."
@@ -22134,14 +22134,8 @@ msgstr "Rapòrt d’exercici per categoria per totas las sesions"
 msgid "Require e-mail confirmation"
 msgstr "Demandar confirmacion per mail"
 
-msgid "Registration confirmation"
-msgstr "Confirmacion d’inscripcion"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Vòstre compte es inactiu perque l’avètz pas encara confirmat. Verificatz vòstre mail e seguissètz las instruccions o clicatz lo ligam seguent per tornar mandar lo mail"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Per completar vòstra inscripcion a la plataforma, vos cal confirmar vòstre compte en clicant lo ligam seguent"
 
 msgid "Confirmation for new account"
 msgstr "Confirmacion per novèl compte"
@@ -24982,7 +24976,7 @@ msgid "Click to view details"
 msgstr "Clicatz per veire los detajhs"
 
 msgid "dd/mm/yyyy"
-msgstr "dd/mm/yyyy"
+msgstr "jj/mm/aaaa"
 
 msgid "Export certificates issue report"
 msgstr "Exportar lo rapòrt d'emission dels certificats"
@@ -31431,8 +31425,8 @@ msgstr "Solament las letras, las ciffres e lo soslinh (_) son autorizats dins lo
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Quinas condicions generals son donadas als utilizaires per utilizar aquesta plataforma ?"
 
-msgid "ex. {examplePassword}"
-msgstr "ex. {examplePassword}"
+msgid "ex. %s"
+msgstr "ex. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Benvenguda a Chamilo !"
@@ -32564,4 +32558,184 @@ msgstr "Invite modificada"
 
 msgid "Saved in Documents"
 msgstr "Enregistrat dins los Documents"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Espaci total utilizat per %s es %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Espaci total utilizat pel portal %s es %sGB (limite fixada a %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirmatz vòstre corrièr electronic"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Per verificar vòstre corrièr electronic e activar vòstre compte sus %s, clicatz sul ligam çaijós."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Se vosètz pas registrat aqueste compte, podètz ignorar aqueste e-mail. Cap accion serà presa."
+
+msgid "Current authentication method"
+msgstr "Metòde d'autentificacion actual"
+
+msgid "Branches"
+msgstr "Brancas"
+
+msgid "Rooms"
+msgstr "Salas"
+
+msgid "Room availability finder"
+msgstr "Recèrca de disponibilitat de sala"
+
+msgid "New branch"
+msgstr "Nòva branca"
+
+msgid "New room"
+msgstr "Nòva sala"
+
+msgid "Branch"
+msgstr "Branca"
+
+msgid "Default room"
+msgstr "Sala per defaut"
+
+msgid "Room occupation: %s"
+msgstr "Ocupacion de la sala : %s"
+
+msgid "Find available rooms"
+msgstr "Tèner las salas disponibles"
+
+msgid "Available rooms"
+msgstr "Salas disponibles"
+
+msgid "Occupied rooms"
+msgstr "Salas ocupadas"
+
+msgid "No available rooms found for this time range"
+msgstr "Cap de sala disponible pas trobat per aqueste lapse de temps"
+
+msgid "No rooms have been created yet"
+msgstr "Cap de sala es pas encara creat"
+
+msgid "Courses linked to %s"
+msgstr "Còrs vinculat(s) a %s"
+
+msgid "No branches have been created yet"
+msgstr "Cap de branca es pas encara creada"
+
+msgid "Occupation"
+msgstr "Ocupacion"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Impossible d'escafar la branca amb de salas associadas"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Impossible d'escafar la sala amb de còrs associats"
+
+msgid "Conflicts"
+msgstr "Conflicts"
+
+msgid "Geolocation"
+msgstr "Geolocalizacion"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitud, Longitude (ex. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 o IPv6"
+
+msgid "IP mask"
+msgstr "Masque IP"
+
+msgid "e.g. /24"
+msgstr "ex. /24"
+
+msgid "Parent branch"
+msgstr "Branca parenta"
+
+msgid "Unique identifier"
+msgstr "Identificator unic"
+
+msgid "Latitude"
+msgstr "Latitud"
+
+msgid "e.g. 48.8566"
+msgstr "ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitude"
+
+msgid "e.g. 2.3522"
+msgstr "ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Vitessa de bajada (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Vitessa de montada (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Retard (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nom de l'administrator"
+
+msgid "Administrator phone number"
+msgstr "Numèro de telefon de l'administrator"
+
+msgid "ID of last synch transaction"
+msgstr "ID de la darrièra transaccion de sincronizacion"
+
+msgid "Time of last synchronization"
+msgstr "Ora de la darrièra sincronizacion"
+
+msgid "Last synchronization type"
+msgstr "Tipe de la darrièra sincronizacion"
+
+msgid "SSL public key"
+msgstr "Clau publica SSL"
+
+msgid "Branch type"
+msgstr "Tipe de branca"
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Simple IDS"
+msgstr "IDS simplificat"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS es actualament desactivat. Definir IDS_ENABLED=true dins vòstre .env per activar l'escanhament."
+
+msgid "All event types"
+msgstr "Totes los tipes d'esdeveniments"
+
+msgid "Events by day (last 7 days)"
+msgstr "Esdeveniments per jorn (darrièrs 7 jorns)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Esdeveniments per tipe (darrièrs 30 jorns)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Top IPs atacants (darrièrs 30 jorns)"
+
+msgid "Flagged IDS events"
+msgstr "Esdeveniments IDS marcats"
+
+msgid "No suspicious events detected."
+msgstr "Cap d'esdeveniment sospitós detectat."
+
+msgid "Detection type"
+msgstr "Tipe de deteccion"
+
+msgid "Parameter"
+msgstr "Paramètre"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (actual)"
 

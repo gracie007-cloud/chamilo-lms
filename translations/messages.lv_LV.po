@@ -1568,7 +1568,7 @@ msgid "Remote"
 msgstr "Attālināts"
 
 msgid "Auto-detect"
-msgstr "Auto-detect"
+msgstr "Automātiska noteikšana"
 
 msgid "Total of completed learning objects"
 msgstr "<b>Kopējais rezultāts / izpilde</b>"
@@ -8603,10 +8603,10 @@ msgid "Numbered"
 msgstr "Numurēts"
 
 msgid "en"
-msgstr "en"
+msgstr "lv"
 
 msgid "eng"
-msgstr "eng"
+msgstr "lat"
 
 msgid "iso-8859-1"
 msgstr "utf-8"
@@ -8945,7 +8945,7 @@ msgid "F"
 msgstr "P"
 
 msgid "S"
-msgstr "S"
+msgstr "Sv"
 
 msgid "Mon"
 msgstr "Pirm"
@@ -8990,19 +8990,19 @@ msgid "Sunday"
 msgstr "Svētdiena"
 
 msgid "J"
-msgstr "J"
+msgstr "Pr"
 
 msgid "A"
-msgstr "A"
+msgstr "Ot"
 
 msgid "O"
-msgstr "O"
+msgstr "Tr"
 
 msgid "N"
-msgstr "N"
+msgstr "Ce"
 
 msgid "D"
-msgstr "D"
+msgstr "Pk"
 
 msgid "Jan"
 msgstr "Jan"
@@ -11960,7 +11960,7 @@ msgid "Follow-up"
 msgstr "Sekošana padarītajam"
 
 msgid "Administrators"
-msgstr "Administrators"
+msgstr "Administratori"
 
 msgid "Tracks"
 msgstr "Fiksētās darbības"
@@ -14516,7 +14516,7 @@ msgid "norwegian"
 msgstr "norvēģu"
 
 msgid "pashto"
-msgstr "pashto"
+msgstr "paštūniešu"
 
 msgid "persian"
 msgstr "persiešu"
@@ -14534,7 +14534,7 @@ msgid "slovak"
 msgstr "slovāku"
 
 msgid "swahili"
-msgstr "swahili"
+msgstr "svahilu"
 
 msgid "traditional chinese"
 msgstr "tradicionālā_ķīniešu"
@@ -14822,7 +14822,7 @@ msgid "Waiting for admin response"
 msgstr "Gaida admin atbildi"
 
 msgid "Re"
-msgstr "Re"
+msgstr "Atb"
 
 msgid "Files attachments"
 msgstr "Failu pielikumi"
@@ -14981,7 +14981,7 @@ msgid "ukrainian"
 msgstr "ukraiņu"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "joruba"
 
 msgid "New"
 msgstr "Jauns"
@@ -16196,7 +16196,7 @@ msgid "Return to the course list"
 msgstr "Atgriezties kursu sarakstā"
 
 msgid "%d/%m"
-msgstr "%d/%m"
+msgstr "%d.%m"
 
 msgid "Course tutor"
 msgstr "Kursa skolotājs"
@@ -16220,10 +16220,10 @@ msgid "Session tutors reports visibility"
 msgstr "Sesijas skolotāju ziņojumu redzamība"
 
 msgid "NP"
-msgstr "NP"
+msgstr "N"
 
 msgid "P"
-msgstr "P"
+msgstr "J"
 
 msgid "Session calendar"
 msgstr "Sesijas kalendārs"
@@ -17747,7 +17747,7 @@ msgid "OpenID redirect"
 msgstr "Pārstūtīt OpenID"
 
 msgid "Blogs"
-msgstr "Blogs"
+msgstr "Emisija"
 
 msgid "Select a course"
 msgstr "Izvēlēties kursu"
@@ -19379,7 +19379,7 @@ msgid "Auto"
 msgstr "Auto"
 
 msgid "Stop"
-msgstr "Stop"
+msgstr "Apturēt"
 
 msgid "Enable Webcam Clip"
 msgstr "Iespējot Webcam Clip"
@@ -22138,14 +22138,8 @@ msgstr "Vingrinājumu pārskats pa kategorijām visām sesijām"
 msgid "Require e-mail confirmation"
 msgstr "Nepieciešams e-pasta apstiprinājums"
 
-msgid "Registration confirmation"
-msgstr "Reģistrācijas apstiprinājums"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Jūsu konts ir neaktīvs, jo jūs vēl neesat to apstiprinājis. Pārbaudiet savu e-pastu un sekojiet instrukcijām vai noklikšķiniet uz šīs saites, lai atkārtoti nosūtītu e-pastu"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Lai pabeigtu platformas reģistrāciju, jums jāapstiprina konts, noklikšķinot uz šīs saites"
 
 msgid "Confirmation for new account"
 msgstr "Apstiprinājums jaunam kontam"
@@ -28164,7 +28158,7 @@ msgid "Topbarskills"
 msgstr "Topbarskills"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "AI palīghi"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "Lietotāja ID, kurš oficiāli sūta darba kārtības atgādinājumus"
@@ -30867,7 +30861,7 @@ msgid "Account locked until"
 msgstr "Konts bloķēts līdz"
 
 msgid "Google Calendar URL"
-msgstr "Google Calendar URL"
+msgstr "Google kalendāra URL"
 
 msgid "User chat status"
 msgstr "Lietotāja čata statuss"
@@ -31436,8 +31430,8 @@ msgstr "Datubāzes nosaukumā drīkst izmantot tikai burtus, ciparus un apakšsv
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Kādi vispārēji noteikumi un nosacījumi tiek doti lietotājiem, lai izmantotu šo platformu?"
 
-msgid "ex. {examplePassword}"
-msgstr "pi. {examplePassword}"
+msgid "ex. %s"
+msgstr "pi. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Laipni lūdzam Chamilo!"
@@ -32382,7 +32376,7 @@ msgid "Delete failed: missing course context or invalid question id."
 msgstr "Dzēšana neizdevās: trūkst kursa konteksta vai nederīgs jautājuma ID."
 
 msgid "AI Tutor"
-msgstr "AI tutor"
+msgstr "AI mācību palīgs"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
 msgstr "APCu paplašinājumam jābūt gan instalētam, gan iespējotam, lai platforma to izmantotu."
@@ -32569,4 +32563,184 @@ msgstr "Modificēts uzvedne"
 
 msgid "Saved in Documents"
 msgstr "Saglabāts Dokumentos"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Kopējā vieta, ko izmanto %s, ir %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Kopējā vieta, ko izmanto portāls %s, ir %sGB (limits ir iestatīts uz %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Apstipriniet savu e-pastu"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Lai verificētu jūsu e-pastu un aktivizētu savu kontu %s, lūdzu, noklikšķiniet uz saites zemāk."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ja jūs neizveidojāt šo kontu, varat ignorēt šo e-pastu. Nekādas darbības netiks veiktas."
+
+msgid "Current authentication method"
+msgstr "Pašreizējā autentifikācijas metode"
+
+msgid "Branches"
+msgstr "Filiales"
+
+msgid "Rooms"
+msgstr "Telpas"
+
+msgid "Room availability finder"
+msgstr "Brīvo telpu meklētājs"
+
+msgid "New branch"
+msgstr "Jauna filiāle"
+
+msgid "New room"
+msgstr "Jauna telpa"
+
+msgid "Branch"
+msgstr "Filiāle"
+
+msgid "Default room"
+msgstr "Noklusējuma telpa"
+
+msgid "Room occupation: %s"
+msgstr "Telpas noslodze: %s"
+
+msgid "Find available rooms"
+msgstr "Atrast brīvās telpas"
+
+msgid "Available rooms"
+msgstr "Brīvās telpas"
+
+msgid "Occupied rooms"
+msgstr "Aizņemtās telpas"
+
+msgid "No available rooms found for this time range"
+msgstr "Šim laika periodam nav atrastas brīvās telpas"
+
+msgid "No rooms have been created yet"
+msgstr "Vēl nav izveidotas telpas"
+
+msgid "Courses linked to %s"
+msgstr "Kursi, kas saistīti ar %s"
+
+msgid "No branches have been created yet"
+msgstr "Vēl nav izveidotas filiales"
+
+msgid "Occupation"
+msgstr "Noslodze"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nevar dzēst filiāli ar pievienotām telpām"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nevar dzēst telpu ar pievienotiem kursiem"
+
+msgid "Conflicts"
+msgstr "Konflikti"
+
+msgid "Geolocation"
+msgstr "Ģeolokācija"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Platums, garums (piem., 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 vai IPv6"
+
+msgid "IP mask"
+msgstr "IP maska"
+
+msgid "e.g. /24"
+msgstr "piem., /24"
+
+msgid "Parent branch"
+msgstr "Vecāku filiāle"
+
+msgid "Unique identifier"
+msgstr "Unikāls identifikators"
+
+msgid "Latitude"
+msgstr "Platums"
+
+msgid "e.g. 48.8566"
+msgstr "piem. 48.8566"
+
+msgid "Longitude"
+msgstr "Garums"
+
+msgid "e.g. 2.3522"
+msgstr "piem. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Lejupielādes ātrums (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Augšupielādes ātrums (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Aizkave (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Administratora vārds"
+
+msgid "Administrator phone number"
+msgstr "Administratora tālruņa numurs"
+
+msgid "ID of last synch transaction"
+msgstr "Pēdējās sinhronizācijas darījuma ID"
+
+msgid "Time of last synchronization"
+msgstr "Pēdējās sinhronizācijas laiks"
+
+msgid "Last synchronization type"
+msgstr "Pēdējās sinhronizācijas veids"
+
+msgid "SSL public key"
+msgstr "SSL publiskā atslēga"
+
+msgid "Branch type"
+msgstr "Filiāles tips"
+
+msgid "Room"
+msgstr "Telpa"
+
+msgid "Simple IDS"
+msgstr "Vienkāršs IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS pašlaik ir izslēgts. Iestatiet IDS_ENABLED=true savā .env, lai aktivizētu skenēšanu."
+
+msgid "All event types"
+msgstr "Visi notikumu tipi"
+
+msgid "Events by day (last 7 days)"
+msgstr "Notikumi pa dienām (pēdējās 7 dienas)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Notikumi pa tipiem (pēdējās 30 dienas)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Populārākās uzbrūkošās IP (pēdējās 30 dienas)"
+
+msgid "Flagged IDS events"
+msgstr "Atzīmētie IDS notikumi"
+
+msgid "No suspicious events detected."
+msgstr "Aizdomīgi notikumi nav konstatēti."
+
+msgid "Detection type"
+msgstr "Noteikšanas veids"
+
+msgid "Parameter"
+msgstr "Parametrs"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (pašreizējais)"
 

@@ -495,7 +495,7 @@ msgid "Question ID"
 msgstr "ID на въпроса"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "Идентификатор на упражнението"
 
 msgid "Excel export"
 msgstr "Експорт към Excel"
@@ -2817,7 +2817,7 @@ msgid "This is a sticky message (appears always on top and has a special sticky 
 msgstr "Това е \"лепкаво\" съобщение - появява се винаги най-отгоре."
 
 msgid "Re:"
-msgstr "Re:"
+msgstr "Относно:"
 
 msgid "Are you sure you want to delete this post? Deleting this post will also delete the replies on this post. Please check the threaded view to see which posts will also be deleted"
 msgstr "Изтриването на това съобщение ще изтрие и отговорите към него. Моля, направете структуриран преглед, за да видите, кои отговори ще се изтрият.<br/>Наистина ли искате да изтриете това съобщение?"
@@ -9795,7 +9795,7 @@ msgid "Group area"
 msgstr "Страница на групата"
 
 msgid "Wiki"
-msgstr "Wiki"
+msgstr "Уики"
 
 msgid "Export to PDF"
 msgstr "Експортиране в PDF"
@@ -12786,7 +12786,7 @@ msgid "Latest sent on"
 msgstr "Отново изпратен на"
 
 msgid "kB"
-msgstr "kB"
+msgstr "кБ"
 
 msgid "Your account %s has been completely removed from this portal. Thank you for staying with us for a while. We hope to see you again later."
 msgstr "Акаунтът ви %s е напълно премахнат от този портал. Благодаря ви, че останахте с нас известно време. Надяваме се да ви видим отново по-късно."
@@ -16392,7 +16392,7 @@ msgid "A student has obtained the number of sub-skills needed to validate the mo
 msgstr "Студентът е постигнал нужния брой под-умения за валидиране на основното умение."
 
 msgid "Off"
-msgstr "Off"
+msgstr "Изкл."
 
 msgid "Web server"
 msgstr "Уеб-сървър"
@@ -22047,13 +22047,13 @@ msgid "Certificate notification"
 msgstr "Известие за сертификат"
 
 msgid "((user_first_name)),"
-msgstr "((user_first_name)),"
+msgstr "((име_на_потребител_първо_име)),"
 
 msgid "Send certificate notification to all users"
 msgstr "Изпрати известие за сертификат на всички потребители"
 
 msgid "Fwd"
-msgstr "Fwd"
+msgstr "Препр."
 
 msgid "Forwarded message"
 msgstr "Препратено съобщение"
@@ -22139,14 +22139,8 @@ msgstr "Доклад за упражнения по категории за вс
 msgid "Require e-mail confirmation"
 msgstr "Изисква потвърждение по имейл"
 
-msgid "Registration confirmation"
-msgstr "Потвърждение за регистрация"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Акаунтът ви е неактивен, защото още не сте го потвърдили. Проверете имейла си и следвайте инструкциите или кликнете на следващата връзка, за да изпратите имейла отново"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "За да завършите регистрацията си в платформата, трябва да потвърдите акаунта си чрез кликване на следващата връзка"
 
 msgid "Confirmation for new account"
 msgstr "Потвърждение за нов акаунт"
@@ -23988,10 +23982,10 @@ msgid "Send diagnostic finalization message"
 msgstr "Изпрати съобщение за финализиране на диагностиката"
 
 msgid "DiagnosticfinalizationmessageTitle"
-msgstr "DiagnosticfinalizationmessageTitle"
+msgstr "ДиагностичноЗавършванеСъобщениеЗаглавие"
 
 msgid "DiagnosticfinalizationmessageContent"
-msgstr "DiagnosticfinalizationmessageContent"
+msgstr "ДиагностичноЗавършванеСъобщениеСъдържание"
 
 msgid "Add a forumCategory"
 msgstr "Добави категория на форум"
@@ -24987,7 +24981,7 @@ msgid "Click to view details"
 msgstr "Кликнете за детайли"
 
 msgid "dd/mm/yyyy"
-msgstr "dd/mm/yyyy"
+msgstr "дд/мм/гггг"
 
 msgid "Export certificates issue report"
 msgstr "Износ на доклад за издадени сертификати"
@@ -28132,40 +28126,40 @@ msgid "Generates images based on prompts or content using AI."
 msgstr "Генерира изображения на базата на подсказки или съдържание с помощта на ИИ."
 
 msgid "Menucampushomepage"
-msgstr "Menucampushomepage"
+msgstr "МенюНачалоНаКампуса"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "МенюМоитеКурсове"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "МенюДокладване"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "МенюАдминистриранеНаПлатформата"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "МенюМоятКалендар"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "МенюСоциално"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "МенюВидеоконференции"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Диагностика на менюто"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Каталог на менюто"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Сертификат на горната лента"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Умения на горната лента"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "Помощници за ИИ"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "ID на потребителя, който официално изпраща напомнянията за агендата"
@@ -30478,7 +30472,7 @@ msgid "Please check the following error:"
 msgstr "Моля, проверете следната грешка:"
 
 msgid "OK"
-msgstr "OK"
+msgstr "ОК"
 
 msgid "Migration failed!"
 msgstr "Миграцията неуспешна!"
@@ -30868,7 +30862,7 @@ msgid "Account locked until"
 msgstr "Сметката е заключена до"
 
 msgid "Google Calendar URL"
-msgstr "Google Calendar URL"
+msgstr "URL на Google Календар"
 
 msgid "User chat status"
 msgstr "Статус на чат на потребителя"
@@ -31437,8 +31431,8 @@ msgstr "В името на базата данни са разрешени са�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Какви общи условия и правила са дадени на потребителите за ползване на тази платформа?"
 
-msgid "ex. {examplePassword}"
-msgstr "напр. {examplePassword}"
+msgid "ex. %s"
+msgstr "напр. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Добре дошли в Chamilo!"
@@ -32338,7 +32332,7 @@ msgid "Quiz"
 msgstr "Тест"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Персонализиран сертификат"
 
 msgid "Update profile"
 msgstr "Актуализиране на профила"
@@ -32383,7 +32377,7 @@ msgid "Delete failed: missing course context or invalid question id."
 msgstr "Изтриването неуспя: липсва контекст на курс или невалиден ID на въпрос."
 
 msgid "AI Tutor"
-msgstr "AI Tutor"
+msgstr "ИИ tutor"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
 msgstr "Разширението APCu трябва да бъде инсталирано и активирано, за да може платформата да го използва."
@@ -32570,4 +32564,184 @@ msgstr "Променен промпт"
 
 msgid "Saved in Documents"
 msgstr "Съхранено в Документи"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Общо използвано място от %s е %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Общо използвано място от портала %s е %sGB (лимитът е %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Потвърдете имейл адреса си"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "За да потвърдите имейл адреса си и активирате акаунта си в %s, моля, кликнете върху връзката по-долу."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ако не сте регистрирали този акаунт, можете да игнорирате това писмо. Няма да бъде предприето действие."
+
+msgid "Current authentication method"
+msgstr "Текущ метод за автентикация"
+
+msgid "Branches"
+msgstr "Филиали"
+
+msgid "Rooms"
+msgstr "Стаи"
+
+msgid "Room availability finder"
+msgstr "Търсачка на свободни стаи"
+
+msgid "New branch"
+msgstr "Нов филиал"
+
+msgid "New room"
+msgstr "Нова стая"
+
+msgid "Branch"
+msgstr "Филиал"
+
+msgid "Default room"
+msgstr "Стандартна стая"
+
+msgid "Room occupation: %s"
+msgstr "Заетост на стаята: %s"
+
+msgid "Find available rooms"
+msgstr "Намери свободни стаи"
+
+msgid "Available rooms"
+msgstr "Свободни стаи"
+
+msgid "Occupied rooms"
+msgstr "Заети стаи"
+
+msgid "No available rooms found for this time range"
+msgstr "Не са намерени свободни стаи за този времеви интервал"
+
+msgid "No rooms have been created yet"
+msgstr "Още не са създадени стаи"
+
+msgid "Courses linked to %s"
+msgstr "Курсове, свързани с %s"
+
+msgid "No branches have been created yet"
+msgstr "Още не са създадени филиали"
+
+msgid "Occupation"
+msgstr "Заетост"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Не може да се изтрие филиал със свързани стаи"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Не може да се изтрие стая с прикрепени курсове"
+
+msgid "Conflicts"
+msgstr "Конфликти"
+
+msgid "Geolocation"
+msgstr "Геолокация"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Ширина, Дължина (нпр. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 или IPv6"
+
+msgid "IP mask"
+msgstr "IP маска"
+
+msgid "e.g. /24"
+msgstr "нпр. /24"
+
+msgid "Parent branch"
+msgstr "Родителски филиал"
+
+msgid "Unique identifier"
+msgstr "Уникален идентификатор"
+
+msgid "Latitude"
+msgstr "Географска ширина"
+
+msgid "e.g. 48.8566"
+msgstr "нпр. 48.8566"
+
+msgid "Longitude"
+msgstr "Географска дължина"
+
+msgid "e.g. 2.3522"
+msgstr "нпр. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Скорост на сваляне (КБ/с)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Скорост на качване (КБ/с)"
+
+msgid "Delay (ms)"
+msgstr "Закъснение (мс)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Име на администратора"
+
+msgid "Administrator phone number"
+msgstr "Телефонен номер на администратора"
+
+msgid "ID of last synch transaction"
+msgstr "ID на последната транзакция за синхронизация"
+
+msgid "Time of last synchronization"
+msgstr "Време на последната синхронизация"
+
+msgid "Last synchronization type"
+msgstr "Тип на последната синхронизация"
+
+msgid "SSL public key"
+msgstr "SSL публичен ключ"
+
+msgid "Branch type"
+msgstr "Тип на филиала"
+
+msgid "Room"
+msgstr "Стая"
+
+msgid "Simple IDS"
+msgstr "Прости IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS е изключен. Задайте IDS_ENABLED=true в .env, за да активирате сканирането."
+
+msgid "All event types"
+msgstr "Всички типове събития"
+
+msgid "Events by day (last 7 days)"
+msgstr "Събития по дни (последните 7 дни)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Събития по тип (последните 30 дни)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Топ атакуващи IP адреси (последните 30 дни)"
+
+msgid "Flagged IDS events"
+msgstr "Маркирани събития на IDS"
+
+msgid "No suspicious events detected."
+msgstr "Не са открити подозрителни събития."
+
+msgid "Detection type"
+msgstr "Тип на откриването"
+
+msgid "Parameter"
+msgstr "Параметър"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (текущ)"
 

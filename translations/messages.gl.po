@@ -4748,7 +4748,7 @@ msgid "Should the navigation menu show the different tool icons?"
 msgstr "¿Deben mostrar o menú de navegación as iconas das ferramentas ?"
 
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Complemento"
 
 msgid "Main menu"
 msgstr "Menú principal"
@@ -4757,7 +4757,7 @@ msgid "Main menu after login"
 msgstr "Menú principal despois de autentificarse"
 
 msgid "Banner"
-msgstr "Banner"
+msgstr "Lenda"
 
 msgid "Resize uploaded user images"
 msgstr "Redimensionar as imaxes enviadas polos usuarios"
@@ -5234,10 +5234,10 @@ msgid "Whether you want to use the blacklist or whitelist filtering. See blackli
 msgstr "Utilizar un filtrado blacklist ou whitelist. Para máis detalles, vexa máis abaixo a descrición ambos os filtros."
 
 msgid "Blacklist"
-msgstr "Blacklist"
+msgstr "Lista negra"
 
 msgid "Whitelist"
-msgstr "Whitelist"
+msgstr "Lista branca"
 
 msgid "Blacklist - setting"
 msgstr "Blacklist - parámetros"
@@ -8714,7 +8714,7 @@ msgid "Previous page"
 msgstr "Páxina anterior"
 
 msgid "Use"
-msgstr "Use"
+msgstr "Usar"
 
 msgid "Total"
 msgstr "Total"
@@ -9863,7 +9863,7 @@ msgid "Forum threads"
 msgstr "Fíos do foro"
 
 msgid "Invisible"
-msgstr "Invisible"
+msgstr "Invisíbel"
 
 msgid "Phone"
 msgstr "Teléfono"
@@ -14501,7 +14501,7 @@ msgid "english for organisations"
 msgstr "inglés para organizacións"
 
 msgid "friulian"
-msgstr "friulian"
+msgstr "friulano"
 
 msgid "georgian"
 msgstr "xeorxiano"
@@ -14525,7 +14525,7 @@ msgid "norwegian"
 msgstr "noruego"
 
 msgid "pashto"
-msgstr "pashto"
+msgstr "paxto"
 
 msgid "persian"
 msgstr "persa"
@@ -14990,7 +14990,7 @@ msgid "ukrainian"
 msgstr "ukraniano"
 
 msgid "yoruba"
-msgstr "yoruba"
+msgstr "ioruba"
 
 msgid "New"
 msgstr "Novo"
@@ -15470,7 +15470,7 @@ msgid "Show only final score, with categories if available"
 msgstr "Amosar só o resultado final, con categorías, se estas están dispoñibles"
 
 msgid "Media"
-msgstr "Media"
+msgstr "Medios"
 
 msgid "You are authorized to edit this exercise, although already used in the learning path. If you edit it, try to avoid changing the score and focus on editing content, not values nor categorization, to avoid affecting the results of previous users having taken this test."
 msgstr "Está autorizado a editar este exercicio, aínda que xa estea usado nunha lección. Se o edita, trate de evitar modificar a puntuación e concéntrese en modificar o contido, pero non os valores e a clasificación, para evitar afectar aos resultados dos estudantes que xa tiveran pasado esta proba con anterioridade."
@@ -15917,7 +15917,7 @@ msgid "Date & time"
 msgstr "Data & hora"
 
 msgid "Item"
-msgstr "Item"
+msgstr "Elemento"
 
 msgid "Configure Dashboard Plugin"
 msgstr "Configurar o plugin do Panel de control"
@@ -19228,7 +19228,7 @@ msgid "Last Name and First Name"
 msgstr "Apelidos e nome"
 
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Complementos"
 
 msgid "Detailed"
 msgstr "Detallado"
@@ -19462,7 +19462,7 @@ msgid "Global multiple answer"
 msgstr "Resposta múltiple global"
 
 msgid "Zombies"
-msgstr "Zombies"
+msgstr "Zombis"
 
 msgid "Active only"
 msgstr "Só activo"
@@ -22152,14 +22152,8 @@ msgstr "Informe de exercicios por categoría para todas as sesións"
 msgid "Require e-mail confirmation"
 msgstr "Requír confirmación por correo-e"
 
-msgid "Registration confirmation"
-msgstr "Confirmación de rexistro"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "A túa conta está inactiva porque aínda non a confirmaches. Comproba o teu correo-e e segue as instrucións ou fai clic no seguinte enlace para reenviar o correo-e"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Para completar o teu rexistro na plataforma necesitas confirmar a túa conta facendo clic no seguinte enlace"
 
 msgid "Confirmation for new account"
 msgstr "Confirmación para nova conta"
@@ -28244,7 +28238,7 @@ msgid "You're subscribed to push notifications in this browser."
 msgstr "Está subscrito ás notificacións push neste navegador."
 
 msgid "Endpoint"
-msgstr "Endpoint"
+msgstr "Endpozo"
 
 msgid "Push notifications are not enabled in this browser."
 msgstr "As notificacións push non están activadas neste navegador."
@@ -31450,8 +31444,8 @@ msgstr "Só se permiten letras, díxitos e guión baixo (_) no nome da base de d
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Que termos e condicións xerais se dan aos usuarios para usar esta plataforma?"
 
-msgid "ex. {examplePassword}"
-msgstr "p. ex. {examplePassword}"
+msgid "ex. %s"
+msgstr "p. ex. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Benvido a Chamilo!"
@@ -32583,4 +32577,184 @@ msgstr "Prompt modificado"
 
 msgid "Saved in Documents"
 msgstr "Gardado en Documentos"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Espazo total usado por %s é %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Espazo total usado polo portal %s é %sGB (o límite está fixado en %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirma o teu correo"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Para verificar o teu correo-e e activar a túa conta en %s, preme no seguinte enlace."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Se non rexistrou esta conta, pode ignorar este correo. Non se tomará ningunha acción."
+
+msgid "Current authentication method"
+msgstr "Método de autenticación actual"
+
+msgid "Branches"
+msgstr "Sucursais"
+
+msgid "Rooms"
+msgstr "Salas"
+
+msgid "Room availability finder"
+msgstr "Buscador de dispoñibilidade de salas"
+
+msgid "New branch"
+msgstr "Nova sucursal"
+
+msgid "New room"
+msgstr "Nova sala"
+
+msgid "Branch"
+msgstr "Sucursal"
+
+msgid "Default room"
+msgstr "Sala predeterminada"
+
+msgid "Room occupation: %s"
+msgstr "Ocupación da sala: %s"
+
+msgid "Find available rooms"
+msgstr "Buscar salas dispoñibles"
+
+msgid "Available rooms"
+msgstr "Salas dispoñibles"
+
+msgid "Occupied rooms"
+msgstr "Salas ocupadas"
+
+msgid "No available rooms found for this time range"
+msgstr "Non se atoparon salas dispoñibles para este intervalo de tempo"
+
+msgid "No rooms have been created yet"
+msgstr "Aínda non se crearon salas"
+
+msgid "Courses linked to %s"
+msgstr "Cursos ligados a %s"
+
+msgid "No branches have been created yet"
+msgstr "Aínda non se crearon sucursais"
+
+msgid "Occupation"
+msgstr "Ocupación"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Non se pode eliminar a sucursal con salas asociadas"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Non se pode eliminar a sala con cursos asociados"
+
+msgid "Conflicts"
+msgstr "Conflitos"
+
+msgid "Geolocation"
+msgstr "Xeolocalización"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitude, Lonxitude (p. ex. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ou IPv6"
+
+msgid "IP mask"
+msgstr "Máscara IP"
+
+msgid "e.g. /24"
+msgstr "p. ex. /24"
+
+msgid "Parent branch"
+msgstr "Sucursal superior"
+
+msgid "Unique identifier"
+msgstr "Identificador único"
+
+msgid "Latitude"
+msgstr "Latitude"
+
+msgid "e.g. 48.8566"
+msgstr "p. ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Lonxitude"
+
+msgid "e.g. 2.3522"
+msgstr "p. ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Velocidade de descarga (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Velocidade de subida (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Retardo (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nome do administrador"
+
+msgid "Administrator phone number"
+msgstr "Número de teléfono do administrador"
+
+msgid "ID of last synch transaction"
+msgstr "ID da última transacción de sincronización"
+
+msgid "Time of last synchronization"
+msgstr "Hora da última sincronización"
+
+msgid "Last synchronization type"
+msgstr "Tipo da última sincronización"
+
+msgid "SSL public key"
+msgstr "Chave pública SSL"
+
+msgid "Branch type"
+msgstr "Tipo de sucursal"
+
+msgid "Room"
+msgstr "Sala"
+
+msgid "Simple IDS"
+msgstr "IDS simple"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "O IDS está desactivado actualmente. Estabeleza IDS_ENABLED=true no teu ficheiro .env para activar o escaneo."
+
+msgid "All event types"
+msgstr "Todos os tipos de eventos"
+
+msgid "Events by day (last 7 days)"
+msgstr "Eventos por día (últimos 7 días)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Eventos por tipo (últimos 30 días)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IPs atacantes principais (últimos 30 días)"
+
+msgid "Flagged IDS events"
+msgstr "Eventos IDS sinalados"
+
+msgid "No suspicious events detected."
+msgstr "Non se detectaron eventos sospeitosos."
+
+msgid "Detection type"
+msgstr "Tipo de detección"
+
+msgid "Parameter"
+msgstr "Parámetro"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (actual)"
 

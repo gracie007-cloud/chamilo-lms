@@ -10747,7 +10747,7 @@ msgid "What s/he can teach"
 msgstr "Amit tanít"
 
 msgid "Productions"
-msgstr "Productions"
+msgstr "Művek"
 
 msgid "Send a chat proposal to this person"
 msgstr "Chat-felhívás küldése"
@@ -22137,14 +22137,8 @@ msgstr "Gyakorlat jelentés kategóriánként minden munkamenetre"
 msgid "Require e-mail confirmation"
 msgstr "E-mail megerősítés szükséges"
 
-msgid "Registration confirmation"
-msgstr "Regisztráció megerősítése"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "A fiókja inaktív, mert még nem erősítette meg. Ellenőrizze az e-mailjét, és kövesse az utasításokat, vagy kattintson a következő linkre az e-mail újraküldéséhez"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "A platform regisztrációjának befejezéséhez erősítse meg a fiókját a következő linkre kattintva"
 
 msgid "Confirmation for new account"
 msgstr "Megerősítés új fiókhoz"
@@ -31435,8 +31429,8 @@ msgstr "Az adatbázis nevében csak betűk, számjegyek és aláhúzás (_) mege
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Milyen általános feltételeket kapnak a felhasználók ehhez a platformhoz?"
 
-msgid "ex. {examplePassword}"
-msgstr "pl. {examplePassword}"
+msgid "ex. %s"
+msgstr "pl. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Üdvözöljük a Chamilo-ban!"
@@ -32568,4 +32562,184 @@ msgstr "Módosított prompt"
 
 msgid "Saved in Documents"
 msgstr "Mentve a Dokumentumokba"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s által használt teljes hely %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "A %s portál által használt teljes hely %sGB (a limit %sGB-ra van állítva)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] E-mail megerősítése"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "E-mail címének ellenőrzéséhez és fiókja aktiválásához a %s oldalon kattintson az alábbi linkre."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ha nem te regisztráltad ezt a fiókot, akkor figyelmen kívül hagyhatod ezt az e-mailt. Semmilyen művelet nem fog történni."
+
+msgid "Current authentication method"
+msgstr "Jelenlegi hitelesítési mód"
+
+msgid "Branches"
+msgstr "Fiókok"
+
+msgid "Rooms"
+msgstr "Termek"
+
+msgid "Room availability finder"
+msgstr "Termek elérhetőség kereső"
+
+msgid "New branch"
+msgstr "Új fiók"
+
+msgid "New room"
+msgstr "Új terem"
+
+msgid "Branch"
+msgstr "Fiók"
+
+msgid "Default room"
+msgstr "Alapértelmezett terem"
+
+msgid "Room occupation: %s"
+msgstr "Terem foglaltsága: %s"
+
+msgid "Find available rooms"
+msgstr "Elérhető termek keresése"
+
+msgid "Available rooms"
+msgstr "Elérhető termek"
+
+msgid "Occupied rooms"
+msgstr "Foglalt termek"
+
+msgid "No available rooms found for this time range"
+msgstr "Nincs elérhető terem ebben az időtartamban"
+
+msgid "No rooms have been created yet"
+msgstr "Még nem hoztak létre termeket"
+
+msgid "Courses linked to %s"
+msgstr "%s-hoz kapcsolódó kurzusok"
+
+msgid "No branches have been created yet"
+msgstr "Még nem hoztak létre fiókot"
+
+msgid "Occupation"
+msgstr "Foglaltság"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nem törölhető fiók, mert vannak hozzákapcsolt termek"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nem törölhető terem, mert vannak hozzákapcsolt kurzusok"
+
+msgid "Conflicts"
+msgstr "Ütközések"
+
+msgid "Geolocation"
+msgstr "Földrajzi helyzet"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Szélesség, hosszúság (pl. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 vagy IPv6"
+
+msgid "IP mask"
+msgstr "IP maszk"
+
+msgid "e.g. /24"
+msgstr "pl. /24"
+
+msgid "Parent branch"
+msgstr "Szülő fiók"
+
+msgid "Unique identifier"
+msgstr "Egyedi azonosító"
+
+msgid "Latitude"
+msgstr "Szélesség"
+
+msgid "e.g. 48.8566"
+msgstr "pl. 48.8566"
+
+msgid "Longitude"
+msgstr "Hosszúság"
+
+msgid "e.g. 2.3522"
+msgstr "pl. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Letöltési sebesség (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Feltöltési sebesség (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Késleltetés (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Rendszergazdai név"
+
+msgid "Administrator phone number"
+msgstr "Rendszergazda telefonszám"
+
+msgid "ID of last synch transaction"
+msgstr "Utolsó szinkronizációs tranzakció azonosítója"
+
+msgid "Time of last synchronization"
+msgstr "Utolsó szinkronizáció ideje"
+
+msgid "Last synchronization type"
+msgstr "Utolsó szinkronizáció típusa"
+
+msgid "SSL public key"
+msgstr "SSL nyilvános kulcs"
+
+msgid "Branch type"
+msgstr "Filia típusa"
+
+msgid "Room"
+msgstr "Szoba"
+
+msgid "Simple IDS"
+msgstr "Egyszerű IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "Az IDS jelenleg ki van kapcsolva. Állítsa be IDS_ENABLED=true a .env fájlban a szkennelés aktiválásához."
+
+msgid "All event types"
+msgstr "Minden eseménytípus"
+
+msgid "Events by day (last 7 days)"
+msgstr "Események naponta (utolsó 7 nap)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Események típusonként (utolsó 30 nap)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Legtöbb támadó IP (utolsó 30 nap)"
+
+msgid "Flagged IDS events"
+msgstr "Megjelölt IDS események"
+
+msgid "No suspicious events detected."
+msgstr "Nincs gyanús esemény észlelve."
+
+msgid "Detection type"
+msgstr "Észlelési típus"
+
+msgid "Parameter"
+msgstr "Paraméter"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (jelenlegi)"
 

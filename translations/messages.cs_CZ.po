@@ -490,7 +490,7 @@ msgid "Question ID"
 msgstr "ID otázky"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "ID cvičení"
 
 msgid "Excel export"
 msgstr "Export do Excelu"
@@ -1375,7 +1375,7 @@ msgid "Save the event"
 msgstr "Přidej událost"
 
 msgid "Detail"
-msgstr "detail"
+msgstr "Podrobnosti"
 
 msgid "Month view"
 msgstr "Měsíční pohled"
@@ -4744,7 +4744,7 @@ msgid "Main menu after login"
 msgstr "Hlavní menu po přihlášení"
 
 msgid "Banner"
-msgstr "Banner"
+msgstr "Baner"
 
 msgid "Resize uploaded user images"
 msgstr "Změnit velikost nahraných uživatelských obrázků"
@@ -5221,10 +5221,10 @@ msgid "Whether you want to use the blacklist or whitelist filtering. See blackli
 msgstr "Použití funkce blacklist - whitelist filtrování. <br/>Pro více informací si prohlédněte popis níže."
 
 msgid "Blacklist"
-msgstr "Blacklist"
+msgstr "Černá listina"
 
 msgid "Whitelist"
-msgstr "Whitelist"
+msgstr "Bílá listina"
 
 msgid "Blacklist - setting"
 msgstr "Blacklist - nastavení"
@@ -8599,7 +8599,7 @@ msgid "Numbered"
 msgstr "Číslované"
 
 msgid "en"
-msgstr "en"
+msgstr "cs"
 
 msgid "eng"
 msgstr "eng"
@@ -12676,10 +12676,10 @@ msgid "Mailing content files have not yet been sent out..."
 msgstr "Obsahové soubory pro mailing ještě nebyly odeslány..."
 
 msgid "---Mailing---"
-msgstr "---Mailing---"
+msgstr "---E-mailový rozesiláč---"
 
 msgid "Mailing"
-msgstr "Mailing"
+msgstr "E-mailový rozesiláč"
 
 msgid "sender"
 msgstr "odesílatel"
@@ -19882,10 +19882,10 @@ msgid "Not readable"
 msgstr "Nečitelné"
 
 msgid "John"
-msgstr "John"
+msgstr "Jan"
 
 msgid "Doe"
-msgstr "Doe"
+msgstr "Novák"
 
 msgid "Attendances updated"
 msgstr "Účasti aktualizovány"
@@ -22042,7 +22042,7 @@ msgid "Certificate notification"
 msgstr "Oznámení o certifikátu"
 
 msgid "((user_first_name)),"
-msgstr "((user_first_name)),"
+msgstr "((jméno uživatele)),"
 
 msgid "Send certificate notification to all users"
 msgstr "Odeslat oznámení o certifikátu všem uživatelům"
@@ -22134,14 +22134,8 @@ msgstr "Zpráva o cvičeních podle kategorie pro všechny relace"
 msgid "Require e-mail confirmation"
 msgstr "Vyžadovat potvrzení e-mailem"
 
-msgid "Registration confirmation"
-msgstr "Potvrzení registrace"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Váš účet je neaktivní, protože jste jej ještě nepotvrdili. Zkontrolujte svůj e-mail a postupujte podle pokynů nebo klikněte na následující odkaz pro odeslání e-mailu znovu"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Pro dokončení registrace na platformě musíte potvrdit svůj účet kliknutím na následující odkaz"
 
 msgid "Confirmation for new account"
 msgstr "Potvrzení nového účtu"
@@ -31431,8 +31425,8 @@ msgstr "V názvu databáze jsou povoleny pouze písmena, číslice a podtržítk
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Jaké obecné podmínky používání této platformy jsou uživatelům poskytnuty?"
 
-msgid "ex. {examplePassword}"
-msgstr "např. {examplePassword}"
+msgid "ex. %s"
+msgstr "např. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Vítejte v Chamilo!"
@@ -32564,4 +32558,184 @@ msgstr "Upravený prompt"
 
 msgid "Saved in Documents"
 msgstr "Uloženo v Dokumentech"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Celkový prostor použitý %s je %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Celkový prostor použitý portálem %s je %sGB (limit je nastaven na %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Potvrďte svůj e-mail"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Pro ověření vašeho e-mailu a aktivaci účtu na %s klikněte na odkaz níže."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Pokud jste tento účet neregistrovali, můžete tento e-mail ignorovat. Žádná akce nebude provedená."
+
+msgid "Current authentication method"
+msgstr "Aktuální metoda autentizace"
+
+msgid "Branches"
+msgstr "Pobočky"
+
+msgid "Rooms"
+msgstr "Místnosti"
+
+msgid "Room availability finder"
+msgstr "Hledání dostupných místností"
+
+msgid "New branch"
+msgstr "Nová pobočka"
+
+msgid "New room"
+msgstr "Nová místnost"
+
+msgid "Branch"
+msgstr "Pobočka"
+
+msgid "Default room"
+msgstr "Výchozí místnost"
+
+msgid "Room occupation: %s"
+msgstr "Obsazenost místnosti: %s"
+
+msgid "Find available rooms"
+msgstr "Najít dostupné místnosti"
+
+msgid "Available rooms"
+msgstr "Dostupné místnosti"
+
+msgid "Occupied rooms"
+msgstr "Obsazené místnosti"
+
+msgid "No available rooms found for this time range"
+msgstr "Nebyly nalezeny žádné dostupné místnosti pro tento časový rozsah"
+
+msgid "No rooms have been created yet"
+msgstr "Zatím nebyly vytvořeny žádné místnosti"
+
+msgid "Courses linked to %s"
+msgstr "Kurzy spojené s %s"
+
+msgid "No branches have been created yet"
+msgstr "Zatím nebyly vytvořeny žádné pobočky"
+
+msgid "Occupation"
+msgstr "Obsazenost"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nelze smazat pobočku s připojenými místnostmi"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nelze smazat místnost s připojenými kurzy"
+
+msgid "Conflicts"
+msgstr "Konflikty"
+
+msgid "Geolocation"
+msgstr "Geolokace"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Zeměpisná šířka, délka (např. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 nebo IPv6"
+
+msgid "IP mask"
+msgstr "IP maska"
+
+msgid "e.g. /24"
+msgstr "např. /24"
+
+msgid "Parent branch"
+msgstr "Nadřazená pobočka"
+
+msgid "Unique identifier"
+msgstr "Unikátní identifikátor"
+
+msgid "Latitude"
+msgstr "Zeměpisná šířka"
+
+msgid "e.g. 48.8566"
+msgstr "např. 48.8566"
+
+msgid "Longitude"
+msgstr "Zeměpisná délka"
+
+msgid "e.g. 2.3522"
+msgstr "např. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Rychlost stahování (kB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Rychlost nahrávání (kB/s)"
+
+msgid "Delay (ms)"
+msgstr "Zpoždění (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Jméno administrátora"
+
+msgid "Administrator phone number"
+msgstr "Telefonní číslo administrátora"
+
+msgid "ID of last synch transaction"
+msgstr "ID poslední synchronizační transakce"
+
+msgid "Time of last synchronization"
+msgstr "Čas poslední synchronizace"
+
+msgid "Last synchronization type"
+msgstr "Typ poslední synchronizace"
+
+msgid "SSL public key"
+msgstr "Veřejný SSL klíč"
+
+msgid "Branch type"
+msgstr "Typ pobočky"
+
+msgid "Room"
+msgstr "Místnost"
+
+msgid "Simple IDS"
+msgstr "Jednoduchý IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS je v současnosti vypnutý. Nastavte IDS_ENABLED=true ve svém .env souboru pro aktivaci skenování."
+
+msgid "All event types"
+msgstr "Všechny typy událostí"
+
+msgid "Events by day (last 7 days)"
+msgstr "Události podle dne (posledních 7 dní)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Události podle typu (posledních 30 dní)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Nejvíce útočící IP (posledních 30 dní)"
+
+msgid "Flagged IDS events"
+msgstr "Označené události IDS"
+
+msgid "No suspicious events detected."
+msgstr "Nebyly detekovány žádné podezřelé události."
+
+msgid "Detection type"
+msgstr "Typ detekce"
+
+msgid "Parameter"
+msgstr "Parametr"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (aktuální)"
 

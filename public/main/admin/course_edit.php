@@ -237,17 +237,41 @@ $form->applyFilter('department_url', 'trim');
 
 $form->addSelectLanguage('course_language', get_lang('Course language'));
 
+// Room.
+$em = Database::getManager();
+$courseEntityForDefaults = api_get_course_entity($courseId);
+$roomCount = $em->getRepository(\Chamilo\CoreBundle\Entity\Room::class)->count([]);
+if ($roomCount > 0) {
+    $roomOptions = [];
+    if ($courseEntityForDefaults && $courseEntityForDefaults->getRoom()) {
+        $currentRoom = $courseEntityForDefaults->getRoom();
+        $branch = $currentRoom->getBranch();
+        $roomLabel = $branch ? $branch->getTitle().' - '.$currentRoom->getTitle() : $currentRoom->getTitle();
+        $roomOptions[$currentRoom->getId()] = $roomLabel;
+        $courseInfo['room_id'] = $currentRoom->getId();
+    }
+    $form->addSelectAjax(
+        'room_id',
+        get_lang('Default room'),
+        $roomOptions,
+        [
+            'url' => api_get_path(WEB_AJAX_PATH).'course.ajax.php?a=search_room',
+            'placeholder' => get_lang('Select'),
+        ]
+    );
+}
+
 CourseManager::addVisibilityOptions($form);
 
 $group = [];
 $group[] = $form->createElement('radio', 'subscribe', get_lang('Subscription'), get_lang('Allowed'), 1);
 $group[] = $form->createElement('radio', 'subscribe', null, get_lang('This function is only available to trainers'), 0);
-$form->addGroup($group, '', get_lang('Subscription'));
+$form->addGroup($group, null, get_lang('Subscription'));
 
 $group = [];
 $group[] = $form->createElement('radio', 'unsubscribe', get_lang('Unsubscribe'), get_lang('Users are allowed to unsubscribe from this course'), 1);
 $group[] = $form->createElement('radio', 'unsubscribe', null, get_lang('Users are not allowed to unsubscribe from this course'), 0);
-$form->addGroup($group, '', get_lang('Unsubscribe'));
+$form->addGroup($group, null, get_lang('Unsubscribe'));
 
 $form->addElement('text', 'disk_quota', [get_lang('Disk Space'), null, get_lang('MB')]);
 $form->addRule('disk_quota', get_lang('Required field'), 'required');
@@ -388,6 +412,13 @@ if ($form->validate()) {
 
     if (isset($course['duration'])) {
         $courseEntity->setDuration($course['duration']);
+    }
+
+    if (!empty($course['room_id'])) {
+        $room = $em->find(\Chamilo\CoreBundle\Entity\Room::class, (int) $course['room_id']);
+        $courseEntity->setRoom($room ?: null);
+    } else {
+        $courseEntity->setRoom(null);
     }
 
     $em->persist($courseEntity);

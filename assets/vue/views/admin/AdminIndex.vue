@@ -96,6 +96,16 @@
     />
 
     <AdminBlock
+      v-if="blockRooms"
+      :id="blockRooms.id"
+      v-model:extra-content="blockRooms.extraContent"
+      :editable="blockRooms.editable"
+      :items="blockRooms.items"
+      :title="t('Rooms')"
+      icon="room"
+    />
+
+    <AdminBlock
       v-if="blockSecurity"
       :id="blockSecurity.id"
       v-model:extra-content="blockSecurity.extraContent"
@@ -104,6 +114,24 @@
       :items="blockSecurity.items"
       :title="t('Security')"
       icon="shield-check"
+    />
+
+    <AdminBlock
+      v-if="blockPrivacy"
+      :id="blockPrivacy.id"
+      v-model:extra-content="blockPrivacy.extraContent"
+      :editable="blockPrivacy.editable"
+      :items="blockPrivacy.items"
+      :title="t('Personal data protection')"
+      icon="anonymous"
+    />
+
+    <AdminBlock
+      v-if="blockPlugins.items.length > 0"
+      :id="blockPlugins.id"
+      :items="blockPlugins.items"
+      :title="t('Plugins')"
+      icon="plugin"
     />
 
     <AdminBlock
@@ -117,24 +145,6 @@
       title="Chamilo.org"
     />
 
-    <AdminBlock
-      v-if="blockPlugins.items.length > 0"
-      :id="blockPlugins.id"
-      :items="blockPlugins.items"
-      :title="t('Plugins')"
-      icon="plugin"
-    />
-
-    <AdminBlock
-      v-if="blockPrivacy"
-      :id="blockPrivacy.id"
-      v-model:extra-content="blockPrivacy.extraContent"
-      :editable="blockPrivacy.editable"
-      :items="blockPrivacy.items"
-      :title="t('Personal data protection')"
-      icon="anonymous"
-    />
-
     <!-- Small / secondary blocks: sent to the bottom -->
     <AdminBlock
       v-if="blockHealthCheck && blockHealthCheck.items.length > 0"
@@ -146,9 +156,9 @@
 
     <div
       v-if="securityStore.isAdmin"
-      class="admin-index__block-container block-admin-version"
+      class="p-card p-component block-admin-version admin-index__block-container"
     >
-      <div class="admin-index__block">
+      <div class="p-card-body">
         <h4><i class="mdi mdi-checkbox-multiple-marked text-xl" /> {{t('Version check')}}</h4>
 
         <div
@@ -192,7 +202,7 @@
                 name="donotlistcampus"
               />
               <label
-                v-t="'Hide campus from public platforms list'"
+                v-text="t('Hide campus from public platforms list')"
                 for="checkbox"
               />
             </div>
@@ -211,9 +221,9 @@
 
     <div
       v-if="securityStore.isAdmin"
-      class="admin-index__block-container block-admin-support"
+      class="p-card p-component block-admin-support admin-index__block-container"
     >
-      <div class="admin-index__block">
+      <div class="p-card-body">
         <h4><i class="mdi mdi-face-agent text-xl" /> {{t('Professional support')}}</h4>
 
         <div
@@ -237,9 +247,9 @@
 
     <div
       v-if="securityStore.isAdmin"
-      class="admin-index__block-container block-admin-news"
+      class="p-card p-component block-admin-news admin-index__block-container"
     >
-      <div class="admin-index__block">
+      <div class="p-card-body">
         <h4><i class="mdi mdi-bullhorn text-xl" /> {{t('News from Chamilo')}}</h4>
 
         <div
@@ -249,7 +259,7 @@
         />
         <div
           v-else
-          v-t="'Disabled'"
+          v-text="t('Disabled')"
           class="block-admin-news__status"
         />
       </div>
@@ -294,6 +304,7 @@ const {
   blockSupportStatusEl,
   blockPlugins,
   blockHealthCheck,
+  blockRooms,
 } = useIndexBlocks()
 
 function checkVersionOnSubmit() {

@@ -65,14 +65,12 @@ const menuItems = computed(() => {
   return items
 })
 
-const sidebarIsOpen = ref(window.localStorage.getItem("sidebarIsOpen") === "true")
+const sidebarIsOpen = ref(true)
 
 watch(
   sidebarIsOpen,
   (newValue) => {
     const appEl = document.querySelector("#app")
-
-    window.localStorage.setItem("sidebarIsOpen", newValue.toString())
 
     appEl.classList.toggle("app--sidebar-inactive", !newValue)
   },
@@ -83,7 +81,7 @@ watch(
 </script>
 
 <template>
-  <aside class="app-sidebar">
+  <aside class="app-sidebar app-sidebar--custom-template">
     <div class="app-sidebar__container">
       <h3 class="app-sidebar__top">
         {{ t("Menu") }}
@@ -158,7 +156,7 @@ watch(
     </div>
   </aside>
 
-  <Teleport to=".app-topbar .p-menubar-end">
+  <Teleport to=".app-topbar__end">
     <a
       class="app-sidebar__topbar-button item-button"
       tabindex="0"
@@ -176,10 +174,16 @@ watch(
       @apply hidden
       sm:block sm:w-60;
 
+      &.app-sidebar--custom-template {
+        :deep(.p-panelmenu-content) {
+          @apply sm:opacity-100 sm:visible sm:pointer-events-auto sm:max-h-[1000px];
+        }
+      }
+
       .p-panelmenu-header {
         > .p-panelmenu-header-content a {
           .p-submenu-icon {
-            @apply block;
+            @apply block max-h-fit visible opacity-100;
           }
 
           .p-menuitem-text {

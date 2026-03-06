@@ -234,7 +234,7 @@ class TrackingCourseLog
             $displayRow[4] = $ip;
 
             // Column 5: Document title.
-            $displayRow[5] = $displayRow['document_title'];
+            $displayRow[5] = Security::remove_XSS($displayRow['document_title']);
 
             // Column 6: Date.
             $displayRow[6] = api_convert_and_format_date(
@@ -1353,5 +1353,20 @@ class TrackingCourseLog
         $title = trim($title);
 
         return $map[$title] ?? null;
+    }
+
+    public static function getAdditionalProfileExtraFields(): array
+    {
+        $additionalProfileField = $_GET['additional_profile_field'] ?? [];
+
+        $additionalExtraFieldsInfo = [];
+
+        $objExtraField = new ExtraField('user');
+
+        foreach ($additionalProfileField as $fieldId) {
+            $additionalExtraFieldsInfo[$fieldId] = $objExtraField->getFieldInfoByFieldId($fieldId);
+        }
+
+        return $additionalExtraFieldsInfo;
     }
 }

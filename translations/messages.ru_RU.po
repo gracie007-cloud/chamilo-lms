@@ -496,7 +496,7 @@ msgid "Question ID"
 msgstr "ID вопроса"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "Идентификатор упражнения"
 
 msgid "Excel export"
 msgstr "Экспорт в Excel"
@@ -3667,7 +3667,7 @@ msgid "Mark as read"
 msgstr "Отметить как прочтенное"
 
 msgid "RE:"
-msgstr "RE:"
+msgstr "РЕ:"
 
 msgid "Advanced edit"
 msgstr "Расширенное редактирование"
@@ -6139,7 +6139,7 @@ msgid "Add LDAP users"
 msgstr "Добавить пользователей LDAP"
 
 msgid "Academica"
-msgstr "Academica"
+msgstr "Академика"
 
 msgid "Add news"
 msgstr "Добавить новости"
@@ -20536,7 +20536,7 @@ msgid "MM dd, yy"
 msgstr "dd.MM.yy"
 
 msgid "HH:mm"
-msgstr "HH:mm"
+msgstr "ЧЧ:мм"
 
 msgid " at"
 msgstr " в"
@@ -22140,14 +22140,8 @@ msgstr "Отчет по упражнениям по категориям для 
 msgid "Require e-mail confirmation"
 msgstr "Требовать подтверждение по email"
 
-msgid "Registration confirmation"
-msgstr "Подтверждение регистрации"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Ваш аккаунт неактивен, потому что вы еще не подтвердили его. Проверьте свою электронную почту и следуйте инструкциям или нажмите на следующую ссылку, чтобы переотправить письмо"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Чтобы завершить регистрацию на платформе, вам нужно подтвердить аккаунт, нажав на следующую ссылку"
 
 msgid "Confirmation for new account"
 msgstr "Подтверждение нового аккаунта"
@@ -28142,31 +28136,31 @@ msgid "Menureporting"
 msgstr "Menureporting"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "Менюадминистрированиплатформы"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "Менюмойкалендарь"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "Менюсоциальные"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "Менювидеоконференции"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "Менюдиагностика"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "Менюкаталог"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "Панельсертификаты"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "Панельнавыки"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "ПомощникиИИ"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "ID пользователя, который официально отправляет напоминания о повестке дня"
@@ -31438,8 +31432,8 @@ msgstr "В имени базы данных разрешены только бу
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Какие общие условия предоставляются пользователям для использования этой платформы?"
 
-msgid "ex. {examplePassword}"
-msgstr "напр. {examplePassword}"
+msgid "ex. %s"
+msgstr "напр. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Добро пожаловать в Chamilo!"
@@ -32339,7 +32333,7 @@ msgid "Quiz"
 msgstr "Тест"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Пользовательскийсертификат"
 
 msgid "Update profile"
 msgstr "Обновить профиль"
@@ -32571,4 +32565,184 @@ msgstr "Измененный запрос"
 
 msgid "Saved in Documents"
 msgstr "Сохранено в Документах"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Общий объём места, используемый %s, составляет %s ГБ"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Общий объём места, используемый порталом %s, составляет %s ГБ (лимит установлен на %s ГБ)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Подтвердите вашу электронную почту"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Чтобы подтвердить вашу электронную почту и активировать аккаунт на %s, пожалуйста, нажмите на ссылку ниже."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Если вы не регистрировали этот аккаунт, можете проигнорировать это письмо. Никаких действий предпринято не будет."
+
+msgid "Current authentication method"
+msgstr "Текущийметодаутентификации"
+
+msgid "Branches"
+msgstr "Филиалы"
+
+msgid "Rooms"
+msgstr "Аудитории"
+
+msgid "Room availability finder"
+msgstr "Поиск доступных аудиторий"
+
+msgid "New branch"
+msgstr "Новый филиал"
+
+msgid "New room"
+msgstr "Новая аудитория"
+
+msgid "Branch"
+msgstr "Филиал"
+
+msgid "Default room"
+msgstr "Аудитория по умолчанию"
+
+msgid "Room occupation: %s"
+msgstr "Занятость аудитории: %s"
+
+msgid "Find available rooms"
+msgstr "Найти доступные аудитории"
+
+msgid "Available rooms"
+msgstr "Доступные аудитории"
+
+msgid "Occupied rooms"
+msgstr "Занятые аудитории"
+
+msgid "No available rooms found for this time range"
+msgstr "Доступные аудитории на этот временной интервал не найдены"
+
+msgid "No rooms have been created yet"
+msgstr "Аудитории ещё не созданы"
+
+msgid "Courses linked to %s"
+msgstr "Курсы, связанные с %s"
+
+msgid "No branches have been created yet"
+msgstr "Филиалы ещё не созданы"
+
+msgid "Occupation"
+msgstr "Занятость"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Нельзя удалить филиал с привязанными аудиториями"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Нельзя удалить аудиторию с привязанными курсами"
+
+msgid "Conflicts"
+msgstr "Конфликты"
+
+msgid "Geolocation"
+msgstr "Геолокация"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Широта, Долгота (например, 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 или IPv6"
+
+msgid "IP mask"
+msgstr "Маска IP"
+
+msgid "e.g. /24"
+msgstr "например, /24"
+
+msgid "Parent branch"
+msgstr "Родительский филиал"
+
+msgid "Unique identifier"
+msgstr "Уникальный идентификатор"
+
+msgid "Latitude"
+msgstr "Широта"
+
+msgid "e.g. 48.8566"
+msgstr "например, 48.8566"
+
+msgid "Longitude"
+msgstr "Долгота"
+
+msgid "e.g. 2.3522"
+msgstr "например, 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Скорость загрузки (КБ/с)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Скорость отправки (КБ/с)"
+
+msgid "Delay (ms)"
+msgstr "Задержка (мс)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Имя администратора"
+
+msgid "Administrator phone number"
+msgstr "Телефон администратора"
+
+msgid "ID of last synch transaction"
+msgstr "ID последней транзакции синхронизации"
+
+msgid "Time of last synchronization"
+msgstr "Время последней синхронизации"
+
+msgid "Last synchronization type"
+msgstr "Тип последней синхронизации"
+
+msgid "SSL public key"
+msgstr "Публичный SSL-ключ"
+
+msgid "Branch type"
+msgstr "Тип филиала"
+
+msgid "Room"
+msgstr "Аудитория"
+
+msgid "Simple IDS"
+msgstr "Простая IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS в настоящее время отключена. Установите IDS_ENABLED=true в вашем .env для активации сканирования."
+
+msgid "All event types"
+msgstr "Все типы событий"
+
+msgid "Events by day (last 7 days)"
+msgstr "События по дням (последние 7 дней)"
+
+msgid "Events by type (last 30 days)"
+msgstr "События по типам (последние 30 дней)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Топ атакующих IP (последние 30 дней)"
+
+msgid "Flagged IDS events"
+msgstr "Помеченные события IDS"
+
+msgid "No suspicious events detected."
+msgstr "Подозрительные события не обнаружены."
+
+msgid "Detection type"
+msgstr "Тип обнаружения"
+
+msgid "Parameter"
+msgstr "Параметр"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (текущий)"
 

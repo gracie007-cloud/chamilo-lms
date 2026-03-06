@@ -70,7 +70,7 @@ msgid "Student's superior"
 msgstr "Superior de elev(i)"
 
 msgid "Cosecant:\t\t\t\tcsc(x)"
-msgstr "Cosecant:\t\t\t\tcsc(x)"
+msgstr "Coscant:\t\t\t\tcsc(x)"
 
 msgid "Hyperbolic cosecant:\t\tcsch(x)"
 msgstr "Cosecant hiperbolic:\t\tcsch(x)"
@@ -136,7 +136,7 @@ msgid "Request access"
 msgstr "Cerere acces"
 
 msgid "Formula"
-msgstr "Formula"
+msgstr "Formulă"
 
 msgid "This user is already logged in"
 msgstr "Acest utilizator este deja conectat"
@@ -1251,7 +1251,7 @@ msgid "Your version is not up-to-date"
 msgstr "Versiunea dvs. este actualizată"
 
 msgid "Hotpotatoes"
-msgstr "HotPotatoes"
+msgstr "Hotpotatoes"
 
 msgid "-1 = All questions will be selected."
 msgstr "-1 = Toate întrebările vor fi selectate."
@@ -2169,7 +2169,7 @@ msgid "Users registered in any group"
 msgstr "Utilizator inregistrat în niciun curs"
 
 msgid "Camera"
-msgstr "Camera"
+msgstr "Cameră"
 
 msgid "Microphone"
 msgstr "Microfon"
@@ -2343,7 +2343,7 @@ msgid "Become moderator"
 msgstr "Conversia la moderator"
 
 msgid "Italic"
-msgstr "Italic"
+msgstr "Cursiv"
 
 msgid "Bold"
 msgstr "Ingrosat"
@@ -6981,7 +6981,7 @@ msgid "Category created"
 msgstr "Categorie creata"
 
 msgid "Agenda"
-msgstr "Agenda"
+msgstr "Agendă"
 
 msgid "Announcements"
 msgstr "Anunturi"
@@ -8424,7 +8424,7 @@ msgid "Too many iterations while calculating your answer. Please try drawing you
 msgstr "Prea multe interactiuni la calcularea raspunsului.Va rugam incercati sa desenati din nou"
 
 msgid "Thresholds"
-msgstr "Thresholds"
+msgstr "Praguri"
 
 msgid "Delineation"
 msgstr "Delimitare"
@@ -8613,10 +8613,10 @@ msgid "Numbered"
 msgstr "Numerotat"
 
 msgid "en"
-msgstr "en"
+msgstr "ro"
 
 msgid "eng"
-msgstr "eng"
+msgstr "rom"
 
 msgid "iso-8859-1"
 msgstr "iso-8859-1"
@@ -8769,25 +8769,25 @@ msgid "brazilian"
 msgstr "brazilian"
 
 msgid "bulgarian"
-msgstr "bulgarian"
+msgstr "bulgar"
 
 msgid "catalan"
 msgstr "catalan"
 
 msgid "croatian"
-msgstr "croatian"
+msgstr "croat"
 
 msgid "danish"
-msgstr "danish"
+msgstr "danez"
 
 msgid "dutch"
-msgstr "dutch"
+msgstr "olandez"
 
 msgid "finnish"
-msgstr "finnish"
+msgstr "finn"
 
 msgid "french"
-msgstr "french"
+msgstr "francez"
 
 msgid "french_corporate"
 msgstr "french_corporate"
@@ -8802,28 +8802,28 @@ msgid "german"
 msgstr "german"
 
 msgid "greek"
-msgstr "greek"
+msgstr "grecesc"
 
 msgid "italian"
-msgstr "italian"
+msgstr "italiană"
 
 msgid "japanese"
-msgstr "japanese"
+msgstr "japoneză"
 
 msgid "polish"
-msgstr "polish"
+msgstr "poloneză"
 
 msgid "portuguese"
-msgstr "portuguese"
+msgstr "portugheză"
 
 msgid "russian"
-msgstr "russian"
+msgstr "rusă"
 
 msgid "simpl_chinese"
-msgstr "simpl_chinese"
+msgstr "chineză simplificată"
 
 msgid "spanish"
-msgstr "spanish"
+msgstr "spaniolă"
 
 msgid "Close"
 msgstr "inchide"
@@ -8844,7 +8844,7 @@ msgid "The target folder does not exist"
 msgstr "Dosarul de destinatie nu exista"
 
 msgid "in"
-msgstr "in"
+msgstr "în"
 
 msgid "Show all"
 msgstr "Deschide toate categoriile"
@@ -8874,31 +8874,31 @@ msgid "Online"
 msgstr "Conectat"
 
 msgid "hungarian"
-msgstr "hungarian"
+msgstr "maghiară"
 
 msgid "indonesian"
-msgstr "indonesian"
+msgstr "indoneziană"
 
 msgid "malay"
 msgstr "malay"
 
 msgid "slovenian"
-msgstr "slovenian"
+msgstr "slovenă"
 
 msgid "spanish_latin"
-msgstr "spanish_latin"
+msgstr "spaniolă latino-americană"
 
 msgid "swedisch"
-msgstr "swedisch"
+msgstr "suedeză"
 
 msgid "thai"
 msgstr "thai"
 
 msgid "turkish"
-msgstr "turkish"
+msgstr "turcă"
 
 msgid "vietnamese"
-msgstr "vietnamese"
+msgstr "vietnameză"
 
 msgid "user information"
 msgstr "informatii despre utilizator"
@@ -8919,7 +8919,7 @@ msgid "Display certificate"
 msgstr "Afișează certificatul"
 
 msgid "Document"
-msgstr "document"
+msgstr "Document"
 
 msgid "Portal Admin"
 msgstr "Administratorul platformei"
@@ -9198,7 +9198,7 @@ msgid "Book resource"
 msgstr "rezervare"
 
 msgid "Start"
-msgstr "Start"
+msgstr "Începe"
 
 msgid "End"
 msgstr "Sfarsit"
@@ -9726,7 +9726,7 @@ msgid "Step code"
 msgstr "Codul etapei"
 
 msgid "Label"
-msgstr "Label"
+msgstr "Etichetă"
 
 msgid "Unable to connect to"
 msgstr "Imposibil a se conecta cu"
@@ -11763,7 +11763,7 @@ msgid "Hits"
 msgstr "Hit-uri"
 
 msgid "h."
-msgstr "h."
+msgstr "o."
 
 msgid "In the last 31 days"
 msgstr "In ultimile 31 de zile"
@@ -11895,10 +11895,10 @@ msgid "Providers"
 msgstr "Provideri"
 
 msgid "OS"
-msgstr "OS"
+msgstr "SO"
 
 msgid "Browsers"
-msgstr "Browsers"
+msgstr "Browser-e"
 
 msgid "Referers"
 msgstr "Mentiuni"
@@ -12243,7 +12243,7 @@ msgid "... SCORM Directory with SD-id (and split manifest - or leave empty)"
 msgstr "...Director Scorm cu SD-id ( si imparte manifest - sau lasa gol)"
 
 msgid "root"
-msgstr "Root"
+msgstr "rădăcină"
 
 msgid "Split manifests, and #MDe, if any:"
 msgstr "Imparte manifestele, si #Mde, daca ceva:"
@@ -13794,7 +13794,7 @@ msgid "No tasks"
 msgstr "Nu exista sarcini"
 
 msgid "Rating"
-msgstr "Rating"
+msgstr "Evaluare"
 
 msgid "Rate this task"
 msgstr "Noteaza acest articol"
@@ -15009,7 +15009,7 @@ msgid "Updated on"
 msgstr "Actualizat"
 
 msgid "Metadata"
-msgstr "Metadata"
+msgstr "Metadate"
 
 msgid "View/Edit Metadata"
 msgstr "Vezi/Editare metadatele"
@@ -17757,7 +17757,7 @@ msgid "OpenID redirect"
 msgstr "Retrimis OpenID"
 
 msgid "Blogs"
-msgstr "Blogs"
+msgstr "Bloguri"
 
 msgid "Select a course"
 msgstr "Selectionati un curs"
@@ -19229,7 +19229,7 @@ msgid "Last Name and First Name"
 msgstr "Prenume si nume"
 
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Pluginuri"
 
 msgid "Detailed"
 msgstr "Detaliat"
@@ -19394,7 +19394,7 @@ msgid "Auto"
 msgstr "Automat"
 
 msgid "Stop"
-msgstr "Stop"
+msgstr "Oprire"
 
 msgid "Enable Webcam Clip"
 msgstr "Activați Webcam Clip"
@@ -19463,7 +19463,7 @@ msgid "Global multiple answer"
 msgstr "Răspunsuri globale multiple"
 
 msgid "Zombies"
-msgstr "Zombies"
+msgstr "Zombi"
 
 msgid "Active only"
 msgstr "Doar activ"
@@ -21662,7 +21662,7 @@ msgid "Generate"
 msgstr "Generează"
 
 msgid "Ticket"
-msgstr "Ticket"
+msgstr "Bilet"
 
 msgid "Invalid API key"
 msgstr "Cheie API invalidă"
@@ -22153,14 +22153,8 @@ msgstr "Raport exercițiu pe categorii pentru toate sesiunile"
 msgid "Require e-mail confirmation"
 msgstr "Cere confirmare prin e-mail"
 
-msgid "Registration confirmation"
-msgstr "Confirmare înregistrare"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Contul dvs. este inactiv deoarece nu l-ați confirmat încă. Verificați e-mailul și urmați instrucțiunile sau faceți clic pe linkul următor pentru a retrimite e-mailul"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Pentru a finaliza înregistrarea pe platformă, trebuie să vă confirmați contul făcând clic pe linkul următor"
 
 msgid "Confirmation for new account"
 msgstr "Confirmare pentru cont nou"
@@ -24713,7 +24707,7 @@ msgid "Q%s %s"
 msgstr "T%s %s"
 
 msgid "YoY"
-msgstr "YoY"
+msgstr "An la an"
 
 msgid "Number of existing and available courses"
 msgstr "Numărul de cursuri existente și disponibile"
@@ -28245,7 +28239,7 @@ msgid "You're subscribed to push notifications in this browser."
 msgstr "Sunteți abonat la notificările push în acest browser."
 
 msgid "Endpoint"
-msgstr "Endpoint"
+msgstr "Punct final"
 
 msgid "Push notifications are not enabled in this browser."
 msgstr "Notificările push nu sunt activate în acest browser."
@@ -31451,8 +31445,8 @@ msgstr "În numele bazei de date sunt permise doar litere, cifre și underscore 
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Ce termeni și condiții generale sunt acordați utilizatorilor pentru a utiliza această platformă?"
 
-msgid "ex. {examplePassword}"
-msgstr "ex. {examplePassword}"
+msgid "ex. %s"
+msgstr "ex. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Bine ați venit la Chamilo!"
@@ -32584,4 +32578,184 @@ msgstr "Prompt modificat"
 
 msgid "Saved in Documents"
 msgstr "Salvat în Documente"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Spațiu total utilizat de %s este %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Spațiu total utilizat de portalul %s este %sGB (limita este setată la %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Confirmați-vă e-mailul"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Pentru a vă verifica adresa de e-mail și a vă activa contul pe %s, vă rugăm să faceți clic pe linkul de mai jos."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Dacă nu ați înregistrat acest cont, puteți ignora acest e-mail. Nu va fi întreprinsă nicio acțiune."
+
+msgid "Current authentication method"
+msgstr "Metoda curentă de autentificare"
+
+msgid "Branches"
+msgstr "Filiale"
+
+msgid "Rooms"
+msgstr "Săli"
+
+msgid "Room availability finder"
+msgstr "Căutare disponibilitate săli"
+
+msgid "New branch"
+msgstr "Filială nouă"
+
+msgid "New room"
+msgstr "Sală nouă"
+
+msgid "Branch"
+msgstr "Filială"
+
+msgid "Default room"
+msgstr "Sală implicită"
+
+msgid "Room occupation: %s"
+msgstr "Ocupare sală: %s"
+
+msgid "Find available rooms"
+msgstr "Găsește săli disponibile"
+
+msgid "Available rooms"
+msgstr "Săli disponibile"
+
+msgid "Occupied rooms"
+msgstr "Săli ocupate"
+
+msgid "No available rooms found for this time range"
+msgstr "Nu s-au găsit săli disponibile pentru acest interval orar"
+
+msgid "No rooms have been created yet"
+msgstr "Nu au fost create încă săli"
+
+msgid "Courses linked to %s"
+msgstr "Cursuri legate de %s"
+
+msgid "No branches have been created yet"
+msgstr "Nu au fost create încă filiale"
+
+msgid "Occupation"
+msgstr "Ocupare"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nu se poate șterge filiala cu săli atașate"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nu se poate șterge sala cu cursuri atașate"
+
+msgid "Conflicts"
+msgstr "Conflict"
+
+msgid "Geolocation"
+msgstr "Geolocație"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitudine, Longitudine (ex. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 sau IPv6"
+
+msgid "IP mask"
+msgstr "Mască IP"
+
+msgid "e.g. /24"
+msgstr "ex. /24"
+
+msgid "Parent branch"
+msgstr "Filială părinte"
+
+msgid "Unique identifier"
+msgstr "Identificator unic"
+
+msgid "Latitude"
+msgstr "Latitudine"
+
+msgid "e.g. 48.8566"
+msgstr "ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitudine"
+
+msgid "e.g. 2.3522"
+msgstr "ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Viteză de descărcare (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Viteză de încărcare (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Întârziere (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Nume administrator"
+
+msgid "Administrator phone number"
+msgstr "Număr de telefon administrator"
+
+msgid "ID of last synch transaction"
+msgstr "ID-ul ultimei tranzacții de sincronizare"
+
+msgid "Time of last synchronization"
+msgstr "Ora ultimei sincronizări"
+
+msgid "Last synchronization type"
+msgstr "Tipul ultimei sincronizări"
+
+msgid "SSL public key"
+msgstr "Cheie publică SSL"
+
+msgid "Branch type"
+msgstr "Tip ramură"
+
+msgid "Room"
+msgstr "Sală"
+
+msgid "Simple IDS"
+msgstr "IDS simplu"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS este în prezent dezactivat. Setați IDS_ENABLED=true în fișierul .env pentru a activa scanarea."
+
+msgid "All event types"
+msgstr "Toate tipurile de evenimente"
+
+msgid "Events by day (last 7 days)"
+msgstr "Evenimente pe zi (ultimele 7 zile)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Evenimente pe tip (ultimele 30 zile)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IP-uri de atac principale (ultimele 30 zile)"
+
+msgid "Flagged IDS events"
+msgstr "Evenimente IDS semnalate"
+
+msgid "No suspicious events detected."
+msgstr "Nu au fost detectate evenimente suspecte."
+
+msgid "Detection type"
+msgstr "Tip detecție"
+
+msgid "Parameter"
+msgstr "Parametru"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (curent)"
 

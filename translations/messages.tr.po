@@ -1998,7 +1998,7 @@ msgid "Usage Rights"
 msgstr "Kullanım Hakları"
 
 msgid "Version"
-msgstr "Version"
+msgstr "Sürüm"
 
 msgid "select from list"
 msgstr "listeden seç"
@@ -2010,7 +2010,7 @@ msgid "in VCARD format"
 msgstr "VCARD formatında"
 
 msgid "Format"
-msgstr "Format"
+msgstr "Biçim"
 
 msgid ":draft:draft,,      final:final,,      revised:revised,,      unavailable:unavailable"
 msgstr ":taslak:taslak,,      nihai:nihai,,      revize:revize,,      kullanılamaz:kullanılamaz"
@@ -2505,7 +2505,7 @@ msgid "Groups forums"
 msgstr "Gruplar forumlar"
 
 msgid "Language"
-msgstr "Language"
+msgstr "Dil"
 
 msgid "All fields required"
 msgstr "Tüm alanlar zorunludur"
@@ -4749,7 +4749,7 @@ msgid "Main menu after login"
 msgstr "Oturum açtıktan sonra ana menü"
 
 msgid "Banner"
-msgstr "Banner"
+msgstr "Açılış Bayrağı"
 
 msgid "Resize uploaded user images"
 msgstr "Gönderilen resimleri yeniden boyutlandır"
@@ -8769,16 +8769,16 @@ msgid "croatian"
 msgstr "H&#305;rvatça"
 
 msgid "danish"
-msgstr "danish"
+msgstr "danca"
 
 msgid "dutch"
-msgstr "dutch"
+msgstr "flemenkçe"
 
 msgid "finnish"
-msgstr "finnish"
+msgstr "fince"
 
 msgid "french"
-msgstr "french"
+msgstr "fransızca"
 
 msgid "french_corporate"
 msgstr "Frans&#305;zca ortak"
@@ -8790,31 +8790,31 @@ msgid "galician"
 msgstr "Glaktik Portekizce"
 
 msgid "german"
-msgstr "german"
+msgstr "almanca"
 
 msgid "greek"
-msgstr "greek"
+msgstr "yunanca"
 
 msgid "italian"
-msgstr "italian"
+msgstr "italyanca"
 
 msgid "japanese"
-msgstr "japanese"
+msgstr "japonca"
 
 msgid "polish"
-msgstr "polish"
+msgstr "lehçe"
 
 msgid "portuguese"
 msgstr "Portekizce"
 
 msgid "russian"
-msgstr "russian"
+msgstr "rusça"
 
 msgid "simpl_chinese"
 msgstr "Temel Çince"
 
 msgid "spanish"
-msgstr "spanish"
+msgstr "ispanyolca"
 
 msgid "Close"
 msgstr "Kapat"
@@ -8835,7 +8835,7 @@ msgid "The target folder does not exist"
 msgstr "Hedef klasör mevcut değil"
 
 msgid "in"
-msgstr "in"
+msgstr "içinde"
 
 msgid "Show all"
 msgstr "Hepsini göster"
@@ -8862,34 +8862,34 @@ msgid "With selected"
 msgstr "Seçilenler ile"
 
 msgid "Online"
-msgstr "Online"
+msgstr "Çevrimiçi"
 
 msgid "hungarian"
-msgstr "hungarian"
+msgstr "macarca"
 
 msgid "indonesian"
-msgstr "indonesian"
+msgstr "endonezce"
 
 msgid "malay"
-msgstr "malay"
+msgstr "malayca"
 
 msgid "slovenian"
-msgstr "slovenian"
+msgstr "slovence"
 
 msgid "spanish_latin"
-msgstr "spanish_latin"
+msgstr "ispanyolca_latin"
 
 msgid "swedisch"
-msgstr "swedisch"
+msgstr "isveççe"
 
 msgid "thai"
-msgstr "thai"
+msgstr "tayca"
 
 msgid "turkish"
 msgstr "Türkçe"
 
 msgid "vietnamese"
-msgstr "vietnamese"
+msgstr "vietnamca"
 
 msgid "user information"
 msgstr "kullanıcı bilgisi"
@@ -9162,7 +9162,7 @@ msgid "Visible to"
 msgstr "Kim görebilir"
 
 msgid "Export"
-msgstr "Export"
+msgstr "Dışa Aktar"
 
 msgid "Modules"
 msgstr "Araçlar"
@@ -10716,7 +10716,7 @@ msgid "Opinion"
 msgstr "Görüş"
 
 msgid "Intranet"
-msgstr "Intranet"
+msgstr "İntranet"
 
 msgid "My account"
 msgstr "Kullanıcı"
@@ -12930,7 +12930,7 @@ msgid "comma-separated (letters, digits, -.)"
 msgstr "virgül ile ayırın ( harfler, sayılar, -,)"
 
 msgid "Coverage"
-msgstr "Coverage"
+msgstr "Kapsam"
 
 msgid "for example bachelor of xxx: yyy"
 msgstr "örneğin xxx lisansı: yyy"
@@ -13986,7 +13986,7 @@ msgid "In a new window"
 msgstr "Yeni bir pencerede"
 
 msgid "This"
-msgstr "This"
+msgstr "Bu"
 
 msgid "item was deleted in that tool."
 msgstr "o araçta öğe silindi."
@@ -22139,14 +22139,8 @@ msgstr "Tüm oturumlar için kategoriye göre egzersiz raporu"
 msgid "Require e-mail confirmation"
 msgstr "E-posta onayı gerektir"
 
-msgid "Registration confirmation"
-msgstr "Kayıt onayı"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Hesabınız henüz onaylanmadığı için pasif durumda. E-postanızı kontrol edin ve talimatları izleyin veya e-postayı yeniden göndermek için aşağıdaki bağlantıya tıklayın"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Platform kaydınızı tamamlamak için aşağıdaki bağlantıya tıklayarak hesabınızı onaylamanız gerekiyor"
 
 msgid "Confirmation for new account"
 msgstr "Yeni hesap onayı"
@@ -27630,7 +27624,7 @@ msgid "%s's picture"
 msgstr "%s'in resmi"
 
 msgid "+%d"
-msgstr "+%d"
+msgstr "+ %d"
 
 msgid "Delete permanently"
 msgstr "Kalıcı sil"
@@ -29725,7 +29719,7 @@ msgid "Back to layouts"
 msgstr "Düzenlere dön"
 
 msgid "ID"
-msgstr "ID"
+msgstr "KİMLİK"
 
 msgid "Columns"
 msgstr "Sütunlar"
@@ -30727,7 +30721,7 @@ msgid "Azure UID (internal ID)"
 msgstr "Azure UID (dahili ID)"
 
 msgid "Azure ID (mailNickname)"
-msgstr "Azure ID (mailNickname)"
+msgstr "Azure KİMLİK (mailNickname)"
 
 msgid "Organisation e-mail"
 msgstr "Kuruluş e-postası"
@@ -31437,8 +31431,8 @@ msgstr "Veritabanı adında yalnızca harfler, rakamlar ve alt çizgi (_) izinli
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Kullanıcılara bu platformu kullanmak için verilen genel şartlar ve koşullar nelerdir?"
 
-msgid "ex. {examplePassword}"
-msgstr "ör. {examplePassword}"
+msgid "ex. %s"
+msgstr "ör. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Chamilo'ya hoş geldiniz!"
@@ -31462,7 +31456,7 @@ msgid "SCIM external ID"
 msgstr "SCIM harici ID"
 
 msgid "OAuth2 ID"
-msgstr "OAuth2 ID"
+msgstr "OAuth2 KİMLİK"
 
 msgid "Please accept the latest version of the terms and conditions."
 msgstr "Lütfen şartlar ve koşulların en son sürümünü kabul edin."
@@ -32344,230 +32338,410 @@ msgid "Update profile"
 msgstr "Profili güncelle"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "Öğrenme yolu üreticisini etkinleştir"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "Egzersiz üreticisini etkinleştir"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "Açık uçlu cevap derecelendiricisini etkinleştir"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "Öğretmen sohbet robotunu etkinleştir"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "Görev derecelendiricisini etkinleştir"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "İçerik analizörünü etkinleştir"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "Görüntü üreticisini etkinleştir"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "Terim üreticisi sözlüğü etkinleştir"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "Video üreticisini etkinleştir"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "Ders analizörünü etkinleştir"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "'%s' işlemi desteklenmiyor."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "%s için %s dersinde YT geri bildirimi"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "Silme başarısız: eksik ders bağlamı veya geçersiz soru kimliği."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "YT Öğretmeni"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Platformun bunu kullanabilmesi için APCu uzantısının hem yüklü hem de etkinleştirilmiş olması gerekir."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "OPCache memory_consumption'ın en az %sMB RAM'e ulaşmasına izin verilmesi önerilir."
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "Platformun bunu kullanabilmesi için OPcache modülünün hem yüklü hem de etkinleştirilmiş olması gerekir."
 
 msgid "You are here"
-msgstr ""
+msgstr "Şu andasınız"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "Sonuçları filtrelemek için bir olay türüne tıklayın."
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "Benzersiz varlık gerektir"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "Etkinleştirilirse, not defteri en az bir kez mevcut olduğunda öğrenciye %100 verir."
 
 msgid "AI feedback"
-msgstr ""
+msgstr "YT geri bildirimi"
 
 msgid "Prompt"
-msgstr ""
+msgstr "İstem"
 
 msgid "Tip"
-msgstr ""
+msgstr "İpucu"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Geri bildirim istemekten önce istemi düzenleyebilirsiniz."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Sonuç (yoruma uygulayabilirsiniz)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Yoruma uygula"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Puan uygula"
 
 msgid "AI grade"
-msgstr ""
+msgstr "YT notu"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "YT öğretmeni testler sırasında devre dışıdır"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Sözlük terimlerini üret"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Medya üret"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "Bu derste YT medyası üretme izniniz yok."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "Yardımcı yapay zekalar platform düzeyinde devre dışı."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Yapay zeka medya oluşturma dersi ayarlarında devre dışı."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Kullanılabilir yapay zeka medya sağlayıcısı yok."
 
 msgid "Provider"
-msgstr ""
+msgstr "Sağlayıcı"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Bir sağlayıcı seçin"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Örnek: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "İsim isteme metnine eklenmez; yalnızca dosyayı kaydetmek için kullanılır."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Oluşturmak istediklerinizi tarif edin..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "İpucu: Boyutu hızlıca ayarlamak için bir ön ayarı tıklayın."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Oluşturuluyor..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Belgelere Kaydet"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "Belge IRI"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Klasöre Git"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Kullanılan Sağlayıcı"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Bu video sonucu henüz kaydedilemez"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Sağlayıcı değiştiği için video yoklama durduruldu."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Video oluşturma çok uzun sürüyor. Lütfen daha sonra tekrar deneyin."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Video durumu kontrol edilemedi."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Video başarıyla oluşturuldu. Artık kaydedebilirsiniz."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Video oluşturma tamamlandı, ancak oynatılabilir içerik döndürülmedi."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Video oluşturma başarısız oldu."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Videonun hazır olması bekleniyor..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Lütfen tüm alanları doldurun."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Bu ders için resim oluşturma etkin değil."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Bu ders için video oluşturma etkin değil."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Oluşturma başarısız."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "Başarıyla oluşturuldu. Önizlemeyi inceleyin ve hazır olduğunda kaydedin."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "Başarıyla oluşturuldu. Sağlayıcı bir URL döndürdüğü için kaydetme devre dışı."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Video oluşturma başladı. Sonuç bekleniyor..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "Yapay zeka boş bir yanıt döndürdü."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Henüz kaydedilecek bir şey yok."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Bu sağlayıcı base64 içeriği döndürmedi. Lütfen başka bir sağlayıcı deneyin."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Kaydetme başarısız."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Yapay zeka geri bildirimi al"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Cevabı panoya kopyala"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Cevabı gelen kutuma kaydet"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Belge zaten bu klasörde"
 
 msgid "Copied"
-msgstr ""
+msgstr "Kopyalandı"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "Terim oluşturma izniniz yok."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Video oluşturma devam ediyor"
 
 msgid "Job"
-msgstr ""
+msgstr "İş"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Değiştirilmiş istem"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "Belgelere Kaydedildi"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s tarafından kullanılan toplam alan %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Portal %s tarafından kullanılan toplam alan %sGB (sınır %sGB olarak ayarlandı)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] E-postanızı onaylayın"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "E-postanızı doğrulamak ve %s üzerindeki hesabınızı etkinleştirmek için aşağıdaki bağlantıya tıklayın."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Bu hesabı siz kaydetmediyseniz, bu e-postayı yoksayabilirsiniz. Hiçbir işlem yapılmayacaktır."
+
+msgid "Current authentication method"
+msgstr "Mevcut kimlik doğrulama yöntemi"
+
+msgid "Branches"
+msgstr "Şubeler"
+
+msgid "Rooms"
+msgstr "Odalar"
+
+msgid "Room availability finder"
+msgstr "Oda müsaitlik bulucu"
+
+msgid "New branch"
+msgstr "Yeni şube"
+
+msgid "New room"
+msgstr "Yeni oda"
+
+msgid "Branch"
+msgstr "Şube"
+
+msgid "Default room"
+msgstr "Varsayılan oda"
+
+msgid "Room occupation: %s"
+msgstr "Oda doluluk: %s"
+
+msgid "Find available rooms"
+msgstr "Müsait odaları bul"
+
+msgid "Available rooms"
+msgstr "Müsait odalar"
+
+msgid "Occupied rooms"
+msgstr "Dolu odalar"
+
+msgid "No available rooms found for this time range"
+msgstr "Bu zaman aralığı için müsait oda bulunamadı"
+
+msgid "No rooms have been created yet"
+msgstr "Henüz oda oluşturulmadı"
+
+msgid "Courses linked to %s"
+msgstr "%s ile bağlantılı kurslar"
+
+msgid "No branches have been created yet"
+msgstr "Henüz şube oluşturulmadı"
+
+msgid "Occupation"
+msgstr "Doluluk"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Oda bağlı şube silinemez"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Kurs bağlı oda silinemez"
+
+msgid "Conflicts"
+msgstr "Çakışmalar"
+
+msgid "Geolocation"
+msgstr "Coğrafi konum"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Enlem, Boylam (ör. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 veya IPv6"
+
+msgid "IP mask"
+msgstr "IP maskesi"
+
+msgid "e.g. /24"
+msgstr "ör. /24"
+
+msgid "Parent branch"
+msgstr "Ana şube"
+
+msgid "Unique identifier"
+msgstr "Benzersiz tanımlayıcı"
+
+msgid "Latitude"
+msgstr "Enlem"
+
+msgid "e.g. 48.8566"
+msgstr "ör. 48.8566"
+
+msgid "Longitude"
+msgstr "Boylam"
+
+msgid "e.g. 2.3522"
+msgstr "ör. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "İndirme hızı (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Yükleme hızı (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Gecikme (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Yönetici adı"
+
+msgid "Administrator phone number"
+msgstr "Yönetici telefon numarası"
+
+msgid "ID of last synch transaction"
+msgstr "Son senkronizasyon işleminin ID'si"
+
+msgid "Time of last synchronization"
+msgstr "Son senkronizasyon zamanı"
+
+msgid "Last synchronization type"
+msgstr "Son senkronizasyon türü"
+
+msgid "SSL public key"
+msgstr "SSL genel anahtarı"
+
+msgid "Branch type"
+msgstr "Şube türü"
+
+msgid "Room"
+msgstr "Oda"
+
+msgid "Simple IDS"
+msgstr "Basit IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS şu anda devre dışı. Tarama etkinleştirmek için .env dosyanızda IDS_ENABLED=true ayarlayın."
+
+msgid "All event types"
+msgstr "Tüm olay türleri"
+
+msgid "Events by day (last 7 days)"
+msgstr "Güne göre olaylar (son 7 gün)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Türe göre olaylar (son 30 gün)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "En çok saldıran IP'ler (son 30 gün)"
+
+msgid "Flagged IDS events"
+msgstr "İşaretlenmiş IDS olayları"
+
+msgid "No suspicious events detected."
+msgstr "Şüpheli olay algılanmadı."
+
+msgid "Detection type"
+msgstr "Algılama türü"
+
+msgid "Parameter"
+msgstr "Parametre"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (güncel)"
 

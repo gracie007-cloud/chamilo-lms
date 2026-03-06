@@ -15,7 +15,7 @@ use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Exception;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Serializer\Attribute\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\MappedSuperclass]
@@ -57,6 +57,7 @@ abstract class AbstractResource
         'session_rel_user:read',
         'session_rel_course_rel_user:read',
         'user_subscriptions:sessions',
+        'course_catalogue:read',
     ])]
     public ?string $illustrationUrl = null;
 

@@ -22,6 +22,7 @@ use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\BufferedOutput;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
+use Symfony\Component\HttpFoundation\Request;
 
 /*
  * Chamilo LMS
@@ -1556,12 +1557,6 @@ function finishInstallationWithContainer(
     $admin->setRoles($roles);
     $repo->updateUser($admin);
 
-    if (in_array('ROLE_ADMIN', $roles, true) || in_array('ROLE_GLOBAL_ADMIN', $roles, true)) {
-        UserManager::addUserAsAdmin($admin);
-    } else {
-        UserManager::removeUserAdmin($admin);
-    }
-
     /** @var User $anonUser */
     $anonUser = $repo->findOneBy(['username' => 'anon']);
     if ($anonUser) {
@@ -2112,4 +2107,80 @@ function createExtraConfigFile(): void {
             file_put_contents($finalFilename, $contents);
         }
     }
+}
+
+function detectBrowserLanguage(Request $request): string
+{
+    static $language_index = [
+        'ar' => 'arabic',
+        'ast' => 'asturian',
+        'bg' => 'bulgarian',
+        'bs' => 'bosnian',
+        'ca' => 'catalan',
+        'zh' => 'simpl_chinese',
+        'zh-tw' => 'trad_chinese',
+        'cs' => 'czech',
+        'da' => 'danish',
+        'prs' => 'dari',
+        'de' => 'german',
+        'el' => 'greek',
+        'en' => 'english',
+        'es' => 'spanish',
+        'eo' => 'esperanto',
+        'eu' => 'basque',
+        'fa' => 'persian',
+        'fr' => 'french',
+        'fur' => 'friulian',
+        'gl' => 'galician',
+        'ka' => 'georgian',
+        'hr' => 'croatian',
+        'he' => 'hebrew',
+        'hi' => 'hindi',
+        'id' => 'indonesian',
+        'it' => 'italian',
+        'ko' => 'korean',
+        'lv' => 'latvian',
+        'lt' => 'lithuanian',
+        'mk' => 'macedonian',
+        'hu' => 'hungarian',
+        'ms' => 'malay',
+        'nl' => 'dutch',
+        'ja' => 'japanese',
+        'no' => 'norwegian',
+        'oc' => 'occitan',
+        'ps' => 'pashto',
+        'pl' => 'polish',
+        'pt' => 'portuguese',
+        'pt-br' => 'brazilian',
+        'ro' => 'romanian',
+        'qu' => 'quechua_cusco',
+        'ru' => 'russian',
+        'sk' => 'slovak',
+        'sl' => 'slovenian',
+        'sr' => 'serbian',
+        'fi' => 'finnish',
+        'sv' => 'swedish',
+        'th' => 'thai',
+        'tr' => 'turkish',
+        'uk' => 'ukrainian',
+        'vi' => 'vietnamese',
+        'sw' => 'swahili',
+        'yo' => 'yoruba',
+    ];
+
+    $systemAvailableLanguages = array_column(LanguageFixtures::getLanguages(), 'isocode', 'english_name');
+
+    $preferredLanguages = $request->getPreferredLanguage();
+
+    $clientLanguage = strtolower(str_replace('_', '-', $preferredLanguages));
+
+    foreach ($language_index as $code => $language) {
+        if (str_starts_with($clientLanguage, $code)) {
+            if (!empty($systemAvailableLanguages[$language])) {
+                return $systemAvailableLanguages[$language];
+            }
+        }
+    }
+
+    return 'en_US';
 }

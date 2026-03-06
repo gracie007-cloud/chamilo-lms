@@ -45,7 +45,7 @@ use Symfony\Component\Security\Core\User\EquatableInterface;
 use Symfony\Component\Security\Core\User\LegacyPasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
-use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Serializer\Attribute\Groups;
 use Symfony\Component\Uid\Uuid;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
@@ -217,6 +217,7 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
         'user_rel_user:read',
         'social_post:read',
         'user_subscriptions:sessions',
+        'course_catalogue:read',
     ])]
     public ?string $illustrationUrl = null;
 
@@ -228,6 +229,7 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
         'message:read',
         'user_rel_user:read',
         'session:item:read',
+        'course_catalogue:read',
     ])]
     #[ORM\Column(name: 'id', type: 'integer')]
     #[ORM\Id]
@@ -250,6 +252,7 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
         'track_e_exercise:read',
         'user_subscriptions:sessions',
         'student_publication_rel_user:read',
+        'course_catalogue:read',
     ])]
     #[ORM\Column(name: 'username', type: 'string', length: 100, unique: true)]
     protected string $username;
@@ -258,11 +261,31 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
     protected ?string $apiToken = null;
 
     #[ApiProperty(iris: ['http://schema.org/name'])]
-    #[Groups(['user:read', 'user:write', 'resource_node:read', 'user_json:read', 'track_e_exercise:read', 'user_rel_user:read', 'user_subscriptions:sessions', 'student_publication_rel_user:read'])]
+    #[Groups([
+        'user:read',
+        'user:write',
+        'resource_node:read',
+        'user_json:read',
+        'track_e_exercise:read',
+        'user_rel_user:read',
+        'user_subscriptions:sessions',
+        'student_publication_rel_user:read',
+        'course_catalogue:read',
+    ])]
     #[ORM\Column(name: 'firstname', type: 'string', length: 64, nullable: true)]
     protected ?string $firstname = null;
 
-    #[Groups(['user:read', 'user:write', 'resource_node:read', 'user_json:read', 'track_e_exercise:read', 'user_rel_user:read', 'user_subscriptions:sessions', 'student_publication_rel_user:read'])]
+    #[Groups([
+        'user:read',
+        'user:write',
+        'resource_node:read',
+        'user_json:read',
+        'track_e_exercise:read',
+        'user_rel_user:read',
+        'user_subscriptions:sessions',
+        'student_publication_rel_user:read',
+        'course_catalogue:read',
+    ])]
     #[ORM\Column(name: 'lastname', type: 'string', length: 64, nullable: true)]
     protected ?string $lastname = null;
 
@@ -775,6 +798,7 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
         'student_publication_rel_user:read',
         'student_publication:read',
         'student_publication_comment:read',
+        'course_catalogue:read',
     ])]
     protected string $fullName;
 
@@ -1275,7 +1299,7 @@ class User implements UserInterface, EquatableInterface, ResourceInterface, Reso
         return $this->confirmationToken;
     }
 
-    public function setConfirmationToken(string $confirmationToken): self
+    public function setConfirmationToken(?string $confirmationToken): self
     {
         $this->confirmationToken = $confirmationToken;
 

@@ -345,7 +345,7 @@ msgid "Sincerely"
 msgstr "Med vänliga hälsningar,"
 
 msgid "Formula sample: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
-msgstr "Formel exempel: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
+msgstr "Formel-exempel: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
 
 msgid "Variable ranges"
 msgstr "Variabelintervall"
@@ -1080,7 +1080,7 @@ msgid "Roles"
 msgstr "Roller"
 
 msgid "Curriculum"
-msgstr "Curriculum"
+msgstr "Läroplan"
 
 msgid "%s to review (%s)"
 msgstr "%s att granska (%s)"
@@ -2022,7 +2022,7 @@ msgid ":yes:copyright,, no:no copyright"
 msgstr ":ja:copyright,, nej:ingen copyright"
 
 msgid ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Folder,, application/msword:MsWord,, application/octet-stream:Octet stream,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
-msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Mapp,, application/msword:MsWord,, application/octet-stream:Okettström,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
+msgstr ":text/plain;iso-8859-1:text/plain;iso-8859-1,, text/plain;utf-8:text/plain;utf-8,, text/html;iso-8859-1:text/html;iso-8859-1,, text/html;utf-8:text/html;utf-8,, inode/directory:Mapp,, application/msword:MsWord,, application/octet-stream:Octetströmmar,, application/pdf:PDF,, application/postscript:PostScript,, application/rtf:RTF,, application/vnd.ms-excel:MsExcel,, application/vnd.ms-powerpoint:MsPowerpoint,, application/xml;iso-8859-1:XML;iso-8859-1,, application/xml;utf-8:XML;utf-8,, application/zip:ZIP"
 
 msgid ":exercise:exercise,,      simulation:simulation,,      questionnaire:questionnaire,,      diagram:diagram,,      figure:figure,,      graph:graf,,      index:index,,      slide:slide,,      table:table,,      narrative text:narrative text,,      exam:exam,,      experiment:experiment,,      problem statement:problem statement,,      self assessment:self assessment,,      lecture:lecture"
 msgstr ":exercise:övning,, simulation:simulering,, questionnaire:frågeställningar,, diagram:diagram,, figure:figur,, graph:graf,, index:index,, slide:slide,, table:bordläggning,, narrative text:berättartext,, exam:examen,, experiment:experiment,, problem statement:problemställning,, self assessment:självbedömning,, lecture:föreläsning"
@@ -4155,7 +4155,7 @@ msgid "errors found"
 msgstr "Fel funna"
 
 msgid "Backup"
-msgstr "Backup"
+msgstr "Säkerhetskopiering"
 
 msgid "Upgrade Chamilo"
 msgstr "Uppgradera Chamilo"
@@ -8709,7 +8709,7 @@ msgid "Use"
 msgstr "Använda"
 
 msgid "Total"
-msgstr "Total"
+msgstr "Totalt"
 
 msgid "take"
 msgstr "ta"
@@ -9024,7 +9024,7 @@ msgid "Jun"
 msgstr "Jun"
 
 msgid "Jul"
-msgstr "jul"
+msgstr "Jul"
 
 msgid "Aug"
 msgstr "Aug"
@@ -9129,7 +9129,7 @@ msgid "Dropbox"
 msgstr "Dropbox"
 
 msgid "Chat"
-msgstr "Chat"
+msgstr "Chatt"
 
 msgid "Add link to this page"
 msgstr "Lägg till länk till sidan"
@@ -9189,7 +9189,7 @@ msgid "Book resource"
 msgstr "Reservation"
 
 msgid "Start"
-msgstr "Start"
+msgstr "Starta"
 
 msgid "End"
 msgstr "Slut"
@@ -9759,7 +9759,7 @@ msgid "Align"
 msgstr "Justera"
 
 msgid "Width"
-msgstr "Width"
+msgstr "Bredd"
 
 msgid "V Space"
 msgstr "V-avstånd"
@@ -9774,7 +9774,7 @@ msgid "Alt"
 msgstr "Alt"
 
 msgid "Height"
-msgstr "Height"
+msgstr "Höjd"
 
 msgid "Image manager"
 msgstr "Bildhanterare"
@@ -10953,7 +10953,7 @@ msgid "Login request"
 msgstr "Inloggningsförfrågan"
 
 msgid "Admin"
-msgstr "admin"
+msgstr "Admin"
 
 msgid "User of course"
 msgstr "normal"
@@ -11754,7 +11754,7 @@ msgid "Hits"
 msgstr "Träffar"
 
 msgid "h."
-msgstr "h."
+msgstr "t."
 
 msgid "In the last 31 days"
 msgstr "Inom de senaste 31 dagarna"
@@ -13641,7 +13641,7 @@ msgid "Resize the image to the following dimensions (in pixels)"
 msgstr "Ändra storlek på bilden till följande dimensioner (i pixlar)"
 
 msgid "RESIZE"
-msgstr "RESIZE"
+msgstr "MINSKA"
 
 msgid "Show all images in their original size. No resizing is done. Scrollbars will automatically appear if the image is larger than your monitor size."
 msgstr "Visa alla bilder i originalstorlek. Ingen storleksändring görs. Rullningslistar visas automatiskt om bilden är större än skärmstorleken."
@@ -13662,7 +13662,7 @@ msgid "Brochure"
 msgstr "Broschyr"
 
 msgid "Slideshow"
-msgstr "Slideshow"
+msgstr "Bildspel"
 
 msgid "Published end date"
 msgstr "Publicerad slutdatum"
@@ -13677,7 +13677,7 @@ msgid "My projects"
 msgstr "Mina favorit bloggar"
 
 msgid "Navigation"
-msgstr "Navigation"
+msgstr "Navigering"
 
 msgid "Top ten"
 msgstr "Topp 10 bloggar"
@@ -14307,7 +14307,7 @@ msgid "PHP version"
 msgstr "PHP-version"
 
 msgid "Support"
-msgstr "support"
+msgstr "Support"
 
 msgid "Your PHP version matches the minimum requirement:"
 msgstr "PHP-versionen är OK"
@@ -17739,7 +17739,7 @@ msgid "The attendance sheet is locked."
 msgstr "Närvarolistan är låst."
 
 msgid "Assistance"
-msgstr "Assistance"
+msgstr "Hjälp"
 
 msgid "A course category with the same name already exists."
 msgstr "En kurskategori med samma namn finns redan."
@@ -22139,14 +22139,8 @@ msgstr "Övningsrapport per kategori för alla sessioner"
 msgid "Require e-mail confirmation"
 msgstr "Kräv e-postbekräftelse"
 
-msgid "Registration confirmation"
-msgstr "Registreringsbekräftelse"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Ditt konto är inaktivt eftersom du inte har bekräftat det ännu. Kontrollera din e-post och följ instruktionerna eller klicka på följande länk för att skicka e-posten igen"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "För att slutföra din plattformsregistrering behöver du bekräfta ditt konto genom att klicka på följande länk"
 
 msgid "Confirmation for new account"
 msgstr "Bekräftelse för nytt konto"
@@ -31437,8 +31431,8 @@ msgstr "Endast bokstäver, siffror och understreck (_) är tillåtna i databasna
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Vilka allmänna användarvillkor ges till användare för att använda denna plattform?"
 
-msgid "ex. {examplePassword}"
-msgstr "t.ex. {examplePassword}"
+msgid "ex. %s"
+msgstr "t.ex. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Välkommen till Chamilo!"
@@ -32311,263 +32305,443 @@ msgid "There are no terms that match the search: %s"
 msgstr "Det finns inga termer som matchar sökningen: %s"
 
 msgid "Setting is globally locked (access_url_locked=1)"
-msgstr ""
+msgstr "Inställningen är globalt låst (access_url_locked=1)"
 
 msgid "If enabled, 1:1 private chat messages will be mirrored in the course chat history documents. Recommended to keep disabled for privacy."
-msgstr ""
+msgstr "Om aktiverat kommer 1:1 privata chattmeddelanden att speglas i kursens chattloggar. Rekommenderas att hålla inaktiverat för integritet."
 
 msgid "Save private conversations in documents"
-msgstr ""
+msgstr "Spara privata konversationer i dokument"
 
 msgid "EU AI Act – Transparency & risk notice"
-msgstr ""
+msgstr "EU AI Act – Transparens & riskmeddelande"
 
 msgid "Under the EU Artificial Intelligence Act (Regulation (EU) 2024/1689), AI systems used in education are generally classified as “high-risk”. This software itself is <strong>not</strong> an AI system, but it can integrate optional internal or external AI systems—depending on your configuration—to enhance user task performance. These systems could access personal data <em>only if</em> users include such data in their prompts. By design, this software does not share personal data with AI systems without the user's active input. By default, all AI features are disabled."
-msgstr ""
+msgstr "Enligt EU:s artificiella intelligensförordning (förordning (EU) 2024/1689) klassas AI-system som används i utbildning generellt som ”hög risk”. Denna programvara i sig är <strong>inte</strong> ett AI-system, men den kan integrera valfria interna eller externa AI-system – beroende på din konfiguration – för att förbättra användaruppgifters prestanda. Dessa system kan komma åt personuppgifter <em>endast om</em> användare inkluderar sådana uppgifter i sina prompts. Enligt designen delar denna programvara inte personuppgifter med AI-system utan användarens aktiva inmatning. Som standard är alla AI-funktioner inaktiverade."
 
 msgid "Admin responsibility & disclosures"
-msgstr ""
+msgstr "Administratörsansvar & upplysningar"
 
 msgid "This configuration page details each AI feature and its purpose. As a deployer, you should review them carefully and update your GDPR-compliant data privacy policies to reflect the options you enable. While most AI features do not directly share personal data with external systems, user prompts sent to AI may inadvertently include personal information. As a deployer, <strong>you are responsible</strong> for informing users of this risk. For transparency, future releases may show non-intrusive end-user tags indicating that certain content or feedback was generated with the help of AI."
-msgstr ""
+msgstr "Denna konfigurationssida beskriver varje AI-funktion och dess syfte. Som driftsättare bör du noggrant granska dem och uppdatera dina GDPR-anpassade dataskyddspolicyer för att återspegla de alternativ du aktiverar. Medan de flesta AI-funktioner inte delar personuppgifter direkt med externa system kan användarprompts till AI oavsiktligt inkludera personlig information. Som driftsättare är <strong>du ansvarig</strong> för att informera användare om denna risk. För transparens kan framtida releaser visa icke-intrusiva etiketter för slutanvändare som indikerar att visst innehåll eller feedback genererats med hjälp av AI."
 
 msgid "Positioning"
-msgstr ""
+msgstr "Positionering"
 
 msgid "Quiz"
-msgstr ""
+msgstr "Kvot"
 
 msgid "Customcertificate"
-msgstr ""
+msgstr "Anpassatintyg"
 
 msgid "Update profile"
-msgstr ""
+msgstr "Uppdatera profil"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "Aktivera lärandestegs-generator"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "Aktivera övningsgenerator"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "Aktivera rättare för öppna svar"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "Aktivera tutor-chattbot"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "Aktivera uppgiftsrättare"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "Aktivera innehållsanalysator"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "Aktivera bildgenerator"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "Aktivera glossarieord-generator"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "Aktivera videgenerator"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "Aktivera kursanalysator"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "Operationen '%s' stöds inte."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "AI-feedback på %s i kurs %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "Borttagning misslyckades: saknar kurskontext eller ogiltigt fråge-ID."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "AI-tutor"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "APCu-tillägget måste vara både installerat och aktiverat för att plattformen ska kunna använda det."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "Det rekommenderas att tillåta OPCache memory_consumption att nå minst %sMB RAM."
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "OPcache-modulen måste vara både installerad och aktiverad för att plattformen ska kunna använda den."
 
 msgid "You are here"
-msgstr ""
+msgstr "Du är här"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "Klicka på en händelsetyp för att filtrera resultaten."
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "Kräv unik närvaro"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "Om aktiverat ger betygsboken eleven 100 % vid minst en närvaro."
 
 msgid "AI feedback"
-msgstr ""
+msgstr "AI-feedback"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Prompt"
 
 msgid "Tip"
-msgstr ""
+msgstr "Tips"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "Du kan redigera prompten innan du begär feedback."
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "Resultat (du kan tillämpa det på kommentaren)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "Tillämpa på kommentar"
 
 msgid "Apply score"
-msgstr ""
+msgstr "Tillämpa poäng"
 
 msgid "AI grade"
-msgstr ""
+msgstr "AI-betyg"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "AI-tutor är inaktiverad under tester"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "Generera glossarord"
 
 msgid "Generate media"
-msgstr ""
+msgstr "Generera media"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "Du har inte behörighet att generera AI-media i denna kurs."
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "AI-hjälpare är inaktiverade på plattformsnivå."
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "Generering av AI-media är inaktiverad i kursinställningarna."
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "Inga AI-media-leverantörer tillgängliga."
 
 msgid "Provider"
-msgstr ""
+msgstr "Leverantör"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "Välj en leverantör"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "Exempel: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "Namnet läggs inte till i prompten; det används endast för att spara filen."
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "Beskriv vad du vill generera..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "Tips: klicka på en förinställning för att snabbt ange storleken."
 
 msgid "Generating..."
-msgstr ""
+msgstr "Genererar..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "Spara till Dokument"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "Dokument IRI"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "Gå till mapp"
 
 msgid "Provider used"
-msgstr ""
+msgstr "Använd leverantör"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "Detta videresultat kan inte sparas ännu"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "Videopolling stoppades eftersom leverantören ändrades."
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "Videogenerering tar för lång tid. Försök igen senare."
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "Kunde inte kontrollera videostatus."
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "Video genererades framgångsrikt. Du kan nu spara den."
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "Videogenerering slutförd, men inget spelbart innehåll returnerades."
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "Videogenerering misslyckades."
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "Väntar på att videon ska vara klar..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "Vänligen fyll i alla fält."
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "Bildgenerering är inte aktiverat för denna kurs."
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "Videogenerering är inte aktiverat för denna kurs."
 
 msgid "Generation failed."
-msgstr ""
+msgstr "Generering misslyckades."
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "Genererades framgångsrikt. Granska förhandsgranskningen och spara när du är redo."
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "Genererades framgångsrikt. Sparande är inaktiverat eftersom leverantören returnerade en URL."
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "Videogenerering har startat. Väntar på resultatet..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI returnerade ett tomt svar."
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "Inget att spara än."
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "Denna leverantör returnerade inte base64-innehåll. Försök med en annan leverantör."
 
 msgid "Saving failed."
-msgstr ""
+msgstr "Spara misslyckades."
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "Hämta AI-feedback"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "Kopiera svar till urklipp"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "Spara svar till min inkorg"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "Dokumentet finns redan i denna mapp"
 
 msgid "Copied"
-msgstr ""
+msgstr "Kopierat"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "Du har inte behörighet att generera ordlistetermer."
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "Videogenerering pågår"
 
 msgid "Job"
-msgstr ""
+msgstr "Uppgift"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "Ändrad prompt"
 
 msgid "Saved in Documents"
+msgstr "Sparad i Dokument"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Totalt utrymme använt av %s är %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Totalt utrymme använt av portalen %s är %sGB (gräns satt till %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Bekräfta din e-post"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "För att verifiera din e-post och aktivera ditt konto på %s, klicka på länken nedan."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Om du inte registrerade detta konto kan du ignorera detta e-postmeddelande. Inga åtgärder kommer att vidtas."
+
+msgid "Current authentication method"
+msgstr "Nuvarande autentiseringsmetod"
+
+msgid "Branches"
 msgstr ""
+
+msgid "Rooms"
+msgstr ""
+
+msgid "Room availability finder"
+msgstr ""
+
+msgid "New branch"
+msgstr ""
+
+msgid "New room"
+msgstr ""
+
+msgid "Branch"
+msgstr ""
+
+msgid "Default room"
+msgstr ""
+
+msgid "Room occupation: %s"
+msgstr ""
+
+msgid "Find available rooms"
+msgstr ""
+
+msgid "Available rooms"
+msgstr ""
+
+msgid "Occupied rooms"
+msgstr ""
+
+msgid "No available rooms found for this time range"
+msgstr ""
+
+msgid "No rooms have been created yet"
+msgstr ""
+
+msgid "Courses linked to %s"
+msgstr ""
+
+msgid "No branches have been created yet"
+msgstr ""
+
+msgid "Occupation"
+msgstr ""
+
+msgid "Cannot delete branch with rooms attached"
+msgstr ""
+
+msgid "Cannot delete room with courses attached"
+msgstr ""
+
+msgid "Conflicts"
+msgstr ""
+
+msgid "Geolocation"
+msgstr ""
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr ""
+
+msgid "IPv4 or IPv6"
+msgstr ""
+
+msgid "IP mask"
+msgstr "IP-mask"
+
+msgid "e.g. /24"
+msgstr "t.ex. /24"
+
+msgid "Parent branch"
+msgstr "Överordnad gren"
+
+msgid "Unique identifier"
+msgstr "Unikt identifieringsnummer"
+
+msgid "Latitude"
+msgstr "Latitud"
+
+msgid "e.g. 48.8566"
+msgstr "t.ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitud"
+
+msgid "e.g. 2.3522"
+msgstr "t.ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Nedladdningshastighet (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Uppladdningshastighet (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Fördröjning (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Administratörsnamn"
+
+msgid "Administrator phone number"
+msgstr "Administratörens telefonnummer"
+
+msgid "ID of last synch transaction"
+msgstr "ID för senaste synkroniseringstransaktion"
+
+msgid "Time of last synchronization"
+msgstr "Tidpunkt för senaste synkronisering"
+
+msgid "Last synchronization type"
+msgstr "Typ av senaste synkronisering"
+
+msgid "SSL public key"
+msgstr "SSL-offentlig nyckel"
+
+msgid "Branch type"
+msgstr "Grenstyp"
+
+msgid "Room"
+msgstr "Rum"
+
+msgid "Simple IDS"
+msgstr "Enkel IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS är för närvarande inaktiverad. Sätt IDS_ENABLED=true i din .env för att aktivera skanning."
+
+msgid "All event types"
+msgstr "Alla händelsetyper"
+
+msgid "Events by day (last 7 days)"
+msgstr "Händelser per dag (senaste 7 dagarna)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Händelser per typ (senaste 30 dagarna)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Topp angripande IP-adresser (senaste 30 dagarna)"
+
+msgid "Flagged IDS events"
+msgstr "Markerade IDS-händelser"
+
+msgid "No suspicious events detected."
+msgstr "Inga misstänkta händelser upptäckta."
+
+msgid "Detection type"
+msgstr "Upptäcktstyp"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (nuvarande)"
 

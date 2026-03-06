@@ -426,7 +426,7 @@ EOT;
             $name,
             $label,
             'check',
-            'primary',
+            'success',
             null,
             null,
             $attributes,
@@ -1086,7 +1086,7 @@ EOT;
         foreach ($groupList as $groupName => $group) {
             // Add group array
             if (!empty($groupName) && is_array($group)) {
-                $this->addGroup($group, '', $groupName);
+                $this->addGroup($group, null, $groupName);
             }
             // Add element
             if ($group instanceof HTML_QuickForm_element) {

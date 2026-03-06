@@ -69,25 +69,25 @@ msgid "Student's superior"
 msgstr "Študent šéf"
 
 msgid "Cosecant:\t\t\t\tcsc(x)"
-msgstr "Cosecant:\t\t\t\tcsc(x)"
+msgstr "Kosecans:\t\t\t\tcsc(x)"
 
 msgid "Hyperbolic cosecant:\t\tcsch(x)"
 msgstr "Hyperbolický cosecant:\t\tcsch(x)"
 
 msgid "Arccosecant:\t\t\tarccsc(x)"
-msgstr "Arccosecant:\t\t\tarccsc(x)"
+msgstr "Arkuskosecans:\t\t\tarccsc(x)"
 
 msgid "Hyperbolic arccosecant:\t\tarccsch(x)"
 msgstr "Hyperbolický arccosecant:\t\tarccsch(x)"
 
 msgid "Secant:\t\t\t\tsec(x)"
-msgstr "Secant:\t\t\t\tsec(x)"
+msgstr "Sekans:\t\t\t\tsec(x)"
 
 msgid "Hyperbolic secant:\t\tsech(x)"
 msgstr "Hyperbolický secant:\t\tsech(x)"
 
 msgid "Arcsecant:\t\t\tarcsec(x)"
-msgstr "Arcsecant:\t\t\tarcsec(x)"
+msgstr "Arkussekans:\t\t\tarcsec(x)"
 
 msgid "Hyperbolic arcsecant:\t\tarcsech(x)"
 msgstr "Hyperbolický arcsecant:\t\tarcsech(x)"
@@ -345,7 +345,7 @@ msgid "Sincerely"
 msgstr "Úprimne"
 
 msgid "Formula sample: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
-msgstr "Vzorková formula: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
+msgstr "Vzorkový vzorec: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
 
 msgid "Variable ranges"
 msgstr "Rozsahy premennej"
@@ -8612,7 +8612,7 @@ msgid "Numbered"
 msgstr "Číslovaný"
 
 msgid "en"
-msgstr "en"
+msgstr "sk"
 
 msgid "eng"
 msgstr "eng"
@@ -8870,7 +8870,7 @@ msgid "With selected"
 msgstr "Označené"
 
 msgid "Online"
-msgstr "Online"
+msgstr "Pripojený"
 
 msgid "hungarian"
 msgstr "ma&#271;arsky"
@@ -8954,7 +8954,7 @@ msgid "F"
 msgstr "P"
 
 msgid "S"
-msgstr "S"
+msgstr "P"
 
 msgid "Mon"
 msgstr "Po"
@@ -8999,7 +8999,7 @@ msgid "Sunday"
 msgstr "Nedela"
 
 msgid "J"
-msgstr "J"
+msgstr "Ú"
 
 msgid "A"
 msgstr "A"
@@ -9170,7 +9170,7 @@ msgid "Visible to"
 msgstr "Viditeľný pre"
 
 msgid "Export"
-msgstr "Export"
+msgstr "Exportovať"
 
 msgid "Modules"
 msgstr "Nástroje"
@@ -14447,7 +14447,7 @@ msgid "Cool blue"
 msgstr "Chladná modrá"
 
 msgid "Corporate"
-msgstr "Corporate"
+msgstr "Firemný"
 
 msgid "Cosmic campus"
 msgstr "Kozmický kampus"
@@ -15122,7 +15122,7 @@ msgid "Thematic advance"
 msgstr "Cieľ témy"
 
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Plocha"
 
 msgid "Dashboard blocks"
 msgstr "Dashboard bloky"
@@ -19900,10 +19900,10 @@ msgid "Not readable"
 msgstr "Nie je čitateľný"
 
 msgid "John"
-msgstr "John"
+msgstr "Ján"
 
 msgid "Doe"
-msgstr "Doe"
+msgstr "Novák"
 
 msgid "Attendances updated"
 msgstr "Návštevnosť aktualizovaná"
@@ -20545,7 +20545,7 @@ msgid "Input size of box to fill"
 msgstr "Vstupná veľkosť náplne krabice"
 
 msgid "MM dd, yy"
-msgstr "MM dd, yy"
+msgstr "dd.MM.yy"
 
 msgid "HH:mm"
 msgstr "HH:mm"
@@ -22152,14 +22152,8 @@ msgstr "Hlásenie cvičenia podľa kategórie pre všetky relácie"
 msgid "Require e-mail confirmation"
 msgstr "Vyžadovať potvrdenie e-mailom"
 
-msgid "Registration confirmation"
-msgstr "Potvrdenie registrácie"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Váš účet je neaktívny, pretože ste ho ešte nepotvrdili. Skontrolujte svoj e-mail a postupujte podľa pokynov alebo kliknite na nasledujúci odkaz na opätovné odoslanie e-mailu"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Na dokončenie registrácie na platforme musíte potvrdiť svoj účet kliknutím na nasledujúci odkaz"
 
 msgid "Confirmation for new account"
 msgstr "Potvrdenie pre nový účet"
@@ -31450,8 +31444,8 @@ msgstr "V názve databázy sú povolené iba písmená, číslice a podčiarkovn
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Aké všeobecné podmienky používania tejto platformy sú poskytnuté používateľom?"
 
-msgid "ex. {examplePassword}"
-msgstr "napr. {examplePassword}"
+msgid "ex. %s"
+msgstr "napr. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Vitajte v Chamilo!"
@@ -32583,4 +32577,184 @@ msgstr "Upravený prompt"
 
 msgid "Saved in Documents"
 msgstr "Uložené v Dokumentoch"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Celkový priestor použitý %s je %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Celkový priestor použitý portálom %s je %sGB (limit je nastavený na %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Potvrďte svoj e-mail"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Pre overenie vašej e-mailovej adresy a aktiváciu účtu na %s kliknite prosím na odkaz nižšie."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ak ste tento účet neregistrovali, môžete tento e-mail ignorovať. Žiadna akcia nebude vykonaná."
+
+msgid "Current authentication method"
+msgstr "Aktuálna metóda autentifikácie"
+
+msgid "Branches"
+msgstr "Pobočky"
+
+msgid "Rooms"
+msgstr "Miesta"
+
+msgid "Room availability finder"
+msgstr "Hľadanie dostupných miest"
+
+msgid "New branch"
+msgstr "Nová pobočka"
+
+msgid "New room"
+msgstr "Nové miesto"
+
+msgid "Branch"
+msgstr "Pobočka"
+
+msgid "Default room"
+msgstr "Predvolené miesto"
+
+msgid "Room occupation: %s"
+msgstr "Obsadenosť miesta: %s"
+
+msgid "Find available rooms"
+msgstr "Nájsť dostupné miesta"
+
+msgid "Available rooms"
+msgstr "Dostupné miesta"
+
+msgid "Occupied rooms"
+msgstr "Obsadené miesta"
+
+msgid "No available rooms found for this time range"
+msgstr "Žiadne dostupné miesta pre tento časový rozsah neboli nájdené"
+
+msgid "No rooms have been created yet"
+msgstr "Žiadne miesta ešte neboli vytvorené"
+
+msgid "Courses linked to %s"
+msgstr "Kurzy spojené s %s"
+
+msgid "No branches have been created yet"
+msgstr "Žiadne pobočky ešte neboli vytvorené"
+
+msgid "Occupation"
+msgstr "Obsadenosť"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Nie je možné zmazať pobočku s priradenými miestami"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Nie je možné zmazať miesto s priradenými kurzami"
+
+msgid "Conflicts"
+msgstr "Konflikty"
+
+msgid "Geolocation"
+msgstr "Geolokácia"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Zemepisná šírka, Zemepisná dĺžka (napr. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 alebo IPv6"
+
+msgid "IP mask"
+msgstr "IP maska"
+
+msgid "e.g. /24"
+msgstr "napr. /24"
+
+msgid "Parent branch"
+msgstr "Rodičovská pobočka"
+
+msgid "Unique identifier"
+msgstr "Jedinečný identifikátor"
+
+msgid "Latitude"
+msgstr "Zemepisná šírka"
+
+msgid "e.g. 48.8566"
+msgstr "napr. 48.8566"
+
+msgid "Longitude"
+msgstr "Zemepisná dĺžka"
+
+msgid "e.g. 2.3522"
+msgstr "napr. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Rýchlosť sťahovania (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Rýchlosť nahrávania (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Oneskorenie (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Meno administrátora"
+
+msgid "Administrator phone number"
+msgstr "Telefónne číslo administrátora"
+
+msgid "ID of last synch transaction"
+msgstr "ID poslednej synchronizačnej transakcie"
+
+msgid "Time of last synchronization"
+msgstr "Čas poslednej synchronizácie"
+
+msgid "Last synchronization type"
+msgstr "Typ poslednej synchronizácie"
+
+msgid "SSL public key"
+msgstr "SSL verejný kľúč"
+
+msgid "Branch type"
+msgstr "Typ pobočky"
+
+msgid "Room"
+msgstr "Miestnosť"
+
+msgid "Simple IDS"
+msgstr "Jednoduchý IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS je momentálne vypnuté. Nastavte IDS_ENABLED=true vo vašom .env súbore na aktiváciu skenovania."
+
+msgid "All event types"
+msgstr "Všetky typy udalostí"
+
+msgid "Events by day (last 7 days)"
+msgstr "Udalosti podľa dňa (posledných 7 dní)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Udalosti podľa typu (posledných 30 dní)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Najviac útočiace IP (posledných 30 dní)"
+
+msgid "Flagged IDS events"
+msgstr "Označené IDS udalosti"
+
+msgid "No suspicious events detected."
+msgstr "Žiadne podozrivé udalosti nezistené."
+
+msgid "Detection type"
+msgstr "Typ detekcie"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (aktuálny)"
 

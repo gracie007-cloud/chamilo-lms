@@ -345,7 +345,7 @@ msgid "Sincerely"
 msgstr "ด้วยความเคารพ"
 
 msgid "Formula sample: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
-msgstr "ตัวอย่างสูตร: sqrt( [x] / [ย] ) * ( e ^ ( ln(pi) ) )"
+msgstr "ตัวอย่างสูตร: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
 
 msgid "Variable ranges"
 msgstr "ช่วงตัวแปร"
@@ -2808,7 +2808,7 @@ msgid "Latest post"
 msgstr "กระทู้ล่าสุด"
 
 msgid "Quoting"
-msgstr "Quoting"
+msgstr "การอ้างอิง"
 
 msgid "Notify me by e-mail when somebody replies"
 msgstr "แจ้งข่าวทางอีเมลเมื่อมีผู้ตอบกระทู้"
@@ -2829,13 +2829,13 @@ msgid "Unlocked: learners can post new messages in this forum category, forum or
 msgstr "ปลดล๊อค:ผู้เรียนสามารถส่งกระทู้และอภิปรายเข้าหมวดหมู่ต่างๆได้"
 
 msgid "Flat"
-msgstr "Flat"
+msgstr "แบบแบน"
 
 msgid "Threaded"
 msgstr "ส่งเข้าแล้ว"
 
 msgid "Nested"
-msgstr "Nested"
+msgstr "แบบซ้อน"
 
 msgid "List View"
 msgstr "Flat View"
@@ -12234,7 +12234,7 @@ msgid "... SCORM Directory with SD-id (and split manifest - or leave empty)"
 msgstr "...สมุดบัญชีรายชื่อของScorm กับรหัส SD(แยกรายการที่มีหรือปล่อยว่างไว้)"
 
 msgid "root"
-msgstr "root"
+msgstr "รูท"
 
 msgid "Split manifests, and #MDe, if any:"
 msgstr "แยกรายการที่มี,และ#MDe ถ้ามี"
@@ -13608,7 +13608,7 @@ msgid "How does the course progress? Where should the learner pay special care? 
 msgstr "หลักสูตรดำเนินการอย่างไร? ผู้เรียนควรใส่ใจส่วนใดเป็นพิเศษ? มีปัญหาการเข้าใจในพื้นที่ต่างๆ หรือไม่? ควรใช้เวลากับส่วนต่างๆ ของหลักสูตรเท่าไร?"
 
 msgid "Methodology"
-msgstr "Methodology"
+msgstr "ระเบียบวิธี"
 
 msgid "What methods and activities help achieve the objectives of the course?  What would the schedule be?"
 msgstr "วิธีการและกิจกรรมใดช่วยให้บรรลุวัตถุประสงค์ของหลักสูตร? ตารางเวลาจะเป็นอย่างไร?"
@@ -22139,14 +22139,8 @@ msgstr "รายงานการออกกำลังกายตามห
 msgid "Require e-mail confirmation"
 msgstr "ต้องการการยืนยันทางอีเมล"
 
-msgid "Registration confirmation"
-msgstr "การยืนยันการลงทะเบียน"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "บัญชีของคุณไม่ใช้งานเพราะคุณยังไม่ได้ยืนยัน ตรวจสอบอีเมลของคุณและทำตามคำแนะนำหรือคลิกลิงก์ต่อไปนี้เพื่อส่งอีเมลใหม่"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "เพื่อให้การลงทะเบียนแพลตฟอร์มของคุณสมบูรณ์ คุณต้องยืนยันบัญชีโดยคลิกลิงก์ต่อไปนี้"
 
 msgid "Confirmation for new account"
 msgstr "การยืนยันบัญชีใหม่"
@@ -24987,7 +24981,7 @@ msgid "Click to view details"
 msgstr "คลิกเพื่อดูรายละเอียด"
 
 msgid "dd/mm/yyyy"
-msgstr "dd/mm/yyyy"
+msgstr "วว/ดด/ปปปป"
 
 msgid "Export certificates issue report"
 msgstr "ส่งออกรายงานการออกใบรับรอง"
@@ -28231,7 +28225,7 @@ msgid "You're subscribed to push notifications in this browser."
 msgstr "คุณได้สมัครรับการแจ้งเตือนแบบ push ในเบราว์เซอร์นี้แล้ว"
 
 msgid "Endpoint"
-msgstr "Endpoint"
+msgstr "จุดสิ้นสุด"
 
 msgid "Push notifications are not enabled in this browser."
 msgstr "การแจ้งเตือนแบบ push ไม่ได้เปิดใช้งานในเบราว์เซอร์นี้"
@@ -29725,7 +29719,7 @@ msgid "Back to layouts"
 msgstr "กลับไปยังเค้าโครง"
 
 msgid "ID"
-msgstr "ID"
+msgstr "รหัสประจำตัว"
 
 msgid "Columns"
 msgstr "คอลัมน์"
@@ -31437,8 +31431,8 @@ msgstr "ชื่อฐานข้อมูลอนุญาตให้ใช
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "เงื่อนไขทั่วไปใดที่ให้ผู้ใช้เพื่อใช้งานแพลตฟอร์มนี้?"
 
-msgid "ex. {examplePassword}"
-msgstr "เช่น {examplePassword}"
+msgid "ex. %s"
+msgstr "เช่น %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "ยินดีต้อนรับสู่ Chamilo!"
@@ -31459,7 +31453,7 @@ msgid "Reply to all"
 msgstr "ตอบกลับทั้งหมด"
 
 msgid "SCIM external ID"
-msgstr "SCIM external ID"
+msgstr "SCIM รหัสภายนอก"
 
 msgid "OAuth2 ID"
 msgstr "OAuth2 ID"
@@ -31753,7 +31747,7 @@ msgid "Test/development"
 msgstr "ทดสอบ/พัฒนา"
 
 msgid "Crons"
-msgstr "Crons"
+msgstr "งานครอน"
 
 msgid "Editor"
 msgstr "ตัวแก้ไข"
@@ -31771,7 +31765,7 @@ msgid "Support tickets"
 msgstr "ตั๋วสนับสนุน"
 
 msgid "Webservices"
-msgstr "Webservices"
+msgstr "เว็บเซอร์วิส"
 
 msgid "Catalogue"
 msgstr "แคตตาล็อก"
@@ -32305,7 +32299,7 @@ msgid "The '%s' operation is not supported."
 msgstr "การดำเนินการ '%s' ไม่รองรับ"
 
 msgid "Drupal user ID"
-msgstr "Drupal user ID"
+msgstr "Drupal รหัสผู้ใช้"
 
 msgid "There are no terms that match the search: %s"
 msgstr "ไม่มีคำศัพท์ที่ตรงกับการค้นหา: %s"
@@ -32344,230 +32338,410 @@ msgid "Update profile"
 msgstr "อัปเดตโปรไฟล์"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "เปิดใช้งานเครื่องสร้างเส้นทางการเรียนรู้"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "เปิดใช้งานเครื่องสร้างแบบฝึกหัด"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "เปิดใช้งานเกรดคำตอบเปิด"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "เปิดใช้งานแชทบอทติวเตอร์"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "เปิดใช้งานเกรดงาน"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "เปิดใช้งานตัววิเคราะห์เนื้อหา"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "เปิดใช้งานเครื่องสร้างภาพ"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "เปิดใช้งานเครื่องสร้างคำศัพท์คำอธิบาย"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "เปิดใช้งานเครื่องสร้างวิดีโอ"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "เปิดใช้งานตัววิเคราะห์หลักสูตร"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "ไม่รองรับการดำเนินการ '%s'"
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "ความคิดเห็น AI เกี่ยวกับ %s ในหลักสูตร %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "ลบไม่สำเร็จ: ขาดบริบทหลักสูตรหรือ ID คำถามไม่ถูกต้อง"
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "ติวเตอร์ AI"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "ส่วนขยาย APCu ต้องถูกติดตั้งและเปิดใช้งานเพื่อให้แพลตฟอร์มใช้งานได้"
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "แนะนำให้ตั้งค่า OPCache memory_consumption อย่างน้อย %sMB ของ RAM"
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "โมดูล OPcache ต้องถูกติดตั้งและเปิดใช้งานเพื่อให้แพลตฟอร์มใช้งานได้"
 
 msgid "You are here"
-msgstr ""
+msgstr "คุณอยู่ที่นี่"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "คลิกประเภทเหตุการณ์เพื่อกรองผลลัพธ์"
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "ต้องการการเข้าร่วมที่ไม่ซ้ำกัน"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "หากเปิดใช้งาน เกรดบุ๊คจะให้ผู้เรียนได้ 100% เมื่อเข้าร่วมอย่างน้อยหนึ่งครั้ง"
 
 msgid "AI feedback"
-msgstr ""
+msgstr "ความคิดเห็น AI"
 
 msgid "Prompt"
-msgstr ""
+msgstr "พรอมต์"
 
 msgid "Tip"
-msgstr ""
+msgstr "เคล็ดลับ"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "คุณสามารถแก้ไขพรอมต์ก่อนขอความคิดเห็นได้"
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "ผลลัพธ์ (คุณสามารถนำไปใช้กับความคิดเห็นได้)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "นำไปใช้กับความคิดเห็น"
 
 msgid "Apply score"
-msgstr ""
+msgstr "นำคะแนนไปใช้"
 
 msgid "AI grade"
-msgstr ""
+msgstr "คะแนน AI"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "ผู้ช่วย AI ถูกลบใช้งานระหว่างการทดสอบ"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "สร้างคำศัพท์ในพจนานุกรม"
 
 msgid "Generate media"
-msgstr ""
+msgstr "สร้างสื่อ"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "คุณไม่มีสิทธิ์สร้างสื่อ AI ในหลักสูตรนี้"
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "ผู้ช่วย AI ถูกลบใช้งานในระดับแพลตฟอร์ม"
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "การสร้างสื่อ AI ถูกลบใช้งานในการตั้งค่าหลักสูตร"
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "ไม่มีผู้ให้บริการสื่อ AI"
 
 msgid "Provider"
-msgstr ""
+msgstr "ผู้ให้บริการ"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "เลือกผู้ให้บริการ"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "ตัวอย่าง: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
-msgstr ""
+msgstr "ชื่อจะไม่ถูกเพิ่มในพรอมต์ ใช้เฉพาะสำหรับบันทึกไฟล์"
 
 msgid "Describe what you want to generate..."
-msgstr ""
+msgstr "อธิบายสิ่งที่ต้องการสร้าง..."
 
 msgid "Tip: click a preset to quickly set the size."
-msgstr ""
+msgstr "เคล็ดลับ: คลิกค่าพรีเซ็ตเพื่อตั้งค่าขนาดอย่างรวดเร็ว"
 
 msgid "Generating..."
-msgstr ""
+msgstr "กำลังสร้าง..."
 
 msgid "Save to Documents"
-msgstr ""
+msgstr "บันทึกในเอกสาร"
 
 msgid "Document IRI"
-msgstr ""
+msgstr "IRI ของเอกสาร"
 
 msgid "Go to folder"
-msgstr ""
+msgstr "ไปยังโฟลเดอร์"
 
 msgid "Provider used"
-msgstr ""
+msgstr "ผู้ให้บริการที่ใช้"
 
 msgid "This video result cannot be saved yet"
-msgstr ""
+msgstr "ผลวิดีโอนี้ยังบันทึกไม่ได้"
 
 msgid "Video polling was stopped because the provider changed."
-msgstr ""
+msgstr "การโพลวิดีโอหยุดเพราะผู้ให้บริการเปลี่ยน"
 
 msgid "Video generation is taking too long. Please try again later."
-msgstr ""
+msgstr "การสร้างวิดีโอกำลังนานเกินไป โปรดลองใหม่ภายหลัง"
 
 msgid "Failed to check video status."
-msgstr ""
+msgstr "ตรวจสอบสถานะวิดีโอไม่สำเร็จ"
 
 msgid "Video generated successfully. You can now save it."
-msgstr ""
+msgstr "สร้างวิดีโอสำเร็จ สามารถบันทึกได้แล้ว"
 
 msgid "Video generation completed, but no playable content was returned."
-msgstr ""
+msgstr "สร้างวิดีโอเสร็จสิ้น แต่ไม่มีเนื้อหาที่เล่นได้"
 
 msgid "Video generation failed."
-msgstr ""
+msgstr "สร้างวิดีโอไม่สำเร็จ"
 
 msgid "Waiting for the video to be ready..."
-msgstr ""
+msgstr "กำลังรอวิดีโอพร้อมใช้งาน..."
 
 msgid "Please complete all fields."
-msgstr ""
+msgstr "กรุณากรอกข้อมูลให้ครบทุกช่อง"
 
 msgid "Image generation is not enabled for this course."
-msgstr ""
+msgstr "การสร้างภาพไม่เปิดใช้งานในหลักสูตรนี้"
 
 msgid "Video generation is not enabled for this course."
-msgstr ""
+msgstr "การสร้างวิดีโอไม่เปิดใช้งานในหลักสูตรนี้"
 
 msgid "Generation failed."
-msgstr ""
+msgstr "สร้างไม่สำเร็จ"
 
 msgid "Generated successfully. Review the preview and save when ready."
-msgstr ""
+msgstr "สร้างสำเร็จ ตรวจสอบตัวอย่างและบันทึกเมื่อพร้อม"
 
 msgid "Generated successfully. Saving is disabled because the provider returned a URL."
-msgstr ""
+msgstr "สร้างสำเร็จ การบันทึกถูกลบเพราะผู้ให้บริการส่ง URL กลับมา"
 
 msgid "Video generation started. Waiting for the result..."
-msgstr ""
+msgstr "เริ่มสร้างวิดีโอ กำลังรอผลลัพธ์..."
 
 msgid "AI returned an empty response."
-msgstr ""
+msgstr "AI ส่งการตอบกลับว่างเปล่า"
 
 msgid "Nothing to save yet."
-msgstr ""
+msgstr "ยังไม่มีอะไรบันทึก"
 
 msgid "This provider did not return base64 content. Please try another provider."
-msgstr ""
+msgstr "ผู้ให้บริการนี้ไม่ได้ส่งเนื้อหา base64 โปรดลองผู้ให้บริการอื่น"
 
 msgid "Saving failed."
-msgstr ""
+msgstr "บันทึกไม่สำเร็จ"
 
 msgid "Get AI feedback"
-msgstr ""
+msgstr "รับข้อเสนอแนะจาก AI"
 
 msgid "Copy answer to clipboard"
-msgstr ""
+msgstr "คัดลอกคำตอบไปยังคลิปบอร์ด"
 
 msgid "Save answer to my inbox"
-msgstr ""
+msgstr "บันทึกคำตอบในกล่องรับของฉัน"
 
 msgid "The document is already in this folder"
-msgstr ""
+msgstr "เอกสารนี้อยู่ในโฟลเดอร์นี้แล้ว"
 
 msgid "Copied"
-msgstr ""
+msgstr "คัดลอกแล้ว"
 
 msgid "You do not have permission to generate glossary terms."
-msgstr ""
+msgstr "คุณไม่มีสิทธิ์สร้างคำศัพท์ในพจนานุกรม"
 
 msgid "Video generation is in progress"
-msgstr ""
+msgstr "กำลังสร้างวิดีโอ"
 
 msgid "Job"
-msgstr ""
+msgstr "งาน"
 
 msgid "Modified prompt"
-msgstr ""
+msgstr "พรอมต์ที่แก้ไข"
 
 msgid "Saved in Documents"
-msgstr ""
+msgstr "บันทึกในเอกสาร"
+
+msgid "Total space used by %s is %sGB"
+msgstr "พื้นที่ทั้งหมดที่ใช้โดย %s คือ %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "พื้นที่ทั้งหมดที่ใช้โดยพอร์ทัล %s คือ %sGB (จำกัดที่ %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] ยืนยันอีเมลของคุณ"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "เพื่อยืนยันอีเมลของคุณและเปิดใช้งานบัญชีของคุณใน %s โปรดคลิกที่ลิงก์ด้านล่าง"
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "หากคุณไม่ได้ลงทะเบียนบัญชีนี้ คุณสามารถเพิกเฉยอีเมลนี้ได้ จะไม่มีการดำเนินการใดๆ"
+
+msgid "Current authentication method"
+msgstr "วิธีการรับรองตัวตนปัจจุบัน"
+
+msgid "Branches"
+msgstr "สาขา"
+
+msgid "Rooms"
+msgstr "ห้อง"
+
+msgid "Room availability finder"
+msgstr "เครื่องมือค้นหาความพร้อมใช้งานห้อง"
+
+msgid "New branch"
+msgstr "สาขาใหม่"
+
+msgid "New room"
+msgstr "ห้องใหม่"
+
+msgid "Branch"
+msgstr "สาขา"
+
+msgid "Default room"
+msgstr "ห้องเริ่มต้น"
+
+msgid "Room occupation: %s"
+msgstr "การใช้งานห้อง: %s"
+
+msgid "Find available rooms"
+msgstr "ค้นหาห้องที่ว่าง"
+
+msgid "Available rooms"
+msgstr "ห้องที่ว่าง"
+
+msgid "Occupied rooms"
+msgstr "ห้องที่ใช้งานอยู่"
+
+msgid "No available rooms found for this time range"
+msgstr "ไม่พบห้องว่างในช่วงเวลานี้"
+
+msgid "No rooms have been created yet"
+msgstr "ยังไม่มีการสร้างห้อง"
+
+msgid "Courses linked to %s"
+msgstr "คอร์สที่เชื่อมโยงกับ %s"
+
+msgid "No branches have been created yet"
+msgstr "ยังไม่มีการสร้างสาขา"
+
+msgid "Occupation"
+msgstr "การใช้งาน"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "ไม่สามารถลบสาขาที่มีห้องเชื่อมโยง"
+
+msgid "Cannot delete room with courses attached"
+msgstr "ไม่สามารถลบห้องที่มีคอร์สเชื่อมโยง"
+
+msgid "Conflicts"
+msgstr "ความขัดแย้ง"
+
+msgid "Geolocation"
+msgstr "Geolocation"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "ละติจูด, ลองจิจูด (เช่น 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 หรือ IPv6"
+
+msgid "IP mask"
+msgstr "IP mask"
+
+msgid "e.g. /24"
+msgstr "เช่น /24"
+
+msgid "Parent branch"
+msgstr "สาขาแม่"
+
+msgid "Unique identifier"
+msgstr "รหัสระบุเฉพาะ"
+
+msgid "Latitude"
+msgstr "ละติจูด"
+
+msgid "e.g. 48.8566"
+msgstr "เช่น 48.8566"
+
+msgid "Longitude"
+msgstr "ลองจิจูด"
+
+msgid "e.g. 2.3522"
+msgstr "เช่น 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "ความเร็วในการดาวน์โหลด (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "ความเร็วในการอัปโหลด (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "ความล่าช้า (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "ชื่อผู้ดูแลระบบ"
+
+msgid "Administrator phone number"
+msgstr "หมายเลขโทรศัพท์ผู้ดูแลระบบ"
+
+msgid "ID of last synch transaction"
+msgstr "ID ของธุรกรรมซิงค์ล่าสุด"
+
+msgid "Time of last synchronization"
+msgstr "เวลาของการซิงโครไนซ์ล่าสุด"
+
+msgid "Last synchronization type"
+msgstr "ประเภทการซิงโครไนซ์ล่าสุด"
+
+msgid "SSL public key"
+msgstr "กุญแจสาธารณะ SSL"
+
+msgid "Branch type"
+msgstr "ประเภทสาขา"
+
+msgid "Room"
+msgstr "ห้อง"
+
+msgid "Simple IDS"
+msgstr "IDS ง่าย"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS ปัจจุบันถูกปิดใช้งาน ตั้งค่า IDS_ENABLED=true ในไฟล์ .env เพื่อเปิดใช้งานการสแกน"
+
+msgid "All event types"
+msgstr "ทุกรูปแบบเหตุการณ์"
+
+msgid "Events by day (last 7 days)"
+msgstr "เหตุการณ์ตามวัน (7 วันล่าสุด)"
+
+msgid "Events by type (last 30 days)"
+msgstr "เหตุการณ์ตามประเภท (30 วันล่าสุด)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IP ที่โจมตีมากที่สุด (30 วันล่าสุด)"
+
+msgid "Flagged IDS events"
+msgstr "เหตุการณ์ IDS ที่ถูกทำเครื่องหมาย"
+
+msgid "No suspicious events detected."
+msgstr "ไม่พบเหตุการณ์น่าสงสัย"
+
+msgid "Detection type"
+msgstr "ประเภทการตรวจจับ"
+
+msgid "Parameter"
+msgstr "พารามิเตอร์"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (ปัจจุบัน)"
 

@@ -493,7 +493,7 @@ msgid "Question ID"
 msgstr "ID на прашањето"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "Ид на вежба"
 
 msgid "Excel export"
 msgstr "Извоз во Excel"
@@ -16219,7 +16219,7 @@ msgid "Session tutors reports visibility"
 msgstr "Видливост на извештаите на туторите на сесија"
 
 msgid "NP"
-msgstr "NP"
+msgstr "НП"
 
 msgid "P"
 msgstr "П"
@@ -18907,7 +18907,7 @@ msgid "You cannot upload this assignment. Please delete the previous one first."
 msgstr "Не можете да го испратите овој задаток. Ве молиме избришете го претходниот прво."
 
 msgid "MB"
-msgstr "MB"
+msgstr "МБ"
 
 msgid "Shows a global toolbar on top of the page to the designated user roles. This toolbar, very similar to Wordpress and Google's black toolbars, can really speed up complicated actions and improve the space you have available for the learning content, but it might be confusing for some users"
 msgstr "Прикажува глобална алатка на врвот на страницата за одредени улоги на корисници. Оваа алатка, многу слична на Wordpress и Google црните алатки, може значително да ги забрза сложените акции и да го подобри просторот достапен за содржината за учење, но може да биде збунетелна за некои корисници"
@@ -22137,14 +22137,8 @@ msgstr "Извештај за вежби по категорија за сите
 msgid "Require e-mail confirmation"
 msgstr "Барај потврда со е-пошта"
 
-msgid "Registration confirmation"
-msgstr "Потврда за регистрација"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Вашиот профил е неактивен бидејќи сè уште не сте го потврдиле. Проверете ја вашата е-пошта и следете ги инструкциите или кликнете на следната врска за да ја пратите е-поштата повторно"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "За да ја завршите вашата регистрација на платформата, треба да го потврдите вашиот профил со кликнување на следната врска"
 
 msgid "Confirmation for new account"
 msgstr "Потврда за нов кориснички профил"
@@ -30476,7 +30470,7 @@ msgid "Please check the following error:"
 msgstr "Ве молиме проверете ја следната грешка:"
 
 msgid "OK"
-msgstr "OK"
+msgstr "ОК"
 
 msgid "Migration failed!"
 msgstr "Миграцијата не успеа!"
@@ -31010,7 +31004,7 @@ msgid "Create your first note to get started."
 msgstr "Креирајте ја вашата прва белешка за да започнете."
 
 msgid "F d, Y"
-msgstr "F d, Y"
+msgstr "d M, Y"
 
 msgid "Could not load support info at this time."
 msgstr "Не можев да го вчитам информации за поддршка во моментов."
@@ -31435,8 +31429,8 @@ msgstr "Во името на базата на податоци се дозво�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Кои општи услови и правила им се даваат на корисниците за користење на оваа платформа?"
 
-msgid "ex. {examplePassword}"
-msgstr "нпр. {examplePassword}"
+msgid "ex. %s"
+msgstr "нпр. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Добредојдовте во Chamilo!"
@@ -32336,7 +32330,7 @@ msgid "Quiz"
 msgstr "Квиз"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "Персонализиран сертификат"
 
 msgid "Update profile"
 msgstr "Ажурирај профил"
@@ -32568,4 +32562,184 @@ msgstr "Модифицирана порака"
 
 msgid "Saved in Documents"
 msgstr "Зачувано во Документи"
+
+msgid "Total space used by %s is %sGB"
+msgstr "Вкупно користено место од %s е %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Вкупно користено место од порталот %s е %sGB (лимитот е поставен на %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Потврдете ја вашата е-пошта"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "За да ја потврдите вашата е-пошта и да го активирате вашиот профил на %s, ве молиме кликнете на линкот подолу."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Ако не сте регистрирале овој профил, можете да го игнорирате овој е-пошта. Нема да се преземе никаква акција."
+
+msgid "Current authentication method"
+msgstr "Тековна метода за автентикација"
+
+msgid "Branches"
+msgstr "Филијали"
+
+msgid "Rooms"
+msgstr "Сали"
+
+msgid "Room availability finder"
+msgstr "Пребарувач за достапни сали"
+
+msgid "New branch"
+msgstr "Нова филијала"
+
+msgid "New room"
+msgstr "Нова сала"
+
+msgid "Branch"
+msgstr "Филијала"
+
+msgid "Default room"
+msgstr "Стандардна сала"
+
+msgid "Room occupation: %s"
+msgstr "Зафатеност на сала: %s"
+
+msgid "Find available rooms"
+msgstr "Пребарај достапни сали"
+
+msgid "Available rooms"
+msgstr "Достапни сали"
+
+msgid "Occupied rooms"
+msgstr "Зафатени сали"
+
+msgid "No available rooms found for this time range"
+msgstr "Нема пронајдени достапни сали за овој временски период"
+
+msgid "No rooms have been created yet"
+msgstr "Уште нема создадено сали"
+
+msgid "Courses linked to %s"
+msgstr "Курсеви поврзани со %s"
+
+msgid "No branches have been created yet"
+msgstr "Уште нема создадено филијали"
+
+msgid "Occupation"
+msgstr "Зафатеност"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Не може да се избрише филијала со прикачени сали"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Не може да се избрише сала со прикачени курсеви"
+
+msgid "Conflicts"
+msgstr "Конфликти"
+
+msgid "Geolocation"
+msgstr "Геолокација"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Географска должина, Географска ширина (на пр. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 или IPv6"
+
+msgid "IP mask"
+msgstr "IP маска"
+
+msgid "e.g. /24"
+msgstr "на пр. /24"
+
+msgid "Parent branch"
+msgstr "Родителска филијала"
+
+msgid "Unique identifier"
+msgstr "Уникатен идентификатор"
+
+msgid "Latitude"
+msgstr "Географска ширина"
+
+msgid "e.g. 48.8566"
+msgstr "на пр. 48.8566"
+
+msgid "Longitude"
+msgstr "Географска должина"
+
+msgid "e.g. 2.3522"
+msgstr "на пр. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Брзина на преземање (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Брзина на испраќање (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Одложување (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Име на администратор"
+
+msgid "Administrator phone number"
+msgstr "Телефонски број на администратор"
+
+msgid "ID of last synch transaction"
+msgstr "ID на последната синхронизациска трансакција"
+
+msgid "Time of last synchronization"
+msgstr "Време на последна синхронизација"
+
+msgid "Last synchronization type"
+msgstr "Тип на последна синхронизација"
+
+msgid "SSL public key"
+msgstr "Јавен SSL клуч"
+
+msgid "Branch type"
+msgstr "Тип на гранка"
+
+msgid "Room"
+msgstr "Соба"
+
+msgid "Simple IDS"
+msgstr "Едноставен IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS е моментално оневозможен. Поставете IDS_ENABLED=true во вашиот .env за да го активирате скенирањето."
+
+msgid "All event types"
+msgstr "Сите типови настани"
+
+msgid "Events by day (last 7 days)"
+msgstr "Настанувања по ден (последни 7 дена)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Настанувања по тип (последни 30 дена)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Најчесто напаѓани IP адреси (последни 30 дена)"
+
+msgid "Flagged IDS events"
+msgstr "Означени IDS настани"
+
+msgid "No suspicious events detected."
+msgstr "Не се откриени сомнителни настани."
+
+msgid "Detection type"
+msgstr "Тип на откривање"
+
+msgid "Parameter"
+msgstr "Параметар"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (тековен)"
 

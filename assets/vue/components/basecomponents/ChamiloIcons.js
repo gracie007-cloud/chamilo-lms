@@ -19,6 +19,7 @@ export const chamiloIconToClass = {
   "calendar-plus": "mdi mdi-calendar-plus",
   "agenda-event": "mdi mdi-calendar-month",
   "agenda-plan": "mdi mdi-calendar-end",
+  "agenda-list": "mdi mdi-format-list-bulleted",
   "agenda-user-event": "mdi mdi-calendar-filter",
   "camera": "mdi mdi-camera",
   "check": "mdi mdi-check-circle",
@@ -160,4 +161,7 @@ export const chamiloIconToClass = {
   "help": "mdi mdi-face-agent",
   "robot": "mdi mdi-robot",
   "compass": "mdi mdi-compass-outline",
+  "globe": "mdi mdi-web",
+  "notification": "mdi mdi-bell",
+  "room": "mdi mdi-seat",
 }

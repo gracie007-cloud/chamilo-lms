@@ -67,6 +67,15 @@ class HTML_QuickForm_element extends HTML_Common
     protected $columnsSize;
 
     /**
+     * Whether to change elements' names to $groupName[$elementName] or leave them as is.
+     *
+     * @var bool
+     *
+     * @since    3.0
+     */
+    protected $_appendName = true;
+
+    /**
      * @param string     Name of the element
      * @param string|array      Label(s) for the element
      * @param mixed      Associative array of tag attributes or HTML attributes name="value" pairs
@@ -364,6 +373,11 @@ class HTML_QuickForm_element extends HTML_Common
             return null;
         }
         $elementName = $this->getName();
+
+        if (empty($elementName)) {
+            return null;
+        }
+
         if (isset($values[$elementName])) {
             return $values[$elementName];
         } elseif (strpos($elementName, '[')) {

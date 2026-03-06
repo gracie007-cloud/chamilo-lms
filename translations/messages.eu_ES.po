@@ -495,7 +495,7 @@ msgid "Question ID"
 msgstr "Galderaren ID"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "Ariketaren ID"
 
 msgid "Excel export"
 msgstr "Excel-era esportatu"
@@ -3666,7 +3666,7 @@ msgid "Mark as read"
 msgstr "Markatu irakurrita dagoela"
 
 msgid "RE:"
-msgstr "RE:"
+msgstr "Er:"
 
 msgid "Advanced edit"
 msgstr "Edizio aurreratua"
@@ -4740,7 +4740,7 @@ msgid "Should the navigation menu show the different tool icons?"
 msgstr "Erakutsi behar al ditu nabigazio menuak tresnen ikonoak?"
 
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Plugina"
 
 msgid "Main menu"
 msgstr "Menu nagusia"
@@ -6972,7 +6972,7 @@ msgid "Category created"
 msgstr "Kategoria sortu da"
 
 msgid "Agenda"
-msgstr "Agenda"
+msgstr "Egunerakoa"
 
 msgid "Announcements"
 msgstr "Abisuak"
@@ -7665,10 +7665,10 @@ msgid "-answ"
 msgstr "-erantz"
 
 msgid "+elem"
-msgstr "+elem"
+msgstr "+elementu"
 
 msgid "-elem"
-msgstr "-elem"
+msgstr "-elementu"
 
 msgid "Please type your text below"
 msgstr "Mesdez, idatzi azpian testua"
@@ -8403,7 +8403,7 @@ msgid "Excessive area"
 msgstr "Gehiegizko area"
 
 msgid "Minimum"
-msgstr "Minimum"
+msgstr "Gutxieneko"
 
 msgid "Requirements"
 msgstr "Eskakizunak"
@@ -8628,7 +8628,7 @@ msgid "."
 msgstr "."
 
 msgid "%b %d, %Y"
-msgstr "%b %d, %Y"
+msgstr "%d %b, %Y"
 
 msgid "%A %B %d, %Y"
 msgstr "%A %B %d, %Y"
@@ -8862,7 +8862,7 @@ msgid "With selected"
 msgstr "Hautatukoarekin"
 
 msgid "Online"
-msgstr "Online"
+msgstr "Linean"
 
 msgid "hungarian"
 msgstr "hungariera"
@@ -14823,7 +14823,7 @@ msgid "Waiting for admin response"
 msgstr "Itxaroten kudeatzailearen erantzunari"
 
 msgid "Re"
-msgstr "Re"
+msgstr "Er"
 
 msgid "Files attachments"
 msgstr "Fitxategiak erantsi dira"
@@ -15036,7 +15036,7 @@ msgid "See blog"
 msgstr "Ikusi bloga"
 
 msgid "Blog"
-msgstr "Blog"
+msgstr "Bloga"
 
 msgid "Blog Posts"
 msgstr "Berri-mezuak blogean"
@@ -16221,10 +16221,10 @@ msgid "Session tutors reports visibility"
 msgstr "Saioko arduradunentzat txostenak ikusgai egon"
 
 msgid "NP"
-msgstr "NP"
+msgstr "EZ"
 
 msgid "P"
-msgstr "P"
+msgstr "B"
 
 msgid "Session calendar"
 msgstr "Saio egutegia"
@@ -17697,7 +17697,7 @@ msgid "Tests in learning paths"
 msgstr "Ariketak ikaskuntza ibilbideetan"
 
 msgid "Id"
-msgstr "Id"
+msgstr "ID"
 
 msgid "There was an error."
 msgstr "Errorea gertatu da"
@@ -22144,14 +22144,8 @@ msgstr "Ariketen txostena kategoriaren arabera saio guztietarako"
 msgid "Require e-mail confirmation"
 msgstr "Eskatu e-posta baieztapena"
 
-msgid "Registration confirmation"
-msgstr "Izen emateko baieztapena"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "Zure kontua inaktiboa dago oraindik baieztatu ez duelako. Egiaztatu zure posta eta jarraitu argibideak edo klik egin lotura honetan posta berriro bidaltzeko"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "Plataformaren izen ematea osatzeko kontua baieztatu behar duzu lotura honetan klik eginez"
 
 msgid "Confirmation for new account"
 msgstr "Kontu berriaren baieztapena"
@@ -31442,8 +31436,8 @@ msgstr "Letra, digitu eta azpimarril (_) bakarrik onartzen dira datu-basearen iz
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "Zeintzuk dira erabiltzaileei plataforma hau erabiltzeko ematen zaizkien baldintza orokorrak?"
 
-msgid "ex. {examplePassword}"
-msgstr "ad. {examplePassword}"
+msgid "ex. %s"
+msgstr "ad. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "Ongi etorri Chamilorat!"
@@ -32575,4 +32569,184 @@ msgstr "Aldatutako prompt-a"
 
 msgid "Saved in Documents"
 msgstr "Gordeta Dokumentuetan"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s(r)en erabilitako guztizko lekua %sGB da"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "Atari %s(r)en erabilitako guztizko lekua %sGB da (muga %sGB-ra ezarrita)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] Berretsi zure e-posta"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "Zure e-posta egiaztatzeko eta %s-en zure kontua gaitzeko, mesedez, egin klik beheko estekan."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "Kontu hau ez baduzu erregistratu, alde batera utzi dezakezu e-posta hau. Ez da ekintzarik hartuko."
+
+msgid "Current authentication method"
+msgstr "Une metodorik egungo autentifikazioa"
+
+msgid "Branches"
+msgstr "Adarrak"
+
+msgid "Rooms"
+msgstr "Gelak"
+
+msgid "Room availability finder"
+msgstr "Gela libreen bilatzailea"
+
+msgid "New branch"
+msgstr "Adar berria"
+
+msgid "New room"
+msgstr "Gela berria"
+
+msgid "Branch"
+msgstr "Adarra"
+
+msgid "Default room"
+msgstr "Gela lehenetsia"
+
+msgid "Room occupation: %s"
+msgstr "Gelaren okupazioa: %s"
+
+msgid "Find available rooms"
+msgstr "Bilatu gelak libreak"
+
+msgid "Available rooms"
+msgstr "Gelak libreak"
+
+msgid "Occupied rooms"
+msgstr "Gelak okupatuak"
+
+msgid "No available rooms found for this time range"
+msgstr "Ez da aldi honetarako gelarik librea aurkitu"
+
+msgid "No rooms have been created yet"
+msgstr "Ez da gelarik sortu oraindik"
+
+msgid "Courses linked to %s"
+msgstr "%s-rako lotutako ikastaroak"
+
+msgid "No branches have been created yet"
+msgstr "Ez da adarririk sortu oraindik"
+
+msgid "Occupation"
+msgstr "Okupazioa"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "Ezin da gelak dituen adarra ezabatu"
+
+msgid "Cannot delete room with courses attached"
+msgstr "Ezin da ikastaroak dituen gela ezabatu"
+
+msgid "Conflicts"
+msgstr "Konfliktuak"
+
+msgid "Geolocation"
+msgstr "Geolokalkizazioa"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "Latitude, Longitude (adib. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 edo IPv6"
+
+msgid "IP mask"
+msgstr "IP maskara"
+
+msgid "e.g. /24"
+msgstr "ad. ex. /24"
+
+msgid "Parent branch"
+msgstr "Goiburuko adarra"
+
+msgid "Unique identifier"
+msgstr "Bereizgarri bakarra"
+
+msgid "Latitude"
+msgstr "Latitudea"
+
+msgid "e.g. 48.8566"
+msgstr "ad. ex. 48.8566"
+
+msgid "Longitude"
+msgstr "Longitudea"
+
+msgid "e.g. 2.3522"
+msgstr "ad. ex. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "Deskarga abiadura (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "Igorpen abiadura (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "Atzerapena (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "Administratzailearen izena"
+
+msgid "Administrator phone number"
+msgstr "Administratzailearen telefono zenbakia"
+
+msgid "ID of last synch transaction"
+msgstr "Azken sinkronizazio transaktaren ID"
+
+msgid "Time of last synchronization"
+msgstr "Azken sinkronizazioaren ordua"
+
+msgid "Last synchronization type"
+msgstr "Azken sinkronizazio mota"
+
+msgid "SSL public key"
+msgstr "SSL gako publikoa"
+
+msgid "Branch type"
+msgstr "Adarraren mota"
+
+msgid "Room"
+msgstr "Gelak"
+
+msgid "Simple IDS"
+msgstr "IDS sinplea"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS desgaituta dago une honetan. Ezarri IDS_ENABLED=egia zure .env fitxategian eskaneoa gaitzeko."
+
+msgid "All event types"
+msgstr "Ezaugarri guztiak"
+
+msgid "Events by day (last 7 days)"
+msgstr "Ezaugarriak egunero (azken 7 egunak)"
+
+msgid "Events by type (last 30 days)"
+msgstr "Ezaugarriak motaren arabera (azken 30 egunak)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "Eraso IP nagusiak (azken 30 egunak)"
+
+msgid "Flagged IDS events"
+msgstr "IDS ezaugarri seinalatuak"
+
+msgid "No suspicious events detected."
+msgstr "Ez da ezaugarri susmagarririk detektatu."
+
+msgid "Detection type"
+msgstr "Detekzio mota"
+
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (une)"
 

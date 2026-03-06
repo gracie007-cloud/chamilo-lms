@@ -20,12 +20,10 @@
       v-if="showAdvancedSettings"
       class="advanced-settings"
     >
-      <BaseMultiSelect
-        id="category-multiselect"
+      <CourseCategorySelect
         v-model="courseCategory"
-        :label="t('Category')"
-        :options="categoryOptions"
-        input-id="multiselect-category"
+        action="course-creation"
+        option-value="id"
       />
       <BaseInputText
         id="course-code"
@@ -43,6 +41,16 @@
         :label="t('Language')"
         :options="languageOptions"
         name="language"
+        option-label="name"
+        option-value="id"
+      />
+      <BaseSelect
+        v-if="roomOptions.length > 0"
+        id="room-select"
+        v-model="courseRoom"
+        :label="t('Default room')"
+        :options="roomOptions"
+        name="room"
         option-label="name"
         option-value="id"
       />
@@ -73,9 +81,10 @@ import BaseAdvancedSettingsButton from "../basecomponents/BaseAdvancedSettingsBu
 import BaseSelect from "../basecomponents/BaseSelect.vue"
 import BaseButton from "../basecomponents/BaseButton.vue"
 import { useRouter } from "vue-router"
-import courseService from "../../services/courseService"
 import languageService from "../../services/languageService"
-import BaseMultiSelect from "../basecomponents/BaseMultiSelect.vue"
+import roomService from "../../services/roomService"
+import baseService from "../../services/baseService"
+import CourseCategorySelect from "../coursecategory/CourseCategorySelect.vue"
 import { useI18n } from "vue-i18n"
 
 const props = defineProps({
@@ -97,11 +106,12 @@ const courseName = ref("")
 const courseCategory = ref([])
 const courseCode = ref("")
 const courseLanguage = ref(null)
+const courseRoom = ref(null)
+const roomOptions = ref([])
 const courseTemplate = ref(null)
 const showAdvancedSettings = ref(false)
 const router = useRouter()
 
-const categoryOptions = ref([])
 const languageOptions = ref([])
 
 const courseNameError = ref("")
@@ -178,6 +188,7 @@ const submitForm = () => {
     code: courseCode.value,
     language: courseLanguage.value,
     template: courseTemplate.value ? courseTemplate.value.value : null,
+    roomId: courseRoom.value || null,
     fillDemoContent: false,
   })
 }
@@ -207,12 +218,6 @@ onMounted(async () => {
   await focusCourseNameField()
 
   try {
-    const categoriesResponse = await courseService.getCategories("categories")
-    categoryOptions.value = categoriesResponse.map((category) => ({
-      name: category.name,
-      id: category.id,
-    }))
-
     const languagesResponse = await languageService.findAll()
     const data = await languagesResponse.json()
     languageOptions.value = data["hydra:member"].map((language) => ({
@@ -222,8 +227,22 @@ onMounted(async () => {
     // Apply default language after options are loaded
     applyDefaultLanguageIfEmpty()
   } catch (error) {
-    // Keep messages in English
     console.error("Failed to load dropdown data", error)
+  }
+
+  try {
+    const hasRooms = await roomService.exists()
+    if (hasRooms) {
+      const { items } = await baseService.getCollection("/api/rooms")
+      roomOptions.value = items.map((r) => {
+        const branch = r.branch
+        const branchTitle = branch && typeof branch === "object" ? branch.title : null
+        const label = branchTitle ? `${branchTitle} - ${r.title}` : r.title
+        return { name: label, id: r["@id"] }
+      })
+    }
+  } catch (error) {
+    console.error("Failed to load rooms", error)
   }
 })
 const goBack = () => {

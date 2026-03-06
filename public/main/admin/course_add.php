@@ -122,6 +122,21 @@ if (1 === count($languages)) {
     $form->addSelectLanguage('course_language', get_lang('Language'));
 }
 
+// Room.
+$em = Database::getManager();
+$roomCount = $em->getRepository(\Chamilo\CoreBundle\Entity\Room::class)->count([]);
+if ($roomCount > 0) {
+    $form->addSelectAjax(
+        'room_id',
+        get_lang('Default room'),
+        [],
+        [
+            'url' => api_get_path(WEB_AJAX_PATH).'course.ajax.php?a=search_room',
+            'placeholder' => get_lang('Select'),
+        ]
+    );
+}
+
 // Template field (UI)
 if ($globalTemplateId > 0) {
     // Enforce global template without exposing selector.
@@ -181,12 +196,12 @@ CourseManager::addVisibilityOptions($form);
 $group = [];
 $group[] = $form->createElement('radio', 'subscribe', get_lang('Subscription'), get_lang('Allowed'), 1);
 $group[] = $form->createElement('radio', 'subscribe', null, get_lang('This function is only available to trainers'), 0);
-$form->addGroup($group, '', get_lang('Subscription'));
+$form->addGroup($group, null, get_lang('Subscription'));
 
 $group = [];
 $group[] = $form->createElement('radio', 'unsubscribe', get_lang('Unsubscribe'), get_lang('Users are allowed to unsubscribe from this course'), 1);
 $group[] = $form->createElement('radio', 'unsubscribe', null, get_lang('Users are not allowed to unsubscribe from this course'), 0);
-$form->addGroup($group, '', get_lang('Unsubscribe'));
+$form->addGroup($group, null, get_lang('Unsubscribe'));
 
 $form->addElement('text', 'disk_quota', [get_lang('Disk Space'), null, get_lang('MB')], [
     'id' => 'disk_quota',
@@ -267,6 +282,14 @@ if ($form->validate()) {
 
     $course = CourseManager::create_course($courseData);
     if (null !== $course) {
+        if (!empty($courseData['room_id'])) {
+            $room = $em->find(\Chamilo\CoreBundle\Entity\Room::class, (int) $courseData['room_id']);
+            if ($room) {
+                $course->setRoom($room);
+                $em->persist($course);
+                $em->flush();
+            }
+        }
         header('Location: course_list.php?new_course_id=' . $course->getId());
         exit;
     }

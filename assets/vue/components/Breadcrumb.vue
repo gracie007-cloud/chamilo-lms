@@ -525,6 +525,15 @@ watchEffect(() => {
     return
   }
 
+  // Admin resource routes (rooms, branches) — prepend Administration crumb
+  const adminResourceRoutes = ["rooms", "branches"]
+  if (adminResourceRoutes.includes(mainToolName)) {
+    calculatedList.value.push({
+      label: t("Administration"),
+      route: { name: "AdminIndex" },
+    })
+  }
+
   // Generic tool fallback
   if (mainToolName && !["documents", "assignments", "attendance"].includes(mainToolName)) {
     const matchedRoutes = route.matched
@@ -546,7 +555,7 @@ watchEffect(() => {
     const label = currentMatched.meta?.breadcrumb
     if (label !== "") {
       const finalLabel = label || formatToolName(currentMatched.name)
-      const alreadyShown = calculatedList.value.some((item) => item.label === finalLabel)
+      const alreadyShown = calculatedList.value.some((item) => item.label === t(finalLabel))
       if (!alreadyShown) {
         calculatedList.value.push({
           label: t(finalLabel),

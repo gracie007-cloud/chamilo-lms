@@ -372,7 +372,7 @@ msgid "Sincerely"
 msgstr "ດ້ວຍຄວາມຈິງໃຈ"
 
 msgid "Formula sample: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
-msgstr "ຕົວຢ່າງສູດ: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
+msgstr "ຕົວอย่างສູດ: sqrt( [x] / [y] ) * ( e ^ ( ln(pi) ) )"
 
 msgid "Variable ranges"
 msgstr "ຊ່ວງຂອງຕົວປ່ຽນ"
@@ -17585,7 +17585,6 @@ msgstr "%A"
 msgid "Return to the course list"
 msgstr "ກັບໄປທີ່ລາຍການລາຍວິຊາ"
 
-#, fuzzy
 msgid "%d/%m"
 msgstr "%d/%m"
 
@@ -20156,7 +20155,6 @@ msgstr "ຜົນທີ່ຍັງບໍ່ໄດ້ກວດສອບ"
 msgid "Result not reviewed"
 msgstr "ຜົນທີ່ຍັງບໍ່ໄດ້ກວດສອບ"
 
-#, fuzzy
 msgid "%m/%d/%Y"
 msgstr "%m/%d/%Y"
 
@@ -23919,14 +23917,8 @@ msgstr "ລາຍງານບົດຝຶກຫັດຕາມໝວດໝູ່
 msgid "Require e-mail confirmation"
 msgstr "ຕ້ອງການການຢືນຢັນທາງອີເມວ"
 
-msgid "Registration confirmation"
-msgstr "ການຢືນຢັນການລົງທະບຽນ"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "ບັນຊີຂອງທ່ານບໍ່ເຄື່ອນໄຫວ ເພາະທ່ານຍັງບໍ່ໄດ້ຢືນຢັນ. ກວດສອບອີເມວຂອງທ່ານ ແລະ ປະຕິບັດຕາມຄຳແນະນຳ ຫຼື ຄລິກລິ້ງຕໍ່ໄປນີ້ເພື່ອສົ່ງອີເມວຄືນໃໝ່"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "ເພື່ອສຳເລັດການລົງທະບຽນແພລດຟອມຂອງທ່ານ, ທ່ານຕ້ອງຢືນຢັນບັນຊີຂອງທ່ານໂດຍການຄລິກລິ້ງຕໍ່ໄປນີ້"
 
 #, fuzzy
 msgid "Confirmation for new account"
@@ -26035,7 +26027,7 @@ msgid "Latest login in a course"
 msgstr "ການເຂົ້າສູ່ລະບົບຫຼ້າສຸດໃນຫຼັກສູດ"
 
 msgid "The"
-msgstr "The"
+msgstr "ບົດ"
 
 msgid "Multiply questions by class"
 msgstr "ທະວີຄູນຄຳຖາມຕາມຫ້ອງຮຽນ"
@@ -28924,7 +28916,6 @@ msgstr "X-XSS-Protection"
 msgid "X-XSS-Protection sets the configuration for the cross-site scripting filter built into most browsers. Recommended value '1; mode=block'."
 msgstr "X-XSS-Protection ຕັ້ງຄ່າການກັ່ນຕອງ cross-site scripting ທີ່ມີຢູ່ໃນບຣາວເຊີສ່ວນໃຫຍ່. ຄ່າທີ່ແນະນຳ '1; mode=block'."
 
-#, fuzzy
 msgid "X-Content-Type-Options"
 msgstr "X-Content-Type-Options"
 
@@ -29709,7 +29700,6 @@ msgstr "ເພີ່ມໝູ່"
 msgid "%s's picture"
 msgstr "ຮູບຂອງ %s"
 
-#, fuzzy
 msgid "+%d"
 msgstr "+%d"
 
@@ -33785,8 +33775,8 @@ msgstr "ຊື່ຖານຂໍ້ມູນຈະໃຊ້ໄດ້ພຽງຕ
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "ຂໍ້ກຳນົດແລະເງື່ອນໄຂທົ່ວໄປທີ່ໃຫ້ກັບຜູ້ໃຊ້ເພື່ອໃຊ້ແພລັດຟອມນີ້ແມ່ນຫຍັງ?"
 
-msgid "ex. {examplePassword}"
-msgstr "ຕົວຢ່າງ. {examplePassword}"
+msgid "ex. %s"
+msgstr "ຕົວຢ່າງ. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "ຍິນດີຕ້ອນຮັບສູ່ Chamilo!"
@@ -33939,22 +33929,22 @@ msgid "Limit identical email usage"
 msgstr "ຈຳກັດການໃຊ້ອີເມວທີ່ເທົ່າເທົ່າກັນ"
 
 msgid "Maximum number of accounts allowed to share the same e-mail address. Set to 0 to disable this limit."
-msgstr ""
+msgstr "ຈຳນວນສູງສຸດຂອງບັນຊີທີ່ອະນຸຍາດໃຫ້ແບ່ງປັນທີ່ຢູ່ອີເມວດຽວກັນ. ຕັ້ງເປັນ 0 ເພື່ອປິດການຈຳກັດນີ້."
 
 msgid "Allow session admins to see all users on all URLs"
-msgstr ""
+msgstr "ອະນຸຍາດໃຫ້ຜູ້ດູແລຊັ້ນເຫັນຜູ້ໃຊ້ທັງໝົດໃນທຸກ URL"
 
 msgid "If enabled, session admins can search and list users from all access URLs, regardless of their current URL."
-msgstr ""
+msgstr "ຖ້າເປີດໃຊ້, ຜູ້ດູແລຊັ້ນສາມາດຄົ້ນຫາແລະລະຫົ່ງຜູ້ໃຊ້ຈາກທຸກ URL ການເຂ້າເຖິງ, ໂດຍບໍ່ພິຈານຈາກ URL ປະຈຸບັນຂອງເຂົາເຈົ້າ."
 
 msgid "Enable the possibility for users to select their own timezone. Once configured, users will be able to see assignment deadlines and other time references in their own timezone, which will reduce errors at delivery time."
-msgstr ""
+msgstr "ເປີດໃຊ້ຄວາມສາມາດໃຫ້ຜູ້ໃຊ້ເລືອກເວລາທ້ອງຖິ່ນຂອງຕົນເອງ. ເມື່ອການຕັ້ງຄ່າແລ້ວ, ຜູ້ໃຊ້ຈະສາມາດເຫັນກຳນົດເວລາສົ່ງງານແລະອ້າງອີງເວລາອື່ນໆໃນເວລາທ້ອງຖິ່ນຂອງຕົນເອງ, ເຊິ່ງຈະຫຼຸດຜົນຜິດພາດໃນເວລາສົ່ງ."
 
 msgid "Redirect after login (per profile)"
-msgstr ""
+msgstr "ຊີ້ນຳຫຼັງເຂົ້າສູ່ລະບົບ (ຕາມໂປຣໄຟล์)"
 
 msgid "Define redirection per profile after login using a JSON object like {\"STUDENT\":\"\", \"ADMIN\":\"admin-dashboard\"}"
-msgstr ""
+msgstr "ກຳນົດການຊີ້ນຳຕາມໂປຣໄຟล์ຫຼັງເຂົ້າສູ່ລະບົບໂດຍໃຊ້ອຸບເຈັກ JSON ເຊັ່ນ {\"STUDENT\":\"\", \"ADMIN\":\"admin-dashboard\"}"
 
 msgid "Hide legal accept checkbox in Terms and Conditions page"
 msgstr ""
@@ -34677,136 +34667,136 @@ msgid "Admin responsibility & disclosures"
 msgstr ""
 
 msgid "This configuration page details each AI feature and its purpose. As a deployer, you should review them carefully and update your GDPR-compliant data privacy policies to reflect the options you enable. While most AI features do not directly share personal data with external systems, user prompts sent to AI may inadvertently include personal information. As a deployer, <strong>you are responsible</strong> for informing users of this risk. For transparency, future releases may show non-intrusive end-user tags indicating that certain content or feedback was generated with the help of AI."
-msgstr ""
+msgstr "ໜ້າການຕັ້ງຄ່ານີ້ລາຍລະອຽດລັກສະນະ AI ທຸກຢ່າງ ແລະ ຈຸດປະສົງຂອງມັນ. ໃນຖານະເປັນຜູ້ປະກາດ, ເຈົ້າຄວນກວດເບິ່ງມັນອີກຄັ້ງ ແລະ ອັບເດດນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂໍ້ມູນທີ່ປະຕິບັດຕາມ GDPR ເພື່ອສະແດງຕົວເລືອກທີ່ເຈົ້າເປີດໃຊ້. ເຖິງແຕ່ລັກສະນະ AI ສ່ວໃຫຍ່ບໍ່ໄດ້ແບ່ງປັນຂໍ້ມູນສ່ວນຕົວກັບລະບົບພາຍນອກໂດຍກົງ, ການສົ່ງຄຳຖາມຂອງຜູ້ໃຊ້ໄປກັບ AI ອາດຈະມີຂໍ້ມູນສ່ວນຕົວໂດຍບັງເອີນ. ໃນຖານະເປັນຜູ້ປະກາດ, <strong>ເຈົ້າມີຄວາມຮັບພັນທັງໝົດ</strong> ສຳລັບການແຈ້ງເຕືອນຜູ້ໃຊ້ກ່ຽວກັບຄວາມສ່ຽງນີ້. ເພື່ອຄວາມໂປ່ງໃສ, ການປ່ອຍລຸ້ນໃນອະນາຄົດອາດຈະສະແດງປ້າຍຜູ້ໃຊ້ທ້າຍຕອນທີ່ບໍ່ລົບກວນ ທີ່ບອກວ່າເນື້ອໃນ ຫຼື ຄຳເຫັນບາງຢ່າງໄດ້ຖືກສ້າງດ້ວຍການຊ່ວຍເຫຼືອຈາກ AI."
 
 msgid "Positioning"
-msgstr ""
+msgstr "ຕຳແໜ່ງ"
 
 msgid "Quiz"
-msgstr ""
+msgstr "ການທົດສອບ"
 
 msgid "Customcertificate"
-msgstr ""
+msgstr "ໃບຢັ້ງຢືນກຳນົດເອງ"
 
 msgid "Update profile"
-msgstr ""
+msgstr "ອັບເດດໂປຣໄຟລ໌"
 
 msgid "Enable learning path generator"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງປ່ອຍເສັ້ນທາງການຮຽນ"
 
 msgid "Enable exercise generator"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງປ່ອຍການອອກທົດສອບ"
 
 msgid "Enable open answers grader"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງຈັດການຄຳຕອບເປີດ"
 
 msgid "Enable tutor chatbot"
-msgstr ""
+msgstr "ເປີດໃຊ້ບອດສົນທະນາຄູ"
 
 msgid "Enable task grader"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງຈັດການກິດຈະການ"
 
 msgid "Enable content analyser"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງວິເຄາະເນື້ອໃນ"
 
 msgid "Enable image generator"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງປ່ອຍຮູບພາບ"
 
 msgid "Enable glossary terms generator"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງປ່ອຍຄຳສັ້ນຄຳແມ່ນພາສາ"
 
 msgid "Enable video generator"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງປ່ອຍວິດີໂອ"
 
 msgid "Enable course analyser"
-msgstr ""
+msgstr "ເປີດໃຊ້ເຄື່ອງວິເຄາະຄອສ"
 
 msgid "The operation '%s' is not supported."
-msgstr ""
+msgstr "ການເຄື່ອນໄຫວ '%s' ບໍ່ໄດ້ຮັບການສະໜັບສະໜຸນ."
 
 msgid "AI feedback on %s in course %s"
-msgstr ""
+msgstr "ຄຳເຫັນ AI ກ່ຽວກັບ %s ໃນຄອສ %s"
 
 msgid "Delete failed: missing course context or invalid question id."
-msgstr ""
+msgstr "ລຶບບໍ່ສຳເລັດ: ຂາດບໍລິບົດຄອສ ຫຼື ID ຄຳຖາມບໍ່ຖືກຕ້ອງ."
 
 msgid "AI Tutor"
-msgstr ""
+msgstr "ຄູ AI"
 
 msgid "The APCu extension needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "ເຄື່ອງຂັດຂຶ້ນ APCu ຕ້ອງຖືກຕິດຕັ້ງ ແລະ ເປີດໃຊ້ເພື່ອໃຫ້ແພລັດຟອມໃຊ້ມັນໄດ້."
 
 msgid "Allowing OPCache memory_consumption to reach %sMB of RAM at least is recommended."
-msgstr ""
+msgstr "ແນະນຳໃຫ້ອະນຸຍາດໃຫ້ OPCache memory_consumption ເຖິງ %sMB ຂອງ RAM ຢ່າງນ້ອຍ"
 
 msgid "The OPcache module needs to be both installed and enabled in order for the platform to use it."
-msgstr ""
+msgstr "ໂມດູນ OPcache ຕ້ອງຖືກຕິດຕັ້ງ ແລະ ເປີດໃຊ້ເພື່ອໃຫ້ແພລັດຟອມໃຊ້ມັນໄດ້"
 
 msgid "You are here"
-msgstr ""
+msgstr "ເຈົ້າຢູ່ທີ່ນີ້"
 
 msgid "Click an event type to filter results."
-msgstr ""
+msgstr "ກົດປຶດປ້າຍເຫດການເພື່ອຟິລເຕີຜົນ"
 
 msgid "Require unique presence"
-msgstr ""
+msgstr "ຕ້ອງການຄວາມປະຈຳຢູ່ທີ່ເປັນພິເສດ"
 
 msgid "If enabled, the gradebook will give a learner 100% when present at least once."
-msgstr ""
+msgstr "ຖ້າເປີດໃຊ້, ສຽງຈັດລັດຈະໃຫ້ນັກຮຽນ 100% ເມື່ອປະຈຳຢູ່ຢ່າງນ້ອຍເທື່ອນຶ່ງ"
 
 msgid "AI feedback"
-msgstr ""
+msgstr "ຄຳແນະນຳ AI"
 
 msgid "Prompt"
-msgstr ""
+msgstr "Prompt"
 
 msgid "Tip"
-msgstr ""
+msgstr "ຄຳແນະນຳ"
 
 msgid "You can edit the prompt before asking for feedback."
-msgstr ""
+msgstr "ເຈົ້າສາມາດແກ້ໄຂ prompt ກ່ອນທີ່ຈະຂໍຄຳແນະນຳ"
 
 msgid "Result (you can apply it to the comment)"
-msgstr ""
+msgstr "ຜົນ (ເຈົ້າສາມາດນຳໃຊ້ກັບຄຳພັນທະນາ)"
 
 msgid "Apply to comment"
-msgstr ""
+msgstr "ນຳໃຊ້ກັບຄຳພັນທະນາ"
 
 msgid "Apply score"
-msgstr ""
+msgstr "ນຳໃຊ້ຄະແນນ"
 
 msgid "AI grade"
-msgstr ""
+msgstr "ການຈັດລັດ AI"
 
 msgid "AI tutor is disabled during tests"
-msgstr ""
+msgstr "ຄູສອນ AI ຖືກປິດໃຊ້ໃນລະຫວ່າງການທົດສອບ"
 
 msgid "Generate glossary terms"
-msgstr ""
+msgstr "ສ້າງຄຳສາສະຫຼຸບ"
 
 msgid "Generate media"
-msgstr ""
+msgstr "ສ້າງສື່"
 
 msgid "You do not have permission to generate AI media in this course."
-msgstr ""
+msgstr "ເຈົ້າບໍ່ມີສິດສ້າງສື່ AI ໃນວິຊານີ້"
 
 msgid "AI helpers are disabled at platform level."
-msgstr ""
+msgstr "ຜູ້ຊ່ວຍ AI ຖືກປິດໃຊ້ໃນລະດັບແພລັດຟອມ"
 
 msgid "AI media generation is disabled in course settings."
-msgstr ""
+msgstr "ການສ້າງສື່ AI ຖືກປິດໃຊ້ໃນຕັ້ງຄ່າວິຊາ"
 
 msgid "No AI media providers available."
-msgstr ""
+msgstr "ບໍ່ມີຜູ້ສະໜອງສື່ AI"
 
 msgid "Provider"
-msgstr ""
+msgstr "ຜູ້ສະໜອງ"
 
 msgid "Select a provider"
-msgstr ""
+msgstr "ເລືອກຜູ້ສະໜອງ"
 
 msgid "Example: generated_media"
-msgstr ""
+msgstr "ຕົວຢ່າງ: generated_media"
 
 msgid "The name is not added to the prompt; it is only used to save the file."
 msgstr "ຊື່ບໍ່ໄດ້ເພີ່ມເຂົ້າໃນ prompt; ມັນຖືກໃຊ້ເພື່ອບັນທຶກໄຟລ໌ເທົ່ານັ້ນ."
@@ -34918,4 +34908,184 @@ msgstr "prompt ທີ່ປ່ຽນແປງ"
 
 msgid "Saved in Documents"
 msgstr "ບັນທຶກໄວ້ໃນເອກະສານ"
+
+msgid "Total space used by %s is %sGB"
+msgstr "ພື້ນທີ່ທັງໝົດທີ່ %s ໃຊ້ແມ່ນ %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "ພື້ນທີ່ທັງໝົດທີ່ portal %s ໃຊ້ແມ່ນ %sGB (ຈຳກັດໄດ້ຕັ້ງເປັນ %sGB)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] ຢືນຢັນອີເມວຂອງເຈົ້າ"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "ເພື່ອກວດສອບອີເມວຂອງເຈົ້າ ແລະເປີດໃຊ້ບັນຊີຂອງເຈົ້າໃນ %s, ກະລຸນາກົດລິ້ງຂ້າມ່ານລົງນີ້."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "ຖ້າເຈົ້າບໍ່ໄດ້ລົງທະບຽນບັນຊີນີ້, ເຈົ້າສາມາດບໍ່ສົນໃຈອີເມວນີ້. ຈະບໍ່ມີການກະທຳໃດໆ."
+
+msgid "Current authentication method"
+msgstr "ວິທີການຢັ້ງຕົວປະຈຳປີ"
+
+msgid "Branches"
+msgstr "ສາຂາ"
+
+msgid "Rooms"
+msgstr "ຫ້ອງ"
+
+msgid "Room availability finder"
+msgstr "ເຄື່ອງຊອກຫາຄວາມຖືກຕ້ອງຂອງຫ້ອງ"
+
+msgid "New branch"
+msgstr "ສາຂາໃໝ່"
+
+msgid "New room"
+msgstr "ຫ້ອງໃໝ່"
+
+msgid "Branch"
+msgstr "ສາຂາ"
+
+msgid "Default room"
+msgstr "ຫ້ອງດັ້ງເດີມ"
+
+msgid "Room occupation: %s"
+msgstr "ການໃຊ້ຫ້ອງ: %s"
+
+msgid "Find available rooms"
+msgstr "ຊອກຫາຫ້ອງທີ່ມີຢູ່"
+
+msgid "Available rooms"
+msgstr "ຫ້ອງທີ່ມີຢູ່"
+
+msgid "Occupied rooms"
+msgstr "ຫ້ອງທີ່ຖືກໃຊ້"
+
+msgid "No available rooms found for this time range"
+msgstr "ບໍ່ພົບຫ້ອງທີ່ມີຢູ່ສຳລັບເວລານີ້"
+
+msgid "No rooms have been created yet"
+msgstr "ຍັງບໍ່ມີການສ້າງຫ້ອງ"
+
+msgid "Courses linked to %s"
+msgstr "ຄອສທີ່ເຊື່ອມຕໍ່ກັບ %s"
+
+msgid "No branches have been created yet"
+msgstr "ຍັງບໍ່ມີການສ້າງສາຂາ"
+
+msgid "Occupation"
+msgstr "ການໃຊ້"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "ບໍ່ສາມາດລຶບສາຂາທີ່ມີຫ້ອງເຊື່ອມຕໍ່"
+
+msgid "Cannot delete room with courses attached"
+msgstr "ບໍ່ສາມາດລຶບຫ້ອງທີ່ມີຄອສເຊື່ອມຕໍ່"
+
+msgid "Conflicts"
+msgstr "ການຂັດແຍ່ງ"
+
+msgid "Geolocation"
+msgstr "ສະຖານທີ່ຕາມພື້ນຖານ"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "ດຳລົງ, ລະດູບົດ (ຕົວຢ່າງ 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ຫຼື IPv6"
+
+msgid "IP mask"
+msgstr "ຫມາດ IP"
+
+msgid "e.g. /24"
+msgstr "ຕົວຢ່າງ /24"
+
+msgid "Parent branch"
+msgstr "ສາຂາແມ່"
+
+msgid "Unique identifier"
+msgstr "ເລກລະຫັດທີ່ເປັນຈິງເດັ່ນດ່ວຍ"
+
+msgid "Latitude"
+msgstr "ດຳລົງ"
+
+msgid "e.g. 48.8566"
+msgstr "ຕົວຢ່າງ 48.8566"
+
+msgid "Longitude"
+msgstr "ລະດູບົດ"
+
+msgid "e.g. 2.3522"
+msgstr "ຕົວຢ່າງ 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "ອັດຕາການດາວໂຫຼດ (KB/s)"
+
+msgid "Upload speed (KB/s)"
+msgstr "ອັດຕາການອັບໂຫຼດ (KB/s)"
+
+msgid "Delay (ms)"
+msgstr "ການລ່າຊ້າ (ms)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "ຊື່ຜູ້ຈັດການ"
+
+msgid "Administrator phone number"
+msgstr "ເບີໂທຜູ້ຈັດການ"
+
+msgid "ID of last synch transaction"
+msgstr "ID ຂອງການລະຫັດກຳໄລຄັ້ງສຸດທ້າຍ"
+
+msgid "Time of last synchronization"
+msgstr "ເວລາຂອງການຈັດລຳດັບຄັ້ງສຸດທ້າຍ"
+
+msgid "Last synchronization type"
+msgstr "ປະເພດການຈັດລຳດັບຄັ້ງສຸດທ້າຍ"
+
+msgid "SSL public key"
+msgstr "ກະຈິນລັບ SSL ສາທາລະນະ"
+
+msgid "Branch type"
+msgstr "ປະເພດສາຂາ"
+
+msgid "Room"
+msgstr "ຫ້ອງ"
+
+msgid "Simple IDS"
+msgstr "IDS ງ່າຍ"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS ຖືກປິດໃຊ້ງານເຖິງເວລານີ້. ຕັ້ງ IDS_ENABLED=true ໃນ .env ຂອງເຈົ້າເພື່ອເປີດການສະແດງລາຍການ."
+
+msgid "All event types"
+msgstr "ປະເພດເຫດການທັງໝົດ"
+
+msgid "Events by day (last 7 days)"
+msgstr "ເຫດການຕາມມື້ (7 ມື້ສຸດທ້າຍ)"
+
+msgid "Events by type (last 30 days)"
+msgstr "ເຫດການຕາມປະເພດ (30 ມື້ສຸດທ້າຯ)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "IP ທີ່ໂຈມຕີຫົວໜ້າ (30 ມື້ສຸດທ້າຯ)"
+
+msgid "Flagged IDS events"
+msgstr "ເຫດການ IDS ທີ່ຖືກປ່າຍແດ່ງ"
+
+msgid "No suspicious events detected."
+msgstr "ບໍ່ພົບເຫດການສົງໄສ."
+
+msgid "Detection type"
+msgstr "ປະເພດການຕິດຕາມ"
+
+msgid "Parameter"
+msgstr "ພາລາເມດເຕີ"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (ປະຈຸບັນ)"
 

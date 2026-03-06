@@ -490,7 +490,7 @@ msgid "Question ID"
 msgstr "კითხვის ID"
 
 msgid "ExerciseId"
-msgstr "ExerciseId"
+msgstr "ვარჯიშის ID"
 
 msgid "Excel export"
 msgstr "ექსპორტი Excel-ში"
@@ -8599,7 +8599,7 @@ msgid "Numbered"
 msgstr "ნუმერაციული"
 
 msgid "en"
-msgstr "en"
+msgstr "ka"
 
 msgid "eng"
 msgstr "eng"
@@ -22134,14 +22134,8 @@ msgstr "ვარჯიშის ანგარიში კატეგორ�
 msgid "Require e-mail confirmation"
 msgstr "ელფოსტის დადასტურებაა საჭირო"
 
-msgid "Registration confirmation"
-msgstr "რეგისტრაციის დადასტურება"
-
 msgid "Your account is inactive because you have not confirmed it yet. Check your email and follow the instructions or click the following link to resend the email"
 msgstr "თქვენი ანგარიში არაქტიურია, რადგან ჯერ არ დადასტურებულხარ. შეამოწმეთ თქვენი ელფოსტა და მიჰყვით ინსტრუქციებს ან დააჭირეთ შემდეგ ბმულს ელფოსტის ხელახლა გასაგზავნად"
-
-msgid "To complete your platform registration you need to confirm your account by clicking the following link"
-msgstr "პლატფორმაზე რეგისტრაციის დასასრულებლად უნდა დაადასტუროთ თქვენი ანგარიში შემდეგი ბმულის დაჭერით"
 
 msgid "Confirmation for new account"
 msgstr "ახალი ანგარიშის დადასტურება"
@@ -28126,40 +28120,40 @@ msgid "Generates images based on prompts or content using AI."
 msgstr "ქმნის სურათებს შეკითხვებზე ან კონტენტზე სუფთა ინტელექტის გამოყენებით."
 
 msgid "Menucampushomepage"
-msgstr "Menucampushomepage"
+msgstr "მენიუსკამპუსისმთავარიგვერდი"
 
 msgid "Menumycourses"
-msgstr "Menumycourses"
+msgstr "ჩემიკურსები"
 
 msgid "Menureporting"
-msgstr "Menureporting"
+msgstr "ანგარიშგება"
 
 msgid "Menuplatformadministration"
-msgstr "Menuplatformadministration"
+msgstr "პლატფორმისადმენისტრირება"
 
 msgid "Menumyagenda"
-msgstr "Menumyagenda"
+msgstr "ჩემიაგენდა"
 
 msgid "Menusocial"
-msgstr "Menusocial"
+msgstr "სოციალური"
 
 msgid "Menuvideoconference"
-msgstr "Menuvideoconference"
+msgstr "ვიდეოკონფერენცია"
 
 msgid "Menudiagnostics"
-msgstr "Menudiagnostics"
+msgstr "დიაგნოსტიკა"
 
 msgid "Menucatalogue"
-msgstr "Menucatalogue"
+msgstr "კატალოგი"
 
 msgid "Topbarcertificate"
-msgstr "Topbarcertificate"
+msgstr "სერტიფიკატი"
 
 msgid "Topbarskills"
-msgstr "Topbarskills"
+msgstr "უნარები"
 
 msgid "Ai_helpers"
-msgstr "Ai_helpers"
+msgstr "AI დამხმარეები"
 
 msgid "ID of the user who officially sends the agenda reminders"
 msgstr "მომხმარებლის ID, რომელიც ოფიციალურად იგზავნის აგენდის შეხსენებებს"
@@ -28510,7 +28504,7 @@ msgid "No available options"
 msgstr "ხელმისაწვდომი ვარიანტები არ არის"
 
 msgid "Cc"
-msgstr "Cc"
+msgstr "კოპია"
 
 msgid "Send"
 msgstr "გაგზავნა"
@@ -31431,8 +31425,8 @@ msgstr "მოცულობის სახელში დაშვებუ�
 msgid "What general terms and conditions are given to users to use this platform?"
 msgstr "რა ზოგადი პირობებია მოცემული მომხმარებლებს ამ პლატფორმის გამოყენებისთვის?"
 
-msgid "ex. {examplePassword}"
-msgstr "მაგ. {examplePassword}"
+msgid "ex. %s"
+msgstr "მაგ. %s"
 
 msgid "Welcome to Chamilo!"
 msgstr "კეთილი იყოს თქვენი მობრძანება Chamilo-ში!"
@@ -32332,7 +32326,7 @@ msgid "Quiz"
 msgstr "ვიქტორინა"
 
 msgid "Customcertificate"
-msgstr "Customcertificate"
+msgstr "მორგებული სერტიფიკატი"
 
 msgid "Update profile"
 msgstr "პროფილის განახლება"
@@ -32564,4 +32558,184 @@ msgstr "შეცვლილი მოთხოვნა"
 
 msgid "Saved in Documents"
 msgstr "შენახულია დოკუმენტებში"
+
+msgid "Total space used by %s is %sGB"
+msgstr "%s-ის მიერ გამოყენებული საერთო ადგილი არის %sGB"
+
+msgid "Total space used by portal %s is %sGB (limit is set to %sGB)"
+msgstr "პორტალ %s-ის მიერ გამოყენებული საერთო ადგილი არის %sGB (ლიმიტი დაყენებულია %sGB-ზე)"
+
+msgid "[%s] Confirm your e-mail"
+msgstr "[%s] დაადასტურე შენი ელფოსტა"
+
+msgid "To verify your e-mail and enable your account on %s, please click the link below."
+msgstr "შენი ელფოსტის დასამოწმებლად და %s-ზე შენი ანგარიშის გასააქტიურებლად, გთხოვ, დააწკაპუნე ქვედა ბმულზე."
+
+msgid "If you did not register this account, you can ignore this e-mail. No action will be taken."
+msgstr "თუ არ დაარეგისტრირები ამ ანგარიშს, შეგიძლია უგულებელყო ეს ელფოსტა. ვერანერთი ქმედება არ მოხდება."
+
+msgid "Current authentication method"
+msgstr "მიმდინარე აუთენტიფიკაციის მეთოდი"
+
+msgid "Branches"
+msgstr "ფილიალები"
+
+msgid "Rooms"
+msgstr "აუდიტორიები"
+
+msgid "Room availability finder"
+msgstr "აუდიტორიების ხელმისაწვდომობის მოძიება"
+
+msgid "New branch"
+msgstr "ახალი ფილიალი"
+
+msgid "New room"
+msgstr "ახალი აუდიტორია"
+
+msgid "Branch"
+msgstr "ფილიალი"
+
+msgid "Default room"
+msgstr "ნაგულისხმევი აუდიტორია"
+
+msgid "Room occupation: %s"
+msgstr "აუდიტორიის ოკუპაცია: %s"
+
+msgid "Find available rooms"
+msgstr "ხელმისაწვდომი აუდიტორიების მოძიება"
+
+msgid "Available rooms"
+msgstr "ხელმისაწვდომი აუდიტორიები"
+
+msgid "Occupied rooms"
+msgstr "დაკავებული აუდიტორიები"
+
+msgid "No available rooms found for this time range"
+msgstr "ამ დროის შუალედში ხელმისაწვდომი აუდიტორიები ვერ მოიძებნა"
+
+msgid "No rooms have been created yet"
+msgstr "აუდიტორიები ჯერ არ შექმნილა"
+
+msgid "Courses linked to %s"
+msgstr "%s-თან დაკავშირებული კურსები"
+
+msgid "No branches have been created yet"
+msgstr "ფილიალები ჯერ არ შექმნილა"
+
+msgid "Occupation"
+msgstr "ოკუპაცია"
+
+msgid "Cannot delete branch with rooms attached"
+msgstr "აუდიტორიებით მიბმული ფილიალის წაშლა შეუძლებელია"
+
+msgid "Cannot delete room with courses attached"
+msgstr "კურსებით მიბმული აუდიტორიის წაშლა შეუძლებელია"
+
+msgid "Conflicts"
+msgstr "კონფლიქტები"
+
+msgid "Geolocation"
+msgstr "გეოლოკაცია"
+
+msgid "Latitude, Longitude (e.g. 48.8566, 2.3522)"
+msgstr "გრძედი, განედი (მაგ. 48.8566, 2.3522)"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ან IPv6"
+
+msgid "IP mask"
+msgstr "IP ნიღაბი"
+
+msgid "e.g. /24"
+msgstr "მაგ. /24"
+
+msgid "Parent branch"
+msgstr "მშობელი ფილიალი"
+
+msgid "Unique identifier"
+msgstr "უნიკალური იდენტიფიკატორი"
+
+msgid "Latitude"
+msgstr "განედი"
+
+msgid "e.g. 48.8566"
+msgstr "მაგ. 48.8566"
+
+msgid "Longitude"
+msgstr "გრძედი"
+
+msgid "e.g. 2.3522"
+msgstr "მაგ. 2.3522"
+
+msgid "Download speed (KB/s)"
+msgstr "ჩამოტვირთვის სიჩქარე (KB/ს)"
+
+msgid "Upload speed (KB/s)"
+msgstr "ატვირთვის სიჩქარე (KB/ს)"
+
+msgid "Delay (ms)"
+msgstr "დაგვიანება (მს)"
+
+msgid "admin@example.com"
+msgstr "admin@example.com"
+
+msgid "Administrator name"
+msgstr "ადმინისტრატორის სახელი"
+
+msgid "Administrator phone number"
+msgstr "ადმინისტრატორის ტელეფონის ნომერი"
+
+msgid "ID of last synch transaction"
+msgstr "ბოლო სინქრონიზაციის ტრანზაქციის ID"
+
+msgid "Time of last synchronization"
+msgstr "ბოლო სინქრონიზაციის დრო"
+
+msgid "Last synchronization type"
+msgstr "ბოლო სინქრონიზაციის ტიპი"
+
+msgid "SSL public key"
+msgstr "SSL საჯარო გასაღები"
+
+msgid "Branch type"
+msgstr "ფილიალის ტიპი"
+
+msgid "Room"
+msgstr "საკონფერენციო ოთახი"
+
+msgid "Simple IDS"
+msgstr "მარტივი IDS"
+
+msgid "IDS is currently disabled. Set IDS_ENABLED=true in your .env to activate scanning."
+msgstr "IDS ამჟამად გამორთულია. ჩართეთ სკანირება .env ფაილში IDS_ENABLED=true-ის მ 설정ით."
+
+msgid "All event types"
+msgstr "ყველა მოვლენის ტიპი"
+
+msgid "Events by day (last 7 days)"
+msgstr "მოვლენები დღის მიხედვით (ბოლო 7 დღე)"
+
+msgid "Events by type (last 30 days)"
+msgstr "მოვლენები ტიპის მიხედვით (ბოლო 30 დღე)"
+
+msgid "Top attacking IPs (last 30 days)"
+msgstr "საუკეთესო შემტევი IP მისამართები (ბოლო 30 დღე)"
+
+msgid "Flagged IDS events"
+msgstr "დამოწმებული IDS მოვლენები"
+
+msgid "No suspicious events detected."
+msgstr "სასუსური მოვლენები არ გამოვლენილა."
+
+msgid "Detection type"
+msgstr "გამოვლენის ტიპი"
+
+msgid "Parameter"
+msgstr "პარამეტრი"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "%s (current)"
+msgstr "%s (მიმდინარე)"
 

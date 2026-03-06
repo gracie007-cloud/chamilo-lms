@@ -1,6 +1,12 @@
 <template>
   <div class="flex flex-col gap-4">
-    <CalendarSectionHeader @add-click="showAddEventDialog" />
+    <CalendarSectionHeader
+      active-view="calendar"
+      @addClick="showAddEventDialog"
+      @agendaListClick="goToAgendaList"
+      @sessionPlanningClick="goToSessionsPlan"
+      @myStudentsScheduleClick="goToMyStudentsSchedule"
+    />
 
     <FullCalendar
       ref="cal"
@@ -30,6 +36,7 @@
         />
         <BaseButton
           :label="item['@id'] ? t('Edit') : t('Add')"
+          icon="calendar-plus"
           type="secondary"
           @click="onCreateEventForm"
         />
@@ -96,23 +103,17 @@
         <h5 v-text="sessionState.sessionAsEvent.title" />
         <p
           v-show="sessionState.sessionAsEvent.start"
-          v-t="{
-            path: 'From %s',
-            args: [abbreviatedDatetime(sessionState.sessionAsEvent.start)],
-          }"
+          v-text="t('From %s', [abbreviatedDatetime(sessionState.sessionAsEvent.start)])"
         />
         <p
           v-show="sessionState.sessionAsEvent.end"
-          v-t="{
-            path: 'Until %s',
-            args: [abbreviatedDatetime(sessionState.sessionAsEvent.end)],
-          }"
+          v-text="t('Until %s', [abbreviatedDatetime(sessionState.sessionAsEvent.end)])"
         />
       </div>
 
       <template #footer>
         <a
-          v-t="'Go to session'"
+          v-text="t('Go to session')"
           :href="sessionState.sessionAsEvent.url"
           class="btn btn--secondary"
         />
@@ -127,7 +128,8 @@ import { useStore } from "vuex"
 import { useI18n } from "vue-i18n"
 import { useConfirm } from "primevue/useconfirm"
 import { useFormatDate } from "../../composables/formatDate"
-import { useRoute } from "vue-router"
+import { useRoute, useRouter } from "vue-router"
+import { DateTime } from "luxon"
 
 import Loading from "../../components/Loading.vue"
 import FullCalendar from "@fullcalendar/vue3"
@@ -171,10 +173,105 @@ const allowToUnsubscribe = ref(false)
 const { t } = useI18n()
 const { appLocale } = useLocale()
 const route = useRoute()
+const router = useRouter()
 const isGlobal = ref(route.query.type === "global")
 
 const courseSettingsStore = useCourseSettings()
 const allowUserEditAgenda = ref(false)
+
+const timezone = getCurrentTimezone()
+
+// Removes openAdd=1 from the current URL to avoid reopening the dialog.
+function clearOpenAddFlag() {
+  if (route.query.openAdd !== "1") return
+
+  const nextQuery = { ...route.query }
+  delete nextQuery.openAdd
+
+  router
+    .replace({
+      name: route.name ?? "CCalendarEventList",
+      params: route.params,
+      query: nextQuery,
+    })
+    .catch(() => {})
+}
+
+function computeContextFromQuery(query) {
+  if (query?.type === "global") return "global"
+  if (query?.sid && query.sid !== "0") return "session"
+  if (query?.cid && (!query.sid || query.sid === "0")) return "course"
+  return "personal"
+}
+
+const currentContext = ref(computeContextFromQuery(route.query))
+
+watch(
+  () => route.query,
+  (query) => {
+    currentContext.value = computeContextFromQuery(query)
+  },
+  { immediate: true },
+)
+
+const handledOpenAdd = ref(false)
+
+watch(
+  () => [route.query.openAdd, securityStore.user?.resourceNode?.["id"]],
+  ([openAdd, userNodeId]) => {
+    if (openAdd !== "1") {
+      handledOpenAdd.value = false
+      return
+    }
+
+    if (handledOpenAdd.value) return
+    if (!userNodeId) return
+
+    handledOpenAdd.value = true
+    showAddEventDialog()
+    clearOpenAddFlag()
+  },
+  { immediate: true },
+)
+
+watch(
+  () => dialog.value,
+  (visible) => {
+    if (!visible) {
+      clearOpenAddFlag()
+    }
+  },
+)
+
+/**
+ * Read the current calendar state to keep list and calendar coherent.
+ * This provides both the current anchor date and the current view type.
+ */
+function getCalendarQueryState() {
+  const api = cal.value?.getApi?.()
+  if (!api) {
+    return {
+      date: route.query.date ?? null,
+      view: route.query.view ?? null,
+    }
+  }
+
+  const date = DateTime.fromJSDate(api.getDate()).setZone(timezone).toISODate()
+  const view = api.view?.type ?? null
+  return { date, view }
+}
+
+function goToAgendaList() {
+  const { date, view } = getCalendarQueryState()
+
+  const nextQuery = { ...route.query }
+  if (date) nextQuery.date = date
+  if (view) nextQuery.view = view
+
+  router.push({ name: "CCalendarEventListView", query: nextQuery }).catch((e) => {
+    console.error("[Calendar] Navigation error", e)
+  })
+}
 
 watch(
   [course, session],
@@ -245,14 +342,28 @@ function defaultColorByContext(ctx) {
   return ctx === "global" ? "#FF0000" : ctx === "course" ? "#458B00" : ctx === "session" ? "#00496D" : "#4682B4"
 }
 
-const showAddEventDialog = () => {
-  item.value = {}
-  item.value["parentResourceNode"] = securityStore.user.resourceNode["id"]
-  item.value["color"] = defaultColorByContext(currentContext.value)
+// Build a safe default item for the modal form.
+function buildDefaultEventItem() {
+  const now = new Date()
+  const end = new Date(now.getTime() + 60 * 60 * 1000) // +1 hour
 
+  return {
+    title: "",
+    content: "",
+    allDay: false,
+    startDate: now,
+    endDate: end,
+    parentResourceNode: securityStore.user?.resourceNode?.["id"] ?? null,
+    color: defaultColorByContext(currentContext?.value ?? "personal"),
+  }
+}
+
+// Hoisted function declaration to be safe with immediate watchers.
+function showAddEventDialog() {
+  item.value = buildDefaultEventItem()
   dialog.value = true
 }
-const timezone = getCurrentTimezone()
+
 const calendarOptions = ref({
   timeZone: timezone,
   plugins: [dayGridPlugin, timeGridPlugin, interactionPlugin],
@@ -268,6 +379,30 @@ const calendarOptions = ref({
   startParam: "startDate[after]",
   endParam: "endDate[before]",
   selectable: true,
+
+  /**
+   * Keep query date+view in sync so list view can use the same range.
+   * This does not change any existing behavior, it only updates the URL.
+   */
+  datesSet(arg) {
+    const api = arg?.view?.calendar
+    if (!api) return
+
+    const date = DateTime.fromJSDate(api.getDate()).setZone(timezone).toISODate()
+    const view = api.view?.type ?? arg?.view?.type ?? null
+
+    const nextQuery = { ...route.query }
+    if (date) nextQuery.date = date
+    if (view) nextQuery.view = view
+
+    // Avoid infinite loops: only replace when something changed
+    const sameDate = String(route.query.date || "") === String(nextQuery.date || "")
+    const sameView = String(route.query.view || "") === String(nextQuery.view || "")
+    if (sameDate && sameView) return
+
+    router.replace({ name: route.name ?? "CCalendarEventList", params: route.params, query: nextQuery }).catch(() => {})
+  },
+
   eventClick(eventClickInfo) {
     eventClickInfo.jsEvent.preventDefault()
     currentEvent = eventClickInfo.event
@@ -279,7 +414,6 @@ const calendarOptions = ref({
         allowUserEditAgenda.value && event.extendedProps.resourceNode.creator.id === securityStore.user.id
       sessionState.sessionAsEvent = event
       sessionState.showSessionDialog = true
-
       return
     }
 
@@ -314,6 +448,7 @@ const calendarOptions = ref({
 
     dialogShow.value = true
   },
+
   select(info) {
     if (!showAddButton.value) {
       return
@@ -343,6 +478,7 @@ const calendarOptions = ref({
 
     dialog.value = true
   },
+
   events(info, successCallback) {
     const commonParams = {}
 
@@ -369,23 +505,6 @@ const calendarOptions = ref({
     getCalendarEvents(info.start, info.end, commonParams).then((events) => successCallback(events))
   },
 })
-
-const currentContext = ref("course")
-watch(
-  () => route.query,
-  (query) => {
-    if (query.type === "global") {
-      currentContext.value = "global"
-    } else if (query.sid && query.sid !== "0") {
-      currentContext.value = "session"
-    } else if (query.cid && (!query.sid || query.sid === "0")) {
-      currentContext.value = "course"
-    } else {
-      currentContext.value = "personal"
-    }
-  },
-  { immediate: true },
-)
 
 const allowAction = (eventType) => {
   const contextRules = {
@@ -437,9 +556,7 @@ function confirmDelete() {
           ? item.value["resourceLinkListFromEntity"]
           : []
 
-        const userLink = resourceLinks.find(
-          (link) => link?.user?.id === securityStore.user["id"]
-        )
+        const userLink = resourceLinks.find((link) => link?.user?.id === securityStore.user["id"])
 
         if (userLink) {
           store
@@ -479,6 +596,20 @@ async function unsubscribeToEvent() {}
 const isLoading = computed(() => store.getters["ccalendarevent/isLoading"])
 
 const createForm = ref(null)
+
+function goToSessionsPlan() {
+  console.log("[Calendar] goToSessionsPlan")
+  router.push({ name: "CalendarSessionsPlan", query: { ...route.query } }).catch((e) => {
+    console.error("[Calendar] Navigation error", e)
+  })
+}
+
+function goToMyStudentsSchedule() {
+  console.log("[Calendar] goToMyStudentsSchedule")
+  router.push({ name: "CalendarMyStudentsSchedule", query: { ...route.query } }).catch((e) => {
+    console.error("[Calendar] Navigation error", e)
+  })
+}
 
 async function onCreateEventForm() {
   try {
@@ -542,7 +673,7 @@ watch(
   (created) => {
     toast.add({
       severity: "success",
-      detail: t("{resource} created", { resource: created.resourceNode.title }),
+      detail: t("{0} created", [created.resourceNode.title]),
       life: 3500,
     })
 
@@ -555,7 +686,7 @@ watch(
   (updated) => {
     toast.add({
       severity: "success",
-      detail: t("{resource} updated", { resource: updated.resourceNode.title }),
+      detail: t("{0} updated", [updated.resourceNode.title]),
       life: 3500,
     })
 
